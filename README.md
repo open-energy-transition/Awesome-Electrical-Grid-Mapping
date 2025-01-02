@@ -64,6 +64,7 @@ A curated list of data, code, reports and other resources in the field of electr
 * [10 years of power infrastructure mapping: what's next?](https://www.youtube.com/watch?v=OSZ0zsrTWnQ) (Slide)[https://nextcloud.openstreetmap.fr/index.php/s/kYkqPmtbBKbX6Cy]
 * [Analysis of renewable energy infrastructure representations in OpenStreetMap](https://www.youtube.com/watch?v=8hYxJE_6bGw)
 * [AI for Transmission Grid Mapping: Methodology & Use Cases](https://www.youtube.com/watch?v=h6Ct5AtC1Bo)
+* [The Power of YouthMappers: Shining a Light on the Movement](https://www.youtube.com/watch?v=xWOqYtv6skI)
 
 ## Remote Sensing based Mapping  
 
@@ -99,8 +100,8 @@ A curated list of data, code, reports and other resources in the field of electr
 * [Youthmappers - Power Mapping brings Rapid Reliable Energy to Rural Communities](https://blog.mapillary.com/update/2020/10/20/sierra-leone-mapping.html)
 * [Youthmappers - Power Grid Mapping in West Africa](https://www.researchgate.net/publication/365837549_Power_Grid_Mapping_in_West_Africa)
 * [Humanitarian OpenStreetMap Team](https://www.hotosm.org/)
+* [TeachOSM](https://tasks.teachosm.org/explore)
 * [MapComplete](https://mapcomplete.org/)
 * [StreetComplete](https://streetcomplete.app/)
 * [MapRoulette](https://maproulette.org/)
-* [Humanitarian OpenStreetMap Team]()
 * [Tasking Manager](https://github.com/hotosm/tasking-manager)
