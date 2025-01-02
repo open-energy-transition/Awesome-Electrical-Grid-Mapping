@@ -1,5 +1,5 @@
 # Awesome Electric Grid Mapping
-A curated list of data, code, reports and other resources in the field of electrical grid mapping to increasing global coverage and quality.  
+A curated list of resources in the field of electricity network mapping to improve global data coverage and quality.  
 
 ## Grid Explorer
 * [Open Infrastructure Map](https://openinframap.org/)
