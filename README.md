@@ -100,12 +100,19 @@ A curated list of resources in the field of electricity network mapping to impro
 * [GridTracer - Repository](https://github.com/wangzhecheng/GridMapping)
 * [Power Grid Mapper - Code](https://github.com/bohaohuang/transmission_grid)
 
+### Substation detection on NSO imagery
+* [Substation detection on NSO imagery - Code](https://github.com/joel-deplaen-ivm/detectron2-nso-test)
+* [Substation detection on NSO imagery - Data](https://zenodo.org/records/10214231)
+* [Substation detection on NSO imagery - Paper](https://iopscience.iop.org/article/10.1088/2634-4505/ad63c9/meta)
+
+
 ## Crowdsourced Local Mapping
 * [Youthmappers - Mapping for a sustainable future: YouthMappers tackle global climate challenges](https://www.preventionweb.net/news/mapping-sustainable-future-youthmappers-tackle-global-climate-challenges)
 * [Youthmappers - Power Mapping brings Rapid Reliable Energy to Rural Communities](https://blog.mapillary.com/update/2020/10/20/sierra-leone-mapping.html)
 * [Youthmappers - Power Grid Mapping in West Africa](https://www.researchgate.net/publication/365837549_Power_Grid_Mapping_in_West_Africa)
 * [Humanitarian OpenStreetMap Team](https://www.hotosm.org/)
 * [TeachOSM](https://tasks.teachosm.org/explore)
+* [Missing Maps](https://www.missingmaps.org/)
 * [MapComplete](https://mapcomplete.org/)
 * [StreetComplete](https://streetcomplete.app/)
 * [MapRoulette](https://maproulette.org/)
