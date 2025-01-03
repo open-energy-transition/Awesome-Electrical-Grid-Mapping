@@ -27,13 +27,18 @@ A curated list of resources in the field of electricity network mapping to impro
 * [Power Pole](https://wiki.openstreetmap.org/wiki/Tag:power%3Dpole)
 * [Power Tag Statistics](https://taginfo.openstreetmap.org/keys/power)
 
-### Quality Assurance Tools 
+### Quality Assurance Tools
 * [osmose](https://osmose.openstreetmap.fr/en/map/#loc=7/45.06/-122.762&level=1%2C2%2C3&tags=power&item=7040%2C7190%2C8270%2C8280%2C8281%2C8282%2C8290%2C9100)
 * [Loop detection](https://waterwaymap.org/loops/#map=2/0/0)
+
+### Mapping Performance Indicator 
+* [chi](https://github.com/zabop/chi)
+* [power-map-state](https://github.com/zabop/power-map-state)
 
 ## Data Catalogs 
 * [ENERGYDATA.INFO](https://energydata.info/) - Open Data and Analytics for a sustainable energy future
 * [Transmission network datasets wiki of openmod](https://wiki.openmod-initiative.org/wiki/Transmission_network_datasets) 
+* [Global Transmission Database](https://zenodo.org/records/10870602) - Consists of comprehensive data regarding existing and planned cross-border transmission capacities globally collated from public sources.
 
 ## Scientfic Publications
 * [Predictive mapping of the global power system using open data](https://www.nature.com/articles/s41597-019-0347-4)
@@ -61,12 +66,12 @@ A curated list of resources in the field of electricity network mapping to impro
 
 ## Presentation and Videos
 * [Pinpointing the power grid](https://www.youtube.com/watch?v=KlZ1ijWxKkw)
-* [10 years of power infrastructure mapping: what's next?](https://www.youtube.com/watch?v=OSZ0zsrTWnQ) (Slide)[https://nextcloud.openstreetmap.fr/index.php/s/kYkqPmtbBKbX6Cy]
+* [10 years of power infrastructure mapping: what's next?](https://www.youtube.com/watch?v=OSZ0zsrTWnQ)  [Slides](https://nextcloud.openstreetmap.fr/index.php/s/kYkqPmtbBKbX6Cy)
 * [Analysis of renewable energy infrastructure representations in OpenStreetMap](https://www.youtube.com/watch?v=8hYxJE_6bGw)
 * [AI for Transmission Grid Mapping: Methodology & Use Cases](https://www.youtube.com/watch?v=h6Ct5AtC1Bo)
 * [The Power of YouthMappers: Shining a Light on the Movement](https://www.youtube.com/watch?v=xWOqYtv6skI)
 
-## Remote Sensing based Mapping  
+## Remote Mapping  
 
 ### ml-hv-grid
 * [Machine Learning for High Volatage Grid Mapping - Report](https://datacatalogfiles.worldbank.org/ddh-published/0041093/DR0051269/report_machine-learning-for-hv-grid-mapping_wbg-esmap_june2018_0.pdf?versionId=2023-01-19T06:15:12.4521771Z)
@@ -95,7 +100,7 @@ A curated list of resources in the field of electricity network mapping to impro
 * [GridTracer - Repository](https://github.com/wangzhecheng/GridMapping)
 * [Power Grid Mapper - Code](https://github.com/bohaohuang/transmission_grid)
 
-## Crowdsourced based Mapping
+## Crowdsourced Local Mapping
 * [Youthmappers - Mapping for a sustainable future: YouthMappers tackle global climate challenges](https://www.preventionweb.net/news/mapping-sustainable-future-youthmappers-tackle-global-climate-challenges)
 * [Youthmappers - Power Mapping brings Rapid Reliable Energy to Rural Communities](https://blog.mapillary.com/update/2020/10/20/sierra-leone-mapping.html)
 * [Youthmappers - Power Grid Mapping in West Africa](https://www.researchgate.net/publication/365837549_Power_Grid_Mapping_in_West_Africa)
