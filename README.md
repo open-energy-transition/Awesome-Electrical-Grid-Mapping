@@ -36,12 +36,8 @@
 * [Infrastructure Matrix Channel](https://app.element.io/#/room/#osm-infrastructure:matrix.org)
 
 ### Power Tags
-* [Plant](https://wiki.openstreetmap.org/wiki/Tag:power%3Dplant)
-* [Generator](https://wiki.openstreetmap.org/wiki/Tag:power%3Dgenerator)
-* [Substation](https://wiki.openstreetmap.org/wiki/Tag:power=substation)
-* [Power Line](https://wiki.openstreetmap.org/wiki/Tag:power%3Dline)
-* [Power Tower](https://wiki.openstreetmap.org/wiki/Tag:power%3Dtower)
-* [Power Pole](https://wiki.openstreetmap.org/wiki/Tag:power%3Dpole)
+* [Key:power](https://wiki.openstreetmap.org/wiki/Key:power)
+* [Power:proposals](https://wiki.openstreetmap.org/wiki/Key:power#Proposals)
 * [Power Tag Statistics](https://taginfo.openstreetmap.org/keys/power)
 
 ### Quality Assurance Tools
