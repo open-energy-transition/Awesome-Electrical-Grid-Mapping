@@ -22,6 +22,7 @@
 * [EIA U.S. Energy Atlas](https://atlas.eia.gov/datasets/geoplatform::transmission-lines/)
 * [FLOSM Power Grid](https://www.flosm.org/en/powergrid.html)
 * [U.S. Atlas of Electric Distribution System Hosting Capacity Maps](https://www.energy.gov/eere/us-atlas-electric-distribution-system-hosting-capacity-maps)
+* [Webmap EPE - Brazil Transmission Grid](https://gisepeprd2.epe.gov.br/WebMapEPE/)
 
 ## OpenStreetMap
 
