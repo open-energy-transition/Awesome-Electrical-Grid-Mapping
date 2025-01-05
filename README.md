@@ -1,6 +1,17 @@
 # Awesome Electric Grid Mapping
-<img src="global_grid_mapping.webp" align="right" width="350"> A curated list of resources in the field of electricity network mapping to improve global data coverage and quality.  
 
+<table>
+<tr>
+<td>
+<b>A curated list of resources in the field of electric grid mapping to improve global open data coverage and quality for a sustainable energy transition.</b>
+</td>
+<td>
+
+<img src="global_grid_mapping.webp" alt="Global Grid Mapping" width="350">
+
+</td>
+</tr>
+</table>
 
 ## Grid Explorer
 * [Open Infrastructure Map](https://openinframap.org/)
