@@ -51,6 +51,7 @@
 * [ENERGYDATA.INFO](https://energydata.info/) - Open Data and Analytics for a sustainable energy future
 * [Transmission network datasets wiki of openmod](https://wiki.openmod-initiative.org/wiki/Transmission_network_datasets) 
 * [Global Transmission Database](https://zenodo.org/records/10870602) - Consists of comprehensive data regarding existing and planned cross-border transmission capacities globally collated from public sources.
+* [Open Energy Platform Grid Data](https://openenergyplatform.org/dataedit/view/grid)
 
 ## Scientfic Publications
 * [Predictive mapping of the global power system using open data](https://www.nature.com/articles/s41597-019-0347-4)
@@ -63,7 +64,9 @@
 * [U.S. Test System with High Spatial and Temporal Resolution for Renewable Integration Studies](https://arxiv.org/pdf/2002.06155)
 * [Geospatial mapping of distribution grid with machine learning and publicly-accessible multi-modal data](https://www.nature.com/articles/s41467-023-39647-3)
 * [Open Data in Power Grid Modelling: New Approaches Towards Transparent Grid Models](https://www.power.scigrid.de/publications/17_energy_reports.pdf)
-
+* [Power Line Extraction and Reconstruction Methods from Laser Scanning Data: A Literature Review](https://www.mdpi.com/2072-4292/15/4/973)
+* [Using Deep Learning to Identify Utility Poles with Crossarms and Estimate Their Locations from Google Street View Images](https://www.mdpi.com/1424-8220/18/8/2484)
+* [Harmonized and Open Energy Dataset for Modeling a Highly Renewable Brazilian Power System](https://www.nature.com/articles/s41597-023-01992-9)
 
 ## Reports, Policy and News
 * [NREL National Transmission Planning Study](https://www.nrel.gov/grid/national-transmission-planning-study.html)
@@ -76,6 +79,14 @@
 * [Lack of transmission lines puts wind and solar energy projects on hold in Brazil](https://climatetrackerlatam.org/historias/la-falta-de-lineas-de-transmision-pone-en-espera-proyectos-de-energia-eolica-y-solar-en-brasil) (Spanish)
 * [In West’ Africa, the efforts of’ electrification are lead by the weakness of transport networks](https://www.agenceecofin.com/energies/2609-112116-en-afrique-de-l-ouest-les-efforts-d-electrification-sont-plombes-par-la-faiblesse-des-reseaux-de-transport-rapport) (French)
 * [RIP first come, first served - Shifting gear to tackle power grid scarcity](https://www.raponline.org/toolkit/rip-first-come-first-served/)
+* [Speed up the construction of the power grid and break the bottleneck of energy transformation](https://news.cnpc.com.cn/system/2024/01/30/030123874.shtml)(Chinese)
+* [Integrating renewables into the Japanese power grid by 2030](https://www.renewable-ei.org/pdfdownload/activities/REI_Agora_Japan_grid_study_FullReport_EN_WEB.pdf)
+* [Brazil's grid caps power from wind and solar, threatening renewable projects](https://www.reuters.com/business/energy/brazils-grid-caps-power-wind-solar-threatening-renewable-projects-2024-08-22/)
+* [Read more: https://www.mercomindia.com/renewable-capacity-growth-severely-hit](https://www.mercomindia.com/renewable-capacity-growth-severely-hit)
+* [India’s Renewable Energy Expansion Poses Threats to Its Grid Stability](https://earthjournalism.net/stories/indias-renewable-energy-expansion-poses-threats-to-its-grid-stability)
+* [India needs to explore incentives to improve renewables transmission capacity, power secretary says](https://www.reuters.com/world/india/india-needs-explore-incentives-improve-renewables-transmission-capacity-power-2024-10-14/)
+
+
 
 ## Presentation and Videos
 * [Pinpointing the power grid](https://www.youtube.com/watch?v=KlZ1ijWxKkw)
