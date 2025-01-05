@@ -23,6 +23,10 @@
 * [FLOSM Power Grid](https://www.flosm.org/en/powergrid.html)
 * [U.S. Atlas of Electric Distribution System Hosting Capacity Maps](https://www.energy.gov/eere/us-atlas-electric-distribution-system-hosting-capacity-maps)
 * [Webmap EPE - Brazil Transmission Grid](https://gisepeprd2.epe.gov.br/WebMapEPE/)
+* [Electricity Grid](https://app.electricitymaps.com/)
+* [National Grid UK](https://www.nationalgrid.com/electricity-transmission/network-and-infrastructure/network-route-maps)
+* [Baker Institute China Energy Map](https://www.bakerinstitute.org/chinas-energy-infrastructure)
+* [Uebertragungsnetz.de - Germany Grid Live Data](https://www.uebertragungsnetz.de/)
 
 ## OpenStreetMap
 
