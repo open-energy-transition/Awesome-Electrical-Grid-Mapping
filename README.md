@@ -125,6 +125,7 @@
 * [GridTracer - Trainings Data](https://figshare.com/articles/dataset/Electric_Transmission_and_Distribution_Infrastructure_Imagery_Dataset/6931088)
 * [GridTracer - Repository](https://github.com/wangzhecheng/GridMapping)
 * [Power Grid Mapper - Code](https://github.com/bohaohuang/transmission_grid)
+* [Inferring Energy Infrastructure - Code](https://github.com/pypsa-meets-earth/detect-energy)
 
 ### Substation detection on NSO imagery
 * [Substation detection on NSO imagery - Code](https://github.com/joel-deplaen-ivm/detectron2-nso-test)
