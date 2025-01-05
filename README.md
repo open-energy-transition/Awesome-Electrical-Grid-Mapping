@@ -1,5 +1,6 @@
 # Awesome Electric Grid Mapping
-A curated list of resources in the field of electricity network mapping to improve global data coverage and quality.  
+<img src="global_grid_mapping.webp" align="right" width="350"> A curated list of resources in the field of electricity network mapping to improve global data coverage and quality.  
+
 
 ## Grid Explorer
 * [Open Infrastructure Map](https://openinframap.org/)
@@ -50,6 +51,7 @@ A curated list of resources in the field of electricity network mapping to impro
 * [Open Data in Power Grid Modelling: New Approaches Towards Transparent Grid Models](https://www.sciencedirect.com/science/article/pii/S2352484716300877)
 * [U.S. Test System with High Spatial and Temporal Resolution for Renewable Integration Studies](https://arxiv.org/pdf/2002.06155)
 * [Geospatial mapping of distribution grid with machine learning and publicly-accessible multi-modal data](https://www.nature.com/articles/s41467-023-39647-3)
+* [Open Data in Power Grid Modelling: New Approaches Towards Transparent Grid Models](https://www.power.scigrid.de/publications/17_energy_reports.pdf)
 
 
 ## Reports, Policy and News
