@@ -27,7 +27,7 @@
 * [FLOSM Power Grid](https://www.flosm.org/en/powergrid.html)
 * [U.S. Atlas of Electric Distribution System Hosting Capacity Maps](https://www.energy.gov/eere/us-atlas-electric-distribution-system-hosting-capacity-maps)
 * [Webmap EPE - Brazil Transmission Grid](https://gisepeprd2.epe.gov.br/WebMapEPE/)
-* [Electricity Maps - Electricity Grid Carbon Emissions](https://app.electricitymaps.com/) [Code](https://github.com/electricitymaps/electricitymaps-contrib)
+* [Electricity Maps - Electricity Grid Carbon Emissions](https://app.electricitymaps.com/) [[Code](https://github.com/electricitymaps/electricitymaps-contrib)]
 * [National Grid UK](https://www.nationalgrid.com/electricity-transmission/network-and-infrastructure/network-route-maps)
 * [Baker Institute China Energy Map](https://www.bakerinstitute.org/chinas-energy-infrastructure)
 * [Uebertragungsnetz.de - Germany Grid Live Data](https://www.uebertragungsnetz.de/)
@@ -119,7 +119,7 @@
 ### GridFinder
 * [A new predictive model for more accurate electrical grid mapping - Blog](https://engineering.fb.com/2019/01/25/connectivity/electrical-grid-mapping/)
 * [Predictive mapping of the global power system using open data - Paper](https://www.nature.com/articles/s41597-019-0347-4)
-* [Methods for: Predictive mapping of the global power system using open data](https://github.com/carderne/predictive-mapping-global-power) (Blog Post)
+* [Methods for: Predictive mapping of the global power system using open data](https://github.com/carderne/predictive-mapping-global-power)
 * [gridfinder - Repository](https://github.com/carderne/gridfinder.git)
 * [gridfinder - Dataset](https://zenodo.org/records/3628142)
 
