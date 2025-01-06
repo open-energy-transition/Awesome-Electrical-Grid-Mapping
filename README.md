@@ -76,7 +76,6 @@
 * [Inverse methods: How feasible are spatially low-resolved capacity expansion modelling results when disaggregated at high spatial resolution?](https://www.sciencedirect.com/science/article/pii/S036054422301527X?via%3Dihub)
 * [A comparison of clustering methods for the spatial reduction of renewable electricity optimisation models of Europe](https://energyinformatics.springeropen.com/articles/10.1186/s42162-022-00187-7)
 
-
 ## Policy
 * [Grids, the missing link - An EU Action Plan for Grids](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:52023DC0757) 
 
@@ -98,8 +97,6 @@
 * [India needs to explore incentives to improve renewables transmission capacity, power secretary says](https://www.reuters.com/world/india/india-needs-explore-incentives-improve-renewables-transmission-capacity-power-2024-10-14/)
 * [Transmission Adequacy in India: Building a resilient and sustainable grid](https://powerline.net.in/2024/10/05/transmission-adequacy-in-india-building-a-resilient-and-sustainable-grid-2/)
 
-
-
 ## Presentation and Videos
 * [Pinpointing the power grid](https://www.youtube.com/watch?v=KlZ1ijWxKkw)
 * [10 years of power infrastructure mapping: what's next?](https://www.youtube.com/watch?v=OSZ0zsrTWnQ)  [Slides](https://nextcloud.openstreetmap.fr/index.php/s/kYkqPmtbBKbX6Cy)
@@ -107,6 +104,11 @@
 * [AI for Transmission Grid Mapping: Methodology & Use Cases](https://www.youtube.com/watch?v=h6Ct5AtC1Bo)
 * [The Power of YouthMappers: Shining a Light on the Movement](https://www.youtube.com/watch?v=xWOqYtv6skI)
 * [OpenGridMap pecha kucha style presentation](https://www.youtube.com/watch?v=55X_-eVRUR8)
+
+## Grid Extraction, Transformation and Integration Tools 
+* [PyPSA Grid Analysis](https://github.com/open-energy-transition/pypsa-grid-analysis) - Compares the PyPSA-Eur transmission grid database as well as the PyPSA-Earth transmission grid database for a selected region of 50 Hertz in Germany.
+* [earth-osm](https://github.com/pypsa-meets-earth/earth-osm) - Provides a Python API and a CLI interface to extract data for various infrastructure types, such as power lines, substations, and more.
+* [powerplantmatching](https://github.com/PyPSA/powerplantmatching/) - Set of tools to combine multiple power plant databases.
 
 ## Remote Mapping  
 
@@ -154,7 +156,3 @@
 * [StreetComplete](https://streetcomplete.app/)
 * [MapRoulette](https://maproulette.org/)
 * [Tasking Manager](https://github.com/hotosm/tasking-manager)
-
-## Grid Extraction, Transformation and Integration Tools 
-* [PyPSA Grid Analysis](https://github.com/open-energy-transition/pypsa-grid-analysis) - Compares the PyPSA-Eur transmission grid database as well as the PyPSA-Earth transmission grid database for a selected region of 50 Hertz in Germany.
-* [earth-osm](https://github.com/pypsa-meets-earth/earth-osm) - Provides a Python API and a CLI interface to extract data for various infrastructure types, such as power lines, substations, and more.
