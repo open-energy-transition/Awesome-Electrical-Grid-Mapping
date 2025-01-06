@@ -27,7 +27,7 @@
 * [FLOSM Power Grid](https://www.flosm.org/en/powergrid.html)
 * [U.S. Atlas of Electric Distribution System Hosting Capacity Maps](https://www.energy.gov/eere/us-atlas-electric-distribution-system-hosting-capacity-maps)
 * [Webmap EPE - Brazil Transmission Grid](https://gisepeprd2.epe.gov.br/WebMapEPE/)
-* [Electricity Maps - Electricity Grid Carbon Emissions](https://app.electricitymaps.com/) (Code)[https://github.com/electricitymaps/electricitymaps-contrib]
+* [Electricity Maps - Electricity Grid Carbon Emissions](https://app.electricitymaps.com/) [Code](https://github.com/electricitymaps/electricitymaps-contrib)
 * [National Grid UK](https://www.nationalgrid.com/electricity-transmission/network-and-infrastructure/network-route-maps)
 * [Baker Institute China Energy Map](https://www.bakerinstitute.org/chinas-energy-infrastructure)
 * [Uebertragungsnetz.de - Germany Grid Live Data](https://www.uebertragungsnetz.de/)
@@ -143,7 +143,6 @@
 * [Substation detection on NSO imagery - Data](https://zenodo.org/records/10214231)
 * [Substation detection on NSO imagery - Paper](https://iopscience.iop.org/article/10.1088/2634-4505/ad63c9/meta)
 
-
 ## Crowdsourced Local Mapping
 * [Youthmappers - Mapping for a sustainable future: YouthMappers tackle global climate challenges](https://www.preventionweb.net/news/mapping-sustainable-future-youthmappers-tackle-global-climate-challenges)
 * [Youthmappers - Power Mapping brings Rapid Reliable Energy to Rural Communities](https://blog.mapillary.com/update/2020/10/20/sierra-leone-mapping.html)
@@ -155,3 +154,7 @@
 * [StreetComplete](https://streetcomplete.app/)
 * [MapRoulette](https://maproulette.org/)
 * [Tasking Manager](https://github.com/hotosm/tasking-manager)
+
+## Grid Extraction, Transformation and Integration Tools 
+* [PyPSA Grid Analysis](https://github.com/open-energy-transition/pypsa-grid-analysis) - Compares the PyPSA-Eur transmission grid database as well as the PyPSA-Earth transmission grid database for a selected region of 50 Hertz in Germany.
+* [earth-osm](https://github.com/pypsa-meets-earth/earth-osm) - Provides a Python API and a CLI interface to extract data for various infrastructure types, such as power lines, substations, and more.
