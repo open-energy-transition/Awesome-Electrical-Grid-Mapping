@@ -13,10 +13,6 @@
 </tr>
 </table>
 
-> "There is also insufficient long-term visibility of network needs, in particular at DSO level, where needs are growing. In addition, a future-proof power grid requires increased focus on coordination in network planning and data exchange between TSOs, DSOs, generators, aggregators, recharging point operators, hydrogen infrastructure operators and administrations driving heat pump rollout, for a common understanding of future network needs."
-
-[Grids, the missing link - An EU Action Plan for Grids](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:52023DC0757)
-
 ## Grid Explorer
 * [Open Infrastructure Map](https://openinframap.org/)
 * [GridFinder](https://gridfinder.rdrn.me/)
