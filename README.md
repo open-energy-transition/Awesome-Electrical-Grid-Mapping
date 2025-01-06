@@ -77,7 +77,8 @@
 * [A comparison of clustering methods for the spatial reduction of renewable electricity optimisation models of Europe](https://energyinformatics.springeropen.com/articles/10.1186/s42162-022-00187-7)
 
 ## Policy
-* [Grids, the missing link - An EU Action Plan for Grids](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:52023DC0757) 
+* [Grids, the missing link - An EU Action Plan for Grids](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:52023DC0757)
+* [Grid Modernization Strategy 2024](https://www.energy.gov/sites/default/files/2024-12/Grid%20Modernization%20Strategy%202024.pdf) 
 
 ## Reports and News
 * [NREL National Transmission Planning Study](https://www.nrel.gov/grid/national-transmission-planning-study.html)
