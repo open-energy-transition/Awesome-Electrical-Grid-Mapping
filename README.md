@@ -107,7 +107,10 @@
 * [earth-osm](https://github.com/pypsa-meets-earth/earth-osm) - Provides a Python API and a CLI interface to extract data for various infrastructure types, such as power lines, substations, and more.
 * [powerplantmatching](https://github.com/PyPSA/powerplantmatching/) - Set of tools to combine multiple power plant databases.
 
-## Remote Mapping  
+## Remote Mapping 
+
+### SAR
+* [Prompt Learning for Oriented Power Transmission Tower Detection in High-Resolution SAR Images](https://arxiv.org/abs/2404.01074)
 
 ### ml-hv-grid
 * [Machine Learning for High Volatage Grid Mapping - Report](https://datacatalogfiles.worldbank.org/ddh-published/0041093/DR0051269/report_machine-learning-for-hv-grid-mapping_wbg-esmap_june2018_0.pdf?versionId=2023-01-19T06:15:12.4521771Z)
