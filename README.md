@@ -3,7 +3,7 @@
 <table>
 <tr>
 <td>
-<b>A curated list of resources in the field of electric grid mapping to improve global open data coverage and quality for a sustainable energy transition.</b>
+<b>A curated list of resources in the field of electric grid mapping to improve global open data coverage, harmonization and quality for a sustainable energy transition.</b>
 </td>
 <td>
 
@@ -12,6 +12,10 @@
 </td>
 </tr>
 </table>
+
+> "There is also insufficient long-term visibility of network needs, in particular at DSO level, where needs are growing. In addition, a future-proof power grid requires increased focus on coordination in network planning and data exchange between TSOs, DSOs, generators, aggregators, recharging point operators, hydrogen infrastructure operators and administrations driving heat pump rollout, for a common understanding of future network needs."
+
+[Grids, the missing link - An EU Action Plan for Grids](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:52023DC0757)
 
 ## Grid Explorer
 * [Open Infrastructure Map](https://openinframap.org/)
@@ -23,10 +27,12 @@
 * [FLOSM Power Grid](https://www.flosm.org/en/powergrid.html)
 * [U.S. Atlas of Electric Distribution System Hosting Capacity Maps](https://www.energy.gov/eere/us-atlas-electric-distribution-system-hosting-capacity-maps)
 * [Webmap EPE - Brazil Transmission Grid](https://gisepeprd2.epe.gov.br/WebMapEPE/)
-* [Electricity Grid](https://app.electricitymaps.com/)
+* [Electricity Maps - Electricity Grid Carbon Emissions](https://app.electricitymaps.com/) (Code)[https://github.com/electricitymaps/electricitymaps-contrib]
 * [National Grid UK](https://www.nationalgrid.com/electricity-transmission/network-and-infrastructure/network-route-maps)
 * [Baker Institute China Energy Map](https://www.bakerinstitute.org/chinas-energy-infrastructure)
 * [Uebertragungsnetz.de - Germany Grid Live Data](https://www.uebertragungsnetz.de/)
+* [Electricity Transmission Lines - Digital Atlas Australia](https://digital.atlas.gov.au/datasets/digitalatlas::electricity-transmission-lines/explore)
+* [Mapa del Sistema Eléctrico Nacional - Mexico](https://energia.conacyt.mx/planeas/electricidad/sistema-electrico-nacional)
 
 ## OpenStreetMap
 
@@ -39,20 +45,19 @@
 * [Key:power](https://wiki.openstreetmap.org/wiki/Key:power)
 * [Power:proposals](https://wiki.openstreetmap.org/wiki/Key:power#Proposals)
 * [Power Tag Statistics](https://taginfo.openstreetmap.org/keys/power)
+* [OSM History Analyser](https://dashboard.ohsome.org/) [Code](https://github.com/giscience/ohsome-dashboard)
+* [OSMstats](https://osmstats.neis-one.org/)
 
 ### Quality Assurance Tools
 * [osmose](https://osmose.openstreetmap.fr/en/map/#loc=7/45.06/-122.762&level=1%2C2%2C3&tags=power&item=7040%2C7190%2C8270%2C8280%2C8281%2C8282%2C8290%2C9100)
 * [Loop detection](https://waterwaymap.org/loops/#map=2/0/0)
-
-### Mapping Performance Indicator 
-* [chi](https://github.com/zabop/chi)
-* [power-map-state](https://github.com/zabop/power-map-state)
 
 ## Data Catalogs 
 * [ENERGYDATA.INFO](https://energydata.info/) - Open Data and Analytics for a sustainable energy future
 * [Transmission network datasets wiki of openmod](https://wiki.openmod-initiative.org/wiki/Transmission_network_datasets) 
 * [Global Transmission Database](https://zenodo.org/records/10870602) - Consists of comprehensive data regarding existing and planned cross-border transmission capacities globally collated from public sources.
 * [Open Energy Platform Grid Data](https://openenergyplatform.org/dataedit/view/grid)
+* [Electricitymaps Data Sources](https://github.com/electricitymaps/electricitymaps-contrib/blob/master/DATA_SOURCES.md)
 
 ## Scientfic Publications
 * [Predictive mapping of the global power system using open data](https://www.nature.com/articles/s41597-019-0347-4)
@@ -68,22 +73,27 @@
 * [Power Line Extraction and Reconstruction Methods from Laser Scanning Data: A Literature Review](https://www.mdpi.com/2072-4292/15/4/973)
 * [Using Deep Learning to Identify Utility Poles with Crossarms and Estimate Their Locations from Google Street View Images](https://www.mdpi.com/1424-8220/18/8/2484)
 * [Harmonized and Open Energy Dataset for Modeling a Highly Renewable Brazilian Power System](https://www.nature.com/articles/s41597-023-01992-9)
+* [Inverse methods: How feasible are spatially low-resolved capacity expansion modelling results when disaggregated at high spatial resolution?](https://www.sciencedirect.com/science/article/pii/S036054422301527X?via%3Dihub)
+* [A comparison of clustering methods for the spatial reduction of renewable electricity optimisation models of Europe](https://energyinformatics.springeropen.com/articles/10.1186/s42162-022-00187-7)
 
-## Reports, Policy and News
+
+## Policy
+* [Grids, the missing link - An EU Action Plan for Grids](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:52023DC0757) 
+
+## Reports and News
 * [NREL National Transmission Planning Study](https://www.nrel.gov/grid/national-transmission-planning-study.html)
 * [Putting the mission in transmission: Grids for Europes Energy Transition](https://ember-energy.org/app/uploads/2024/10/Grids-for-Europes-Energy-Transition-Report-1.pdf)
 * [Electric grid overhaul presents inspection challenges](https://ursaspace.com/blog/electric-grid-overhaul-presents-inspection-challenges/)
 * [The energy crisis hits Latin America, which is experiencing unprecedented blackouts and droughts](https://cnnespanol.cnn.com/2024/10/21/crisis-energetica-apagones-sequia-america-latina-efe) (Spanish)
-* [Grids, the missing link - An EU Action Plan for Grids](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:52023DC0757) 
 * [Ember - Asia Data Transparency Report 2023](https://ember-energy.org/latest-insights/asia-data-transparency-report-2023/)
 * [Ember - Putting the mission in transmission: Grids for Europe’s energy transition](https://ember-energy.org/latest-insights/putting-the-mission-in-transmission-grids-for-europes-energy-transition/)
 * [Lack of transmission lines puts wind and solar energy projects on hold in Brazil](https://climatetrackerlatam.org/historias/la-falta-de-lineas-de-transmision-pone-en-espera-proyectos-de-energia-eolica-y-solar-en-brasil) (Spanish)
 * [In West’ Africa, the efforts of’ electrification are lead by the weakness of transport networks](https://www.agenceecofin.com/energies/2609-112116-en-afrique-de-l-ouest-les-efforts-d-electrification-sont-plombes-par-la-faiblesse-des-reseaux-de-transport-rapport) (French)
 * [RIP first come, first served - Shifting gear to tackle power grid scarcity](https://www.raponline.org/toolkit/rip-first-come-first-served/)
-* [Speed up the construction of the power grid and break the bottleneck of energy transformation](https://news.cnpc.com.cn/system/2024/01/30/030123874.shtml)(Chinese)
+* [Speed up the construction of the power grid and break the bottleneck of energy transformation](https://news.cnpc.com.cn/system/2024/01/30/030123874.shtml) (Chinese)
 * [Integrating renewables into the Japanese power grid by 2030](https://www.renewable-ei.org/pdfdownload/activities/REI_Agora_Japan_grid_study_FullReport_EN_WEB.pdf)
 * [Brazil's grid caps power from wind and solar, threatening renewable projects](https://www.reuters.com/business/energy/brazils-grid-caps-power-wind-solar-threatening-renewable-projects-2024-08-22/)
-* [Read more: https://www.mercomindia.com/renewable-capacity-growth-severely-hit](https://www.mercomindia.com/renewable-capacity-growth-severely-hit)
+* [Renewable Capacity Growth Severely Hit by Power Transmission Delays](https://www.mercomindia.com/renewable-capacity-growth-severely-hit)
 * [India’s Renewable Energy Expansion Poses Threats to Its Grid Stability](https://earthjournalism.net/stories/indias-renewable-energy-expansion-poses-threats-to-its-grid-stability)
 * [India needs to explore incentives to improve renewables transmission capacity, power secretary says](https://www.reuters.com/world/india/india-needs-explore-incentives-improve-renewables-transmission-capacity-power-2024-10-14/)
 * [Transmission Adequacy in India: Building a resilient and sustainable grid](https://powerline.net.in/2024/10/05/transmission-adequacy-in-india-building-a-resilient-and-sustainable-grid-2/)
@@ -96,6 +106,7 @@
 * [Analysis of renewable energy infrastructure representations in OpenStreetMap](https://www.youtube.com/watch?v=8hYxJE_6bGw)
 * [AI for Transmission Grid Mapping: Methodology & Use Cases](https://www.youtube.com/watch?v=h6Ct5AtC1Bo)
 * [The Power of YouthMappers: Shining a Light on the Movement](https://www.youtube.com/watch?v=xWOqYtv6skI)
+* [OpenGridMap pecha kucha style presentation](https://www.youtube.com/watch?v=55X_-eVRUR8)
 
 ## Remote Mapping  
 
