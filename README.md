@@ -29,6 +29,7 @@
 * [Uebertragungsnetz.de - Germany Grid Live Data](https://www.uebertragungsnetz.de/)
 * [Electricity Transmission Lines - Digital Atlas Australia](https://digital.atlas.gov.au/datasets/digitalatlas::electricity-transmission-lines/explore)
 * [Mapa del Sistema Eléctrico Nacional - Mexico](https://energia.conacyt.mx/planeas/electricidad/sistema-electrico-nacional)
+* [OSW Project Areas & Transmission Lines - Japan](https://www.renewable-ei.org/statistics/offshoremap/?page=en)
 
 ## OpenStreetMap
 
