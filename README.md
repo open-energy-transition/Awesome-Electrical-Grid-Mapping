@@ -159,3 +159,4 @@
 * [StreetComplete](https://streetcomplete.app/)
 * [MapRoulette](https://maproulette.org/)
 * [Tasking Manager](https://github.com/hotosm/tasking-manager)
+* [learnOSM](https://learnosm.org/en/coordination/mapathon/)
