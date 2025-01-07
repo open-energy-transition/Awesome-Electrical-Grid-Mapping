@@ -73,6 +73,7 @@
 * [Inverse methods: How feasible are spatially low-resolved capacity expansion modelling results when disaggregated at high spatial resolution?](https://www.sciencedirect.com/science/article/pii/S036054422301527X?via%3Dihub)
 * [A comparison of clustering methods for the spatial reduction of renewable electricity optimisation models of Europe](https://energyinformatics.springeropen.com/articles/10.1186/s42162-022-00187-7)
 * [A Reproducible Method for Mapping Electricity Transmission Infrastructure for Space Weather Risk Assessment](https://arxiv.org/pdf/2412.17685)
+* [Latin America Energy Outlook Interactive Map](https://www.iea.org/data-and-statistics/data-tools/latin-america-energy-outlook-interactive-map)
 
 ## Policy
 * [Grids, the missing link - An EU Action Plan for Grids](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:52023DC0757)
