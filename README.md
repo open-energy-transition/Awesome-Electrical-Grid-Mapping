@@ -104,6 +104,7 @@
 * [AI for Transmission Grid Mapping: Methodology & Use Cases](https://www.youtube.com/watch?v=h6Ct5AtC1Bo)
 * [The Power of YouthMappers: Shining a Light on the Movement](https://www.youtube.com/watch?v=xWOqYtv6skI)
 * [OpenGridMap pecha kucha style presentation](https://www.youtube.com/watch?v=55X_-eVRUR8)
+* [Open-source Geo-spatial Assessment of Electricity Transmission Infrastructure](https://www.youtube.com/watch?v=8-OZzWHgH2g)
 
 ## Grid Extraction, Transformation and Integration Tools 
 * [PyPSA Grid Analysis](https://github.com/open-energy-transition/pypsa-grid-analysis) - Compares the PyPSA-Eur transmission grid database as well as the PyPSA-Earth transmission grid database for a selected region of 50 Hertz in Germany.
