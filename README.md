@@ -33,7 +33,7 @@
 * [OSW Project Areas & Transmission Lines - Japan](https://www.renewable-ei.org/statistics/offshoremap/?page=en)
 * [AESO Transmission Capability Map 2024 - Canada](https://www.aeso.ca/grid/connecting-to-the-grid/transmission-capability-map)
 * [Latin America Energy Outlook Interactive Map](https://www.iea.org/data-and-statistics/data-tools/latin-america-energy-outlook-interactive-map)
-
+* [India Power Grid Map](https://powermin.gov.in/en/content/powergrid-map)
 
 
 ## OpenStreetMap
