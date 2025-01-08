@@ -20,6 +20,7 @@
 * [ENTSO-E Transmission System Map](https://www.entsoe.eu/data/map/)
 * [JAO Static Grid Model](https://www.jao.eu/sites/default/files/static-grid/)
 * [EIA U.S. Energy Atlas](https://atlas.eia.gov/datasets/geoplatform::transmission-lines/)
+* [U.S. Electric Power Transmission Lines](https://www.arcgis.com/apps/mapviewer/index.html?layers=d4090758322c4d32a4cd002ffaa0aa12)
 * [FLOSM Power Grid](https://www.flosm.org/en/powergrid.html)
 * [U.S. Atlas of Electric Distribution System Hosting Capacity Maps](https://www.energy.gov/eere/us-atlas-electric-distribution-system-hosting-capacity-maps)
 * [Webmap EPE - Brazil Transmission Grid](https://gisepeprd2.epe.gov.br/WebMapEPE/)
@@ -32,6 +33,7 @@
 * [OSW Project Areas & Transmission Lines - Japan](https://www.renewable-ei.org/statistics/offshoremap/?page=en)
 * [AESO Transmission Capability Map 2024 - Canada](https://www.aeso.ca/grid/connecting-to-the-grid/transmission-capability-map)
 * [Latin America Energy Outlook Interactive Map](https://www.iea.org/data-and-statistics/data-tools/latin-america-energy-outlook-interactive-map)
+
 
 
 ## OpenStreetMap
