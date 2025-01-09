@@ -156,7 +156,9 @@
 * [Power Grid Mapper - Code](https://github.com/bohaohuang/transmission_grid)
 * [Inferring Energy Infrastructure - Code](https://github.com/pypsa-meets-earth/detect-energy)
 
-### Substation detection on NSO imagery
+### Substation detection
+* [Improving satellite imagery segmentation using multiple Sentinel-2 revisits - Paper](https://arxiv.org/abs/2409.17363)
+* [Improving satellite imagery segmentation using multiple Sentinel-2 revisits - Code](https://github.com/Lindsay-Lab/substation-seg)
 * [Substation detection on NSO imagery - Code](https://github.com/joel-deplaen-ivm/detectron2-nso-test)
 * [Substation detection on NSO imagery - Data](https://zenodo.org/records/10214231)
 * [Substation detection on NSO imagery - Paper](https://iopscience.iop.org/article/10.1088/2634-4505/ad63c9/meta)
