@@ -13,7 +13,7 @@
 </tr>
 </table>
 
-## Grid Explorer
+## Grid Explorer and National Datasets
 * [Open Infrastructure Map](https://openinframap.org/)
 * [GridFinder](https://gridfinder.rdrn.me/)
 * [Africa Electricity Grids Explorer](https://africagrid.energydata.info/)
@@ -37,7 +37,7 @@
 * [AESO Transmission Capability Map 2024 - Canada](https://www.aeso.ca/grid/connecting-to-the-grid/transmission-capability-map)
 * [Latin America Energy Outlook Interactive Map](https://www.iea.org/data-and-statistics/data-tools/latin-america-energy-outlook-interactive-map)
 * [India Power Grid Map](https://powermin.gov.in/en/content/powergrid-map)
-
+* [US Electric Substations](https://catalog.data.gov/dataset/electric-substations)
 
 ## OpenStreetMap
 
