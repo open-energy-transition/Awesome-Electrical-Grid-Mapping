@@ -14,30 +14,44 @@
 </table>
 
 ## Grid Explorer and National Datasets
+### Global 
 * [Open Infrastructure Map](https://openinframap.org/)
 * [GridFinder](https://gridfinder.rdrn.me/)
+* [FLOSM Power Grid](https://www.flosm.org/en/powergrid.html)
+* [Electricity Maps - Electricity Grid Carbon Emissions](https://app.electricitymaps.com/) [[Code](https://github.com/electricitymaps/electricitymaps-contrib)]
+
+### Africa
 * [Africa Electricity Grids Explorer](https://africagrid.energydata.info/)
+
+### Asia
+* [Baker Institute China Energy Map](https://www.bakerinstitute.org/chinas-energy-infrastructure)
+* [OSW Project Areas & Transmission Lines - Japan](https://www.renewable-ei.org/statistics/offshoremap/?page=en)
+* [India Power Grid Map](https://powermin.gov.in/en/content/powergrid-map)
+
+### Australia
+* [Electricity Transmission Lines - Digital Atlas Australia](https://digital.atlas.gov.au/datasets/digitalatlas::electricity-transmission-lines/explore)
+
+### Europe 
 * [ENTSO-E Transmission System Map](https://www.entsoe.eu/data/map/)
 * [JAO Static Grid Model](https://www.jao.eu/sites/default/files/static-grid/)
+* [National Grid UK](https://www.nationalgrid.com/electricity-transmission/network-and-infrastructure/network-route-maps)
+* [Uebertragungsnetz.de - Germany Grid Live Data](https://www.uebertragungsnetz.de/)
+
+### North America
 * [EIA U.S. Energy Atlas](https://atlas.eia.gov/datasets/geoplatform::transmission-lines/)
 * [U.S. Electric Power Transmission Lines](https://www.arcgis.com/apps/mapviewer/index.html?layers=d4090758322c4d32a4cd002ffaa0aa12)
 * [California Energy Commision - Electric Transmission Lines](https://cecgis-caenergy.opendata.arcgis.com/datasets/260b4513acdb4a3a8e4d64e69fc84fee_2/explore)
 * [ERCOT Transmission Grid Map - Texas](https://www.ercot.com/gridinfo/transmission) (Can only be visited from the US)
 * [California Electric Substations](https://databasin.org/datasets/cb9ff78949db409f83d4d6ca38f707bf/)
-* [FLOSM Power Grid](https://www.flosm.org/en/powergrid.html)
-* [U.S. Atlas of Electric Distribution System Hosting Capacity Maps](https://www.energy.gov/eere/us-atlas-electric-distribution-system-hosting-capacity-maps)
-* [Webmap EPE - Brazil Transmission Grid](https://gisepeprd2.epe.gov.br/WebMapEPE/)
-* [Electricity Maps - Electricity Grid Carbon Emissions](https://app.electricitymaps.com/) [[Code](https://github.com/electricitymaps/electricitymaps-contrib)]
-* [National Grid UK](https://www.nationalgrid.com/electricity-transmission/network-and-infrastructure/network-route-maps)
-* [Baker Institute China Energy Map](https://www.bakerinstitute.org/chinas-energy-infrastructure)
-* [Uebertragungsnetz.de - Germany Grid Live Data](https://www.uebertragungsnetz.de/)
-* [Electricity Transmission Lines - Digital Atlas Australia](https://digital.atlas.gov.au/datasets/digitalatlas::electricity-transmission-lines/explore)
-* [Mapa del Sistema Eléctrico Nacional - Mexico](https://energia.conacyt.mx/planeas/electricidad/sistema-electrico-nacional)
-* [OSW Project Areas & Transmission Lines - Japan](https://www.renewable-ei.org/statistics/offshoremap/?page=en)
-* [AESO Transmission Capability Map 2024 - Canada](https://www.aeso.ca/grid/connecting-to-the-grid/transmission-capability-map)
-* [Latin America Energy Outlook Interactive Map](https://www.iea.org/data-and-statistics/data-tools/latin-america-energy-outlook-interactive-map)
-* [India Power Grid Map](https://powermin.gov.in/en/content/powergrid-map)
 * [US Electric Substations](https://catalog.data.gov/dataset/electric-substations)
+* [Electricity Transmission in Canada + US](https://www.arcgis.com/apps/mapviewer/index.html?webmap=fec6a654d2d44a0688b8c6d8c9c95367)
+* [U.S. Atlas of Electric Distribution System Hosting Capacity Maps](https://www.energy.gov/eere/us-atlas-electric-distribution-system-hosting-capacity-maps)
+* [AESO Transmission Capability Map 2024 - Canada](https://www.aeso.ca/grid/connecting-to-the-grid/transmission-capability-map)
+
+### South and Middle America
+* [Webmap EPE - Brazil Transmission Grid](https://gisepeprd2.epe.gov.br/WebMapEPE/)
+* [Latin America Energy Outlook Interactive Map](https://www.iea.org/data-and-statistics/data-tools/latin-america-energy-outlook-interactive-map)
+* [Mapa del Sistema Eléctrico Nacional - Mexico](https://energia.conacyt.mx/planeas/electricidad/sistema-electrico-nacional)
 
 ## OpenStreetMap
 
