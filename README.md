@@ -76,6 +76,7 @@
 * [id](https://github.com/openstreetmap/iD)
 * [RapiD](https://github.com/facebook/Rapid)
 * [JOSM](https://github.com/JOSM)
+* [MapWithAI](https://github.com/JOSM/MapWithAI)
 
 ## Data Catalogs 
 * [ENERGYDATA.INFO](https://energydata.info/) - Open Data and Analytics for a sustainable energy future
@@ -139,7 +140,6 @@
 * [powerplantmatching](https://github.com/PyPSA/powerplantmatching/) - Set of tools to combine multiple power plant databases.
 
 ## Remote Mapping 
-
 ### SAR
 * [Prompt Learning for Oriented Power Transmission Tower Detection in High-Resolution SAR Images](https://arxiv.org/abs/2404.01074)
 
@@ -178,7 +178,12 @@
 * [Substation detection on NSO imagery - Data](https://zenodo.org/records/10214231)
 * [Substation detection on NSO imagery - Paper](https://iopscience.iop.org/article/10.1088/2634-4505/ad63c9/meta)
 
-## Crowdsourced Local Mapping
+## Embeddings and GIS Foundation Models
+* [Aerial Image Search Demo](https://blog.rtwilson.com/searching-an-aerial-photo-with-text-queries-a-demo-and-how-it-works/)
+* [Clay Foundation Model](https://github.com/Clay-foundation/model)
+
+
+## Crowdsourced Mapping
 * [Youthmappers - Mapping for a sustainable future: YouthMappers tackle global climate challenges](https://www.preventionweb.net/news/mapping-sustainable-future-youthmappers-tackle-global-climate-challenges)
 * [Youthmappers - Power Mapping brings Rapid Reliable Energy to Rural Communities](https://blog.mapillary.com/update/2020/10/20/sierra-leone-mapping.html)
 * [Youthmappers - Power Grid Mapping in West Africa](https://www.researchgate.net/publication/365837549_Power_Grid_Mapping_in_West_Africa)
