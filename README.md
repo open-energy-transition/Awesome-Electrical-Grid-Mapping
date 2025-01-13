@@ -27,6 +27,7 @@
 * [Baker Institute China Energy Map](https://www.bakerinstitute.org/chinas-energy-infrastructure)
 * [OSW Project Areas & Transmission Lines - Japan](https://www.renewable-ei.org/statistics/offshoremap/?page=en)
 * [India Power Grid Map](https://powermin.gov.in/en/content/powergrid-map)
+* [ASEAN Energy Database - South-East Asia](https://www.arcgis.com/apps/View/index.html?appid=a840b350e8744ef6a523abd361f10738)
 
 ### Australia
 * [Electricity Transmission Lines - Digital Atlas Australia](https://digital.atlas.gov.au/datasets/digitalatlas::electricity-transmission-lines/explore)
@@ -178,10 +179,9 @@
 * [Substation detection on NSO imagery - Data](https://zenodo.org/records/10214231)
 * [Substation detection on NSO imagery - Paper](https://iopscience.iop.org/article/10.1088/2634-4505/ad63c9/meta)
 
-## Embeddings and GIS Foundation Models
+### Embeddings and GIS Foundation Models
 * [Aerial Image Search Demo](https://blog.rtwilson.com/searching-an-aerial-photo-with-text-queries-a-demo-and-how-it-works/)
 * [Clay Foundation Model](https://github.com/Clay-foundation/model)
-
 
 ## Crowdsourced Mapping
 * [Youthmappers - Mapping for a sustainable future: YouthMappers tackle global climate challenges](https://www.preventionweb.net/news/mapping-sustainable-future-youthmappers-tackle-global-climate-challenges)
