@@ -195,3 +195,4 @@
 * [MapRoulette](https://maproulette.org/)
 * [Tasking Manager](https://github.com/hotosm/tasking-manager)
 * [learnOSM](https://learnosm.org/en/coordination/mapathon/)
+* [Building large-scale crowdsourcing communities with the Humanitarian OpenStreetMap Team](https://www.youtube.com/watch?v=N0DsatEt0J8&list=PLQNy8KsDknCpszC6g5VzspLMUkU-YkgSH)
