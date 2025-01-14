@@ -28,6 +28,13 @@
 * [OSW Project Areas & Transmission Lines - Japan](https://www.renewable-ei.org/statistics/offshoremap/?page=en)
 * [India Power Grid Map](https://powermin.gov.in/en/content/powergrid-map)
 * [ASEAN Energy Database - South-East Asia](https://www.arcgis.com/apps/View/index.html?appid=a840b350e8744ef6a523abd361f10738)
+* [OpenDevelopment Cambodia Map Explorer](https://data.opendevelopmentcambodia.net/map-explorer)
+* [OpenDevelopment Mekong Map Explorer](https://data.opendevelopmentmekong.net/map-explorer)
+* [Indonesia Electricity Supply Business Plan 2021 - 2030](https://gatrik.esdm.go.id/assets/uploads/download_index/files/38622-ruptl-pln-2021-2030.pdf)
+* [(Malaysia) Sarawak Power Generation and Network](https://www.sarawakenergy.com/assets/images/power-generation/map.png)
+* [(Malaysia) Sabah Energy Roadmap and Master Plan 2040](https://ecos.gov.my/sites/default/files/uploads/downloads/2023-09/SABAH%20ENERGY%20ROADMAP%20AND%20MASTER%20PLAN%202040%20%28SE-RAMP%202040%29.pdf)
+* [Myanmar Existing Power Grid and Under Construction Projects](https://www.moep.gov.mm/en/ignite/page/641)
+* [Philippines Transmission Development Plan 2020-2040](https://www.ngcp.ph/Attachment-Uploads/TDP%202020-2040%20Consultation%20Draft%20Volume%201%20Major%20Network%20Development_-2020-02-10-17-38-50.pdf)
 
 ### Australia
 * [Electricity Transmission Lines - Digital Atlas Australia](https://digital.atlas.gov.au/datasets/digitalatlas::electricity-transmission-lines/explore)
