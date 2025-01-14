@@ -58,6 +58,7 @@
 * [AESO Transmission Capability Map 2024 - Canada](https://www.aeso.ca/grid/connecting-to-the-grid/transmission-capability-map)
 * [Hosting capacity for FortisAlberta's distribution circuits.](https://www.fortisalberta.com/customer-service/get-connected/generation/hosting-capacity-map)
 * [Yukon Energy Corporation Power Substations - Canada](https://open.canada.ca/data/en/dataset/40397f7a-4f89-44a5-de41-923342bb6fea/resource/3c45137c-32c2-43cc-8d84-bb9c08f8e7c8)
+* [Pepco Holdings Capacity Planning Maps](https://storymaps.arcgis.com/stories/f4f45b890f504c21935c177d6cf545a5)
 
 ### South and Middle America
 * [Webmap EPE - Brazil Transmission Grid](https://gisepeprd2.epe.gov.br/WebMapEPE/)
