@@ -36,8 +36,9 @@
 * [Myanmar Existing Power Grid and Under Construction Projects](https://www.moep.gov.mm/en/ignite/page/641)
 * [Philippines Transmission Development Plan 2020-2040](https://www.ngcp.ph/Attachment-Uploads/TDP%202020-2040%20Consultation%20Draft%20Volume%201%20Major%20Network%20Development_-2020-02-10-17-38-50.pdf)
 
-### Australia
+### Australia and New Zealand
 * [Electricity Transmission Lines - Digital Atlas Australia](https://digital.atlas.gov.au/datasets/digitalatlas::electricity-transmission-lines/explore)
+* [New Zealand](https://data-transpower.opendata.arcgis.com/datasets/0c8db240553f47b5844bdc2eb1146b9b_0/explore)
 
 ### Europe 
 * [ENTSO-E Transmission System Map](https://www.entsoe.eu/data/map/)
