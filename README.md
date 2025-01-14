@@ -47,6 +47,7 @@
 * [JAO Static Grid Model](https://www.jao.eu/sites/default/files/static-grid/)
 * [National Grid UK](https://www.nationalgrid.com/electricity-transmission/network-and-infrastructure/network-route-maps)
 * [Uebertragungsnetz.de - Germany Grid Live Data](https://www.uebertragungsnetz.de/)
+* [Substations Italy - Gestore dei servizi energetici](https://mappe.gse.it/portal/apps/experiencebuilder/experience/?id=7cdfc4cfb0bb4beead292e9290fdeebd)
 
 ### North America
 * [EIA U.S. Energy Atlas](https://atlas.eia.gov/datasets/geoplatform::transmission-lines/)
