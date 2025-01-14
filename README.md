@@ -22,6 +22,7 @@
 
 ### Africa
 * [Africa Electricity Grids Explorer](https://africagrid.energydata.info/)
+* [Med-TSO - Mediterranean](https://med-tso.org/en/map-of-the-interconnected-electricity-transmission-networks-2024/)
 
 ### Asia
 * [Baker Institute China Energy Map](https://www.bakerinstitute.org/chinas-energy-infrastructure)
