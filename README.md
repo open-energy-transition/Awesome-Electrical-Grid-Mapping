@@ -62,6 +62,7 @@
 * [Webmap EPE - Brazil Transmission Grid](https://gisepeprd2.epe.gov.br/WebMapEPE/)
 * [Latin America Energy Outlook Interactive Map](https://www.iea.org/data-and-statistics/data-tools/latin-america-energy-outlook-interactive-map)
 * [Mapa del Sistema Eléctrico Nacional - Mexico](https://energia.conacyt.mx/planeas/electricidad/sistema-electrico-nacional)
+* [Electric Generation and Transportation Maps - Argentina](http://datos.energia.gob.ar/dataset/generacion-transporte-electrico)
 
 ## OpenStreetMap
 
