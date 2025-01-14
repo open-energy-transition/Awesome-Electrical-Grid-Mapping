@@ -74,11 +74,12 @@
 * [Loop detection](https://waterwaymap.org/loops/#map=2/0/0)
 * [OSMCha](https://osmcha.org/)
 
-### Editor
+### Editors and Mapping Tools
 * [id](https://github.com/openstreetmap/iD)
 * [RapiD](https://github.com/facebook/Rapid)
 * [JOSM](https://github.com/JOSM)
 * [MapWithAI](https://github.com/JOSM/MapWithAI)
+* [fAIr](https://github.com/hotosm/fAIr)
 
 ## Data Catalogs 
 * [ENERGYDATA.INFO](https://energydata.info/) - Open Data and Analytics for a sustainable energy future
@@ -185,15 +186,23 @@
 * [Clay Foundation Model](https://github.com/Clay-foundation/model)
 
 ## Crowdsourced Mapping
+### Communities and Initiatives 
+* [Humanitarian OpenStreetMap Team](https://www.hotosm.org/)
 * [Youthmappers - Mapping for a sustainable future: YouthMappers tackle global climate challenges](https://www.preventionweb.net/news/mapping-sustainable-future-youthmappers-tackle-global-climate-challenges)
 * [Youthmappers - Power Mapping brings Rapid Reliable Energy to Rural Communities](https://blog.mapillary.com/update/2020/10/20/sierra-leone-mapping.html)
 * [Youthmappers - Power Grid Mapping in West Africa](https://www.researchgate.net/publication/365837549_Power_Grid_Mapping_in_West_Africa)
-* [Humanitarian OpenStreetMap Team](https://www.hotosm.org/)
+
+### Challenges
 * [TeachOSM](https://tasks.teachosm.org/explore)
 * [Missing Maps](https://www.missingmaps.org/)
 * [MapComplete](https://mapcomplete.org/)
 * [StreetComplete](https://streetcomplete.app/)
 * [MapRoulette](https://maproulette.org/)
-* [Tasking Manager](https://github.com/hotosm/tasking-manager)
+
+### Tutorials and Training 
 * [learnOSM](https://learnosm.org/en/coordination/mapathon/)
 * [Building large-scale crowdsourcing communities with the Humanitarian OpenStreetMap Team](https://www.youtube.com/watch?v=N0DsatEt0J8&list=PLQNy8KsDknCpszC6g5VzspLMUkU-YkgSH)
+
+### Mapping Coordinating
+* [Field Mapping Tasking Manager](https://github.com/hotosm/fmtm)
+* [Tasking Manager](https://github.com/hotosm/tasking-manager)
