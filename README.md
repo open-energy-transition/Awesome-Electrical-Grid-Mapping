@@ -65,6 +65,7 @@
 * [Mapa del Sistema Eléctrico Nacional - Mexico](https://energia.conacyt.mx/planeas/electricidad/sistema-electrico-nacional)
 * [Electric Generation and Transportation Maps - Argentina](http://datos.energia.gob.ar/dataset/generacion-transporte-electrico)
 * [Map of the electrical grid in Chile](https://energiamaps.cne.cl/)
+* [LUMA Energy Puerto Rico](https://www.arcgis.com/home/webmap/viewer.html?webmap=37f6415eb74e49e4842947ece321e276)
 
 ## OpenStreetMap
 
