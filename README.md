@@ -25,9 +25,9 @@
 * [Med-TSO - Mediterranean](https://med-tso.org/en/map-of-the-interconnected-electricity-transmission-networks-2024/)
 
 ### Asia
+* [Energy Map of India](https://vedas.sac.gov.in/energymap/view/powergis.jsp)
 * [Baker Institute China Energy Map](https://www.bakerinstitute.org/chinas-energy-infrastructure)
 * [OSW Project Areas & Transmission Lines - Japan](https://www.renewable-ei.org/statistics/offshoremap/?page=en)
-* [India Power Grid Map](https://powermin.gov.in/en/content/powergrid-map)
 * [ASEAN Energy Database - South-East Asia](https://www.arcgis.com/apps/View/index.html?appid=a840b350e8744ef6a523abd361f10738)
 * [OpenDevelopment Cambodia Map Explorer](https://data.opendevelopmentcambodia.net/map-explorer)
 * [OpenDevelopment Mekong Map Explorer](https://data.opendevelopmentmekong.net/map-explorer)
