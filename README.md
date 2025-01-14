@@ -56,6 +56,7 @@
 * [Electricity Transmission in Canada + US](https://www.arcgis.com/apps/mapviewer/index.html?webmap=fec6a654d2d44a0688b8c6d8c9c95367)
 * [U.S. Atlas of Electric Distribution System Hosting Capacity Maps](https://www.energy.gov/eere/us-atlas-electric-distribution-system-hosting-capacity-maps)
 * [AESO Transmission Capability Map 2024 - Canada](https://www.aeso.ca/grid/connecting-to-the-grid/transmission-capability-map)
+* [Hosting capacity for FortisAlberta's distribution circuits.](https://www.fortisalberta.com/customer-service/get-connected/generation/hosting-capacity-map)
 * [Yukon Energy Corporation Power Substations - Canada](https://open.canada.ca/data/en/dataset/40397f7a-4f89-44a5-de41-923342bb6fea/resource/3c45137c-32c2-43cc-8d84-bb9c08f8e7c8)
 
 ### South and Middle America
