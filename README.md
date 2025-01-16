@@ -51,6 +51,7 @@
 * [Substations Italy - Gestore dei servizi energetici](https://mappe.gse.it/portal/apps/experiencebuilder/experience/?id=7cdfc4cfb0bb4beead292e9290fdeebd)
 
 ### North America
+* [US Infrastructure Foundation-Level Data - Transmission Lines](https://hifld-geoplatform.hub.arcgis.com/datasets/bd24d1a282c54428b024988d32578e59_0/explore?location=36.525107%2C-119.281684%2C7.96)
 * [EIA U.S. Energy Atlas](https://atlas.eia.gov/datasets/geoplatform::transmission-lines/)
 * [U.S. Electric Power Transmission Lines](https://www.arcgis.com/apps/mapviewer/index.html?layers=d4090758322c4d32a4cd002ffaa0aa12)
 * [California Energy Commision - Electric Transmission Lines](https://cecgis-caenergy.opendata.arcgis.com/datasets/260b4513acdb4a3a8e4d64e69fc84fee_2/explore)
