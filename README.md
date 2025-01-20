@@ -25,7 +25,7 @@
 * [Med-TSO - Mediterranean](https://med-tso.org/en/map-of-the-interconnected-electricity-transmission-networks-2024/)
 
 ### Asia
-* [Energy Map of India](https://vedas.sac.gov.in/energymap/view/powergis.jsp)
+* [Energy Map of India](https://vedas.sac.gov.in/energymap/view/powergis.jsp) (Based on OpenStreetMap Data)
 * [Baker Institute China Energy Map](https://www.bakerinstitute.org/chinas-energy-infrastructure)
 * [OSW Project Areas & Transmission Lines - Japan](https://www.renewable-ei.org/statistics/offshoremap/?page=en)
 * [ASEAN Energy Database - South-East Asia](https://www.arcgis.com/apps/View/index.html?appid=a840b350e8744ef6a523abd361f10738)
@@ -67,7 +67,7 @@
 
 ### South and Middle America
 * [Webmap EPE - Brazil Transmission Grid](https://gisepeprd2.epe.gov.br/WebMapEPE/)
-* [Latin America Energy Outlook Interactive Map](https://www.iea.org/data-and-statistics/data-tools/latin-america-energy-outlook-interactive-map)
+* [Latin America Energy Outlook Interactive Map](https://www.iea.org/data-and-statistics/data-tools/latin-america-energy-outlook-interactive-map) (Based on OpenStreetMap Data)
 * [Mapa del Sistema Eléctrico Nacional - Mexico](https://energia.conacyt.mx/planeas/electricidad/sistema-electrico-nacional)
 * [Electric Generation and Transportation Maps - Argentina](http://datos.energia.gob.ar/dataset/generacion-transporte-electrico)
 * [Map of the electrical grid in Chile](https://energiamaps.cne.cl/)
