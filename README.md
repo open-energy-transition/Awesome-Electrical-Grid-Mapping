@@ -73,6 +73,14 @@
 * [Map of the electrical grid in Chile](https://energiamaps.cne.cl/)
 * [LUMA Energy Puerto Rico](https://www.arcgis.com/home/webmap/viewer.html?webmap=37f6415eb74e49e4842947ece321e276)
 
+## Data Catalogs 
+* [ENERGYDATA.INFO](https://energydata.info/) - Open Data and Analytics for a sustainable energy future
+* [Transmission network datasets wiki of openmod](https://wiki.openmod-initiative.org/wiki/Transmission_network_datasets) 
+* [Global Transmission Database](https://zenodo.org/records/10870602) - Consists of comprehensive data regarding existing and planned cross-border transmission capacities globally collated from public sources.
+* [Open Energy Platform Grid Data](https://openenergyplatform.org/dataedit/view/grid)
+* [Electricitymaps Data Sources](https://github.com/electricitymaps/electricitymaps-contrib/blob/master/DATA_SOURCES.md)
+* [openAfrica - Substations](https://www.open.africa/dataset/?q=substations&sort=metadata_modified+desc)
+
 ## OpenStreetMap
 
 ### Forums and Community
@@ -99,12 +107,7 @@
 * [MapWithAI](https://github.com/JOSM/MapWithAI)
 * [fAIr](https://github.com/hotosm/fAIr)
 
-## Data Catalogs 
-* [ENERGYDATA.INFO](https://energydata.info/) - Open Data and Analytics for a sustainable energy future
-* [Transmission network datasets wiki of openmod](https://wiki.openmod-initiative.org/wiki/Transmission_network_datasets) 
-* [Global Transmission Database](https://zenodo.org/records/10870602) - Consists of comprehensive data regarding existing and planned cross-border transmission capacities globally collated from public sources.
-* [Open Energy Platform Grid Data](https://openenergyplatform.org/dataedit/view/grid)
-* [Electricitymaps Data Sources](https://github.com/electricitymaps/electricitymaps-contrib/blob/master/DATA_SOURCES.md)
+
 
 ## Scientfic Publications
 * [Predictive mapping of the global power system using open data](https://www.nature.com/articles/s41597-019-0347-4)
