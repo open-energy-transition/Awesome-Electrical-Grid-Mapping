@@ -223,6 +223,7 @@
 * [learnOSM](https://learnosm.org/en/coordination/mapathon/)
 * [Building large-scale crowdsourcing communities with the Humanitarian OpenStreetMap Team](https://www.youtube.com/watch?v=N0DsatEt0J8&list=PLQNy8KsDknCpszC6g5VzspLMUkU-YkgSH)
 * [JOSM OpenStreetMap Editor for Beginners](https://www.youtube.com/watch?v=3Yk8b8SB81o)
+* [How to use the JOSM MapwithAI Feature Humanitarian Mappers](https://www.youtube.com/watch?v=Wy6oZ0RDl8M)
 
 ### Mapping Coordinating
 * [Field Mapping Tasking Manager](https://github.com/hotosm/fmtm)
