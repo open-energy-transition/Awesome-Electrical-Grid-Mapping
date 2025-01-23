@@ -23,6 +23,7 @@
 ### Africa
 * [Africa Electricity Grids Explorer](https://africagrid.energydata.info/)
 * [Med-TSO - Mediterranean](https://med-tso.org/en/map-of-the-interconnected-electricity-transmission-networks-2024/)
+* [KETRACO Transmission Lines - Kenya](https://www.arcgis.com/apps/View/index.html?appid=c0380471ddae454e9a12b5b98f4ef64a)
 
 ### Asia
 * [Energy Map of India](https://vedas.sac.gov.in/energymap/view/powergis.jsp) (Based on OpenStreetMap Data)
