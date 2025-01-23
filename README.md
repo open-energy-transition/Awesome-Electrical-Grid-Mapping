@@ -108,8 +108,6 @@
 * [MapWithAI](https://github.com/JOSM/MapWithAI)
 * [fAIr](https://github.com/hotosm/fAIr)
 
-
-
 ## Scientfic Publications
 * [Predictive mapping of the global power system using open data](https://www.nature.com/articles/s41597-019-0347-4)
 * [Modelling the High-Voltage Grid Using Open Data for Europe and Beyond](https://arxiv.org/abs/2408.17178)
@@ -224,6 +222,7 @@
 ### Tutorials and Training 
 * [learnOSM](https://learnosm.org/en/coordination/mapathon/)
 * [Building large-scale crowdsourcing communities with the Humanitarian OpenStreetMap Team](https://www.youtube.com/watch?v=N0DsatEt0J8&list=PLQNy8KsDknCpszC6g5VzspLMUkU-YkgSH)
+* [JOSM OpenStreetMap Editor for Beginners](https://www.youtube.com/watch?v=3Yk8b8SB81o)
 
 ### Mapping Coordinating
 * [Field Mapping Tasking Manager](https://github.com/hotosm/fmtm)
