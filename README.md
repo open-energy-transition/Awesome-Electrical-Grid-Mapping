@@ -148,6 +148,7 @@
 * [India’s Renewable Energy Expansion Poses Threats to Its Grid Stability](https://earthjournalism.net/stories/indias-renewable-energy-expansion-poses-threats-to-its-grid-stability)
 * [India needs to explore incentives to improve renewables transmission capacity, power secretary says](https://www.reuters.com/world/india/india-needs-explore-incentives-improve-renewables-transmission-capacity-power-2024-10-14/)
 * [Transmission Adequacy in India: Building a resilient and sustainable grid](https://powerline.net.in/2024/10/05/transmission-adequacy-in-india-building-a-resilient-and-sustainable-grid-2/)
+* [These 8 Countries Are Scaling Up Renewable Energy the Fastest](https://www.wri.org/insights/countries-scaling-renewable-energy-fastest)
 
 ## Presentation and Videos 
 * [Pinpointing the power grid](https://www.youtube.com/watch?v=KlZ1ijWxKkw)
