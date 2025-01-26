@@ -110,6 +110,9 @@
 * [fAIr](https://github.com/hotosm/fAIr)
 * [JOSM Power Styles by InfosReseaux](https://josm.openstreetmap.de/wiki/Styles/Power)
 
+### Diaries and Blogs
+* [InfosReseaux's Diary](https://www.openstreetmap.org/user/InfosReseaux/diary)
+
 ## Scientfic Publications
 * [Predictive mapping of the global power system using open data](https://www.nature.com/articles/s41597-019-0347-4)
 * [Modelling the High-Voltage Grid Using Open Data for Europe and Beyond](https://arxiv.org/abs/2408.17178)
