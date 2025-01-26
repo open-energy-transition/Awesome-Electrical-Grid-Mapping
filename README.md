@@ -108,6 +108,7 @@
 * [JOSM](https://github.com/JOSM)
 * [MapWithAI](https://github.com/JOSM/MapWithAI)
 * [fAIr](https://github.com/hotosm/fAIr)
+* [JOSM Power Styles by InfosReseaux](https://josm.openstreetmap.de/wiki/Styles/Power)
 
 ## Scientfic Publications
 * [Predictive mapping of the global power system using open data](https://www.nature.com/articles/s41597-019-0347-4)
