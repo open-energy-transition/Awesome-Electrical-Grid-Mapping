@@ -102,13 +102,17 @@
 * [Loop detection](https://waterwaymap.org/loops/#map=2/0/0)
 * [OSMCha](https://osmcha.org/)
 
-### Editors and Mapping Tools
+### Desktop Editors and Mapping Tools
 * [id](https://github.com/openstreetmap/iD)
 * [RapiD](https://github.com/facebook/Rapid)
 * [JOSM](https://github.com/JOSM)
 * [MapWithAI](https://github.com/JOSM/MapWithAI)
 * [fAIr](https://github.com/hotosm/fAIr)
 * [JOSM Power Styles by InfosReseaux](https://josm.openstreetmap.de/wiki/Styles/Power)
+
+### Mobile and In-field Editors 
+* [Vespucci](https://wiki.openstreetmap.org/wiki/Vespucci)
+* [StreetComplete](https://wiki.openstreetmap.org/wiki/StreetComplete)
 
 ### Diaries and Blogs
 * [InfosReseaux's Diary](https://www.openstreetmap.org/user/InfosReseaux/diary)
