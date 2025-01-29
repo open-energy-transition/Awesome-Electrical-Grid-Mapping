@@ -98,7 +98,7 @@
 * [OSMstats](https://osmstats.neis-one.org/)
 
 ### Good Practices in Power Routing
-* [Power Routing Proposal](https://wiki.openstreetmap.org/wiki/Proposal:Power_routing_proposal)
+* [Power Routing Proposal](https://wiki.openstreetmap.org/wiki/Proposal:Power_routing_proposal) [[Talk](https://wiki.openstreetmap.org/wiki/Proposal_talk:Power_routing_proposal)]
 
 ### Quality Assurance Tools
 * [osmose](https://osmose.openstreetmap.fr/en/map/#loc=7/45.06/-122.762&level=1%2C2%2C3&tags=power&item=7040%2C7190%2C8270%2C8280%2C8281%2C8282%2C8290%2C9100)
