@@ -112,6 +112,7 @@
 * [MapWithAI](https://github.com/JOSM/MapWithAI)
 * [fAIr](https://github.com/hotosm/fAIr)
 * [JOSM Power Styles by InfosReseaux](https://josm.openstreetmap.de/wiki/Styles/Power)
+* [PicLayer](https://wiki.openstreetmap.org/wiki/JOSM/Plugins/PicLayer)
 
 ### Mobile and In-field Editors 
 * [Vespucci](https://wiki.openstreetmap.org/wiki/Vespucci)
