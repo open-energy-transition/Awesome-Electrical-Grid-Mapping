@@ -105,6 +105,7 @@
 * [osmose](https://osmose.openstreetmap.fr/en/map/#loc=7/45.06/-122.762&level=1%2C2%2C3&tags=power&item=7040%2C7190%2C8270%2C8280%2C8281%2C8282%2C8290%2C9100)
 * [Loop detection](https://waterwaymap.org/loops/#map=2/0/0)
 * [OSMCha](https://osmcha.org/)
+* [OsmNightWatch](https://github.com/DavidKarlas/OsmNightWatch)
 
 ### Desktop Editors and Mapping Tools
 * [id](https://github.com/openstreetmap/iD)
@@ -243,3 +244,9 @@
 ### Mapping Coordinating
 * [Field Mapping Tasking Manager](https://github.com/hotosm/fmtm)
 * [Tasking Manager](https://github.com/hotosm/tasking-manager)
+
+### News and Community Reach
+* [weeklyOSM](https://weeklyosm.eu/)
+* [r/openstreetmap/](https://www.reddit.com/r/openstreetmap/)
+* [OpenStreetMap US](https://openstreetmap.us/news/)
+* [Offical OpenStreetMap Blog](https://blog.openstreetmap.org/)
