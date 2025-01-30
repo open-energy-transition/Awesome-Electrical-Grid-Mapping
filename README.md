@@ -90,12 +90,13 @@
 * [Power Forum Posts](https://community.openstreetmap.org/tag/power)
 * [Infrastructure Matrix Channel](https://app.element.io/#/room/#osm-infrastructure:matrix.org)
 
-### Power Tags
+### Power Tags and Statistics
 * [Key:power](https://wiki.openstreetmap.org/wiki/Key:power)
 * [Power:proposals](https://wiki.openstreetmap.org/wiki/Key:power#Proposals)
 * [Power Tag Statistics](https://taginfo.openstreetmap.org/keys/power)
 * [OSM History Analyser](https://dashboard.ohsome.org/) [Code](https://github.com/giscience/ohsome-dashboard)
 * [OSMstats](https://osmstats.neis-one.org/)
+* [How did you contribute to OpenStreetMap](https://hdyc.neis-one.org/)
 
 ### Good Practices in Power Routing
 * [Power Routing Proposal](https://wiki.openstreetmap.org/wiki/Proposal:Power_routing_proposal) [[Talk](https://wiki.openstreetmap.org/wiki/Proposal_talk:Power_routing_proposal)]
