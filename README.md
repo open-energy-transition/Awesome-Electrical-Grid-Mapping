@@ -75,53 +75,13 @@
 * [Map of the electrical grid in Chile](https://energiamaps.cne.cl/)
 * [LUMA Energy Puerto Rico](https://www.arcgis.com/home/webmap/viewer.html?webmap=37f6415eb74e49e4842947ece321e276)
 
-## Data Catalogs 
+### Other Data Catalogs 
 * [ENERGYDATA.INFO](https://energydata.info/) - Open Data and Analytics for a sustainable energy future
 * [Transmission network datasets wiki of openmod](https://wiki.openmod-initiative.org/wiki/Transmission_network_datasets) 
 * [Global Transmission Database](https://zenodo.org/records/10870602) - Consists of comprehensive data regarding existing and planned cross-border transmission capacities globally collated from public sources.
 * [Open Energy Platform Grid Data](https://openenergyplatform.org/dataedit/view/grid)
 * [Electricitymaps Data Sources](https://github.com/electricitymaps/electricitymaps-contrib/blob/master/DATA_SOURCES.md)
 * [openAfrica - Substations](https://www.open.africa/dataset/?q=substations&sort=metadata_modified+desc)
-
-## OpenStreetMap
-
-### Forums and Community
-* [Power Networks](https://wiki.openstreetmap.org/wiki/Power_networks)
-* [Power Forum Posts](https://community.openstreetmap.org/tag/power)
-* [Infrastructure Matrix Channel](https://app.element.io/#/room/#osm-infrastructure:matrix.org)
-
-### Power Tags and Statistics
-* [Key:power](https://wiki.openstreetmap.org/wiki/Key:power)
-* [Power:proposals](https://wiki.openstreetmap.org/wiki/Key:power#Proposals)
-* [Power Tag Statistics](https://taginfo.openstreetmap.org/keys/power)
-* [OSM History Analyser](https://dashboard.ohsome.org/) [Code](https://github.com/giscience/ohsome-dashboard)
-* [OSMstats](https://osmstats.neis-one.org/)
-* [How did you contribute to OpenStreetMap](https://hdyc.neis-one.org/)
-
-### Good Practices in Power Routing
-* [Power Routing Proposal](https://wiki.openstreetmap.org/wiki/Proposal:Power_routing_proposal) [[Talk](https://wiki.openstreetmap.org/wiki/Proposal_talk:Power_routing_proposal)]
-
-### Quality Assurance Tools
-* [osmose](https://osmose.openstreetmap.fr/en/map/#loc=7/45.06/-122.762&level=1%2C2%2C3&tags=power&item=7040%2C7190%2C8270%2C8280%2C8281%2C8282%2C8290%2C9100)
-* [Loop detection](https://waterwaymap.org/loops/#map=2/0/0)
-* [OSMCha](https://osmcha.org/)
-* [OsmNightWatch](https://github.com/DavidKarlas/OsmNightWatch)
-
-### Desktop Editors and Mapping Tools
-* [id](https://github.com/openstreetmap/iD)
-* [RapiD](https://github.com/facebook/Rapid)
-* [JOSM](https://github.com/JOSM)
-* [MapWithAI](https://github.com/JOSM/MapWithAI)
-* [fAIr](https://github.com/hotosm/fAIr)
-* [JOSM Power Styles by InfosReseaux](https://josm.openstreetmap.de/wiki/Styles/Power)
-* [PicLayer](https://wiki.openstreetmap.org/wiki/JOSM/Plugins/PicLayer)
-
-### Mobile and In-field Editors 
-* [Vespucci](https://wiki.openstreetmap.org/wiki/Vespucci)
-* [StreetComplete](https://wiki.openstreetmap.org/wiki/StreetComplete)
-
-### Diaries and Blogs
-* [InfosReseaux's Diary](https://www.openstreetmap.org/user/InfosReseaux/diary)
 
 ## Scientfic Publications
 * [Predictive mapping of the global power system using open data](https://www.nature.com/articles/s41597-019-0347-4)
@@ -250,3 +210,43 @@
 * [r/openstreetmap/](https://www.reddit.com/r/openstreetmap/)
 * [OpenStreetMap US](https://openstreetmap.us/news/)
 * [Offical OpenStreetMap Blog](https://blog.openstreetmap.org/)
+
+## Electrical Grid Mapping at OpenStreetMap
+
+### Forums and Community
+* [Power Networks](https://wiki.openstreetmap.org/wiki/Power_networks)
+* [Power Forum Posts](https://community.openstreetmap.org/tag/power)
+* [Infrastructure Matrix Channel](https://app.element.io/#/room/#osm-infrastructure:matrix.org)
+
+### Power Tags and Statistics
+* [Key:power](https://wiki.openstreetmap.org/wiki/Key:power)
+* [Power:proposals](https://wiki.openstreetmap.org/wiki/Key:power#Proposals)
+* [Power Tag Statistics](https://taginfo.openstreetmap.org/keys/power)
+* [OSM History Analyser](https://dashboard.ohsome.org/) [Code](https://github.com/giscience/ohsome-dashboard)
+* [OSMstats](https://osmstats.neis-one.org/)
+* [How did you contribute to OpenStreetMap](https://hdyc.neis-one.org/)
+
+### Good Practices in Power Routing
+* [Power Routing Proposal](https://wiki.openstreetmap.org/wiki/Proposal:Power_routing_proposal) [[Talk](https://wiki.openstreetmap.org/wiki/Proposal_talk:Power_routing_proposal)]
+
+### Quality Assurance Tools
+* [osmose](https://osmose.openstreetmap.fr/en/map/#loc=7/45.06/-122.762&level=1%2C2%2C3&tags=power&item=7040%2C7190%2C8270%2C8280%2C8281%2C8282%2C8290%2C9100)
+* [Loop detection](https://waterwaymap.org/loops/#map=2/0/0)
+* [OSMCha](https://osmcha.org/)
+* [OsmNightWatch](https://github.com/DavidKarlas/OsmNightWatch)
+
+### Desktop Editors and Mapping Tools
+* [id](https://github.com/openstreetmap/iD)
+* [RapiD](https://github.com/facebook/Rapid)
+* [JOSM](https://github.com/JOSM)
+* [MapWithAI](https://github.com/JOSM/MapWithAI)
+* [fAIr](https://github.com/hotosm/fAIr)
+* [JOSM Power Styles by InfosReseaux](https://josm.openstreetmap.de/wiki/Styles/Power)
+* [PicLayer](https://wiki.openstreetmap.org/wiki/JOSM/Plugins/PicLayer)
+
+### Mobile and In-field Editors 
+* [Vespucci](https://wiki.openstreetmap.org/wiki/Vespucci)
+* [StreetComplete](https://wiki.openstreetmap.org/wiki/StreetComplete)
+
+### Diaries and Blogs
+* [InfosReseaux's Diary](https://www.openstreetmap.org/user/InfosReseaux/diary)
