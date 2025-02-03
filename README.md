@@ -43,6 +43,7 @@
 * [Transpower New Zealand Ltd Transmission Lines](https://data-transpower.opendata.arcgis.com/datasets/0c8db240553f47b5844bdc2eb1146b9b_0/explore)
 * [Queensland Australia - NetworkLoad Capacity](https://www.ergon.com.au/network/about-us/company-reports%2C-plans-and-charters/network-load-capacity-map)
 * [Western Australia Network Capacity Mapping Tool](https://westernpower.maps.arcgis.com/apps/webappviewer/index.html?id=21af5edc59034456b59c35be31365cdf)
+* [Geoscience Australia - National Electricity Transmission Substations](https://data.gov.au/dataset/ds-aurin-666888c5-546d-42c9-8e64-845a099acdbb/)
 
 ### Europe 
 * [ENTSO-E Transmission System Map](https://www.entsoe.eu/data/map/)
