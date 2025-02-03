@@ -60,6 +60,8 @@
 * [ERCOT Transmission Grid Map - Texas](https://www.ercot.com/gridinfo/transmission) (Can only be visited from the US)
 * [California Electric Substations](https://databasin.org/datasets/cb9ff78949db409f83d4d6ca38f707bf/)
 * [US Electric Substations](https://catalog.data.gov/dataset/electric-substations)
+* [US Electric Power Transmission Substations](https://www.kaggle.com/datasets/behroozsohrabi/us-electric-power-transmission-substations?resource=download)
+* [Electric Power Substations](https://catalog.data.gov/dataset/electric-power-substations2)
 * [Electricity Transmission in Canada + US](https://www.arcgis.com/apps/mapviewer/index.html?webmap=fec6a654d2d44a0688b8c6d8c9c95367)
 * [U.S. Atlas of Electric Distribution System Hosting Capacity Maps](https://www.energy.gov/eere/us-atlas-electric-distribution-system-hosting-capacity-maps)
 * [AESO Transmission Capability Map 2024 - Canada](https://www.aeso.ca/grid/connecting-to-the-grid/transmission-capability-map)
