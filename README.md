@@ -56,7 +56,7 @@
 ### North America
 * [US Infrastructure Foundation-Level Data - Transmission Lines](https://hifld-geoplatform.hub.arcgis.com/datasets/bd24d1a282c54428b024988d32578e59_0/explore?location=36.525107%2C-119.281684%2C7.96)
 * [EIA U.S. Energy Atlas](https://atlas.eia.gov/datasets/geoplatform::transmission-lines/)
-* [U.S. Electric Power Transmission Lines](https://www.arcgis.com/apps/mapviewer/index.html?layers=d4090758322c4d32a4cd002ffaa0aa12)
+* [U.S. Electric Power Transmission Lines](https://resilience.climate.gov/datasets/fedmaps::u-s-electric-power-transmission-lines/)
 * [California Energy Commision - Electric Transmission Lines](https://cecgis-caenergy.opendata.arcgis.com/datasets/260b4513acdb4a3a8e4d64e69fc84fee_2/explore)
 * [ERCOT Transmission Grid Map - Texas](https://www.ercot.com/gridinfo/transmission) (Can only be visited from the US)
 * [California Electric Substations](https://databasin.org/datasets/cb9ff78949db409f83d4d6ca38f707bf/)
