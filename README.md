@@ -86,7 +86,7 @@
 * [Electricitymaps Data Sources](https://github.com/electricitymaps/electricitymaps-contrib/blob/master/DATA_SOURCES.md)
 * [openAfrica - Substations](https://www.open.africa/dataset/?q=substations&sort=metadata_modified+desc)
 
-## Scientfic Publications
+## Scientific Publications
 * [Predictive mapping of the global power system using open data](https://www.nature.com/articles/s41597-019-0347-4)
 * [Modelling the High-Voltage Grid Using Open Data for Europe and Beyond](https://arxiv.org/abs/2408.17178)
 * [GridTracer: Automatic Mapping of Power Grids using Deep Learning and Overhead Imagery](https://arxiv.org/abs/2101.06390)
@@ -246,6 +246,8 @@
 * [fAIr](https://github.com/hotosm/fAIr)
 * [JOSM Power Styles by InfosReseaux](https://josm.openstreetmap.de/wiki/Styles/Power)
 * [PicLayer](https://wiki.openstreetmap.org/wiki/JOSM/Plugins/PicLayer)
+* [OpenData](https://wiki.openstreetmap.org/wiki/JOSM/Plugins/OpenData)
+* [esri-dump](https://github.com/openaddresses/pyesridump)
 
 ### Mobile and In-field Editors 
 * [Vespucci](https://wiki.openstreetmap.org/wiki/Vespucci)
