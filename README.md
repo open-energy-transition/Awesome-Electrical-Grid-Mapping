@@ -109,6 +109,7 @@
 * [Grid Modernization Strategy 2024](https://www.energy.gov/sites/default/files/2024-12/Grid%20Modernization%20Strategy%202024.pdf) 
 
 ## Reports and News
+* [From Taking Stock to Taking Action](https://iea.blob.core.windows.net/assets/f2f6dbe0-ee3d-4ffc-ac8b-b811a868b9b1/FromTakingStocktoTakingAction.pdf)
 * [NREL National Transmission Planning Study](https://www.nrel.gov/grid/national-transmission-planning-study.html)
 * [Putting the mission in transmission: Grids for Europes Energy Transition](https://ember-energy.org/app/uploads/2024/10/Grids-for-Europes-Energy-Transition-Report-1.pdf)
 * [Electric grid overhaul presents inspection challenges](https://ursaspace.com/blog/electric-grid-overhaul-presents-inspection-challenges/)
