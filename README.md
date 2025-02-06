@@ -24,6 +24,8 @@
 * [Africa Electricity Grids Explorer](https://africagrid.energydata.info/)
 * [Med-TSO - Mediterranean](https://med-tso.org/en/map-of-the-interconnected-electricity-transmission-networks-2024/)
 * [KETRACO Transmission Lines - Kenya](https://www.arcgis.com/apps/View/index.html?appid=c0380471ddae454e9a12b5b98f4ef64a)
+* [Somalia - Mini-Grids With MV Lines](https://energydata.info/dataset/somalia-mini-grids-with-mv-lines)
+* [Morocco - Electricity Transmission Network](https://energydata.info/dataset/morocco-electricity-transmission-network-2014)
 
 ### Asia
 * [Energy Map of India](https://vedas.sac.gov.in/energymap/view/powergis.jsp) (Based on OpenStreetMap Data)
@@ -37,6 +39,7 @@
 * [(Malaysia) Sabah Energy Roadmap and Master Plan 2040](https://ecos.gov.my/sites/default/files/uploads/downloads/2023-09/SABAH%20ENERGY%20ROADMAP%20AND%20MASTER%20PLAN%202040%20%28SE-RAMP%202040%29.pdf)
 * [Myanmar Existing Power Grid and Under Construction Projects](https://www.moep.gov.mm/en/ignite/page/641)
 * [Philippines Transmission Development Plan 2020-2040](https://www.ngcp.ph/Attachment-Uploads/TDP%202020-2040%20Consultation%20Draft%20Volume%201%20Major%20Network%20Development_-2020-02-10-17-38-50.pdf)
+* [Vietnam - Electricity Transmission Network] (https://energydata.info/dataset/vietnam-electricity-transmission-network)
 
 ### Australia and New Zealand
 * [Electricity Transmission Lines - Digital Atlas Australia](https://digital.atlas.gov.au/datasets/digitalatlas::electricity-transmission-lines/explore)
@@ -70,7 +73,7 @@
 * [Yukon Energy Corporation Power Substations - Canada](https://open.canada.ca/data/en/dataset/40397f7a-4f89-44a5-de41-923342bb6fea/resource/3c45137c-32c2-43cc-8d84-bb9c08f8e7c8)
 * [Pepco Holdings Capacity Planning Maps - Puerto Rico](https://storymaps.arcgis.com/stories/f4f45b890f504c21935c177d6cf545a5)
 
-### South and Middle America
+###Latin America
 * [Webmap EPE - Brazil Transmission Grid](https://gisepeprd2.epe.gov.br/WebMapEPE/)
 * [Latin America Energy Outlook Interactive Map](https://www.iea.org/data-and-statistics/data-tools/latin-america-energy-outlook-interactive-map) (Based on OpenStreetMap Data)
 * [Mapa del Sistema Eléctrico Nacional - Mexico](https://energia.conacyt.mx/planeas/electricidad/sistema-electrico-nacional)
