@@ -73,7 +73,7 @@
 * [Yukon Energy Corporation Power Substations - Canada](https://open.canada.ca/data/en/dataset/40397f7a-4f89-44a5-de41-923342bb6fea/resource/3c45137c-32c2-43cc-8d84-bb9c08f8e7c8)
 * [Pepco Holdings Capacity Planning Maps - Puerto Rico](https://storymaps.arcgis.com/stories/f4f45b890f504c21935c177d6cf545a5)
 
-###Latin America
+### Latin America
 * [Webmap EPE - Brazil Transmission Grid](https://gisepeprd2.epe.gov.br/WebMapEPE/)
 * [Latin America Energy Outlook Interactive Map](https://www.iea.org/data-and-statistics/data-tools/latin-america-energy-outlook-interactive-map) (Based on OpenStreetMap Data)
 * [Mapa del Sistema Eléctrico Nacional - Mexico](https://energia.conacyt.mx/planeas/electricidad/sistema-electrico-nacional)
