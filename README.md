@@ -232,6 +232,7 @@
 * [OSM History Analyser](https://dashboard.ohsome.org/) [Code](https://github.com/giscience/ohsome-dashboard)
 * [OSMstats](https://osmstats.neis-one.org/)
 * [How did you contribute to OpenStreetMap](https://hdyc.neis-one.org/)
+* [Create a HeatMap of your Contribution](https://yosmhm.neis-one.org/)
 
 ### Good Practices in Power Routing
 * [Power Routing Proposal](https://wiki.openstreetmap.org/wiki/Proposal:Power_routing_proposal) [[Talk](https://wiki.openstreetmap.org/wiki/Proposal_talk:Power_routing_proposal)]
