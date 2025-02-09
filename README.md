@@ -39,7 +39,7 @@
 * [(Malaysia) Sabah Energy Roadmap and Master Plan 2040](https://ecos.gov.my/sites/default/files/uploads/downloads/2023-09/SABAH%20ENERGY%20ROADMAP%20AND%20MASTER%20PLAN%202040%20%28SE-RAMP%202040%29.pdf)
 * [Myanmar Existing Power Grid and Under Construction Projects](https://www.moep.gov.mm/en/ignite/page/641)
 * [Philippines Transmission Development Plan 2020-2040](https://www.ngcp.ph/Attachment-Uploads/TDP%202020-2040%20Consultation%20Draft%20Volume%201%20Major%20Network%20Development_-2020-02-10-17-38-50.pdf)
-* [Vietnam - Electricity Transmission Network] (https://energydata.info/dataset/vietnam-electricity-transmission-network)
+* [Vietnam - Electricity Transmission Network](https://energydata.info/dataset/vietnam-electricity-transmission-network)
 
 ### Australia and New Zealand
 * [Electricity Transmission Lines - Digital Atlas Australia](https://digital.atlas.gov.au/datasets/digitalatlas::electricity-transmission-lines/explore)
@@ -254,6 +254,7 @@
 * [PicLayer](https://wiki.openstreetmap.org/wiki/JOSM/Plugins/PicLayer)
 * [OpenData](https://wiki.openstreetmap.org/wiki/JOSM/Plugins/OpenData)
 * [esri-dump](https://github.com/openaddresses/pyesridump)
+* [OSMnx](https://github.com/gboeing/osmnx) - A Python package to easily download, model, analyze, and visualize street networks and other geospatial features from OpenStreetMap.
 
 ### Mobile and In-field Editors 
 * [Vespucci](https://wiki.openstreetmap.org/wiki/Vespucci)
