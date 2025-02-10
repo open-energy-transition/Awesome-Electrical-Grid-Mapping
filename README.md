@@ -265,3 +265,7 @@
 
 ### Diaries and Blogs
 * [InfosReseaux's Diary](https://www.openstreetmap.org/user/InfosReseaux/diary)
+
+### Voltage Estimation
+* [Identifying the voltage level by number of insulator disks](https://www.reddit.com/r/Damnthatsinteresting/comments/ukc24p/identifying_the_voltage_level_by_number_of/)
+* [Guessing power line voltage from the number of disc insulator](https://electronics.stackexchange.com/questions/71614/guessing-power-line-voltage-from-the-number-of-disc-insulator)
