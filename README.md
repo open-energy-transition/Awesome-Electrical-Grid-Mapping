@@ -219,24 +219,27 @@
 * [OpenStreetMap US](https://openstreetmap.us/news/)
 * [Offical OpenStreetMap Blog](https://blog.openstreetmap.org/)
 
-## Electrical Grid Mapping at OpenStreetMap
+## Electrical Grid Mapping in OpenStreetMap
 
 ### Forums and Community
 * [Power Networks](https://wiki.openstreetmap.org/wiki/Power_networks)
 * [Power Forum Posts](https://community.openstreetmap.org/tag/power)
 * [Infrastructure Matrix Channel](https://app.element.io/#/room/#osm-infrastructure:matrix.org)
 
-### Power Tags and Statistics
+### Power Tags and Articles
 * [Key:power](https://wiki.openstreetmap.org/wiki/Key:power)
 * [Power:proposals](https://wiki.openstreetmap.org/wiki/Key:power#Proposals)
 * [Power Tag Statistics](https://taginfo.openstreetmap.org/keys/power)
+* [Key:line_management](https://wiki.openstreetmap.org/wiki/Key:line_management) 
+
+### Good Practices in Power Routing
+* [Power Routing Proposal](https://wiki.openstreetmap.org/wiki/Proposal:Power_routing_proposal) [[Talk](https://wiki.openstreetmap.org/wiki/Proposal_talk:Power_routing_proposal)]
+
+### Statistics
 * [OSM History Analyser](https://dashboard.ohsome.org/) [Code](https://github.com/giscience/ohsome-dashboard)
 * [OSMstats](https://osmstats.neis-one.org/)
 * [How did you contribute to OpenStreetMap](https://hdyc.neis-one.org/)
 * [Create a HeatMap of your Contribution](https://yosmhm.neis-one.org/)
-
-### Good Practices in Power Routing
-* [Power Routing Proposal](https://wiki.openstreetmap.org/wiki/Proposal:Power_routing_proposal) [[Talk](https://wiki.openstreetmap.org/wiki/Proposal_talk:Power_routing_proposal)]
 
 ### Quality Assurance Tools
 * [osmose](https://osmose.openstreetmap.fr/en/map/#loc=7/45.06/-122.762&level=1%2C2%2C3&tags=power&item=7040%2C7190%2C8270%2C8280%2C8281%2C8282%2C8290%2C9100)
