@@ -169,6 +169,9 @@
 ### PGRID
 * [PGRID: Power Grid Reconstruction in Informal Developments Using High-Resolution Aerial Imagery - Paper](https://arxiv.org/html/2412.07944v1)
 * [turkana-grid-mapping - Repository](https://github.com/USAFORUNHCRhive/turkana-grid-mapping)
+   
+### A Dataset for Multi-Size Power Line Assets Detection in High-Resolution UAV Images
+* [STN PLAD](https://github.com/andreluizbvs/PLAD)
 
 ### GridTracer
 * [GridTracer - Automatic Mapping of Power Grids using Deep Learning and Overhead Imagery](https://arxiv.org/abs/2101.06390)
