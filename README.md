@@ -233,7 +233,8 @@
 * [Key:power](https://wiki.openstreetmap.org/wiki/Key:power)
 * [Power:proposals](https://wiki.openstreetmap.org/wiki/Key:power#Proposals)
 * [Power Tag Statistics](https://taginfo.openstreetmap.org/keys/power)
-* [Key:line_management](https://wiki.openstreetmap.org/wiki/Key:line_management) 
+* [Key:line_management](https://wiki.openstreetmap.org/wiki/Key:line_management)
+* [Key:proposed](https://wiki.openstreetmap.org/wiki/Key:proposed) 
 
 ### Good Practices in Power Routing
 * [Power Routing Proposal](https://wiki.openstreetmap.org/wiki/Proposal:Power_routing_proposal) [[Talk](https://wiki.openstreetmap.org/wiki/Proposal_talk:Power_routing_proposal)]
