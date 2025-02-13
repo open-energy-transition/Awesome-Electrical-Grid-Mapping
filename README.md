@@ -19,7 +19,7 @@
 * [GridFinder](https://gridfinder.rdrn.me/) [[Code](https://github.com/carderne/gridfinder)]
 * [FLOSM Power Grid](https://www.flosm.org/en/powergrid.html)
 * [Electricity Maps - Electricity Grid Carbon Emissions](https://app.electricitymaps.com/) [[Code](https://github.com/electricitymaps/electricitymaps-contrib)]
-* [Global Energy Monior] (https://globalenergymonitor.org/)
+* [Global Energy Monior](https://globalenergymonitor.org/)
 
 ### Africa
 * [Africa Electricity Grids Explorer](https://africagrid.energydata.info/)
@@ -81,7 +81,7 @@
 * [Electric Generation and Transportation Maps - Argentina](http://datos.energia.gob.ar/dataset/generacion-transporte-electrico)
 * [Map of the electrical grid in Chile](https://energiamaps.cne.cl/)
 * [LUMA Energy Puerto Rico](https://www.arcgis.com/home/webmap/viewer.html?webmap=37f6415eb74e49e4842947ece321e276)
-* [Portal Energetico America Latina --- generators, oil/gas pipelines, coal terminals, LNG import/export terminals] (https://portalenergetico.org/es/map/)
+* [Portal Energetico America Latina --- generators, oil/gas pipelines, coal terminals, LNG import/export terminals](https://portalenergetico.org/es/map/)
 
 ### Other Data Catalogs 
 * [ENERGYDATA.INFO](https://energydata.info/) - Open Data and Analytics for a sustainable energy future
