@@ -228,10 +228,6 @@
 
 ## Electrical Grid Mapping in OpenStreetMap
 
-### Data Import
-* [Importing is the process of uploading external data to OSM.](https://wiki.openstreetmap.org/wiki/Import)
-* [Import/Catalogue](https://wiki.openstreetmap.org/wiki/Import/Catalogue)
-
 ### Forums and Community
 * [Power Networks](https://wiki.openstreetmap.org/wiki/Power_networks)
 * [Power Forum Posts](https://community.openstreetmap.org/tag/power)
@@ -278,6 +274,11 @@
 
 ### Diaries and Blogs
 * [InfosReseaux's Diary](https://www.openstreetmap.org/user/InfosReseaux/diary)
+
+### Data Import
+* [Importing is the process of uploading external data to OSM.](https://wiki.openstreetmap.org/wiki/Import)
+* [Import/Catalogue](https://wiki.openstreetmap.org/wiki/Import/Catalogue)
+* [Import/Guidelines](https://wiki.openstreetmap.org/wiki/Import/Guidelines)
 
 ## Grid Design Basics 
 ### Grid Design
