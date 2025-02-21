@@ -277,6 +277,7 @@
 * [InfosReseaux's Diary](https://www.openstreetmap.org/user/InfosReseaux/diary)
 
 ### Data Import
+* [Verifiability](https://wiki.openstreetmap.org/wiki/Verifiability)
 * [Importing is the process of uploading external data to OSM.](https://wiki.openstreetmap.org/wiki/Import)
 * [Import/Catalogue](https://wiki.openstreetmap.org/wiki/Import/Catalogue)
 * [Import/Guidelines](https://wiki.openstreetmap.org/wiki/Import/Guidelines)
