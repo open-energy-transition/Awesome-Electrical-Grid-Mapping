@@ -284,6 +284,9 @@
 * [Import/Guidelines](https://wiki.openstreetmap.org/wiki/Import/Guidelines)
 
 ## Grid Design Basics 
+### Courses 
+* [Transmission Line Theory](https://innovationspace.ansys.com/product/transmission-line-theory/)
+
 ### Grid Design
 * [How Does the Power Grid Work?](https://www.youtube.com/watch?v=v1BMWczn7JM&t=214s)
 * [Line Design Principles - Powerlink Queensland](https://www.nrel.gov/docs/fy24osti/85880.pd)
