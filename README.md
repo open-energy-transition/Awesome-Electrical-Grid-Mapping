@@ -286,7 +286,8 @@
 ## Grid Design Basics 
 ### Theory 
 * [Transmission Line Theory](https://innovationspace.ansys.com/product/transmission-line-theory/)
-* [Purdue University - Transmission Line]([https://github.com/open-energy-transition/Awesome-Electric-Grid-Mapping](https://engineering.purdue.edu/wcchew/ece604f20/Lecture%20Notes/Lect11.pdf)
+* [Purdue University - Transmission Lines](https://engineering.purdue.edu/wcchew/ece604f20/Lecture%20Notes/Lect11.pdf)
+* [Purdue University - Introduction to Transmission Lines](https://www.youtube.com/watch?v=vair5b23j7M)
 
 ### Grid Design
 * [How Does the Power Grid Work?](https://www.youtube.com/watch?v=v1BMWczn7JM&t=214s)
