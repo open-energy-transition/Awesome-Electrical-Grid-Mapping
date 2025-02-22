@@ -286,6 +286,7 @@
 ## Grid Design Basics 
 ### Theory 
 * [Transmission Line Theory](https://innovationspace.ansys.com/product/transmission-line-theory/)
+* [Energy Industry Applications of GIS](https://www.e-education.psu.edu/geog469/)
 * [Purdue University - Transmission Lines](https://engineering.purdue.edu/wcchew/ece604f20/Lecture%20Notes/Lect11.pdf)
 * [Purdue University - Introduction to Transmission Lines](https://www.youtube.com/watch?v=vair5b23j7M)
 
