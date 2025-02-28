@@ -291,6 +291,7 @@
 * [Purdue University - Introduction to Transmission Lines](https://www.youtube.com/watch?v=vair5b23j7M)
 
 ### Grid Design
+* [A Field Guide To Transmission Lines](https://hackaday.com/2019/06/11/a-field-guide-to-transmission-lines/)
 * [How Does the Power Grid Work?](https://www.youtube.com/watch?v=v1BMWczn7JM&t=214s)
 * [Line Design Principles - Powerlink Queensland](https://www.nrel.gov/docs/fy24osti/85880.pd)
 * [Explained: Fundamentals of Power Grid - Reliability and Clean Electricity](https://www.nrel.gov/docs/fy24osti/85880.pdf)
