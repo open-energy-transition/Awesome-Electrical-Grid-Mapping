@@ -284,7 +284,8 @@
 * [Import/Guidelines](https://wiki.openstreetmap.org/wiki/Import/Guidelines)
 
 ## Grid Design Basics 
-### Theory 
+### Theory
+* [The Learning Curve](https://www.youtube.com/@TheLearningCurveBenila)
 * [Transmission Line Theory](https://innovationspace.ansys.com/product/transmission-line-theory/)
 * [Energy Industry Applications of GIS](https://www.e-education.psu.edu/geog469/)
 * [Purdue University - Transmission Lines](https://engineering.purdue.edu/wcchew/ece604f20/Lecture%20Notes/Lect11.pdf)
