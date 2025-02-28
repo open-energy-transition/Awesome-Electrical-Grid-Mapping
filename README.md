@@ -289,6 +289,7 @@
 * [Energy Industry Applications of GIS](https://www.e-education.psu.edu/geog469/)
 * [Purdue University - Transmission Lines](https://engineering.purdue.edu/wcchew/ece604f20/Lecture%20Notes/Lect11.pdf)
 * [Purdue University - Introduction to Transmission Lines](https://www.youtube.com/watch?v=vair5b23j7M)
+* [Comparison between HVAC and HVDC transmission system](https://www.youtube.com/watch?v=l9nHs8e0WUg)
 
 ### Grid Design
 * [A Field Guide To Transmission Lines](https://hackaday.com/2019/06/11/a-field-guide-to-transmission-lines/)
