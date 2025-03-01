@@ -85,6 +85,8 @@
 * [Map of the electrical grid in Chile](https://energiamaps.cne.cl/)
 * [LUMA Energy Puerto Rico](https://www.arcgis.com/home/webmap/viewer.html?webmap=37f6415eb74e49e4842947ece321e276)
 * [Portal Energetico America Latina --- generators, oil/gas pipelines, coal terminals, LNG import/export terminals](https://portalenergetico.org/es/map/)
+* [Instructivos de restitución del SIN (Sistema Interconectado Nacional) de Bolivia](https://www.cndc.bo/media/archivos/normas/Instructivos_de_Restitucion_del_SIN.pdf)
+* [Subestaciones en Bolivia](https://www.scribd.com/document/425875074/Subestaciones-en-Bolivia)
 
 ### Other Data Catalogs 
 * [ENERGYDATA.INFO](https://energydata.info/) - Open Data and Analytics for a sustainable energy future
