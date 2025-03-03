@@ -87,6 +87,7 @@
 * [Portal Energetico America Latina --- generators, oil/gas pipelines, coal terminals, LNG import/export terminals](https://portalenergetico.org/es/map/)
 * [Instructivos de restitución del SIN (Sistema Interconectado Nacional) de Bolivia](https://www.cndc.bo/media/archivos/normas/Instructivos_de_Restitucion_del_SIN.pdf)
 * [Subestaciones en Bolivia](https://www.scribd.com/document/425875074/Subestaciones-en-Bolivia)
+* [COES Lineas existentes Peru](https://www.coes.org.pe/Portal/Operacion/CaractSEIN/MapaSEIN#)
 
 ### Other Data Catalogs 
 * [ENERGYDATA.INFO](https://energydata.info/) - Open Data and Analytics for a sustainable energy future
