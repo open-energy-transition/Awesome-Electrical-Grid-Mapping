@@ -301,6 +301,7 @@
 * [Line Design Principles - Powerlink Queensland](https://www.nrel.gov/docs/fy24osti/85880.pd)
 * [Explained: Fundamentals of Power Grid - Reliability and Clean Electricity](https://www.nrel.gov/docs/fy24osti/85880.pdf)
 * [Components of a High Voltage Electrical Transmission Line](https://www.youtube.com/watch?v=m4bZaLkwfis)
+* [Identify equipment in a substation](https://www.youtube.com/watch?v=t-FE-8Sj6cI)
 
 ### Voltage Estimation
 * [Identifying the voltage level by number of insulator disks](https://www.reddit.com/r/Damnthatsinteresting/comments/ukc24p/identifying_the_voltage_level_by_number_of/)
