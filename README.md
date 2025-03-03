@@ -300,6 +300,7 @@
 * [How Does the Power Grid Work?](https://www.youtube.com/watch?v=v1BMWczn7JM&t=214s)
 * [Line Design Principles - Powerlink Queensland](https://www.nrel.gov/docs/fy24osti/85880.pd)
 * [Explained: Fundamentals of Power Grid - Reliability and Clean Electricity](https://www.nrel.gov/docs/fy24osti/85880.pdf)
+* [Components of a High Voltage Electrical Transmission Line] (https://www.youtube.com/watch?v=m4bZaLkwfis)
 
 ### Voltage Estimation
 * [Identifying the voltage level by number of insulator disks](https://www.reddit.com/r/Damnthatsinteresting/comments/ukc24p/identifying_the_voltage_level_by_number_of/)
