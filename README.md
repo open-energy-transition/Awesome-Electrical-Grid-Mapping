@@ -302,6 +302,7 @@
 * [Explained: Fundamentals of Power Grid - Reliability and Clean Electricity](https://www.nrel.gov/docs/fy24osti/85880.pdf)
 * [Components of a High Voltage Electrical Transmission Line](https://www.youtube.com/watch?v=m4bZaLkwfis)
 * [Identify equipment in a substation](https://www.youtube.com/watch?v=t-FE-8Sj6cI)
+* [Let's trace the power lines all the way to the power plant](https://www.youtube.com/watch?v=UBt1uJuz0-4&list=PLXb3r5ny8_1Xkd9Ht6wiQEAiF1mtAfmGS&index=32)
 
 ### Voltage Estimation
 * [Identifying the voltage level by number of insulator disks](https://www.reddit.com/r/Damnthatsinteresting/comments/ukc24p/identifying_the_voltage_level_by_number_of/)
