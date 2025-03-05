@@ -90,6 +90,7 @@
 * [Instructivos de restitución del SIN (Sistema Interconectado Nacional) de Bolivia](https://www.cndc.bo/media/archivos/normas/Instructivos_de_Restitucion_del_SIN.pdf)
 * [Subestaciones en Bolivia](https://www.scribd.com/document/425875074/Subestaciones-en-Bolivia)
 * [COES Lineas existentes Peru](https://www.coes.org.pe/Portal/Operacion/CaractSEIN/MapaSEIN#)
+* [Sistema Transmision Costa Rica](https://datos-ice-se.opendata.arcgis.com/search?tags=transmisi%25C3%25B3n%2Csubestaciones%2Ctransmision)
 
 ### Other Data Catalogs 
 * [ENERGYDATA.INFO](https://energydata.info/) - Open Data and Analytics for a sustainable energy future
