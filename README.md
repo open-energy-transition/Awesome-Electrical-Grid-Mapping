@@ -30,6 +30,7 @@
 * [Somalia - Mini-Grids With MV Lines](https://energydata.info/dataset/somalia-mini-grids-with-mv-lines)
 * [Morocco - Electricity Transmission Network](https://energydata.info/dataset/morocco-electricity-transmission-network-2014)
 * [Nigeria - Dataset for the Nigerian 50-Bus 330 kV Power Grid](https://zenodo.org/records/12091189)
+* [GRID3 NGA - Other POI: Energy and Electricity Substations](https://data.grid3.org/datasets/GRID3::grid3-nga-other-poi-energy-and-electricity-substations/explore)
 
 ### Asia
 * [Energy Map of India](https://vedas.sac.gov.in/energymap/view/powergis.jsp) (Based on OpenStreetMap Data)
