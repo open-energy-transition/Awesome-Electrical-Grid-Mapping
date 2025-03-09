@@ -36,6 +36,8 @@
 * [THE ENERGY YEAR - Nigeria Grid Map 2021](https://d3jmgibn6sgz2k.cloudfront.net/wp-content/uploads/2021/11/09164603/TCN_Nigeria21.pdf)
 * [THE ENERGY YEAR - Ghana’s Transmission System 2022](https://d3jmgibn6sgz2k.cloudfront.net/wp-content/uploads/2022/02/03083842/The-Energy-Year-Ghana-2022-GRIDCo-Map.pdf)
 * [Rapid Assessment and Gap Analysis - Angola](https://www.seforall.org/sites/default/files/l/2015/05/Angola_RAGA.pdf)
+* [Southern African Power Pool map](https://www.sapp.co.zw/sapp-sadc-grid-map)
+* [Southern-Eastern Africa RE Zones](https://mapre.es.ucsb.edu/project/searez/)
 
 ### Asia
 * [Energy Map of India](https://vedas.sac.gov.in/energymap/view/powergis.jsp) (Based on OpenStreetMap Data)
