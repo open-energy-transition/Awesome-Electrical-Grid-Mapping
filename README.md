@@ -34,6 +34,7 @@
 * [Nigeriase4all - Power sector data explorer](https://apps.nigeriase4all.gov.ng/power-sector?grid_buffer=4.5&state=oyo)
 * [Eletricidade de Moçambique-Priorities 2021-2030](https://www.edm.co.mz/projectos)
 * [THE ENERGY YEAR - Nigeria Grid Map 2021](https://d3jmgibn6sgz2k.cloudfront.net/wp-content/uploads/2021/11/09164603/TCN_Nigeria21.pdf)
+* [THE ENERGY YEAR - Ghana’s Transmission System 2022](https://d3jmgibn6sgz2k.cloudfront.net/wp-content/uploads/2022/02/03083842/The-Energy-Year-Ghana-2022-GRIDCo-Map.pdf)
 
 ### Asia
 * [Energy Map of India](https://vedas.sac.gov.in/energymap/view/powergis.jsp) (Based on OpenStreetMap Data)
