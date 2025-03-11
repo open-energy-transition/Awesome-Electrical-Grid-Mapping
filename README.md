@@ -99,6 +99,7 @@
 * [Subestaciones en Bolivia](https://www.scribd.com/document/425875074/Subestaciones-en-Bolivia)
 * [COES Lineas existentes Peru](https://www.coes.org.pe/Portal/Operacion/CaractSEIN/MapaSEIN#)
 * [Sistema Transmision Costa Rica](https://datos-ice-se.opendata.arcgis.com/search?tags=transmisi%25C3%25B3n%2Csubestaciones%2Ctransmision)
+* [Sistema Eletrico Brasileiro](https://eletrobras.com/pt/Paginas/Sistema-Eletrico-Brasileiro.aspx)
 
 ### Other Data Catalogs 
 * [ENERGYDATA.INFO](https://energydata.info/) - Open Data and Analytics for a sustainable energy future
