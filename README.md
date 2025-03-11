@@ -38,6 +38,7 @@
 * [Rapid Assessment and Gap Analysis - Angola](https://www.seforall.org/sites/default/files/l/2015/05/Angola_RAGA.pdf)
 * [Southern African Power Pool map](https://www.sapp.co.zw/sapp-sadc-grid-map)
 * [Southern-Eastern Africa RE Zones](https://mapre.es.ucsb.edu/project/searez/)
+* [Transmission Company of Nigeria - Offical Grid Map](https://nsong.org/App_Themes/Blue/images/NationalGrid.png)
 
 ### Asia
 * [Energy Map of India](https://vedas.sac.gov.in/energymap/view/powergis.jsp) (Based on OpenStreetMap Data)
