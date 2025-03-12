@@ -104,6 +104,7 @@
 * [Portal Energetico America Latina --- generators, oil/gas pipelines, coal terminals, LNG import/export terminals](https://portalenergetico.org/es/map/)
 * [Instructivos de restitución del SIN (Sistema Interconectado Nacional) de **Bolivia**](https://www.cndc.bo/media/archivos/normas/Instructivos_de_Restitucion_del_SIN.pdf)
 * [Subestaciones en **Bolivia**](https://www.scribd.com/document/425875074/Subestaciones-en-Bolivia)
+* [Transmission grid map of Bolivia 2024](https://geoportal.mhe.gob.bo/layers/geonode:transmision_sin_20220810/layer_export#/)
 * [COES Lineas existentes **Peru**](https://www.coes.org.pe/Portal/Operacion/CaractSEIN/MapaSEIN#)
 * [Sistema Eletrico **Brasileiro**](https://eletrobras.com/pt/Paginas/Sistema-Eletrico-Brasileiro.aspx)
 
