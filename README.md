@@ -71,8 +71,8 @@
 * [Substations **UK**](https://zenodo.org/records/10866260)
 * [**Albania** Transmission system](https://ost.al/en/transmission-system/description-of-the-transmission-system/)
 * [REE Map of Substations - **Spain**](https://www.ree.es/es/transporte-electricidad/proyectos-transporte/mapa-proyectos)
-* [Map of Transmission system in the Newspaper most updated](https://www.mepso.com.mk/index.php/en/enewspaper)
-* [Map of Transmission lines clearest but no voltages](https://www.mepso.com.mk/images/2024/12/25/image_2024-12-25_114449525__1844x1289.png)
+* [**North Macedonia** Map of Transmission system in the Newspaper most updated](https://www.mepso.com.mk/index.php/en/enewspaper)
+* [**North Macedonia** Map of Transmission lines clearest but no voltages](https://www.mepso.com.mk/images/2024/12/25/image_2024-12-25_114449525__1844x1289.png)
 
 ### North America (Canada+USA)
 * [US Infrastructure Foundation-Level Data - Transmission Lines](https://hifld-geoplatform.hub.arcgis.com/datasets/bd24d1a282c54428b024988d32578e59_0/explore?location=36.525107%2C-119.281684%2C7.96)
