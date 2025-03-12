@@ -70,6 +70,7 @@
 * [Substations Italy - Gestore dei servizi energetici](https://mappe.gse.it/portal/apps/experiencebuilder/experience/?id=7cdfc4cfb0bb4beead292e9290fdeebd)
 * [Substations UK](https://zenodo.org/records/10866260)
 * [Albania Transmission system](https://ost.al/en/transmission-system/description-of-the-transmission-system/)
+* [REE Map of Substations - Spain](https://www.ree.es/es/transporte-electricidad/proyectos-transporte/mapa-proyectos)
 
 ### North America
 * [US Infrastructure Foundation-Level Data - Transmission Lines](https://hifld-geoplatform.hub.arcgis.com/datasets/bd24d1a282c54428b024988d32578e59_0/explore?location=36.525107%2C-119.281684%2C7.96)
@@ -101,6 +102,7 @@
 * [COES Lineas existentes Peru](https://www.coes.org.pe/Portal/Operacion/CaractSEIN/MapaSEIN#)
 * [Sistema Transmision Costa Rica](https://datos-ice-se.opendata.arcgis.com/search?tags=transmisi%25C3%25B3n%2Csubestaciones%2Ctransmision)
 * [Sistema Eletrico Brasileiro](https://eletrobras.com/pt/Paginas/Sistema-Eletrico-Brasileiro.aspx)
+* [Substations Costa Rica](https://datos-ice-se.opendata.arcgis.com/datasets/f3fceca2659b4ecf8a5c2632e04aff1f_0/about)
 
 ### Other Data Catalogs 
 * [ENERGYDATA.INFO](https://energydata.info/) - Open Data and Analytics for a sustainable energy future
