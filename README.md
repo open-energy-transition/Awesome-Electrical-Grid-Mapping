@@ -26,7 +26,6 @@
 ### Africa
 * [Africa Electricity Grids Explorer](https://africagrid.energydata.info/)
 * [Med-TSO - Mediterranean](https://med-tso.org/en/map-of-the-interconnected-electricity-transmission-networks-2024/)
-* [KETRACO Transmission Lines - **Kenya**](https://www.arcgis.com/apps/View/index.html?appid=c0380471ddae454e9a12b5b98f4ef64a)
 * [**Somalia** - Mini-Grids With MV Lines](https://energydata.info/dataset/somalia-mini-grids-with-mv-lines)
 * [**Morocco** - Electricity Transmission Network](https://energydata.info/dataset/morocco-electricity-transmission-network-2014)
 * [**Nigeria** - Dataset for the Nigerian 50-Bus 330 kV Power Grid](https://zenodo.org/records/12091189)
@@ -40,6 +39,7 @@
 * [Southern-Eastern Africa RE Zones](https://mapre.es.ucsb.edu/project/searez/)
 * [Transmission Company of **Nigeria** - Offical Grid Map](https://nsong.org/App_Themes/Blue/images/NationalGrid.png)
 * [GIS for the Energy Sector of **Uganda**](https://energy-gis.ug/gis-maps)
+* [KETRACO Transmission Master Plan 2023/2042 of **Kenya**](https://drive.google.com/file/d/1p_j3pJT4sdOcxo1Msfo180yLEQYjj8hA/view)
 
 ### Asia
 * [Energy Map of **India**](https://vedas.sac.gov.in/energymap/view/powergis.jsp) (Based on OpenStreetMap Data)
