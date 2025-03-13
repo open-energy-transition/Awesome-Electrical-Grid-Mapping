@@ -39,6 +39,7 @@
 * [Southern African Power Pool map](https://www.sapp.co.zw/sapp-sadc-grid-map)
 * [Southern-Eastern Africa RE Zones](https://mapre.es.ucsb.edu/project/searez/)
 * [Transmission Company of **Nigeria** - Offical Grid Map](https://nsong.org/App_Themes/Blue/images/NationalGrid.png)
+* [GIS for the Energy Sector of **Uganda**](https://energy-gis.ug/gis-maps)
 
 ### Asia
 * [Energy Map of **India**](https://vedas.sac.gov.in/energymap/view/powergis.jsp) (Based on OpenStreetMap Data)
