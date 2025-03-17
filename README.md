@@ -99,6 +99,7 @@
 * [Mapa del Sistema Eléctrico Nacional - **Mexico**](https://energia.conacyt.mx/planeas/electricidad/sistema-electrico-nacional)
 * [Portal Energetico America Latina --- generators, oil/gas pipelines, coal terminals, LNG import/export terminals](https://portalenergetico.org/es/map/)
 * [Latin America Energy Outlook Interactive Map](https://www.iea.org/data-and-statistics/data-tools/latin-america-energy-outlook-interactive-map) (Based on OpenStreetMap Data)
+* [Interactive Transmission Map **Nicaragua**](https://energiayminas.mem.gob.ni/Transmision)
 ### South America
 * [Webmap EPE - **Brazil** Transmission Grid](https://gisepeprd2.epe.gov.br/WebMapEPE/)
 * [Latin America Energy Outlook Interactive Map](https://www.iea.org/data-and-statistics/data-tools/latin-america-energy-outlook-interactive-map) (Based on OpenStreetMap Data)
