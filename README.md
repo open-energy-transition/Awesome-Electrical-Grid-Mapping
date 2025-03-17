@@ -290,6 +290,7 @@
 * [MapWithAI](https://github.com/JOSM/MapWithAI)
 * [fAIr](https://github.com/hotosm/fAIr)
 * [JOSM Power Styles by InfosReseaux](https://josm.openstreetmap.de/wiki/Styles/Power)
+* [MapCSS Syntax Highlighter](https://marketplace.visualstudio.com/items?itemName=whammo.mapcss-syntax)
 * [PicLayer](https://wiki.openstreetmap.org/wiki/JOSM/Plugins/PicLayer)
 * [OpenData](https://wiki.openstreetmap.org/wiki/JOSM/Plugins/OpenData)
 * [esri-dump](https://github.com/openaddresses/pyesridump)
