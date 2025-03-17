@@ -40,6 +40,7 @@
 * [Transmission Company of **Nigeria** - Offical Grid Map](https://nsong.org/App_Themes/Blue/images/NationalGrid.png)
 * [GIS for the Energy Sector of **Uganda**](https://energy-gis.ug/gis-maps)
 * [KETRACO Transmission Master Plan 2023/2042 of **Kenya**](https://drive.google.com/file/d/1p_j3pJT4sdOcxo1Msfo180yLEQYjj8hA/view)
+* [Central Africa Power Pool](https://www.peac-sig.org/en/systeme-d-information-3.html)
 
 ### Asia
 * [Energy Map of **India**](https://vedas.sac.gov.in/energymap/view/powergis.jsp) (Based on OpenStreetMap Data)
