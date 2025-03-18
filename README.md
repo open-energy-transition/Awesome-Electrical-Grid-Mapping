@@ -13,7 +13,7 @@
 </tr>
 </table>
 
-⚠️ **If you're eager to get started with transmission grid mapping in OpenStreetMap, check out the [Grid Mapping Starter Kit](https://github.com/open-energy-transition/grid-mapping-starter-kit).** ⚠️
+⚠️ **If you're eager to get started with transmission grid mapping in OpenStreetMap, check out the [Grid Mapping Starter Kit](https://github.com/open-energy-transition/grid-mapping-starter-kit) and [our community discord channel](https://discord.gg/6bPK5TXn).** ⚠️
 
 ## Grid Explorer and National Datasets
 ### Global 
