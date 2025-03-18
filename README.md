@@ -42,6 +42,7 @@
 * [KETRACO Transmission Master Plan 2023/2042 of **Kenya**](https://drive.google.com/file/d/1p_j3pJT4sdOcxo1Msfo180yLEQYjj8hA/view)
 * [Central Africa Power Pool](https://www.peac-sig.org/en/systeme-d-information-3.html)
 * [Plan d’Affaires Stratégique 2025-2028 du PEAC](https://peac-ac.org/wp-content/uploads/2025/02/plan-daffaires_PEAC_VF.pdf)
+* [POWER SYSTEM MASTER PLAN 2020 UPDATE_2023 of **Tanzania**](https://www.tanesco.co.tz/attachments/investments/investment_reports/WiYQwYs5IKHKkgiIEGW8WS0wqf_nsG3K_POWER%20SYSTEM%20MASTER%20PLAN%202020%20UPDATE_2023_09_12_07_39_38.pdf)
 
 ### Asia
 * [Energy Map of **India**](https://vedas.sac.gov.in/energymap/view/powergis.jsp) (Based on OpenStreetMap Data)
