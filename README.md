@@ -58,6 +58,7 @@
 * [**Philippines** Transmission Development Plan 2020-2040](https://www.ngcp.ph/Attachment-Uploads/TDP%202020-2040%20Consultation%20Draft%20Volume%201%20Major%20Network%20Development_-2020-02-10-17-38-50.pdf)
 * [**Vietnam** - Electricity Transmission Network](https://energydata.info/dataset/vietnam-electricity-transmission-network)
 * [**Nepal**-Nepal electricity authority annual report](https://www.nea.org.np/admin/assets/uploads/annual_publications/NEA_Annual_Report_2081_New.pdf)
+* [**Turkey** Turkey's Power Grid] (https://www.climatescorecard.org/2023/01/turkeys-power-grid/)
 
 ### Australia and New Zealand
 * [Electricity Transmission Lines - Digital Atlas Australia](https://digital.atlas.gov.au/datasets/digitalatlas::electricity-transmission-lines/explore)
@@ -81,6 +82,14 @@
 * [**France** Structural french grid data with detailed topology time series](https://github.com/rte-france/structural-french-grid-data-with-detailed-topology-time-series)
 * [**Bulgaria**Electricity Production & Transmission Network](https://bgenh.com/en/page/47/Electricity.html)
 * [**Bulgaria** Electricity trasnsmission system](https://www.eso.bg/doc?13)
+* [**Hungary** Electricity infrastructure\] (https://www.iea.org/articles/hungary-electricity-security-policy)
+* [**Western Balkans** Transmission grid in Albania, Bosnia & Herzegovina, Kosovo, N. Macedonia, Montenegro, Serbia\] (https://wb6energyprospect.com/maps.php?mapa=6)
+* [**Serbia** The Electric Power System of Serbia - pdf \] (https://www.cigre.org/userfiles/files/Community/National%20Power%20System/PowerPoint%20Presentation%20-%202020%20National%20Power%20System%20Report%20of%20CIGRE%20Serbia.pdf)
+* [**Kosovo** Transmission system\] (https://www.ero-ks.org/zrre/en/pjesemarresit-ne-treg/energjia-elektrike/transmetimi)
+* [**Lithuania** Litgrid Transmission Network\] (https://www.litgrid.eu/index.php/power-system/power-system-information/transmission-grid-/544)
+* [**Lithuania** Litgrid Transmission Network\] (https://www.iea.org/articles/lithuania-electricity-security-policy)
+* [**Latvia** Transmission network and substations\] (https://www.ast.lv/en/transmission-network-info/transmission-network-and-substations)
+* [**Estonia** Map of the network\] (https://elering.ee/en/map-network)
 
 ### North America (Canada+USA)
 * [US Infrastructure Foundation-Level Data - Transmission Lines](https://hifld-geoplatform.hub.arcgis.com/datasets/bd24d1a282c54428b024988d32578e59_0/explore?location=36.525107%2C-119.281684%2C7.96)
