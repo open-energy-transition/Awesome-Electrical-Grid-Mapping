@@ -22,6 +22,7 @@
 * [FLOSM Power Grid](https://www.flosm.org/en/powergrid.html)
 * [Electricity Maps - Electricity Grid Carbon Emissions](https://app.electricitymaps.com/) [[Code](https://github.com/electricitymaps/electricitymaps-contrib)]
 * [Global Energy Monitor](https://globalenergymonitor.org/)
+* [The Global Transmission Database](https://github.com/Electricity-Transmission-Database/electricity-transmission-database)
 
 ### Africa
 * [Africa Electricity Grids Explorer](https://africagrid.energydata.info/)
