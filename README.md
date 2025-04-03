@@ -23,6 +23,7 @@
 * [Electricity Maps - Electricity Grid Carbon Emissions](https://app.electricitymaps.com/) [[Code](https://github.com/electricitymaps/electricitymaps-contrib)]
 * [Global Energy Monitor](https://globalenergymonitor.org/)
 * [The Global Transmission Database](https://github.com/Electricity-Transmission-Database/electricity-transmission-database)
+* [HVDC World GLobal Map](https://www.hvdcworld.com/hvdc-map)
 
 ### Africa
 * [Africa Electricity Grids Explorer](https://africagrid.energydata.info/)
