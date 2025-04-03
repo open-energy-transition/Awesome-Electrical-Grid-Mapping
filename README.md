@@ -23,7 +23,7 @@
 * [Electricity Maps - Electricity Grid Carbon Emissions](https://app.electricitymaps.com/) [[Code](https://github.com/electricitymaps/electricitymaps-contrib)]
 * [Global Energy Monitor](https://globalenergymonitor.org/)
 * [The Global Transmission Database](https://github.com/Electricity-Transmission-Database/electricity-transmission-database)
-* [HVDC World GLobal Map](https://www.hvdcworld.com/hvdc-map)
+* [HVDC World Global Map](https://www.hvdcworld.com/hvdc-map)
 
 ### Africa
 * [Africa Electricity Grids Explorer](https://africagrid.energydata.info/)
@@ -85,7 +85,7 @@
 * [**Bulgaria**Electricity Production & Transmission Network](https://bgenh.com/en/page/47/Electricity.html)
 * [**Bulgaria** Electricity trasnsmission system](https://www.eso.bg/doc?13)
 * [**Hungary** Electricity infrastructure](https://www.iea.org/articles/hungary-electricity-security-policy)
-* [**Western Balkans** Transmission grid in Albania, Bosnia & Herzegovina, Kosovo, N. Macedonia, Montenegro, Serbia\] (https://wb6energyprospect.com/maps.php?mapa=6)
+* [**Western Balkans** Transmission grid in Albania, Bosnia & Herzegovina, Kosovo, N. Macedonia, Montenegro, Serbia](https://wb6energyprospect.com/maps.php?mapa=6)
 * [**Serbia** The Electric Power System of Serbia - pdf](https://www.cigre.org/userfiles/files/Community/National%20Power%20System/PowerPoint%20Presentation%20-%202020%20National%20Power%20System%20Report%20of%20CIGRE%20Serbia.pdf)
 * [**Kosovo** Transmission system](https://www.ero-ks.org/zrre/en/pjesemarresit-ne-treg/energjia-elektrike/transmetimi)
 * [**Lithuania** Litgrid Transmission Network](https://www.litgrid.eu/index.php/power-system/power-system-information/transmission-grid-/544)
