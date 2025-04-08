@@ -16,14 +16,20 @@
 ⚠️ **If you're eager to get started with transmission grid mapping in OpenStreetMap, check out the [Grid Mapping Starter Kit](https://github.com/open-energy-transition/grid-mapping-starter-kit) and [our community discord channel](https://discord.gg/a5znpdFWfD).** ⚠️
 
 ## Grid Explorer and National Datasets
-### Global 
+### Global Data Catalogs 
 * [Open Infrastructure Map](https://openinframap.org/) [[Code](https://github.com/openinframap/openinframap)]
 * [GridFinder](https://gridfinder.rdrn.me/) [[Code](https://github.com/carderne/gridfinder)]
 * [FLOSM Power Grid](https://www.flosm.org/en/powergrid.html)
 * [Electricity Maps - Electricity Grid Carbon Emissions](https://app.electricitymaps.com/) [[Code](https://github.com/electricitymaps/electricitymaps-contrib)]
 * [Global Energy Monitor](https://globalenergymonitor.org/)
-* [The Global Transmission Database](https://github.com/Electricity-Transmission-Database/electricity-transmission-database)
+* [The Global Transmission Database](https://github.com/Electricity-Transmission-Database/electricity-transmission-database) [Code](https://github.com/Electricity-Transmission-Database/electricity-transmission-database)
 * [HVDC World Global Map](https://www.hvdcworld.com/hvdc-map)
+* [ENERGYDATA.INFO](https://energydata.info/) - Open Data and Analytics for a sustainable energy future
+* [Transmission network datasets wiki of openmod](https://wiki.openmod-initiative.org/wiki/Transmission_network_datasets) 
+* [Open Energy Platform Grid Data](https://openenergyplatform.org/dataedit/view/grid)
+* [Electricitymaps Data Sources](https://github.com/electricitymaps/electricitymaps-contrib/blob/master/DATA_SOURCES.md)
+* [openAfrica](https://www.open.africa/)
+* [Global Renewables Watch](https://www.globalrenewableswatch.org/)
 
 ### Africa
 * [Africa Electricity Grids Explorer](https://africagrid.energydata.info/)
@@ -128,14 +134,6 @@
 * [Transmission grid map of Bolivia 2024](https://geoportal.mhe.gob.bo/layers/geonode:transmision_sin_20220810/layer_export#/)
 * [COES Lineas existentes **Peru**](https://www.coes.org.pe/Portal/Operacion/CaractSEIN/MapaSEIN#)
 * [Sistema Eletrico **Brasileiro**](https://eletrobras.com/pt/Paginas/Sistema-Eletrico-Brasileiro.aspx)
-
-### Other Data Catalogs 
-* [ENERGYDATA.INFO](https://energydata.info/) - Open Data and Analytics for a sustainable energy future
-* [Transmission network datasets wiki of openmod](https://wiki.openmod-initiative.org/wiki/Transmission_network_datasets) 
-* [Global Transmission Database](https://zenodo.org/records/10870602) - Consists of comprehensive data regarding existing and planned cross-border transmission capacities globally collated from public sources.
-* [Open Energy Platform Grid Data](https://openenergyplatform.org/dataedit/view/grid)
-* [Electricitymaps Data Sources](https://github.com/electricitymaps/electricitymaps-contrib/blob/master/DATA_SOURCES.md)
-* [openAfrica - Substations](https://www.open.africa/dataset/?q=substations&sort=metadata_modified+desc)
 
 ## Scientific Publications
 * [Predictive mapping of the global power system using open data](https://www.nature.com/articles/s41597-019-0347-4)
