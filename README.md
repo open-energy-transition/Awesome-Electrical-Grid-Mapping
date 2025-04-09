@@ -52,6 +52,7 @@
 * [Plan d’Affaires Stratégique 2025-2028 du PEAC](https://peac-ac.org/wp-content/uploads/2025/02/plan-daffaires_PEAC_VF.pdf)
 * [POWER SYSTEM MASTER PLAN 2020 UPDATE_2023 of **Tanzania**](https://www.tanesco.co.tz/attachments/investments/investment_reports/WiYQwYs5IKHKkgiIEGW8WS0wqf_nsG3K_POWER%20SYSTEM%20MASTER%20PLAN%202020%20UPDATE_2023_09_12_07_39_38.pdf) - (**Includes capacity data**)
 * [Regional Electricity Interconnection of **Africa** - 2023](https://africa-eu-energy-partnership.org/regional-electricity-interconnection-and-market-integration-in-africa-is-taking-huge-strides-forward/)
+* [West African Power Pool (WAPP) - 2017](https://www.ecowapp.org/sites/default/files/wapp_map_general_optimized.gif)
 
 ### Asia
 * [Energy Map of **India**](https://vedas.sac.gov.in/energymap/view/powergis.jsp) (Based on OpenStreetMap Data)
