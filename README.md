@@ -7,7 +7,7 @@
 </td>
 <td>
 
-<img src="oh_my_grid_logo.png" alt="Global Grid Mapping" width="350">
+<img src="ohmygrid-logo.png" alt="Global Grid Mapping" width="350">
 
 </td>
 </tr>
