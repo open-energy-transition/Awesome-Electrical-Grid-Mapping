@@ -7,7 +7,7 @@
 </td>
 <td>
 
-<img src="ohmygrid-logo.png" alt="Global Grid Mapping" width="350">
+<img src="https://raw.githubusercontent.com/open-energy-transition/Awesome-Electric-Grid-Mapping/refs/heads/main/ohmygrid-logo.png" alt="Global Grid Mapping" width="350">
 
 </td>
 </tr>
