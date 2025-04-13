@@ -71,6 +71,7 @@
 * [**Nepal**-Nepal electricity authority annual report](https://www.nea.org.np/admin/assets/uploads/annual_publications/NEA_Annual_Report_2081_New.pdf)
 * [**Turkey** Turkey's Power Grid](https://www.climatescorecard.org/2023/01/turkeys-power-grid/)
 * [**Georgia** Ten Year development plan](https://gse.com.ge/communication/Publications/Ten-Year-Network-Development-Plan-of-Georgia)
+* [**Jordan** Electic System - National Electric Power Company](https://nepco.com.jo/en/JordanElecticSystem.aspx)
 
 ### Australia and New Zealand
 * [Electricity Transmission Lines - Digital Atlas Australia](https://digital.atlas.gov.au/datasets/digitalatlas::electricity-transmission-lines/explore)
