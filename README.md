@@ -67,7 +67,7 @@
 * [(**Malaysia**) Sarawak Power Generation and Network](https://www.sarawakenergy.com/assets/images/power-generation/map.png)
 * [(**Malaysia**) Sabah Energy Roadmap and Master Plan 2040](https://ecos.gov.my/sites/default/files/uploads/downloads/2023-09/SABAH%20ENERGY%20ROADMAP%20AND%20MASTER%20PLAN%202040%20%28SE-RAMP%202040%29.pdf)
 * [**Myanmar** Existing Power Grid and Under Construction Projects](https://www.moep.gov.mm/en/ignite/page/641)
-* [**Philippines** Transmission Development Plan 2020-2040](https://www.ngcp.ph/Attachment-Uploads/TDP%202020-2040%20Consultation%20Draft%20Volume%201%20Major%20Network%20Development_-2020-02-10-17-38-50.pdf)
+* [**Philippines** Transmission Development Plan 2020-2040](https://web.archive.org/web/20250317060959/https://ngcp.ph/Attachment-Uploads/TDP%202023-2040%20Consultation%20Report-2023-06-15-07-54-06.pdf)
 * [**Vietnam** - Electricity Transmission Network](https://energydata.info/dataset/vietnam-electricity-transmission-network)
 * [**Nepal**-Nepal electricity authority annual report](https://www.nea.org.np/admin/assets/uploads/annual_publications/NEA_Annual_Report_2081_New.pdf)
 * [**Turkey** Turkey's Power Grid](https://www.climatescorecard.org/2023/01/turkeys-power-grid/)
@@ -78,6 +78,7 @@
 * [United Nations - Energy Connectivity in **Central Asia** - An inventory of existing national energy systems](https://unece.org/sites/default/files/2024-02/EN_Energy%20Connectivity%20in%20Central%20Asia_V2.pdf)
 * [Power Grid Company of **Bangladesh**](https://pgcb.portal.gov.bd/sites/default/files/files/pgcb.portal.gov.bd/download/4f660a85_ef1d_4be7_8944_16562129c3f1/2020-07-27-09-44-6c67edf0a0e3c9debd68cd95dece815b.pdf)
 * [Overview of Energy/Electricity demand and Renewable energy potential in **Mongolia**](https://www.renewable-ei.org/images/pdf/20160525/Enebish_Namjil.pdf)
+* [National Transmission Company **South Africa** - Transmission Development Plan 2025](https://www.ntcsa.co.za/wp-content/uploads/2024/11/TDP2024_Public_Forum_Presentation_30Oct2024_Final_Pack_Rev1.pdf)
 
 ### Australia and New Zealand
 * [Electricity Transmission Lines - Digital Atlas Australia](https://digital.atlas.gov.au/datasets/digitalatlas::electricity-transmission-lines/explore)
