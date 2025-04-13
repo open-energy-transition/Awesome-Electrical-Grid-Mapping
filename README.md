@@ -72,7 +72,8 @@
 * [**Turkey** Turkey's Power Grid](https://www.climatescorecard.org/2023/01/turkeys-power-grid/)
 * [**Georgia** Ten Year development plan](https://gse.com.ge/communication/Publications/Ten-Year-Network-Development-Plan-of-Georgia)
 * [**Jordan** Electic System - National Electric Power Company](https://nepco.com.jo/en/JordanElecticSystem.aspx)
-* [Schematic map of electrical networks 1150-500-220-110 kV UPS of the Republic of **Kazakhstan** as of 2025](https://www.kegoc.kz/electric-power/natsionalnaya-energosistema/%D0%9A%D0%B0%D1%80%D1%82%D0%B0%20%D1%81%D1%85%D0%B5%D0%BC%D0%B0%20%D0%95%D0%AD%D0%A1%20%D0%9A%D0%B0%D0%B7%D0%B0%D1%85%D1%81%D1%82%D0%B0%D0%BD%D0%B0-2025%20%D0%B4%D0%BB%D1%8F%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0%20en.%20cdr.pdf)
+* [**Kazakhstan** electrical networks as of 2025](https://www.kegoc.kz/electric-power/natsionalnaya-energosistema/%D0%9A%D0%B0%D1%80%D1%82%D0%B0%20%D1%81%D1%85%D0%B5%D0%BC%D0%B0%20%D0%95%D0%AD%D0%A1%20%D0%9A%D0%B0%D0%B7%D0%B0%D1%85%D1%81%D1%82%D0%B0%D0%BD%D0%B0-2025%20%D0%B4%D0%BB%D1%8F%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0%20en.%20cdr.pdf)
+* [**Iran** Map of the High Voltage Grid)](https://www.cigre.org/userfiles/files/Community/NC/2018_National-power-system_Iran.pdf)
 
 ### Australia and New Zealand
 * [Electricity Transmission Lines - Digital Atlas Australia](https://digital.atlas.gov.au/datasets/digitalatlas::electricity-transmission-lines/explore)
