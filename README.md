@@ -55,6 +55,9 @@
 * [Regional Electricity Interconnection of **Africa** - 2023](https://africa-eu-energy-partnership.org/regional-electricity-interconnection-and-market-integration-in-africa-is-taking-huge-strides-forward/)
 * [West African Power Pool (WAPP) - 2017](https://www.ecowapp.org/sites/default/files/wapp_map_general_optimized.gif)
 * [Gulf Cooperation Council Interconnection Authority](https://gccia.com.sa/gccia-grid/our-existing-network/)
+* [National Transmission Company **South Africa** - Generation Connection Capacity Assessment](https://app.powerbi.com/view?r=eyJrIjoiMGY3ODI4NWQtMWZkMS00YjJjLTk1YTUtOWEyYTk0NDdhMWQ3IiwidCI6IjkzYWVkYmRjLWNjNjctNDY1Mi1hYTEyLWQyNTBhODc2YWU3OSIsImMiOjh9)
+* [National Transmission Company **South Africa** - Transmission Development Plan 2025](https://www.ntcsa.co.za/wp-content/uploads/2024/11/TDP2024_Public_Forum_Presentation_30Oct2024_Final_Pack_Rev1.pdf)
+
 
 ### Asia
 * [Energy Map of **India**](https://vedas.sac.gov.in/energymap/view/powergis.jsp) (Based on OpenStreetMap Data)
@@ -78,7 +81,6 @@
 * [United Nations - Energy Connectivity in **Central Asia** - An inventory of existing national energy systems](https://unece.org/sites/default/files/2024-02/EN_Energy%20Connectivity%20in%20Central%20Asia_V2.pdf)
 * [Power Grid Company of **Bangladesh**](https://pgcb.portal.gov.bd/sites/default/files/files/pgcb.portal.gov.bd/download/4f660a85_ef1d_4be7_8944_16562129c3f1/2020-07-27-09-44-6c67edf0a0e3c9debd68cd95dece815b.pdf)
 * [Overview of Energy/Electricity demand and Renewable energy potential in **Mongolia**](https://www.renewable-ei.org/images/pdf/20160525/Enebish_Namjil.pdf)
-* [National Transmission Company **South Africa** - Transmission Development Plan 2025](https://www.ntcsa.co.za/wp-content/uploads/2024/11/TDP2024_Public_Forum_Presentation_30Oct2024_Final_Pack_Rev1.pdf)
 
 ### Australia and New Zealand
 * [Electricity Transmission Lines - Digital Atlas Australia](https://digital.atlas.gov.au/datasets/digitalatlas::electricity-transmission-lines/explore)
