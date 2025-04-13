@@ -128,6 +128,7 @@
 * [Portal Energetico America Latina --- generators, oil/gas pipelines, coal terminals, LNG import/export terminals](https://portalenergetico.org/es/map/)
 * [Latin America Energy Outlook Interactive Map](https://www.iea.org/data-and-statistics/data-tools/latin-america-energy-outlook-interactive-map) (Based on OpenStreetMap Data)
 * [Interactive Transmission Map **Nicaragua**](https://energiayminas.mem.gob.ni/Transmision)
+
 ### South America
 * [Webmap EPE - **Brazil** Transmission Grid](https://gisepeprd2.epe.gov.br/WebMapEPE/)
 * [Latin America Energy Outlook Interactive Map](https://www.iea.org/data-and-statistics/data-tools/latin-america-energy-outlook-interactive-map) (Based on OpenStreetMap Data)
@@ -139,6 +140,7 @@
 * [Transmission grid map of Bolivia 2024](https://geoportal.mhe.gob.bo/layers/geonode:transmision_sin_20220810/layer_export#/)
 * [COES Lineas existentes **Peru**](https://www.coes.org.pe/Portal/Operacion/CaractSEIN/MapaSEIN#)
 * [Sistema Eletrico **Brasileiro**](https://eletrobras.com/pt/Paginas/Sistema-Eletrico-Brasileiro.aspx)
+* [Red de Trasmisión - Unifilar Geográfico **Uruguay**](https://portal.ute.com.uy/sites/default/files/generico/Red%20TRA%20existente%20A0.pdf)
 
 ## Scientific Publications
 * [Predictive mapping of the global power system using open data](https://www.nature.com/articles/s41597-019-0347-4)
