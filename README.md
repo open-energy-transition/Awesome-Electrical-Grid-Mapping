@@ -30,6 +30,7 @@
 * [Electricitymaps Data Sources](https://github.com/electricitymaps/electricitymaps-contrib/blob/master/DATA_SOURCES.md)
 * [openAfrica](https://www.open.africa/)
 * [Global Renewables Watch](https://www.globalrenewableswatch.org/)
+* [The Utility Performance and Behavior Today (UPBEAT) platform - WorldBank](https://utilityperformance.energydata.info/utilities/)
 
 ### Africa
 * [Africa Electricity Grids Explorer](https://africagrid.energydata.info/)
