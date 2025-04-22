@@ -47,6 +47,7 @@
 * [Southern African Power Pool map](https://www.sapp.co.zw/sapp-sadc-grid-map)
 * [Southern-Eastern Africa RE Zones](https://mapre.es.ucsb.edu/project/searez/)
 * [Transmission Company of **Nigeria** - Offical Grid Map](https://nsong.org/App_Themes/Blue/images/NationalGrid.png)
+* [Nigeria - Details of Power Plants (Existing and Planned - 2020 to 2030)-](https://web.archive.org/web/20220826200109/https://data.nigeriase4all.gov.ng/documents/357/download)
 * [GIS for the Energy Sector of **Uganda**](https://energy-gis.ug/gis-maps)
 * [KETRACO Transmission Master Plan 2023/2042 of **Kenya**](https://drive.google.com/file/d/1p_j3pJT4sdOcxo1Msfo180yLEQYjj8hA/view)
 * [Central Africa Power Pool](https://www.peac-sig.org/en/systeme-d-information-3.html)
