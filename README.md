@@ -15,7 +15,7 @@
 
 ⚠️ **If you're eager to get started with transmission grid mapping in OpenStreetMap, check out the [Grid Mapping Starter Kit](https://github.com/open-energy-transition/grid-mapping-starter-kit) and [our community discord channel](https://discord.gg/a5znpdFWfD).** ⚠️
 
-> If for some reason a link is broken, or you find a map with a broken link that you would like to add to this list, just try the link at the [Internet Archive](https://web.archive.org/). This even works for PDFs and other files.
+> If a link is broken, or you find a map with a broken link that you would like to add to this list, just try the link at the [Internet Archive](https://web.archive.org/). This even works for PDFs and other files.
 
 ## Grid Explorer and National Datasets
 ### Global Data Catalogs 
