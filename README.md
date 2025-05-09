@@ -97,6 +97,7 @@
 ### Europe 
 * [ENTSO-E Transmission System Map](https://www.entsoe.eu/data/map/)
 * [JAO Static Grid Model](https://www.jao.eu/sites/default/files/static-grid/) - (**Includes capacity data**)
+* [50Herz - Static Grid Model](https://web.archive.org/web/20250317194153/https://www.50hertz.com/de/Transparenz/Kennzahlen/Netzdaten/StatischesNetzmodell)
 * [National Grid **UK**](https://www.nationalgrid.com/electricity-transmission/network-and-infrastructure/network-route-maps)
 * [Uebertragungsnetz.de - **Germany** Grid Live Data](https://www.uebertragungsnetz.de/)
 * [Substations **Italy** - Gestore dei servizi energetici](https://mappe.gse.it/portal/apps/experiencebuilder/experience/?id=7cdfc4cfb0bb4beead292e9290fdeebd)
