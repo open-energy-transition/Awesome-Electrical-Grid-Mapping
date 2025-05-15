@@ -60,6 +60,7 @@
 * [Gulf Cooperation Council Interconnection Authority](https://gccia.com.sa/gccia-grid/our-existing-network/)
 * [National Transmission Company **South Africa** - Generation Connection Capacity Assessment](https://app.powerbi.com/view?r=eyJrIjoiMGY3ODI4NWQtMWZkMS00YjJjLTk1YTUtOWEyYTk0NDdhMWQ3IiwidCI6IjkzYWVkYmRjLWNjNjctNDY1Mi1hYTEyLWQyNTBhODc2YWU3OSIsImMiOjh9)
 * [National Transmission Company **South Africa** - Transmission Development Plan 2025](https://www.ntcsa.co.za/wp-content/uploads/2024/11/TDP2024_Public_Forum_Presentation_30Oct2024_Final_Pack_Rev1.pdf)
+* [Africa Knowledge Platform-European Comission](https://africa-knowledge-platform.ec.europa.eu/explore_maps)
 
 
 ### Asia
