@@ -64,6 +64,7 @@
 
 ### Asia
 * [Energy Map of **India**](https://vedas.sac.gov.in/energymap/view/powergis.jsp) (Based on OpenStreetMap Data)
+* [The Map of **Sri Lanka** Transmission Grid - 2023](https://www.ceb.lk/transmission/en)
 * [Baker Institute **China** Energy Map](https://www.bakerinstitute.org/chinas-energy-infrastructure)
 * [OSW Project Areas & Transmission Lines - **Japan**](https://www.renewable-ei.org/statistics/offshoremap/?page=en) - (**Includes capacity data**)
 * [ASEAN Energy Database - **South-East Asia**](https://www.arcgis.com/apps/View/index.html?appid=a840b350e8744ef6a523abd361f10738)
