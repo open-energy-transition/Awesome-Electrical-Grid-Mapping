@@ -120,6 +120,7 @@
 * [**Latvia** Transmission network and substations](https://www.ast.lv/en/transmission-network-info/transmission-network-and-substations)
 * [**Estonia** Map of the network](https://elering.ee/en/map-network)
 * [**Belqium** High-voltage transmission lines](https://www.elia.be/en/infrastructure-and-projects/our-infrastructure)
+* [**Bosnia-Herzegovina** Map of EES 2024](https://www.derk.ba/en/ees-bih/ees-map)
 
 ### North America (Canada+USA)
 * [US Infrastructure Foundation-Level Data - Transmission Lines](https://hifld-geoplatform.hub.arcgis.com/datasets/bd24d1a282c54428b024988d32578e59_0/explore?location=36.525107%2C-119.281684%2C7.96)
