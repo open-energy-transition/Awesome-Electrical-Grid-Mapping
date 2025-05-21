@@ -127,6 +127,7 @@
 * [EIA U.S. Energy Atlas](https://atlas.eia.gov/datasets/geoplatform::transmission-lines/)
 * [U.S. Electric Power Transmission Lines](https://resilience.climate.gov/datasets/fedmaps::u-s-electric-power-transmission-lines/)
 * [California Energy Commision - Electric Transmission Lines](https://cecgis-caenergy.opendata.arcgis.com/datasets/260b4513acdb4a3a8e4d64e69fc84fee_2/explore)
+* [California Electric Transmission Lines](https://data.ca.gov/dataset/california-electric-transmission-lines)
 * [ERCOT Transmission Grid Map - Texas](https://www.ercot.com/gridinfo/transmission) (Can only be visited from the US)
 * [California Electric Substations](https://databasin.org/datasets/cb9ff78949db409f83d4d6ca38f707bf/)
 * [US Electric Substations](https://catalog.data.gov/dataset/electric-substations)
