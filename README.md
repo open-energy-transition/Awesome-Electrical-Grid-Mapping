@@ -127,6 +127,7 @@
 * [**Poland** - Grid Capacity](https://www.pse.pl/obszary-dzialalnosci/krajowy-system-elektroenergetyczny/informacja-o-dostepnosci-mocy-przylaczeniowej)
 * [**Denmark** - Grid Capacity](https://storymaps.arcgis.com/stories/eb5b387e376f49b8996d5e7c47fbdd37)
 * [**Austria** - Grid Capacity](https://www.ebutilities.at/verfuegbare-netzanschlusskapazitaeten)
+* [**Netherland** - Grid Capacity](https://data.partnersinenergie.nl/capaciteitskaart/totaal/afname)
 
 ### North America (Canada+USA)
 * [US Infrastructure Foundation-Level Data - Transmission Lines](https://hifld-geoplatform.hub.arcgis.com/datasets/bd24d1a282c54428b024988d32578e59_0/explore?location=36.525107%2C-119.281684%2C7.96)
