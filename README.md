@@ -121,6 +121,8 @@
 * [**Estonia** Map of the network](https://elering.ee/en/map-network)
 * [**Belqium** High-voltage transmission lines](https://www.elia.be/en/infrastructure-and-projects/our-infrastructure)
 * [**Bosnia-Herzegovina** Map of EES 2024](https://www.derk.ba/en/ees-bih/ees-map)
+* [**Portugal** Available Hosting Capacity in the National Distribution Grid](https://e-redes.opendatasoft.com/pages/capacidade_rececao_rnd/)
+* [**Spain** edistribucion -  Capacity access at network nodes ](https://www.edistribucion.com/en/red-electrica/Nodos_capacidad_acceso.html)
 
 ### North America (Canada+USA)
 * [US Infrastructure Foundation-Level Data - Transmission Lines](https://hifld-geoplatform.hub.arcgis.com/datasets/bd24d1a282c54428b024988d32578e59_0/explore?location=36.525107%2C-119.281684%2C7.96)
