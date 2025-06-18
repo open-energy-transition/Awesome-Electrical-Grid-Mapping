@@ -126,7 +126,7 @@
 * [**Spain** edistribucion -  Capacity access at network nodes ](https://www.edistribucion.com/en/red-electrica/Nodos_capacidad_acceso.html)
 * [**Poland** - Grid Capacity](https://www.pse.pl/obszary-dzialalnosci/krajowy-system-elektroenergetyczny/informacja-o-dostepnosci-mocy-przylaczeniowej)
 * [**Denmark** - Grid Capacity](https://storymaps.arcgis.com/stories/eb5b387e376f49b8996d5e7c47fbdd37)
-* [**Denmark** - Connection Points in the Electricity Grid](https://www.energidataservice.dk/tso-electricity/ConnectionPointsInGrid)
+* [**Denmark** - Connection Points in the Electricity Grid and Voltage Levels](https://www.energidataservice.dk/tso-electricity/ConnectionPointsInGrid)
 * [**Austria** - Grid Capacity](https://www.ebutilities.at/verfuegbare-netzanschlusskapazitaeten)
 * [**Netherland** - Grid Capacity](https://data.partnersinenergie.nl/capaciteitskaart/totaal/afname)
 * [**Estonia** - Capacity Map](https://elering.ee/)
