@@ -33,6 +33,7 @@
 * [openAfrica](https://www.open.africa/)
 * [Global Renewables Watch](https://www.globalrenewableswatch.org/)
 * [The Utility Performance and Behavior Today (UPBEAT) platform - WorldBank](https://utilityperformance.energydata.info/utilities/)
+* [AllThePlaces](https://alltheplaces.xyz/spiders.html) - Scraped electricity grid data from open data sources in various formats and using OSM's tagging scheme
 
 ### Africa
 * [Africa Electricity Grids Explorer](https://africagrid.energydata.info/)
