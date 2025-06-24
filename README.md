@@ -176,7 +176,7 @@
 * [Sistema Eletrico **Brasileiro**](https://eletrobras.com/pt/Paginas/Sistema-Eletrico-Brasileiro.aspx)
 * [Red de Trasmisión - Unifilar Geográfico **Uruguay**](https://portal.ute.com.uy/sites/default/files/generico/Red%20TRA%20existente%20A0.pdf)
 * [Transmisión de energía eléctrica-UPME **Colombia**](https://www.upme.gov.co/simec/energia-electrica/transmision-de-energia-electrica/)
-* [Transmission grid **Colombia**](https://paratec.xm.com.co/mapa)
+* [Transmission grid **Colombia**](https://paratec.xm.com.co/mapa) - (**Includes capacity data**)
 
 ## Scientific Publications
 * [Predictive mapping of the global power system using open data](https://www.nature.com/articles/s41597-019-0347-4)
