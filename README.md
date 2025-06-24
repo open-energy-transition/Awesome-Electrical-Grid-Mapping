@@ -167,6 +167,7 @@
 * [Latin America Energy Outlook Interactive Map](https://www.iea.org/data-and-statistics/data-tools/latin-america-energy-outlook-interactive-map) (Based on OpenStreetMap Data)
 * [Electric Generation and Transportation Maps - **Argentina**](http://datos.energia.gob.ar/dataset/generacion-transporte-electrico)
 * [Map of the electrical grid in **Chile**](https://energiamaps.cne.cl/)
+* [Sistema Eléctrico Nacional **Chile**](https://infotecnica.coordinador.cl/)
 * [Portal Energetico America Latina --- generators, oil/gas pipelines, coal terminals, LNG import/export terminals](https://portalenergetico.org/es/map/)
 * [Instructivos de restitución del SIN (Sistema Interconectado Nacional) de **Bolivia**](https://www.cndc.bo/media/archivos/normas/Instructivos_de_Restitucion_del_SIN.pdf)
 * [Subestaciones en **Bolivia**](https://www.scribd.com/document/425875074/Subestaciones-en-Bolivia) - (**Includes capacity data**)
