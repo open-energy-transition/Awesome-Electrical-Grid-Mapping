@@ -222,6 +222,7 @@
 * [Transmission Adequacy in India: Building a resilient and sustainable grid](https://powerline.net.in/2024/10/05/transmission-adequacy-in-india-building-a-resilient-and-sustainable-grid-2/)
 * [These 8 Countries Are Scaling Up Renewable Energy the Fastest](https://www.wri.org/insights/countries-scaling-renewable-energy-fastest)
 * [Explainer: Why Nigeria's power grid is failing](https://www.reuters.com/world/africa/why-nigerias-power-grid-is-failing-2024-12-11/)
+* [Ember - Africa Electricity Data Transparency](https://ember-energy.org/latest-insights/africa-electricity-data-transparency/)
 
 ## Presentation and Videos 
 * [Pinpointing the power grid](https://www.youtube.com/watch?v=KlZ1ijWxKkw)
