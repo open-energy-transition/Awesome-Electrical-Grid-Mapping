@@ -181,6 +181,7 @@
 * [Transmisión de energía eléctrica-UPME **Colombia**](https://www.upme.gov.co/simec/energia-electrica/transmision-de-energia-electrica/)
 * [Transmission grid **Colombia**](https://paratec.xm.com.co/mapa) - (**Includes capacity data**)
 * [**Equador** - Mapa del Sistema Nacional de Transmisión por zonas operativas](https://www.celec.gob.ec/transelectric/mapa-del-sistema-nacional-de-transmision-por-zonas-operativas/)
+* [**Argentina**](https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/sig/2024mapas/generacion_electrica.pdf)
 
 ## Scientific Publications
 * [Predictive mapping of the global power system using open data](https://www.nature.com/articles/s41597-019-0347-4)
