@@ -226,6 +226,7 @@
 * [These 8 Countries Are Scaling Up Renewable Energy the Fastest](https://www.wri.org/insights/countries-scaling-renewable-energy-fastest)
 * [Explainer: Why Nigeria's power grid is failing](https://www.reuters.com/world/africa/why-nigerias-power-grid-is-failing-2024-12-11/)
 * [Ember - Africa Electricity Data Transparency](https://ember-energy.org/latest-insights/africa-electricity-data-transparency/)
+* [Ember - Asian Electricity Data Transparency](https://ember-energy.org/latest-insights/asian-electricity-data-transparency/)
 
 ## Presentation and Videos 
 * [Pinpointing the power grid](https://www.youtube.com/watch?v=KlZ1ijWxKkw)
