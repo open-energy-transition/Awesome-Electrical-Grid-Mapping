@@ -13,7 +13,7 @@
 </tr>
 </table>
 
-⚠️ **If you're eager to get started with transmission grid mapping in OpenStreetMap, check out the [Starter Kit Tutorial](https://ohmygrid.org/starter-kit/) and [our community discord channel](https://discord.gg/a5znpdFWfD) of #ohmygrid. Please note that the maps shown here are used to estimate the coverage in OpenStreetMap and to find missing lines. Do not copy/paste data from these maps directly into your OpenStreetMap layer. Each data point of the transmission network must be set manually and [verified](https://wiki.openstreetmap.org/wiki/Verifiability) with official satellite data provided by the OpenStreetMap community.** ⚠️
+⚠️ **If you're eager to get started with transmission grid mapping in OpenStreetMap, check out the [Starter Kit Tutorial](https://mapyourgrid.org/starter-kit/) and [our community discord channel](https://discord.gg/a5znpdFWfD) of #ohmygrid. Please note that the maps shown here are used to estimate the coverage in OpenStreetMap and to find missing lines. Do not copy/paste data from these maps directly into your OpenStreetMap layer. Each data point of the transmission network must be set manually and [verified](https://wiki.openstreetmap.org/wiki/Verifiability) with official satellite data provided by the OpenStreetMap community.** ⚠️
 
 > If a link is broken, or you find a map with a broken link that you would like to add to this list, just try the link at the [Internet Archive](https://web.archive.org/). This even works for PDFs and other files.
 
