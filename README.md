@@ -90,6 +90,7 @@
 * [Power Grid Company of **Bangladesh**](https://pgcb.portal.gov.bd/sites/default/files/files/pgcb.portal.gov.bd/download/4f660a85_ef1d_4be7_8944_16562129c3f1/2020-07-27-09-44-6c67edf0a0e3c9debd68cd95dece815b.pdf)
 * [Overview of Energy/Electricity demand and Renewable energy potential in **Mongolia**](https://www.renewable-ei.org/images/pdf/20160525/Enebish_Namjil.pdf)
 * [**South Korea** - Transmission Map](https://www.e2news.com/news/articleView.html?idxno=236289)
+* [**Cambodia** - Transmission Map page 71](https://admin.edc.com.kh/images/annuallyreport/def65040b39aa223f54ff3d577b336e3.pdf)
 
 ### Australia and New Zealand
 * [Electricity Transmission Lines - Digital Atlas Australia](https://digital.atlas.gov.au/datasets/digitalatlas::electricity-transmission-lines/explore)
