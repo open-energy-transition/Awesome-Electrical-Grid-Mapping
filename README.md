@@ -101,6 +101,7 @@
 * [Geoscience Australia - National Electricity Transmission Substations](https://data.gov.au/dataset/ds-aurin-666888c5-546d-42c9-8e64-845a099acdbb/)
 
 ### Europe 
+* [ENTSO-E_Grid_Map_Continental_Europe](https://eepublicdownloads.entsoe.eu/clean-documents/Publications/maps/2024/ENTSOE_Grid_Map_Continental_Europe.pdf)
 * [ENTSO-E Transmission System Map](https://www.entsoe.eu/data/map/)
 * [JAO Static Grid Model](https://www.jao.eu/sites/default/files/static-grid/) - (**Includes capacity data**)
 * [50Herz - Static Grid Model](https://web.archive.org/web/20250317194153/https://www.50hertz.com/de/Transparenz/Kennzahlen/Netzdaten/StatischesNetzmodell)
