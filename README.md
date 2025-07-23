@@ -229,6 +229,7 @@
 * [Explainer: Why Nigeria's power grid is failing](https://www.reuters.com/world/africa/why-nigerias-power-grid-is-failing-2024-12-11/)
 * [Ember - Africa Electricity Data Transparency](https://ember-energy.org/latest-insights/africa-electricity-data-transparency/)
 * [Ember - Asian Electricity Data Transparency](https://ember-energy.org/latest-insights/asian-electricity-data-transparency/)
+* [Mini Grids for Half a Billion People](https://www.esmap.org/sites/default/files/esmap-files/Mini%20Grids%20for%20Half%20a%20Billion%20People%20-%20OKR%20Download%20Version_compressed_MKA.pdf)
 
 ## Presentation and Videos 
 * [Pinpointing the power grid](https://www.youtube.com/watch?v=KlZ1ijWxKkw)
