@@ -202,6 +202,7 @@
 * [Inverse methods: How feasible are spatially low-resolved capacity expansion modelling results when disaggregated at high spatial resolution?](https://www.sciencedirect.com/science/article/pii/S036054422301527X?via%3Dihub)
 * [A comparison of clustering methods for the spatial reduction of renewable electricity optimisation models of Europe](https://energyinformatics.springeropen.com/articles/10.1186/s42162-022-00187-7)
 * [A Reproducible Method for Mapping Electricity Transmission Infrastructure for Space Weather Risk Assessment](https://arxiv.org/pdf/2412.17685)
+* [Risk of Tropical Cyclones and Floods to Power Grids in Southeast and East Asia](https://www.esmap.org/sites/default/files/esmap-files/Mini%20Grids%20for%20Half%20a%20Billion%20People%20-%20OKR%20Download%20Version_compressed_MKA.pdf)
 
 ## Policy
 * [Grids, the missing link - An EU Action Plan for Grids](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:52023DC0757)
