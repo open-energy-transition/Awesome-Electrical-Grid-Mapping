@@ -67,8 +67,9 @@
 
 ### Asia
 * [Energy Map of **India**](https://vedas.sac.gov.in/energymap/view/powergis.jsp) (Based on OpenStreetMap Data)
-* [National Electricity Plan **India**](https://cea.nic.in/wp-content/uploads/psp___a_i/2024/01/Draft_NEP_Vol_II.pdf)
-* [**Pakistan** Generation and Transmission System Expansion](https://eco.int/wp-content/uploads/2024/12/Annex-IX-Presentation-of-Pakistan.pdf)
+* [**India** - National Electricity Plan](https://cea.nic.in/wp-content/uploads/psp___a_i/2024/01/Draft_NEP_Vol_II.pdf)
+* [**Pakistan** - Generation and Transmission System Expansion](https://eco.int/wp-content/uploads/2024/12/Annex-IX-Presentation-of-Pakistan.pdf)
+* [**Pakistan** - NTDC Revised Transmission Investment Plan FY 2023-2025](https://www.nepra.org.pk/Admission%20Notices/2023/10%20Oct/NTDC%20Revised%20Investment%20Plan.pdf)
 * [The Map of **Sri Lanka** Transmission Grid - 2023](https://www.ceb.lk/transmission/en)
 * [Baker Institute **China** Energy Map](https://www.bakerinstitute.org/chinas-energy-infrastructure)
 * [OSW Project Areas & Transmission Lines - **Japan**](https://www.renewable-ei.org/statistics/offshoremap/?page=en) - (**Includes capacity data**)
