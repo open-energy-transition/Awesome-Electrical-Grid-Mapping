@@ -63,6 +63,7 @@
 * [National Transmission Company **South Africa** - Transmission Development Plan 2025](https://www.ntcsa.co.za/wp-content/uploads/2024/11/TDP2024_Public_Forum_Presentation_30Oct2024_Final_Pack_Rev1.pdf)
 * [Africa Knowledge Platform-European Comission](https://africa-knowledge-platform.ec.europa.eu/explore_maps)
 * [Integrated Resource Plan 2023 **Zambia**](https://www.moe.gov.zm/wp-content/uploads/2023/11/3.-IRP-Highlights.pdf)
+* [**Rwanda**: Transmission Development Plan 2023 2030](https://www.reg.rw/fileadmin/user_upload/Updated_Rwanda_Electricity_Transmission_Development_Plan_-_June_2023.pdf)
 
 
 ### Asia
