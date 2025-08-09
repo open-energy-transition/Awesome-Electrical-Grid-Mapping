@@ -89,6 +89,7 @@
 * [**Georgia** Ten Year development plan](https://gse.com.ge/communication/Publications/Ten-Year-Network-Development-Plan-of-Georgia)
 * [**Jordan** Electic System - National Electric Power Company](https://nepco.com.jo/en/JordanElecticSystem.aspx)
 * [**Kazakhstan** electrical networks as of 2025](https://www.kegoc.kz/electric-power/natsionalnaya-energosistema/%D0%9A%D0%B0%D1%80%D1%82%D0%B0%20%D1%81%D1%85%D0%B5%D0%BC%D0%B0%20%D0%95%D0%AD%D0%A1%20%D0%9A%D0%B0%D0%B7%D0%B0%D1%85%D1%81%D1%82%D0%B0%D0%BD%D0%B0-2025%20%D0%B4%D0%BB%D1%8F%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0%20en.%20cdr.pdf)
+* [Uzbekistan](https://documents1.worldbank.org/curated/en/184411624932251299/pdf/Uzbekistan-Electricity-Sector-Transformation-and-Resilient-Transmission-Project.pdf)
 * [**Iran** Map of the High Voltage Grid)](https://www.cigre.org/userfiles/files/Community/NC/2018_National-power-system_Iran.pdf)
 * [United Nations - Energy Connectivity in **Central Asia** - An inventory of existing national energy systems](https://unece.org/sites/default/files/2024-02/EN_Energy%20Connectivity%20in%20Central%20Asia_V2.pdf)
 * [Power Grid Company of **Bangladesh**](https://pgcb.portal.gov.bd/sites/default/files/files/pgcb.portal.gov.bd/download/4f660a85_ef1d_4be7_8944_16562129c3f1/2020-07-27-09-44-6c67edf0a0e3c9debd68cd95dece815b.pdf)
