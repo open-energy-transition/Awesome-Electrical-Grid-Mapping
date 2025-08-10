@@ -253,6 +253,10 @@
 * [powerplantmatching](https://github.com/PyPSA/powerplantmatching/) - Set of tools to combine multiple power plant databases.
 
 ## Remote Mapping 
+
+### RetinaNet
+* [Detection of electric utility features and vegetation encroachments from satellite images using deep learning](https://developers.arcgis.com/python/latest/samples/detection-of-electric-utility-features-and-vegetation-encroachments-from-satellite-images-using-deep-learning/)
+
 ### SAR
 * [Prompt Learning for Oriented Power Transmission Tower Detection in High-Resolution SAR Images](https://arxiv.org/abs/2404.01074)
 
