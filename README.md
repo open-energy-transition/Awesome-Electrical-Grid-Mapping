@@ -183,6 +183,7 @@
 * [Latin America Energy Outlook Interactive Map](https://www.iea.org/data-and-statistics/data-tools/latin-america-energy-outlook-interactive-map) (Based on OpenStreetMap Data)
 * [Interactive Transmission Map **Nicaragua**](https://energiayminas.mem.gob.ni/Transmision)
 * [**Honduras** - Mapa del Sistema Interconectado Nacional](https://www.cree.gob.hn/mapa-del-sistema-interconectado-nacional/)
+* [**Guatemala** - Sistema Nacional Interconectado](https://www.cnee.gob.gt/wordpress/?page_id=5485)
 
 ### South America
 * [Webmap EPE - **Brazil** Transmission Grid](https://gisepeprd2.epe.gov.br/WebMapEPE/)
