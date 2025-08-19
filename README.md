@@ -202,6 +202,7 @@
 * [Transmission grid **Colombia**](https://paratec.xm.com.co/mapa) - (**Includes capacity data**)
 * [**Equador** - Mapa del Sistema Nacional de Transmisión por zonas operativas](https://www.celec.gob.ec/transelectric/mapa-del-sistema-nacional-de-transmision-por-zonas-operativas/)
 * [**Argentina**](https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/sig/2024mapas/generacion_electrica.pdf)
+* [Mapa eléctrico del **Paraguay** para el Año 2025](https://biblioteca.olade.org/opac-tmpl/Documentos/hm000691.pdf)
 
 ## Scientific Publications
 * [Predictive mapping of the global power system using open data](https://www.nature.com/articles/s41597-019-0347-4)
