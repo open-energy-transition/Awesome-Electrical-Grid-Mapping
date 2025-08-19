@@ -110,6 +110,7 @@
 * [**Papua New Guinea**’s Energy Policy and Practice for Climate and People](https://www.jubileeaustralia.org/storage/app/uploads/public/63c/daa/f1f/63cdaaf1f37ff165892315.pdf)
 * [**Laos** - Assessment of Electric Vehicle Penetration in the Lao People’s Democratic](https://www.eria.org/uploads/media/Research-Project-Report/RPR-2021-26/14_Chapter-5-Analysis-on-Impacts-to-the-Power-Sector.pdf)
 * [**South Korea** - 10th long-term transmission and substation facility plan established by KEPCO](https://www.e2news.com/news/articleView.html?idxno=253433)
+* [**Kyrgyzstan** - Transmission Grid 2020 ](https://kaktus.media/doc/444230_tyrkmenistan_bydet_davat_elektroenergiu_kyrgyzstany_gde_logika_mneniia_ekspertov.html)
 
 
 ### Australia and New Zealand
