@@ -39,6 +39,7 @@
 ### Africa
 * [Africa Electricity Grids Explorer](https://africagrid.energydata.info/)
 * [Med-TSO - Mediterranean](https://med-tso.org/en/map-of-the-interconnected-electricity-transmission-networks-2024/)
+* [West African Power Pool (WAPP) - 2017 - **Benin Burkina Faso Côte d'Ivoire Ghana Guinea Guinea-Bissau Liberia Mali Niger Nigeria Senegal Sierra Leone Togo Gambia**](https://www.ecowapp.org/sites/default/files/wapp_map_general_optimized.gif)
 * [**Somalia** - Mini-Grids With MV Lines](https://energydata.info/dataset/somalia-mini-grids-with-mv-lines)
 * [**Morocco** - Electricity Transmission Network](https://energydata.info/dataset/morocco-electricity-transmission-network-2014)
 * [**Nigeria** - Dataset for the Nigerian 50-Bus 330 kV Power Grid](https://zenodo.org/records/12091189) - (**Includes capacity data**)
@@ -50,7 +51,6 @@
 * [THE ENERGY YEAR - **Ghana**’s Transmission System 2022](https://d3jmgibn6sgz2k.cloudfront.net/wp-content/uploads/2022/02/03083842/The-Energy-Year-Ghana-2022-GRIDCo-Map.pdf)
 * [Rapid Assessment and Gap Analysis - **Angola**](https://www.seforall.org/sites/default/files/l/2015/05/Angola_RAGA.pdf)
 * [**Namibia** - NamPower’s 2024 Integrated Annual Repor](https://www.nampower.com.na/public/docs/annual-reports/NamPower_Integrated_Annual_Report_2024.pdf)
-* [Southern African Power Pool map](https://www.sapp.co.zw/sapp-sadc-grid-map)
 * [Southern-Eastern Africa RE Zones](https://mapre.es.ucsb.edu/project/searez/)
 * [Transmission Company of **Nigeria** - Offical Grid Map](https://nsong.org/App_Themes/Blue/images/NationalGrid.png)
 * [Nigeria - Details of Power Plants (Existing and Planned - 2020 to 2030)-](https://web.archive.org/web/20220826200109/https://data.nigeriase4all.gov.ng/documents/357/download)
