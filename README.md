@@ -17,6 +17,8 @@
 
 > If a link is broken, or you find a map with a broken link that you would like to add to this list, just try the link at the [Internet Archive](https://web.archive.org/). This even works for PDFs and other files.
 
+![](scripts/countries_map_with_logo.png)
+
 ## Grid Explorer and National Datasets
 ### Global Data Catalogs 
 * [Open Infrastructure Map](https://openinframap.org/) [[Code](https://github.com/openinframap/openinframap)]
