@@ -68,7 +68,7 @@
 * [Integrated Resource Plan 2023 **Zambia**](https://www.moe.gov.zm/wp-content/uploads/2023/11/3.-IRP-Highlights.pdf)
 * [**Rwanda**: Transmission Development Plan 2023 2030](https://www.reg.rw/fileadmin/user_upload/Updated_Rwanda_Electricity_Transmission_Development_Plan_-_June_2023.pdf)
 * [**Ethiopia** Electric Power](https://www.eep.com.et/?page_id=781)
-* [Energy Profile_**Zimbabwe**](https://www.zvei.org/fileadmin/user_upload/Themen/Maerkte_Recht/Aussenwirtschaft/Afrika/Simbabwe/Simbabwe-EZ-Elektro-Energie-Rohstoffe/Energy_Profile_Zimbabwe.pdf)
+* [Energy Profile **Zimbabwe**](https://www.zvei.org/fileadmin/user_upload/Themen/Maerkte_Recht/Aussenwirtschaft/Afrika/Simbabwe/Simbabwe-EZ-Elektro-Energie-Rohstoffe/Energy_Profile_Zimbabwe.pdf)
 
 
 ### Asia
@@ -88,14 +88,14 @@
 * [(**Malaysia**) Sabah Energy Roadmap and Master Plan 2040](https://ecos.gov.my/sites/default/files/uploads/downloads/2023-09/SABAH%20ENERGY%20ROADMAP%20AND%20MASTER%20PLAN%202040%20%28SE-RAMP%202040%29.pdf)
 * [**Myanmar** Existing Power Grid and Under Construction Projects](https://www.moep.gov.mm/en/ignite/page/641)
 * [**Philippines** Transmission Development Plan 2020-2040](https://web.archive.org/web/20250317060959/https://ngcp.ph/Attachment-Uploads/TDP%202023-2040%20Consultation%20Report-2023-06-15-07-54-06.pdf)
-* [**Vietnam** - Thailand Renewable Grid Integration Assessment](https://www.oecd.org/content/dam/oecd/en/publications/reports/2018/11/thailand-renewable-grid-integration-assessment_g1g993de/9789264308213-en.pdf)
+* [**Thailand** - Renewable Grid Integration Assessment](https://www.oecd.org/content/dam/oecd/en/publications/reports/2018/11/thailand-renewable-grid-integration-assessment_g1g993de/9789264308213-en.pdf)
 * [**Vietnam** - Vietnam Electricity](https://en.evn.com.vn/userfile/files/EVNAnnualReport2022-2023-20241115110735330.pdf)
 * [**Nepal**-Nepal electricity authority annual report](https://www.nea.org.np/admin/assets/uploads/annual_publications/NEA_Annual_Report_2081_New.pdf)
 * [**Turkey** Turkey's Power Grid](https://www.climatescorecard.org/2023/01/turkeys-power-grid/)
 * [**Georgia** Ten Year development plan](https://gse.com.ge/communication/Publications/Ten-Year-Network-Development-Plan-of-Georgia)
 * [**Jordan** Electic System - National Electric Power Company](https://nepco.com.jo/en/JordanElecticSystem.aspx)
 * [**Kazakhstan** electrical networks as of 2025](https://www.kegoc.kz/electric-power/natsionalnaya-energosistema/%D0%9A%D0%B0%D1%80%D1%82%D0%B0%20%D1%81%D1%85%D0%B5%D0%BC%D0%B0%20%D0%95%D0%AD%D0%A1%20%D0%9A%D0%B0%D0%B7%D0%B0%D1%85%D1%81%D1%82%D0%B0%D0%BD%D0%B0-2025%20%D0%B4%D0%BB%D1%8F%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0%20en.%20cdr.pdf)
-* [Uzbekistan](https://documents1.worldbank.org/curated/en/184411624932251299/pdf/Uzbekistan-Electricity-Sector-Transformation-and-Resilient-Transmission-Project.pdf)
+* [**Uzbekistan** - Electricity Sector Transformation and Resilient Transmission](https://documents1.worldbank.org/curated/en/184411624932251299/pdf/Uzbekistan-Electricity-Sector-Transformation-and-Resilient-Transmission-Project.pdf)
 * [**Iran** Map of the High Voltage Grid)](https://www.cigre.org/userfiles/files/Community/NC/2018_National-power-system_Iran.pdf)
 * [United Nations - Energy Connectivity in **Central Asia** - An inventory of existing national energy systems](https://unece.org/sites/default/files/2024-02/EN_Energy%20Connectivity%20in%20Central%20Asia_V2.pdf)
 * [Power Grid Company of **Bangladesh**](https://pgcb.portal.gov.bd/sites/default/files/files/pgcb.portal.gov.bd/download/4f660a85_ef1d_4be7_8944_16562129c3f1/2020-07-27-09-44-6c67edf0a0e3c9debd68cd95dece815b.pdf)
