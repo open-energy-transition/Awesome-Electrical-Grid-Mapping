@@ -73,7 +73,7 @@
 * [**Pakistan** - Generation and Transmission System Expansion](https://eco.int/wp-content/uploads/2024/12/Annex-IX-Presentation-of-Pakistan.pdf)
 * [**Pakistan** - NTDC Revised Transmission Investment Plan FY 2023-2025](https://www.nepra.org.pk/Admission%20Notices/2023/10%20Oct/NTDC%20Revised%20Investment%20Plan.pdf)
 * [The Map of **Sri Lanka** Transmission Grid - 2023](https://www.ceb.lk/transmission/en)
-* [Baker Institute **China** Energy Map](https://www.bakerinstitute.org/chinas-energy-infrastructure)
+* [Baker Institute Energy Map](https://www.bakerinstitute.org/chinas-energy-infrastructure)
 * [OSW Project Areas & Transmission Lines - **Japan**](https://www.renewable-ei.org/statistics/offshoremap/?page=en) - (**Includes capacity data**)
 * [ASEAN Energy Database - **South-East Asia**](https://www.arcgis.com/apps/View/index.html?appid=a840b350e8744ef6a523abd361f10738)
 * [ASEAN Power Grid Interconnections Project Profiles - **South-East Asia**](https://aseanenergy.org/wp-content/uploads/2024/11/ASEAN-Power-Grid-Interconnections-Project-Profiles.pdf)
