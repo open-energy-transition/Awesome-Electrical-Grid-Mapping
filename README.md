@@ -109,6 +109,8 @@
 * [The current and planned transmission grid of **Afghanistan** ](https://www.researchgate.net/figure/The-current-and-planned-transmission-grid-of-Afghanistan-19_fig6_382678716)
 * [**Papua New Guinea**’s Energy Policy and Practice for Climate and People](https://www.jubileeaustralia.org/storage/app/uploads/public/63c/daa/f1f/63cdaaf1f37ff165892315.pdf)
 * [**Laos** - Assessment of Electric Vehicle Penetration in the Lao People’s Democratic](https://www.eria.org/uploads/media/Research-Project-Report/RPR-2021-26/14_Chapter-5-Analysis-on-Impacts-to-the-Power-Sector.pdf)
+* [**South Korea** - 10th long-term transmission and substation facility plan established by KEPCO](https://www.e2news.com/news/articleView.html?idxno=253433)
+
 
 ### Australia and New Zealand
 * [Electricity Transmission Lines - Digital Atlas Australia](https://digital.atlas.gov.au/datasets/digitalatlas::electricity-transmission-lines/explore)
