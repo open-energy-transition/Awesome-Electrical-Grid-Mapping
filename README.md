@@ -70,6 +70,7 @@
 * [**Rwanda**: Transmission Development Plan 2023 2030](https://www.reg.rw/fileadmin/user_upload/Updated_Rwanda_Electricity_Transmission_Development_Plan_-_June_2023.pdf)
 * [**Ethiopia** Electric Power](https://www.eep.com.et/?page_id=781)
 * [Energy Profile **Zimbabwe**](https://www.zvei.org/fileadmin/user_upload/Themen/Maerkte_Recht/Aussenwirtschaft/Afrika/Simbabwe/Simbabwe-EZ-Elektro-Energie-Rohstoffe/Energy_Profile_Zimbabwe.pdf)
+* [**Cameroon** - Plan Directeur d’Electrification Rurale](https://rise.esmap.org/data/files/library/cameroon/Electricity%20Access/Cameroon_PDER.pdf)
 
 
 ### Asia
