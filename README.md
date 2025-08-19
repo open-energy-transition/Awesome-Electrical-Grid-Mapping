@@ -102,6 +102,7 @@
 * [Overview of Energy/Electricity demand and Renewable energy potential in **Mongolia**](https://www.renewable-ei.org/images/pdf/20160525/Enebish_Namjil.pdf)
 * [**South Korea** - Transmission Map](https://www.e2news.com/news/articleView.html?idxno=236289)
 * [**Cambodia** - Transmission Map page 71](https://admin.edc.com.kh/images/annuallyreport/def65040b39aa223f54ff3d577b336e3.pdf)
+* [**Cambodia** - Cambodia’s PDP Transmission Plan](https://www.adb.org/sites/default/files/project-documents/52096/52096-001-tacr-en_0.pdf)
 * [Transmission System Development Plan of **Nepal**](https://nepalindata.com/media/resources/items/15/bTransmission-System-Development-Plan-of-Nepal.pdf)
 * [Cooperation of energy systems in Central Asia - **Tajikistan**, **Kazakhstan**, **Kyrgyzstan** and **Turkmenistan**](https://www.newscentralasia.net/2024/06/13/sotrudnichestvo-energeticheskikh-sistem-v-tsentralnoy-azii)
 * [The current and planned transmission grid of **Afghanistan** ](https://www.researchgate.net/figure/The-current-and-planned-transmission-grid-of-Afghanistan-19_fig6_382678716)
