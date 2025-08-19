@@ -217,6 +217,7 @@
 * [**Argentina**](https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/sig/2024mapas/generacion_electrica.pdf)
 * [Mapa eléctrico del **Paraguay** para el Año 2025](https://biblioteca.olade.org/opac-tmpl/Documentos/hm000691.pdf)
 * [Electricity Sector Plan **Suriname**](https://eas.sr/wp-content/uploads/2025/05/1.-Vol-I-Stategic-Plan-Suriname-ESP-250510.pdf)
+* [Transmission and Distribution map of **Bolivia**](https://geoportal.mhe.gob.bo/maps/720)
 
 
 ## Scientific Publications
