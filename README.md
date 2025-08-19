@@ -40,6 +40,7 @@
 * [Africa Electricity Grids Explorer](https://africagrid.energydata.info/)
 * [Med-TSO - Mediterranean](https://med-tso.org/en/map-of-the-interconnected-electricity-transmission-networks-2024/)
 * [West African Power Pool (WAPP) - 2017 - **Benin Burkina Faso Côte d'Ivoire Ghana Guinea Guinea-Bissau Liberia Mali Niger Nigeria Senegal Sierra Leone Togo Gambia**](https://www.ecowapp.org/sites/default/files/wapp_map_general_optimized.gif)
+* [West African Power Pool (WAPP) - 2019](https://www.ecowapp.org/sites/default/files/wapp_final_map_0.pdf)
 * [**Somalia** - Mini-Grids With MV Lines](https://energydata.info/dataset/somalia-mini-grids-with-mv-lines)
 * [**Morocco** - Electricity Transmission Network](https://energydata.info/dataset/morocco-electricity-transmission-network-2014)
 * [**Nigeria** - Dataset for the Nigerian 50-Bus 330 kV Power Grid](https://zenodo.org/records/12091189) - (**Includes capacity data**)
