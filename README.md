@@ -161,7 +161,8 @@
 * [**Ireland** - Grid Capacity](https://www.esbnetworks.ie/services/get-connected/renewable-connection/network-capacity-heatmap#)
 * [**Greece** - Independent Power Transmission Operator - Grid Map](https://www.admie.gr/en/grid/description/lines-map)
 * [**Svenska kraftnät** - **Sweden**, **Norway** **Finland**](https://www.svk.se/en/national-grid/map-of-the-national-grid/)
-* [**Swiss** Transmission Grid](https://www.swissgrid.ch/en/home/operation/power-grid/swiss-power-grid.html)
+* [**Swiss** - Transmission Grid](https://www.swissgrid.ch/en/home/operation/power-grid/swiss-power-grid.html)
+* [**Romania** - transelectrica](https://www.transelectrica.ro/documents/10179/25146/Harta%2BRET_EN.pdf/37ef21da-8490-4504-b6f5-81baf0a68542?utm_source=chatgpt.com)
 
 ### North America (Canada+USA)
 * [US Infrastructure Foundation-Level Data - Transmission Lines](https://hifld-geoplatform.hub.arcgis.com/datasets/bd24d1a282c54428b024988d32578e59_0/explore?location=36.525107%2C-119.281684%2C7.96)
