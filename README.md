@@ -89,6 +89,7 @@
 * [**Myanmar** Existing Power Grid and Under Construction Projects](https://www.moep.gov.mm/en/ignite/page/641)
 * [**Philippines** Transmission Development Plan 2020-2040](https://web.archive.org/web/20250317060959/https://ngcp.ph/Attachment-Uploads/TDP%202023-2040%20Consultation%20Report-2023-06-15-07-54-06.pdf)
 * [**Vietnam** - Thailand Renewable Grid Integration Assessment](https://www.oecd.org/content/dam/oecd/en/publications/reports/2018/11/thailand-renewable-grid-integration-assessment_g1g993de/9789264308213-en.pdf)
+* [**Vietnam** - Vietnam Electricity](https://en.evn.com.vn/userfile/files/EVNAnnualReport2022-2023-20241115110735330.pdf)
 * [**Nepal**-Nepal electricity authority annual report](https://www.nea.org.np/admin/assets/uploads/annual_publications/NEA_Annual_Report_2081_New.pdf)
 * [**Turkey** Turkey's Power Grid](https://www.climatescorecard.org/2023/01/turkeys-power-grid/)
 * [**Georgia** Ten Year development plan](https://gse.com.ge/communication/Publications/Ten-Year-Network-Development-Plan-of-Georgia)
