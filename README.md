@@ -104,6 +104,7 @@
 * [Transmission System Development Plan of **Nepal**](https://nepalindata.com/media/resources/items/15/bTransmission-System-Development-Plan-of-Nepal.pdf)
 * [Cooperation of energy systems in Central Asia - **Tajikistan**, **Kazakhstan**, **Kyrgyzstan** and **Turkmenistan**](https://www.newscentralasia.net/2024/06/13/sotrudnichestvo-energeticheskikh-sistem-v-tsentralnoy-azii)
 * [The current and planned transmission grid of **Afghanistan** ](https://www.researchgate.net/figure/The-current-and-planned-transmission-grid-of-Afghanistan-19_fig6_382678716)
+* [**Papua New Guinea**’s Energy Policy and Practice for Climate and People](https://www.jubileeaustralia.org/storage/app/uploads/public/63c/daa/f1f/63cdaaf1f37ff165892315.pdf)
 
 ### Australia and New Zealand
 * [Electricity Transmission Lines - Digital Atlas Australia](https://digital.atlas.gov.au/datasets/digitalatlas::electricity-transmission-lines/explore)
