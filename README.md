@@ -88,7 +88,7 @@
 * [(**Malaysia**) Sabah Energy Roadmap and Master Plan 2040](https://ecos.gov.my/sites/default/files/uploads/downloads/2023-09/SABAH%20ENERGY%20ROADMAP%20AND%20MASTER%20PLAN%202040%20%28SE-RAMP%202040%29.pdf)
 * [**Myanmar** Existing Power Grid and Under Construction Projects](https://www.moep.gov.mm/en/ignite/page/641)
 * [**Philippines** Transmission Development Plan 2020-2040](https://web.archive.org/web/20250317060959/https://ngcp.ph/Attachment-Uploads/TDP%202023-2040%20Consultation%20Report-2023-06-15-07-54-06.pdf)
-* [**Vietnam** - Electricity Transmission Network](https://energydata.info/dataset/vietnam-electricity-transmission-network)
+* [**Vietnam** - Thailand Renewable Grid Integration Assessment](https://www.oecd.org/content/dam/oecd/en/publications/reports/2018/11/thailand-renewable-grid-integration-assessment_g1g993de/9789264308213-en.pdf)
 * [**Nepal**-Nepal electricity authority annual report](https://www.nea.org.np/admin/assets/uploads/annual_publications/NEA_Annual_Report_2081_New.pdf)
 * [**Turkey** Turkey's Power Grid](https://www.climatescorecard.org/2023/01/turkeys-power-grid/)
 * [**Georgia** Ten Year development plan](https://gse.com.ge/communication/Publications/Ten-Year-Network-Development-Plan-of-Georgia)
