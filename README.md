@@ -71,6 +71,8 @@
 * [**Ethiopia** Electric Power](https://www.eep.com.et/?page_id=781)
 * [Energy Profile **Zimbabwe**](https://www.zvei.org/fileadmin/user_upload/Themen/Maerkte_Recht/Aussenwirtschaft/Afrika/Simbabwe/Simbabwe-EZ-Elektro-Energie-Rohstoffe/Energy_Profile_Zimbabwe.pdf)
 * [**Cameroon** - Plan Directeur d’Electrification Rurale](https://rise.esmap.org/data/files/library/cameroon/Electricity%20Access/Cameroon_PDER.pdf)
+* [**Tunisia** - Data Collection Survey On Power Sector - 2022](https://openjicareport.jica.go.jp/pdf/12342283.pdf)
+* [**Republic of the Congo** - Schéma Directeur Transport](https://rise.esmap.org/data/files/library/congo%2C-dem.-rep./Electricity%20Access/Congo_Schemas%20directeur%20de%20transport_2016.pdf)
 
 
 ### Asia
@@ -113,6 +115,10 @@
 * [**Laos** - Assessment of Electric Vehicle Penetration in the Lao People’s Democratic](https://www.eria.org/uploads/media/Research-Project-Report/RPR-2021-26/14_Chapter-5-Analysis-on-Impacts-to-the-Power-Sector.pdf)
 * [**South Korea** - 10th long-term transmission and substation facility plan established by KEPCO](https://www.e2news.com/news/articleView.html?idxno=253433)
 * [**Kyrgyzstan** - Transmission Grid 2020 ](https://kaktus.media/doc/444230_tyrkmenistan_bydet_davat_elektroenergiu_kyrgyzstany_gde_logika_mneniia_ekspertov.html)
+* [Oman - 2023 - Report GIS Data Governance Is Key to OETC's Success](https://www.esri.com/en-us/lg/industry/electric-and-gas/stories/oetc-case-study)
+* [**Saudi Arabia**'s Unfolding Power Sector Reform: Features, Challenges and Opportunities for Market Integration](https://www.researchgate.net/publication/342412075_Saudi_Arabia's_Unfolding_Power_Sector_Reform_Features_Challenges_and_Opportunities_for_Market_Integration)
+* [**Iraq** - Modeling the Power Grid Network of Iraq](https://www.researchgate.net/publication/366007793_Modeling_the_Power_Grid_Network_of_Iraq)
+* [**Syria**’s Electricity Sector After a Decade of War: A Comprehensive Assessment](https://cadmus.eui.eu/server/api/core/bitstreams/c78454ff-21c8-5b4f-8b38-6aec738fa0d7/content)
 
 
 ### Australia and New Zealand
@@ -284,6 +290,9 @@
 * [powerplantmatching](https://github.com/PyPSA/powerplantmatching/) - Set of tools to combine multiple power plant databases.
 
 ## Remote Mapping 
+
+### Poles-on-Earth
+* [Poles-on-Earth](https://github.com/TA-Geoforce/Poles-on-Earth) - Poles on Earth is an AI web service that provides the positions of utility poles everywhere on Earth using satellite imagery
 
 ### RetinaNet
 * [Detection of electric utility features and vegetation encroachments from satellite images using deep learning](https://developers.arcgis.com/python/latest/samples/detection-of-electric-utility-features-and-vegetation-encroachments-from-satellite-images-using-deep-learning/)

@@ -17,14 +17,16 @@ provided_countries = {
     # Africa (you already had many, keeping them)
     "Somalia", "Morocco", "Nigeria", "Mozambique", "Democratic Republic of the Congo",
     "Ghana", "Angola", "Namibia", "Uganda", "Kenya", "Tanzania", "South Africa",
-    "Zambia", "Rwanda", "Ethiopia","Benin","Burkina Faso","Côte d'Ivoire", "Ghana","Guinea","Guinea-Bissau","Liberia","Mali","Niger","Senegal","Sierra Leone","Togo","Gambia","Cameroon","Zimbabwe",
+    "Zambia", "Rwanda", "Ethiopia","Benin","Burkina Faso","Côte d'Ivoire", "Ghana","Guinea",
+    "Guinea-Bissau","Liberia","Mali","Niger","Senegal","Sierra Leone","Togo","Gambia","Cameroon",
+    "Zimbabwe","Tunisia",
 
     # Asia
     "India", "Pakistan", "Sri Lanka", "Japan", "Cambodia", "Indonesia", "Malaysia",
     "Myanmar", "Philippines", "Vietnam", "Nepal", "Turkey", "Georgia", "Jordan",
     "Kazakhstan", "Uzbekistan", "Iran", "Bangladesh", "Mongolia", "South Korea",
     "Tajikistan", "Kyrgyzstan", "Turkmenistan", "Afghanistan", "Papua New Guinea",
-    "Laos", "Thailand",
+    "Laos", "Thailand","Oman","Saudi Arabia","Iraq","Syria",
 
     # Oceania
     "Australia", "New Zealand",
@@ -34,7 +36,7 @@ provided_countries = {
     "France", "Bulgaria", "Hungary", "Serbia", "Kosovo", "Lithuania", "Latvia",
     "Estonia", "Belgium", "Bosnia and Herzegovina", "Portugal", "Poland", "Denmark",
     "Austria", "Netherlands", "Ireland", "Greece", "Sweden", "Norway", "Finland",
-    "Switzerland", "Romania", "Slovakia", "Czechia", "Iceland",
+    "Switzerland", "Romania", "Slovakia", "Czechia", "Iceland","Congo",
 
     # North America
     "United States", "Canada", "Puerto Rico", "Mexico",
@@ -51,21 +53,15 @@ provided_countries = {
 name_corrections = {
     "Moçambique": "Mozambique",
     "Democratic Republic of the Congo": "Dem. Rep. Congo",
-    "South Korea": "Korea, Rep.",
-    "North Korea": "Korea, Dem. Rep.",
     "United States": "United States of America",
     "Russia": "Russian Federation",
     "Iran": "Iran, Islamic Rep.",
     "Egypt": "Egypt, Arab Rep.",
-    "Syria": "Syrian Arab Republic",
     "Bosnia and Herzegovina": "Bosnia and Herz.",
-    "Czechia": "Czech Republic",
-    "Laos": "Lao PDR",
     "Kyrgyzstan": "Kyrgyz Republic",
     "North Macedonia": "Macedonia",
     # Safeguards for other common mismatches
     "Ivory Coast": "Côte d'Ivoire",
-    "Cape Verde": "Cabo Verde",
     "Swaziland": "Eswatini",
 }
 provided_countries_corrected = {name_corrections.get(c, c) for c in provided_countries}
@@ -83,7 +79,7 @@ world.plot(
     linewidth=0.4
 )
 
-ax.set_title("Awesome Electrical Grid Mapping", fontsize=22, weight="bold", pad=20, color="#1abc9c" )
+ax.set_title("Public High Resolution Electrical Grid Maps", fontsize=22, weight="bold", pad=20, color="#1abc9c" )
 
 # Remove axes
 ax.axis("off")
@@ -92,7 +88,7 @@ ax.axis("off")
 import matplotlib.patches as mpatches
 legend_patches = [
     mpatches.Patch(color=color_map["Present"], label="Public Electrical Grid Maps"),
-    mpatches.Patch(color=color_map["Missing"], label="No Public Grid Maps"),
+    mpatches.Patch(color=color_map["Missing"], label="No Public Grid Maps found so far"),
 ]
 ax.legend(
     handles=legend_patches,
@@ -103,8 +99,8 @@ ax.legend(
 )
 
 # --- Add logo (bottom-right corner) ---
-imagebox = OffsetImage(logo_img, zoom=0.4)  # adjust zoom to fit nicely
-ab = AnnotationBbox(imagebox, (0.15, 0.40), frameon=False, xycoords='axes fraction')
+imagebox = OffsetImage(logo_img, zoom=0.2)  # adjust zoom to fit nicely
+ab = AnnotationBbox(imagebox, (0.10, 0.32), frameon=False, xycoords='axes fraction')
 ax.add_artist(ab)
 
 # --- Save PNG ---
