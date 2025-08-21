@@ -26,7 +26,7 @@ provided_countries = {
     "Myanmar", "Philippines", "Vietnam", "Nepal", "Turkey", "Georgia", "Jordan",
     "Kazakhstan", "Uzbekistan", "Iran", "Bangladesh", "Mongolia", "South Korea",
     "Tajikistan", "Kyrgyzstan", "Turkmenistan", "Afghanistan", "Papua New Guinea",
-    "Laos", "Thailand","Oman","Saudi Arabia","Iraq","Syria",
+    "Laos", "Thailand","Oman","Saudi Arabia","Iraq","Syria","Taiwan",
 
     # Oceania
     "Australia", "New Zealand",
