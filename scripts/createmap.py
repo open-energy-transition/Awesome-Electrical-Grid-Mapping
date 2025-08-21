@@ -19,7 +19,7 @@ provided_countries = {
     "Ghana", "Angola", "Namibia", "Uganda", "Kenya", "Tanzania", "South Africa",
     "Zambia", "Rwanda", "Ethiopia","Benin","Burkina Faso","Côte d'Ivoire", "Ghana","Guinea",
     "Guinea-Bissau","Liberia","Mali","Niger","Senegal","Sierra Leone","Togo","Gambia","Cameroon",
-    "Zimbabwe","Tunisia",
+    "Zimbabwe","Tunisia","Russia",
 
     # Asia
     "India", "Pakistan", "Sri Lanka", "Japan", "Cambodia", "Indonesia", "Malaysia",
@@ -54,7 +54,6 @@ name_corrections = {
     "Moçambique": "Mozambique",
     "Democratic Republic of the Congo": "Dem. Rep. Congo",
     "United States": "United States of America",
-    "Russia": "Russian Federation",
     "Iran": "Iran, Islamic Rep.",
     "Egypt": "Egypt, Arab Rep.",
     "Bosnia and Herzegovina": "Bosnia and Herz.",
