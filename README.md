@@ -35,7 +35,7 @@
 * [openAfrica](https://www.open.africa/)
 * [Global Renewables Watch](https://www.globalrenewableswatch.org/)
 * [The Utility Performance and Behavior Today (UPBEAT) platform - WorldBank](https://utilityperformance.energydata.info/utilities/)
-* [Latin America UPME electricity infraestructure map]([https://www.upme.gov.co/simec/energia-electrica/transmision-de-energia-electrica/](https://sig.upme.gov.co/portal/apps/experiencebuilder/experience/?id=1cb0108edbcb48aca70a838db3db6d89&page=Infraestructura-el%C3%A9ctrica&views=Colombia))
+* [Latin America UPME electricity infraestructure map](https://sig.upme.gov.co/portal/apps/experiencebuilder/experience/?id=1cb0108edbcb48aca70a838db3db6d89&page=Infraestructura-el%C3%A9ctrica&views=LATAM)
 
 ### Africa
 * [Africa Electricity Grids Explorer](https://africagrid.energydata.info/)
