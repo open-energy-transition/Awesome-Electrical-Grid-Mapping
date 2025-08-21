@@ -83,6 +83,7 @@
 * [The Map of **Sri Lanka** Transmission Grid - 2023](https://www.ceb.lk/transmission/en)
 * [Baker Institute Energy Map](https://www.bakerinstitute.org/chinas-energy-infrastructure)
 * [OSW Project Areas & Transmission Lines - **Japan**](https://www.renewable-ei.org/statistics/offshoremap/?page=en) - (**Includes capacity data**)
+* [**Japan** - J-Power Group Integrated Report 2023](https://www.jpower.co.jp/ir/pdf/rep2023/jpower_integrated2023_all.pdf)
 * [ASEAN Energy Database - **South-East Asia**](https://www.arcgis.com/apps/View/index.html?appid=a840b350e8744ef6a523abd361f10738)
 * [ASEAN Power Grid Interconnections Project Profiles - **South-East Asia**](https://aseanenergy.org/wp-content/uploads/2024/11/ASEAN-Power-Grid-Interconnections-Project-Profiles.pdf)
 * [OpenDevelopment **Cambodia** Map Explorer](https://data.opendevelopmentcambodia.net/map-explorer)
