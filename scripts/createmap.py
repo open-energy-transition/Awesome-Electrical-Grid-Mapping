@@ -42,7 +42,7 @@ provided_countries = {
     "United States", "Canada", "Puerto Rico", "Mexico",
 
     # Central America & Caribbean
-    "Costa Rica", "Nicaragua", "Honduras", "Guatemala", "Cuba",
+    "Costa Rica", "Nicaragua", "Honduras", "Guatemala", "Cuba","Jamaica",
 
     # South America
     "Brazil", "Argentina", "Chile", "Bolivia", "Peru", "Uruguay", "Colombia",
@@ -79,7 +79,7 @@ world.plot(
     linewidth=0.4
 )
 
-ax.set_title("Public High Resolution Electrical Grid Maps", fontsize=22, weight="bold", pad=20, color="#1abc9c" )
+ax.set_title("Availability of Printed Electrical Grid Maps", fontsize=22, weight="bold", pad=20, color="#1abc9c" )
 
 # Remove axes
 ax.axis("off")

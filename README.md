@@ -206,6 +206,9 @@
 * [**Guatemala** - Sistema Nacional Interconectado](https://www.cnee.gob.gt/wordpress/?page_id=5485)
 * [**Cuba**'s electric power system and trajectory of Hurricane Irma, 2017](http://www.thehavanaconsultinggroup.com/en/Articles/Article/49?AspxAutoDetectCookieSupport=1)
 * [**Panama** Electrical diagram](https://www.cnd.com.pa/index.php/acerca/documentos/librerias/42-diagrama-unifilar)
+* [**Jamaica** JPS - Transmission Grid](https://www.trackingstandard.org/wp-content/uploads/Public_I-RECE-Country-Assessment_Jamaica-26Mar2024.pdf)
+* [**Jamaica** - JPS-Distribution-Network](https://www.jpsco.com/wp-content/uploads/2024/01/REOI-973893-Map-of-JPS-Distribution-Network-by-Regions-1.pdf)
+
 
 ### South America
 * [Webmap EPE - **Brazil** Transmission Grid](https://gisepeprd2.epe.gov.br/WebMapEPE/)
