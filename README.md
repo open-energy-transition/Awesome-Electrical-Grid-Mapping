@@ -1,4 +1,4 @@
-# Awesome Electric Grid Mapping
+# Awesome Electrical Grid Mapping
 
 <table>
 <tr>
