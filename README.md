@@ -1,9 +1,9 @@
-# Awesome Electric Grid Mapping
+# Awesome Electrical Grid Mapping
 
 <table>
 <tr>
 <td>
-<b>A curated list of resources in the field of electric grid mapping to improve global open data coverage, harmonization and quality for a sustainable energy transition.</b>
+<b>A curated list of resources in the field of electrical grid mapping to improve global open data coverage, harmonization and quality for a sustainable energy transition.</b>
 </td>
 <td>
 
@@ -255,6 +255,7 @@
 * [A comparison of clustering methods for the spatial reduction of renewable electricity optimisation models of Europe](https://energyinformatics.springeropen.com/articles/10.1186/s42162-022-00187-7)
 * [A Reproducible Method for Mapping Electricity Transmission Infrastructure for Space Weather Risk Assessment](https://arxiv.org/pdf/2412.17685)
 * [Risk of Tropical Cyclones and Floods to Power Grids in Southeast and East Asia](https://www.esmap.org/sites/default/files/esmap-files/Mini%20Grids%20for%20Half%20a%20Billion%20People%20-%20OKR%20Download%20Version_compressed_MKA.pdf)
+* [Development of A Spatiotemporal Database for Evolution Analysis of the Moscow Backbone Power Grid](https://www.mdpi.com/2306-5729/6/12/127)
 
 ## Policy
 * [Grids, the missing link - An EU Action Plan for Grids](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:52023DC0757)
