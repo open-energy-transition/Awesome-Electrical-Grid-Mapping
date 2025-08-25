@@ -232,6 +232,8 @@
 * [Red de Trasmisión - Unifilar Geográfico **Uruguay**](https://portal.ute.com.uy/sites/default/files/generico/Red%20TRA%20existente%20A0.pdf)
 * [Transmisión de energía eléctrica-UPME **Colombia**](https://www.upme.gov.co/simec/energia-electrica/transmision-de-energia-electrica/)
 * [Transmission grid **Colombia**](https://paratec.xm.com.co/mapa) - (**Includes capacity data**)
+* [**Colombia** - 2008 - Centrales de generación eléctrica del sistema interconectado](https://www.arcgis.com/apps/View/index.html?appid=2859a49bb838498db3392fcea3bdc38a)
+* [**Colombia** - Plan Maestro: Tomo II: Plan de Expansión de Transmisión 2024-2038](https://www1.upme.gov.co/siel/Plan_expansin_generacion_transmision/Plan_maestro_modernizacion_Tomo_1.pdf)
 * [**Equador** - Mapa del Sistema Nacional de Transmisión por zonas operativas](https://www.celec.gob.ec/transelectric/mapa-del-sistema-nacional-de-transmision-por-zonas-operativas/)
 * [**Argentina**](https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/sig/2024mapas/generacion_electrica.pdf)
 * [Mapa eléctrico del **Paraguay** para el Año 2025](https://biblioteca.olade.org/opac-tmpl/Documentos/hm000691.pdf)
