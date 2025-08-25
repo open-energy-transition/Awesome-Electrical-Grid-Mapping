@@ -234,6 +234,7 @@
 * [Transmission grid **Colombia**](https://paratec.xm.com.co/mapa) - (**Includes capacity data**)
 * [**Colombia** - 2008 - Centrales de generación eléctrica del sistema interconectado](https://www.arcgis.com/apps/View/index.html?appid=2859a49bb838498db3392fcea3bdc38a)
 * [**Colombia** - Plan Maestro: Tomo II: Plan de Expansión de Transmisión 2024-2038](https://www1.upme.gov.co/siel/Plan_expansin_generacion_transmision/Plan_maestro_modernizacion_Tomo_1.pdf)
+* [**Colombia** - Subestaciones construidas STN - STR](https://energia-upme.hub.arcgis.com/datasets/subestaciones-construidas-stn-str/explore?location=3.729228%2C-74.408411%2C7.45)
 * [**Equador** - Mapa del Sistema Nacional de Transmisión por zonas operativas](https://www.celec.gob.ec/transelectric/mapa-del-sistema-nacional-de-transmision-por-zonas-operativas/)
 * [**Argentina**](https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/sig/2024mapas/generacion_electrica.pdf)
 * [Mapa eléctrico del **Paraguay** para el Año 2025](https://biblioteca.olade.org/opac-tmpl/Documentos/hm000691.pdf)
