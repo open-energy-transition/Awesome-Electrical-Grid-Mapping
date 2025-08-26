@@ -13,7 +13,7 @@
 </tr>
 </table>
 
-⚠️ **If you're eager to get started with transmission grid mapping in OpenStreetMap, check out the [Starter Kit Tutorial](https://mapyourgrid.org/starter-kit/) and [our community discord channel](https://discord.gg/a5znpdFWfD) of #MapYourGrid. Please note that the maps shown here are used to estimate the coverage in OpenStreetMap and to find missing lines. Do not copy/paste data from these maps directly into your OpenStreetMap layer. Each data point of the transmission network must be set manually and [verified](https://wiki.openstreetmap.org/wiki/Verifiability) with official satellite data provided by the OpenStreetMap community.** ⚠️
+⚠️ **If you're eager to get started with transmission grid mapping in OpenStreetMap, check out the [Starter Kit Tutorial](https://mapyourgrid.org/starter-kit/) and [our community discord channel](https://discord.gg/a5znpdFWfD) of #MapYourGrid. Please note that the maps shown here are used to estimate the coverage in OpenStreetMap and to find missing lines. Do not copy/paste data from these maps directly into your OpenStreetMap layer. Each data point of the transmission network must be set manually and [verified](https://wiki.openstreetmap.org/wiki/Verifiability) with official satellite data provided by the OpenStreetMap community.**
 
 > If a link is broken, or you find a map with a broken link that you would like to add to this list, just try the link at the [Internet Archive](https://web.archive.org/). This even works for PDFs and other files.
 
@@ -93,7 +93,8 @@
 * [ASEAN Power Grid Interconnections Project Profiles - **South-East Asia**](https://aseanenergy.org/wp-content/uploads/2024/11/ASEAN-Power-Grid-Interconnections-Project-Profiles.pdf)
 * [OpenDevelopment **Cambodia** Map Explorer](https://data.opendevelopmentcambodia.net/map-explorer)
 * [OpenDevelopment Mekong Map Explorer](https://data.opendevelopmentmekong.net/map-explorer)
-* [**Indonesia** -Electricity Supply Business Plan 2021 - 2030](https://gatrik.esdm.go.id/assets/uploads/download_index/files/38622-ruptl-pln-2021-2030.pdf)
+* [**Indonesia** - Electricity Supply Business Plan 2021 - 2030](https://gatrik.esdm.go.id/assets/uploads/download_index/files/38622-ruptl-pln-2021-2030.pdf)
+* [**Indonesia** - Electrical substation in Indonesia](https://www.arcgis.com/home/item.html?id=c5507bca5a2a4da68db0c699e8b70e19)
 * [**Malaysia** - Sarawak Power Generation and Network](https://www.sarawakenergy.com/assets/images/power-generation/map.png)
 * [**Malaysia** Sabah Energy Roadmap and Master Plan 2040](https://ecos.gov.my/sites/default/files/uploads/downloads/2023-09/SABAH%20ENERGY%20ROADMAP%20AND%20MASTER%20PLAN%202040%20%28SE-RAMP%202040%29.pdf)
 * [**Myanmar** - Existing Power Grid and Under Construction Projects](https://www.moep.gov.mm/en/ignite/page/641)
