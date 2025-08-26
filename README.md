@@ -435,6 +435,7 @@
 * [esri-dump](https://github.com/openaddresses/pyesridump)
 * [OSMnx](https://github.com/gboeing/osmnx) - A Python package to easily download, model, analyze, and visualize street networks and other geospatial features from OpenStreetMap.
 * [Maptcha-dev](https://github.com/ciupava/maptcha_dev)
+* [geodatadownloader](https://geodatadownloader.com/maps/create)
 
 ### Mobile and In-field Editors 
 * [Vespucci](https://wiki.openstreetmap.org/wiki/Vespucci)
