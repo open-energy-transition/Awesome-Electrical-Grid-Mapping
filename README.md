@@ -246,11 +246,9 @@
 * [**Colombia** - Plan Maestro: Tomo II: Plan de Expansión de Transmisión 2024-2038](https://www1.upme.gov.co/siel/Plan_expansin_generacion_transmision/Plan_maestro_modernizacion_Tomo_1.pdf)
 * [**Colombia** - Subestaciones construidas STN - STR](https://energia-upme.hub.arcgis.com/datasets/subestaciones-construidas-stn-str/explore?location=3.729228%2C-74.408411%2C7.45)
 * [**Equador** - Mapa del Sistema Nacional de Transmisión por zonas operativas](https://www.celec.gob.ec/transelectric/mapa-del-sistema-nacional-de-transmision-por-zonas-operativas/)
-
 * [Mapa eléctrico del **Paraguay** para el Año 2025](https://biblioteca.olade.org/opac-tmpl/Documentos/hm000691.pdf)
 * [Electricity Sector Plan **Suriname**](https://eas.sr/wp-content/uploads/2025/05/1.-Vol-I-Stategic-Plan-Suriname-ESP-250510.pdf)
 * [Transmission and Distribution map of **Bolivia**](https://geoportal.mhe.gob.bo/maps/720)
-
 
 ## Scientific Publications
 * [Predictive mapping of the global power system using open data](https://www.nature.com/articles/s41597-019-0347-4)
