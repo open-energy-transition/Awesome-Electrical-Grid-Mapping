@@ -227,6 +227,9 @@
 * [**Brazil** - Sistema Interligado Nacional](https://www.epe.gov.br/sites-pt/publicacoes-dados-abertos/publicacoes/PublicacoesArquivos/publicacao-168/Mapa%20do%20Sistema%20Integrado%20Nacional.pdf)
 * [Latin America Energy Outlook Interactive Map](https://www.iea.org/data-and-statistics/data-tools/latin-america-energy-outlook-interactive-map) (Based on OpenStreetMap Data)
 * [Electric Generation and Transportation Maps - **Argentina**](http://datos.energia.gob.ar/dataset/generacion-transporte-electrico)
+* [**Argentina** - Información Energética](https://sig.energia.gob.ar/visor/visorsig.php)
+* [**Argentina** - Información Geográfica](https://www.argentina.gob.ar/economia/energia/planeamiento-energetico/informacion-energetica/sistema-unificado-de-informacion-3)
+* [**Argentina** - Generación, Transporte y Distribución de Energía Eléctrica](http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/sig/2024mapas/generacion_electrica.pdf)
 * [Map of the electrical grid in **Chile**](https://energiamaps.cne.cl/)
 * [Sistema Eléctrico Nacional **Chile**](https://infotecnica.coordinador.cl/)
 * [Portal Energetico America Latina --- generators, oil/gas pipelines, coal terminals, LNG import/export terminals](https://portalenergetico.org/es/map/)
@@ -242,7 +245,7 @@
 * [**Colombia** - Plan Maestro: Tomo II: Plan de Expansión de Transmisión 2024-2038](https://www1.upme.gov.co/siel/Plan_expansin_generacion_transmision/Plan_maestro_modernizacion_Tomo_1.pdf)
 * [**Colombia** - Subestaciones construidas STN - STR](https://energia-upme.hub.arcgis.com/datasets/subestaciones-construidas-stn-str/explore?location=3.729228%2C-74.408411%2C7.45)
 * [**Equador** - Mapa del Sistema Nacional de Transmisión por zonas operativas](https://www.celec.gob.ec/transelectric/mapa-del-sistema-nacional-de-transmision-por-zonas-operativas/)
-* [**Argentina**](https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/sig/2024mapas/generacion_electrica.pdf)
+
 * [Mapa eléctrico del **Paraguay** para el Año 2025](https://biblioteca.olade.org/opac-tmpl/Documentos/hm000691.pdf)
 * [Electricity Sector Plan **Suriname**](https://eas.sr/wp-content/uploads/2025/05/1.-Vol-I-Stategic-Plan-Suriname-ESP-250510.pdf)
 * [Transmission and Distribution map of **Bolivia**](https://geoportal.mhe.gob.bo/maps/720)
