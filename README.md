@@ -223,6 +223,8 @@
 
 ### South America
 * [Webmap EPE - **Brazil** Transmission Grid](https://gisepeprd2.epe.gov.br/WebMapEPE/)
+* [**Brazil** - Mapas do Sistema Elétrico Brasileiro](https://eletrobras.com/pt/Paginas/Sistema-Eletrico-Brasileiro.aspx)
+* [**Brazil** - Sistema Interligado Nacional](https://www.epe.gov.br/sites-pt/publicacoes-dados-abertos/publicacoes/PublicacoesArquivos/publicacao-168/Mapa%20do%20Sistema%20Integrado%20Nacional.pdf)
 * [Latin America Energy Outlook Interactive Map](https://www.iea.org/data-and-statistics/data-tools/latin-america-energy-outlook-interactive-map) (Based on OpenStreetMap Data)
 * [Electric Generation and Transportation Maps - **Argentina**](http://datos.energia.gob.ar/dataset/generacion-transporte-electrico)
 * [Map of the electrical grid in **Chile**](https://energiamaps.cne.cl/)
