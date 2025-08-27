@@ -126,6 +126,7 @@
 * [**Saudi Arabia**'s Unfolding Power Sector Reform: Features, Challenges and Opportunities for Market Integration](https://www.researchgate.net/publication/342412075_Saudi_Arabia's_Unfolding_Power_Sector_Reform_Features_Challenges_and_Opportunities_for_Market_Integration)
 * [**Iraq** - Modeling the Power Grid Network of Iraq](https://www.researchgate.net/publication/366007793_Modeling_the_Power_Grid_Network_of_Iraq)
 * [**Syria**’s Electricity Sector After a Decade of War: A Comprehensive Assessment](https://cadmus.eui.eu/server/api/core/bitstreams/c78454ff-21c8-5b4f-8b38-6aec738fa0d7/content)
+* [**Syria** - Infrastructure Maps](https://data.humdata.org/dataset/syria-infrastructure-maps-power-line-water-way-dam-highway)
 * [**Taiwan** - Taipower's Power Plants and Power Grid Map](https://www.taipower.com.tw/2764/2809/2814/25012/normalPost)
 * [**Russia** - Leitungsnetze Russlands 2020](https://powerlines.one/#2.5/50/90)
 * [**China** - Electrical Grid by Regions - 2013](https://greenwich.envisioncn.com/docs/greenwich-dg/en/_static/frozen_area.pdf)
