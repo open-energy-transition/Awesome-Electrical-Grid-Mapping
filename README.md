@@ -122,6 +122,7 @@
 * (Oman) [Oman - 2023 - Report GIS Data Governance Is Key to OETC's Success](https://www.esri.com/en-us/lg/industry/electric-and-gas/stories/oetc-case-study)
 * (Pakistan) [Generation and Transmission System Expansion](https://eco.int/wp-content/uploads/2024/12/Annex-IX-Presentation-of-Pakistan.pdf)
 * (Pakistan) [NTDC Revised Transmission Investment Plan FY 2023-2025](https://www.nepra.org.pk/Admission%20Notices/2023/10%20Oct/NTDC%20Revised%20Investment%20Plan.pdf)
+* (Palestine) [Geomolg - Transmission Lines and Substations](https://geomolg.ps/L5/index.html?viewer=A3.V1)
 * (Papua New Guinea) [Energy Policy and Practice for Climate and People](https://www.jubileeaustralia.org/storage/app/uploads/public/63c/daa/f1f/63cdaaf1f37ff165892315.pdf)
 * (Philippines) [Transmission Development Plan 2020-2040](https://web.archive.org/web/20250317060959/https://ngcp.ph/Attachment-Uploads/TDP%202023-2040%20Consultation%20Report-2023-06-15-07-54-06.pdf)
 * (Russia) [Leitungsnetze Russlands 2020](https://powerlines.one/#2.5/50/90)
