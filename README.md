@@ -145,6 +145,7 @@
 * (Australia) [Transgrid - Eastern Australia](https://tapr.transgrid.com.au/)
 * (Australia) [Queensland - NetworkLoad Capacity](https://www.ergon.com.au/network/about-us/company-reports%2C-plans-and-charters/network-load-capacity-map)
 * (Australia) [Western Australia Network Capacity Mapping Tool](https://westernpower.maps.arcgis.com/apps/webappviewer/index.html?id=21af5edc59034456b59c35be31365cdf)
+* (Australia) [Network Map Rosetta](https://renewables.networkmap.energy/)
 * (New Zealand) [Transpower New Zealand Ltd Transmission Lines](https://data-transpower.opendata.arcgis.com/datasets/0c8db240553f47b5844bdc2eb1146b9b_0/explore)
 
 
