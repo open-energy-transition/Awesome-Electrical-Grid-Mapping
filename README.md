@@ -161,7 +161,7 @@
 * (Palestine) [Geomolg - Transmission Lines and Substations](https://geomolg.ps/L5/index.html?viewer=A3.V1)
 * (Papua New Guinea) [Energy Policy and Practice for Climate and People](https://www.jubileeaustralia.org/storage/app/uploads/public/63c/daa/f1f/63cdaaf1f37ff165892315.pdf)
 * (Philippines) [Transmission Development Plan 2020-2040](https://web.archive.org/web/20250317060959/https://ngcp.ph/Attachment-Uploads/TDP%202023-2040%20Consultation%20Report-2023-06-15-07-54-06.pdf)
-* (Russia) [Leitungsnetze Russlands 2020](https://powerlines.one/#2.5/50/90)
+* (Russia) [ЛЭП России 2020 год](https://powerlines.one/#2.5/50/90)
 * (Saudi Arabia) [Unfolding Power Sector Reform: Features, Challenges and Opportunities for Market Integration](https://www.researchgate.net/publication/342412075_Saudi_Arabia's_Unfolding_Power_Sector_Reform_Features_Challenges_and_Opportunities_for_Market_Integration)
 * (South Korea) [10th long-term transmission and substation facility plan established by KEPCO](https://www.e2news.com/news/articleView.html?idxno=253433)
 * (South Korea) [Transmission Map](https://www.e2news.com/news/articleView.html?idxno=236289)
