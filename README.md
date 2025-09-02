@@ -37,7 +37,6 @@
 * [The Utility Performance and Behavior Today (UPBEAT) platform - WorldBank](https://utilityperformance.energydata.info/utilities/)
 * [Latin America UPME electricity infraestructure map](https://sig.upme.gov.co/portal/apps/experiencebuilder/experience/?id=1cb0108edbcb48aca70a838db3db6d89&page=Infraestructura-el%C3%A9ctrica&views=LATAM)
 * [Energy Access Explorer](https://www.energyaccessexplorer.org/)
-* [European Grid Capacity Maps](https://www.gridcapacitymaps.eu/)
 
 ### Africa
 #### Cross-border projets and resources
@@ -194,10 +193,13 @@
 #### Cross-border projets and resources
 * [ENTSO-E_Grid_Map_Continental_Europe](https://eepublicdownloads.entsoe.eu/clean-documents/Publications/maps/2024/ENTSOE_Grid_Map_Continental_Europe.pdf)
 * [ENTSO-E Transmission System Map](https://www.entsoe.eu/data/map/)
+* [European Grid Capacity Maps](https://www.gridcapacitymaps.eu/)
 * [JAO Static Grid Model](https://www.jao.eu/sites/default/files/static-grid/) - (**Includes capacity data**)
 * [50Herz - Static Grid Model](https://web.archive.org/web/20250317194153/https://www.50hertz.com/de/Transparenz/Kennzahlen/Netzdaten/StatischesNetzmodell)
 * (Albania;Bosnia & Herzegovina;Kosovo;North Macedonia;Montenegro;Serbia) [Transmission grid in the Western Balkans](https://wb6energyprospect.com/maps.php?mapa=6)
 * (Finland;Norway:Sweden) [Svenska kraftnät - Sweden, Norway, Finland](https://www.svk.se/en/national-grid/map-of-the-national-grid/)
+
+
 
 #### National-level projets and resources
 * (Albania) [Albania Transmission system](https://ost.al/en/transmission-system/description-of-the-transmission-system/) - (**Includes capacity data**)
