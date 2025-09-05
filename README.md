@@ -282,7 +282,7 @@
 * (Panama) [Electrical diagram](https://www.cnd.com.pa/index.php/acerca/documentos/librerias/42-diagrama-unifilar)
 * (Puerto Rico) [LUMA Energy Puerto Rico](https://www.arcgis.com/home/webmap/viewer.html?webmap=37f6415eb74e49e4842947ece321e276)
 * (Puerto Rico) [Pepco Holdings Capacity Planning Maps](https://storymaps.arcgis.com/stories/f4f45b890f504c21935c177d6cf545a5)
-* (United States) [US Atlas of Electric Distribution System Hosting Capacity Maps](https://www.energy.gov/eere/us-atlas-electric-distribution-system-hosting-capacity-maps)
+* (United States) [US Atlas of Electric Distribution System Hosting **Capacity Maps**](https://www.energy.gov/eere/us-atlas-electric-distribution-system-hosting-capacity-maps)
 * (United States) [US Electric Power Transmission Lines](https://resilience.climate.gov/datasets/fedmaps::u-s-electric-power-transmission-lines/)
 * (United States) [US Electric Power Transmission Substations](https://www.kaggle.com/datasets/behroozsohrabi/us-electric-power-transmission-substations?resource=download)
 * (United States) [US Electric Substations](https://catalog.data.gov/dataset/electric-substations)
