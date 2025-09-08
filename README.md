@@ -318,6 +318,8 @@
 * (Brazil) [Sistema Eletrico Brasileiro](https://eletrobras.com/pt/Paginas/Sistema-Eletrico-Brasileiro.aspx)
 * (Brazil) [Sistema Interligado Nacional](https://www.epe.gov.br/sites-pt/publicacoes-dados-abertos/publicacoes/PublicacoesArquivos/publicacao-168/Mapa%20do%20Sistema%20Integrado%20Nacional.pdf)
 * (Brazil) [Webmap EPE - Transmission Grid](https://gisepeprd2.epe.gov.br/WebMapEPE/)
+* (Brazil) [Sobre ONS DADOS ABERTOS - Substations](https://dados.ons.org.br/dataset/subestacao/resource/835e4e8f-59f4-4289-ade2-4e4d0fec1cfa)
+* (Brazil) [Sobre ONS DADOS ABERTOS - Transmission Lines](https://dados.ons.org.br/dataset/linha-transmissao/resource/26108f7a-48d0-4a1c-9234-176da0b68a1f)
 * (Chile) [Map of the electrical grid](https://energiamaps.cne.cl/)
 * (Chile) [Sistema Eléctrico Nacional](https://infotecnica.coordinador.cl/)
 * (Colombia) [Centrales de generación eléctrica del sistema interconectado 2008](https://www.arcgis.com/apps/View/index.html?appid=2859a49bb838498db3392fcea3bdc38a)
