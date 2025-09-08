@@ -142,6 +142,7 @@
 * (Iraq) [Modeling the Power Grid Network of Iraq](https://www.researchgate.net/publication/366007793_Modeling_the_Power_Grid_Network_of_Iraq)
 * (Japan) [J-Power Group Integrated Report 2023](https://www.jpower.co.jp/ir/pdf/rep2023/jpower_integrated2023_all.pdf)
 * (Japan) [OSW Project Areas & Transmission Lines in Japan](https://www.renewable-ei.org/statistics/offshoremap/?page=en) - (**Includes capacity data**)
+* (Japan) [OCCTO - Organization for Cross-regional Coordination of Transmission Operators](https://www.occto.or.jp/access/link/mapping.html) - (**Includes capacity data**)
 * (Jordan) [Electric System - National Electric Power Company](https://nepco.com.jo/en/JordanElecticSystem.aspx)
 * (Jordan) [Electricity Transmission Network 2017](https://energydata.info/dataset/jordan-electricity-transmission-network-2017)
 * (Jordan) [MENA - Electricity Transmission Network 2017](https://energydata.info/dataset/mena-electricity-transmission-network-2017)
