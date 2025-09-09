@@ -158,6 +158,7 @@
 * (Myanmar) [Existing Power Grid and Under Construction Projects](https://www.moep.gov.mm/en/ignite/page/641)
 * (Nepal) [Nepal electricity authority annual report](https://www.nea.org.np/admin/assets/uploads/annual_publications/NEA_Annual_Report_2081_New.pdf)
 * (Nepal) [Transmission System Development Plan](https://nepalindata.com/media/resources/items/15/bTransmission-System-Development-Plan-of-Nepal.pdf)
+* (Nepal) [NEPAL POWER TRANSMISSION NETWORK MAP 2021](https://www.rpgcl.com/storage/listies/November2021/nepal-tranmission-network-map-revised1.pdf)
 * (Oman) [Oman - 2023 - Report GIS Data Governance Is Key to OETC's Success](https://www.esri.com/en-us/lg/industry/electric-and-gas/stories/oetc-case-study)
 * (Pakistan) [Generation and Transmission System Expansion](https://eco.int/wp-content/uploads/2024/12/Annex-IX-Presentation-of-Pakistan.pdf)
 * (Pakistan) [NTDC Revised Transmission Investment Plan FY 2023-2025](https://www.nepra.org.pk/Admission%20Notices/2023/10%20Oct/NTDC%20Revised%20Investment%20Plan.pdf)
