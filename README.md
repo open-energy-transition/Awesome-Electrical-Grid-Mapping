@@ -310,7 +310,7 @@
 * (Argentina) [Información Geográfica](https://www.argentina.gob.ar/economia/energia/planeamiento-energetico/informacion-energetica/sistema-unificado-de-informacion-3)
 * (Bolivia) [Instructivos de restitución del SIN (Sistema Interconectado Nacional)](https://www.cndc.bo/media/archivos/normas/Instructivos_de_Restitucion_del_SIN.pdf)
 * (Bolivia) [Subestaciones en Bolivia](https://www.scribd.com/document/425875074/Subestaciones-en-Bolivia) - (**Includes capacity data**)
-* (Bolivia) [Transmission and Distribution map](https://geoportal.mhe.gob.bo/maps/720)
+* (Bolivia) [Transmission and Distribution map](https://geoportal.mhe.gob.bo/maps/720) - (**Includes capacity data**)
 * (Bolivia) [Transmission grid map of Bolivia 2024](https://geoportal.mhe.gob.bo/layers/geonode:transmision_sin_20220810/layer_export#/)
 * (Bolivia) [https://www.cndc.bo/media/archivos/normas/Instructivos_de_Restitucion_del_SIN.pdf](https://www.cndc.bo/media/archivos/normas/Instructivos_de_Restitucion_del_SIN.pdf)
 * (Bolivia) [Subestaciones en Bolivia](https://fr.scribd.com/document/425875074/Subestaciones-en-Bolivia)
