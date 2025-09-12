@@ -56,6 +56,8 @@
 #### National-level projets and resources
 * (Angola) [Rapid Assessment and Gap Analysis](https://www.seforall.org/sites/default/files/l/2015/05/Angola_RAGA.pdf)
 * (Benin;Burkina Faso;Côte d'Ivoire;Ghana;Guinea;Guinea-Bissau;Liberia;Mali;Niger;Nigeria;Senegal;Sierra Leone;Togo;Gambia) [West African Power Pool (WAPP) - 2017](https://www.ecowapp.org/sites/default/files/wapp_map_general_optimized.gif)
+* (Botswana) [Botswana Power Corporation - Generation Facilities, Transmission, Distribution grids](https://www.bpc.bw/our-customer-base/)
+* (Botswana) [Transmission Grid Projects](https://www.bpc.bw/portfolio-items/gaborone-power-project/)
 * (Cameroon) [Plan Directeur d’Electrification Rurale](https://rise.esmap.org/data/files/library/cameroon/Electricity%20Access/Cameroon_PDER.pdf)
 * (Democratic Repulic of the Congo) [Regulator Report 2024](https://are.gouv.cd/rapport-annuel-2024/) - (Includes capacity data)
 * (Eswatini) [Energydata Eswatini Substations 2021](https://energydata.info/dataset/eswatini-substations)
