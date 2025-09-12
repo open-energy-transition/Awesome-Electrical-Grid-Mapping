@@ -214,6 +214,7 @@
 * (Bosnia-Herzegovina) [NOS-BiH Transmission grid development plan 2021-2030](https://www.nosbih.ba/files/2021/03/20210311-lat-Dugorocni-plan-razvoja-prenosne-mreze-2021-2030-Knjiga-1.pdf)
 * (Bosnia-Herzegovina) [NOS-BiH Real-time capacity grid of Bosnian interconnectors](https://www.nosbih.ba/hr/ees/ace/)
 * (Bosnia-Herzegovina) [NOS-BiH Multiple studies and analysis of power generators, network stability, renewables](https://www.nosbih.ba/en/dokumenti/studije-i-analize/)
+* (Bosnia-Herzegovina) [NOS-BiH Indicative Plan for Power Generation Development 2026–2035 (includes Generation Capacity as of 2024)](https://www.nosbih.ba/files/2025/07/20250702-lat-Indikativni-plan-razvoja-proizvodnje-2026-2035.pdf)
 * (Bulgaria) [Electricity Production & Transmission Network](https://bgenh.com/en/page/47/Electricity.html)
 * (Bulgaria) [Electricity trasnsmission system](https://www.eso.bg/doc?13)
 * (Czechia) [Transmission and Distribution Grid Data](https://www.ote-cr.cz/cs/statistika/elektrizacni-soustava-cr.png)
