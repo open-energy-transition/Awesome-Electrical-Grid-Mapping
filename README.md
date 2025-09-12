@@ -90,6 +90,7 @@
 * (Republic of the Congo) [Schéma Directeur Transport](https://rise.esmap.org/data/files/library/congo%2C-dem.-rep./Electricity%20Access/Congo_Schemas%20directeur%20de%20transport_2016.pdf)
 * (Rwanda) [Transmission Development Plan 2023-2030](https://www.reg.rw/fileadmin/user_upload/Updated_Rwanda_Electricity_Transmission_Development_Plan_-_June_2023.pdf)
 * (Rwanda) [Energydata Rwanda Power plants](https://energydata.info/dataset/rwanda-power-plants)
+* (Senegal) [Power Grid Map of Senegal, 2018](https://www.geosenegal.gouv.sn/carte-du-reseau-electrique-du-senegal.html)
 * (Somalia) [Mini-Grids With MV Lines](https://energydata.info/dataset/somalia-mini-grids-with-mv-lines)
 * (Somalia) [Energydata Somalia Transmission Backbone](https://energydata.info/dataset/somalia-transmission-backbone)
 * (Somalia) [Energydata Somalia Minigrids](https://energydata.info/dataset/somalia-minigrids)
