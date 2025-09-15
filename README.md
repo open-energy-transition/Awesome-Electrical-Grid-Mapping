@@ -52,6 +52,8 @@
 * [Southern-Eastern Africa RE Zones](https://mapre.es.ucsb.edu/project/searez/)
 * [West African Power Pool (WAPP) - 2017](https://www.ecowapp.org/sites/default/files/wapp_map_general_optimized.gif)
 * [West African Power Pool (WAPP) - 2019](https://www.ecowapp.org/sites/default/files/wapp_final_map_0.pdf)
+* [OMVG - Gambia, Guinea, Guinea-Bissau, Senegal - Interconnector line 225 kV, 2020](https://www.pe-omvg.org/sites/default/files/2020-12/201103_FR_BULLETIN%20PE%20OMVG_210x297mm_12%20pages_PRINT_FR.pdf)
+* [OMVG - Gambia, Guinea, Guinea-Bissau, Senegal - Interconnector line 225 kV - Action plan 2019](https://www.omvg.org/sites/default/files/document/2023-01/par-lignes-senegal-version-finale-sans-annexes-11_03_2019.pdf)
 
 #### National-level projets and resources
 * (Angola) [Rapid Assessment and Gap Analysis](https://www.seforall.org/sites/default/files/l/2015/05/Angola_RAGA.pdf)
@@ -59,6 +61,7 @@
 * (Botswana) [Botswana Power Corporation - Generation Facilities, Transmission, Distribution grids](https://www.bpc.bw/our-customer-base/)
 * (Botswana) [Transmission Grid Projects](https://www.bpc.bw/portfolio-items/gaborone-power-project/)
 * (Cameroon) [Plan Directeur d’Electrification Rurale](https://rise.esmap.org/data/files/library/cameroon/Electricity%20Access/Cameroon_PDER.pdf)
+* (Côte d'Ivoire) [Projects and planning for the Electrical System](https://www.cinergies.ci/realisations-et-projets-planifies/)
 * (Democratic Repulic of the Congo) [Regulator Report 2024](https://are.gouv.cd/rapport-annuel-2024/) - (Includes capacity data)
 * (Eswatini) [Energydata Eswatini Substations 2021](https://energydata.info/dataset/eswatini-substations)
 * (Eswatini) [Energydata Eswatini Grid Network 2022](https://energydata.info/dataset/eswatini-grid-network)
@@ -69,6 +72,7 @@
 * (Gabon) [Energydata Gabon Power Plants](https://energydata.info/dataset/gabon-power-plants)
 * (Gabon) [Energydata Gabon Electricity Transmission Network 2009](https://energydata.info/dataset/gabon-electricity-transmission-network)
 * (Ghana) [THE ENERGY YEAR - Ghana’s Transmission System 2022](https://d3jmgibn6sgz2k.cloudfront.net/wp-content/uploads/2022/02/03083842/The-Energy-Year-Ghana-2022-GRIDCo-Map.pdf)
+* (Ghana) [Electricity Supply Plan for the Ghana Power System, 2022](https://gridcogh.com/wp-content/uploads/2022/07/2022-Electricity_Supply_Plan-1.pdf))
 * (Guinea) [Energydata Guinea Electricity Transmission Network 2014](https://energydata.info/dataset/guinea-electricity-transmission-network-2014)
 * (Kenya) [Energydata Kenya Electricity Network](https://energydata.info/dataset/kenya-kenya-electricity-network)
 * (Kenya) [Energydata Kenya Transmission Stations](https://energydata.info/dataset/kenya-transmission-stations)
@@ -249,7 +253,7 @@
 * (Poland) [Grid Capacity](https://www.pse.pl/obszary-dzialalnosci/krajowy-system-elektroenergetyczny/informacja-o-dostepnosci-mocy-przylaczeniowej)
 * (Poland) [Grid Capacity](https://www.pse.pl/obszary-dzialalnosci/krajowy-system-elektroenergetyczny/informacja-o-dostepnosci-mocy-przylaczeniowej)
 * (Portugal) [Available Hosting Capacity in the National Distribution Grid](https://e-redes.opendatasoft.com/pages/capacidade_rececao_rnd/)
-* (Romania) [Transelectrica](https://www.transelectrica.ro/documents/10179/25146/Harta%2BRET_EN.pdf/37ef21da-8490-4504-b6f5-81baf0a68542?utm_source=chatgpt.com)
+* (Romania) [Transelectrica](https://www.transelectrica.ro/documents/10179/25146/Harta%2BRET_EN.pdf/37ef21da-8490-4504-b6f5-81baf0a68542)
 * (Serbia) [The Electric Power System of Serbia - pdf](https://www.cigre.org/userfiles/files/Community/National%20Power%20System/PowerPoint%20Presentation%20-%202020%20National%20Power%20System%20Report%20of%20CIGRE%20Serbia.pdf)
 * (Slovakia) [Grid maps and technical data](https://www.sepsas.sk/en/for-partners/technical-data/grid-maps/)
 * (Spain) [Edistribucion -  Capacity access at network nodes](https://www.edistribucion.com/en/red-electrica/Nodos_capacidad_acceso.html)
