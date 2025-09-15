@@ -303,6 +303,8 @@
 * (United States) [US Infrastructure Foundation-Level Data - Transmission Lines](https://resilience.climate.gov/datasets/d4090758322c4d32a4cd002ffaa0aa12_0/explore)
 * (United States) [EIA US Energy Atlas](https://atlas.eia.gov/datasets/geoplatform::transmission-lines/)
 * (United States) [Electric Power Substations](https://catalog.data.gov/dataset/electric-power-substations2)
+* (United States) (Florida) [Electric Substation Florida](https://fgdl.org/fgdlmap/)
+* (United States) (Virginia) [Electric Substation Virginia](https://www.arcgis.com/apps/mapviewer/index.html?layers=b06eda911f7b4f859c5e02bb5f7cc308)
 * (United States) (California) [California Electric Substations](https://databasin.org/datasets/cb9ff78949db409f83d4d6ca38f707bf/)
 * (United States) (California) [Electric Substations Washington](https://databasin.org/datasets/36e74994140143e09bf72d2b586ce681/)
 * (United States) (California) [California Electric Transmission Lines](https://data.ca.gov/dataset/california-electric-transmission-lines)
