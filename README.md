@@ -159,6 +159,7 @@
 * (Malaysia) [Sarawak Power Generation and Network](https://www.sarawakenergy.com/assets/images/power-generation/map.png)
 * (Mongolia) [Overview of Energy/Electricity demand and Renewable energy potential](https://www.renewable-ei.org/images/pdf/20160525/Enebish_Namjil.pdf)
 * (Myanmar) [Existing Power Grid and Under Construction Projects](https://www.moep.gov.mm/en/ignite/page/641)
+* (Myanmar) [Myanmar Information Management Unit](https://geonode.themimu.info/layers/?limit=100&offset=0)
 * (Nepal) [Nepal electricity authority annual report](https://www.nea.org.np/admin/assets/uploads/annual_publications/NEA_Annual_Report_2081_New.pdf)
 * (Nepal) [Transmission System Development Plan](https://nepalindata.com/media/resources/items/15/bTransmission-System-Development-Plan-of-Nepal.pdf)
 * (Nepal) [NEPAL POWER TRANSMISSION NETWORK MAP 2021](https://www.rpgcl.com/storage/listies/November2021/nepal-tranmission-network-map-revised1.pdf)
