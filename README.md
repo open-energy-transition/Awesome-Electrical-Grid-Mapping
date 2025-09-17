@@ -529,6 +529,7 @@
 * [OSMCha](https://osmcha.org/)
 * [OsmNightWatch](https://github.com/DavidKarlas/OsmNightWatch)
 * [osm-revert - OpenStreetMap Changeset Reverter](https://revert.monicz.dev/)
+* [Clearance](https://github.com/teritorio/clearance)
 
 ### Desktop Editors and Mapping Tools
 * [id](https://github.com/openstreetmap/iD)
