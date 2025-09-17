@@ -528,6 +528,7 @@
 * [Loop detection](https://waterwaymap.org/loops/#map=2/0/0)
 * [OSMCha](https://osmcha.org/)
 * [OsmNightWatch](https://github.com/DavidKarlas/OsmNightWatch)
+* [osm-revert - OpenStreetMap Changeset Reverter](https://revert.monicz.dev/)
 
 ### Desktop Editors and Mapping Tools
 * [id](https://github.com/openstreetmap/iD)
