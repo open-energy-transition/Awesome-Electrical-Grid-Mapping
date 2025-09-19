@@ -13,13 +13,22 @@
 </tr>
 </table>
 
-⚠️ **If you're eager to get started with transmission grid mapping in OpenStreetMap, check out the [Starter Kit Tutorial](https://mapyourgrid.org/starter-kit/) and [our community discord channel](https://discord.gg/a5znpdFWfD) of #MapYourGrid. Please note that the maps shown here are used to estimate the coverage in OpenStreetMap and to find missing lines. Do not copy/paste data from these maps directly into your OpenStreetMap layer. Each data point of the transmission network must be set manually and [verified](https://wiki.openstreetmap.org/wiki/Verifiability) with official satellite data provided by the OpenStreetMap community.**
-
-> If a link is broken, or you find a map with a broken link that you would like to add to this list, just try the link at the [Internet Archive](https://web.archive.org/). This even works for PDFs and other files.
+<!-- COLLAPSE:question title="Why we've copiled these resources" open="true" -->
+⚠️ The datasets, maps and all resources compiled here are used to estimate the grid coverage in OpenStreetMap and to find missing lines. Do not copy/paste data from these maps directly into your OpenStreetMap layer. Each data point of the transmission network must be set manually and [verified](https://wiki.openstreetmap.org/wiki/Verifiability) with official satellite data provided by the OpenStreetMap community.
+<!-- END COLLAPSE -->
+<!-- COLLAPSE:tip title="Join the #MapYourGrid initiative" open="true"-->
+Get started with transmission grid mapping in OpenStreetMap by checking out our [Starter Kit Tutorial](https://mapyourgrid.org/starter-kit/) and [our community discord channel](https://discord.gg/a5znpdFWfD).
+<!-- END COLLAPSE -->
+<!-- COLLAPSE:note title="A link is not working ?" open="true" -->
+If a resource link is broken, or you find a map with a broken link that you'd like to add to this list, try it on the [Internet Archive](https://web.archive.org/). This even works for PDFs and other files.
+<!-- END COLLAPSE -->
 
 ![](scripts/countries_map_with_logo.png)
 
-## Grid Explorer and National Datasets
+<!-- TABS:start -->
+<!-- TAB:Grid Explorer -->
+## Grid Explorer
+<!-- COLLAPSE:info title="Global Data Catalogs" -->
 ### Global Data Catalogs 
 * [Open Infrastructure Map](https://openinframap.org/) [[Code](https://github.com/openinframap/openinframap)]
 * [GridFinder](https://gridfinder.rdrn.me/) [[Code](https://github.com/carderne/gridfinder)]
@@ -37,7 +46,9 @@
 * [The Utility Performance and Behavior Today (UPBEAT) platform - WorldBank](https://utilityperformance.energydata.info/utilities/)
 * [Latin America UPME electricity infraestructure map](https://sig.upme.gov.co/portal/apps/experiencebuilder/experience/?id=1cb0108edbcb48aca70a838db3db6d89&page=Infraestructura-el%C3%A9ctrica&views=LATAM)
 * [Energy Access Explorer](https://www.energyaccessexplorer.org/)
+<!-- END COLLAPSE -->
 
+<!-- COLLAPSE:info title="Africa" -->
 ### Africa
 #### Cross-border projets and resources
 * [Africa Electricity Grids Explorer](https://africagrid.energydata.info/)
@@ -119,8 +130,9 @@
 * (Zambia) [Energydata Zambia Electrical Transformers And Substations](https://energydata.info/dataset/zambia-electrical-transformers-and-substations-point)
 * (Zambia) [Energydata Zambia Electricity Transmission Network 2014](https://energydata.info/dataset/zambia-electricity-transmission-network-2014)
 * (Zimbabwe) [Energy Profile](https://www.zvei.org/fileadmin/user_upload/Themen/Maerkte_Recht/Aussenwirtschaft/Afrika/Simbabwe/Simbabwe-EZ-Elektro-Energie-Rohstoffe/Energy_Profile_Zimbabwe.pdf)
+<!-- END COLLAPSE -->
 
-
+<!-- COLLAPSE:info title="Asia" -->
 ### Asia
 #### Cross-border projets and resources
 * (Central Asia) [United Nations - Energy Connectivity in Central Asia - An inventory of existing national energy systems](https://unece.org/sites/default/files/2024-02/EN_Energy%20Connectivity%20in%20Central%20Asia_V2.pdf)
@@ -190,8 +202,9 @@
 * (Vietnam) [Vietnam Electricity](https://en.evn.com.vn/userfile/files/EVNAnnualReport2022-2023-20241115110735330.pdf)
 * (Bhutan) [Transmission network](https://sarepenergy.net/wp-content/uploads/2023/06/Presentation-on-Overview-of-Electricity-Transmission-Planning-in-Bhutan-by-Mr.-Kinley-Jamtsho-Transmission-Executive-Engineer-DoEMoENR-Bhutan_-SAGE-RIS-USAID-SAREP_18th-June-2023.pdf)
 * (Yemen) [Energydata Yemen Electricity Transmission Network 2017](https://energydata.info/dataset/yemen-electricity-transmission-network-2017)
+<!-- END COLLAPSE -->
 
-
+<!-- COLLAPSE:info title="Australia and New Zealand" -->
 ### Australia and New Zealand
 * (Australia) [Electricity Transmission Lines - Digital Atlas](https://digital.atlas.gov.au/datasets/digitalatlas::electricity-transmission-lines/explore)
 * (Australia) [Geoscience Australia - National Electricity Transmission Substations](https://data.gov.au/dataset/ds-aurin-666888c5-546d-42c9-8e64-845a099acdbb/)
@@ -202,8 +215,9 @@
 * (New Zealand) [Transpower New Zealand Ltd Transmission Lines](https://data-transpower.opendata.arcgis.com/datasets/0c8db240553f47b5844bdc2eb1146b9b_0/explore)
 * (New Zealand) [Transpower Substations NZ](https://github.com/alltheplaces/alltheplaces/blob/master/locations/spiders/infrastructure/transpower_substations_nz.py)
 * (New Zealand) [Powerco Zone Substations NZ](https://github.com/alltheplaces/alltheplaces/blob/master/locations/spiders/infrastructure/powerco_zone_substations_nz.py)
+<!-- END COLLAPSE -->
 
-
+<!-- COLLAPSE:info title="Europe"-->
 ### Europe
 #### Cross-border projets and resources
 * [ENTSO-E_Grid_Map_Continental_Europe](https://eepublicdownloads.entsoe.eu/clean-documents/Publications/maps/2024/ENTSOE_Grid_Map_Continental_Europe.pdf)
@@ -270,7 +284,9 @@
 * (United Kingdom) [Northern Powergrid](https://northernpowergrid.opendatasoft.com)
 * (United Kingdom) [Scottish & Southern Electricity Networks](https://data.ssen.co.uk)
 * (United Kingdom) [SP Energy Networks](https://spenergynetworks.opendatasoft.com)
+<!-- END COLLAPSE -->
 
+<!-- COLLAPSE:info title="North America" -->
 ### North America
 #### Cross-border projets and resources
 * (Canada;US) [Electricity Transmission in Canada + US](https://www.arcgis.com/apps/mapviewer/index.html?webmap=fec6a654d2d44a0688b8c6d8c9c95367)
@@ -316,7 +332,9 @@
 * (United States) (California) [California Electric Transmission Lines](https://data.ca.gov/dataset/california-electric-transmission-lines)
 * (United States) (California) [California Energy Commision - Electric Transmission Lines](https://cecgis-caenergy.opendata.arcgis.com/datasets/260b4513acdb4a3a8e4d64e69fc84fee_2/explore)
 * (United States) (Texas) [ERCOT Transmission Grid Map](https://www.ercot.com/gridinfo/transmission) (Can only be visited from the US)
+<!-- END COLLAPSE -->
 
+<!-- COLLAPSE:info title="South America" -->
 ### South America
 * #### Cross-border projets and resources
 * [Portal Energetico America Latina --- generators, oil/gas pipelines, coal terminals, LNG import/export terminals](https://portalenergetico.org/es/map/)
@@ -352,8 +370,12 @@
 * (Peru) [COES Lineas existentes](https://www.coes.org.pe/Portal/Operacion/CaractSEIN/MapaSEIN#)
 * (Suriname) [Electricity Sector Plan](https://eas.sr/wp-content/uploads/2025/05/1.-Vol-I-Stategic-Plan-Suriname-ESP-250510.pdf)
 * (Uruguay) [Red de Trasmisión - Unifilar Geográfico](https://portal.ute.com.uy/sites/default/files/generico/Red%20TRA%20existente%20A0.pdf)
+<!-- END COLLAPSE -->
 
-## Scientific Publications
+<!-- TAB:News and Publications -->
+## News and Publications
+#### Scientific Publications
+<!-- Please keep the following numeration as is : #### instead of ### -->
 * [Predictive mapping of the global power system using open data](https://www.nature.com/articles/s41597-019-0347-4)
 * [Modelling the High-Voltage Grid Using Open Data for Europe and Beyond](https://arxiv.org/abs/2408.17178)
 * [GridTracer: Automatic Mapping of Power Grids using Deep Learning and Overhead Imagery](https://arxiv.org/abs/2101.06390)
@@ -374,11 +396,11 @@
 * [Development of A Spatiotemporal Database for Evolution Analysis of the Moscow Backbone Power Grid](https://www.mdpi.com/2306-5729/6/12/127)
 * [Mapping a Sustainable Renewable Energy Transition - Handbook for Practitioners](https://www.nature.org/content/dam/tnc/nature/en/documents/Europe_Energy_Practitioners_Guide.pdf)
 
-## Policy
+#### Policy
 * [Grids, the missing link - An EU Action Plan for Grids](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:52023DC0757)
 * [Grid Modernization Strategy 2024](https://www.energy.gov/sites/default/files/2024-12/Grid%20Modernization%20Strategy%202024.pdf) 
 
-## Reports and News
+#### Reports and News
 * [From Taking Stock to Taking Action](https://iea.blob.core.windows.net/assets/f2f6dbe0-ee3d-4ffc-ac8b-b811a868b9b1/FromTakingStocktoTakingAction.pdf)
 * [NREL National Transmission Planning Study](https://www.nrel.gov/grid/national-transmission-planning-study.html)
 * [Putting the mission in transmission: Grids for Europes Energy Transition](https://ember-energy.org/app/uploads/2024/10/Grids-for-Europes-Energy-Transition-Report-1.pdf)
@@ -402,129 +424,60 @@
 * [Ember - Asian Electricity Data Transparency](https://ember-energy.org/latest-insights/asian-electricity-data-transparency/)
 * [Mini Grids for Half a Billion People](https://www.esmap.org/sites/default/files/esmap-files/Mini%20Grids%20for%20Half%20a%20Billion%20People%20-%20OKR%20Download%20Version_compressed_MKA.pdf)
 
-## Presentation and Videos 
-* [Pinpointing the power grid](https://www.youtube.com/watch?v=KlZ1ijWxKkw)
-* [10 years of power infrastructure mapping: what's next?](https://www.youtube.com/watch?v=OSZ0zsrTWnQ)  [Slides](https://nextcloud.openstreetmap.fr/index.php/s/kYkqPmtbBKbX6Cy)
-* [Analysis of renewable energy infrastructure representations in OpenStreetMap](https://www.youtube.com/watch?v=8hYxJE_6bGw)
-* [AI for Transmission Grid Mapping: Methodology & Use Cases](https://www.youtube.com/watch?v=h6Ct5AtC1Bo)
-* [The Power of YouthMappers: Shining a Light on the Movement](https://www.youtube.com/watch?v=xWOqYtv6skI)
-* [OpenGridMap pecha kucha style presentation](https://www.youtube.com/watch?v=55X_-eVRUR8)
-* [Open-source Geo-spatial Assessment of Electricity Transmission Infrastructure](https://www.youtube.com/watch?v=8-OZzWHgH2g)
-
-## Grid Extraction, Transformation and Integration Tools 
-* [PyPSA Grid Analysis](https://github.com/open-energy-transition/pypsa-grid-analysis) - Compares the PyPSA-Eur transmission grid database as well as the PyPSA-Earth transmission grid database for a selected region of 50 Hertz in Germany.
-* [earth-osm](https://github.com/pypsa-meets-earth/earth-osm) - Provides a Python API and a CLI interface to extract data for various infrastructure types, such as power lines, substations, and more.
-* [powerplantmatching](https://github.com/PyPSA/powerplantmatching/) - Set of tools to combine multiple power plant databases.
-
-## Remote Mapping 
-
-### Poles-on-Earth
-* [Poles-on-Earth](https://github.com/TA-Geoforce/Poles-on-Earth) - Poles on Earth is an AI web service that provides the positions of utility poles everywhere on Earth using satellite imagery
-
-### RetinaNet
-* [Detection of electric utility features and vegetation encroachments from satellite images using deep learning](https://developers.arcgis.com/python/latest/samples/detection-of-electric-utility-features-and-vegetation-encroachments-from-satellite-images-using-deep-learning/)
-
-### SAR
-* [Prompt Learning for Oriented Power Transmission Tower Detection in High-Resolution SAR Images](https://arxiv.org/abs/2404.01074)
-
-### ml-hv-grid
-* [Machine Learning for High Volatage Grid Mapping - Report](https://datacatalogfiles.worldbank.org/ddh-published/0041093/DR0051269/report_machine-learning-for-hv-grid-mapping_wbg-esmap_june2018_0.pdf?versionId=2023-01-19T06:15:12.4521771Z)
-* [ml-hv-grid - Documentation](https://developmentseed.org/ml-grid-docs/)
-* [ml-hv-grid - Repository](https://github.com/developmentseed/ml-hv-grid-pub)
-* [Mapping electrical towers in satellite imagery with smart-tracing - Slides](https://ncgeo.nl/wp-content/uploads/2024/05/04NCG-Studiedag-GeoAIET-2023-Presentatie-NEO.pdf)
-
-### GridFinder
-* [A new predictive model for more accurate electrical grid mapping - Blog](https://engineering.fb.com/2019/01/25/connectivity/electrical-grid-mapping/)
-* [Predictive mapping of the global power system using open data - Paper](https://www.nature.com/articles/s41597-019-0347-4)
-* [Methods for: Predictive mapping of the global power system using open data](https://github.com/carderne/predictive-mapping-global-power)
-* [gridfinder - Repository](https://github.com/carderne/gridfinder.git)
-* [gridfinder - Dataset](https://zenodo.org/records/3628142)
-
-### TTPLA 
-* [An Aerial-Image Dataset for Detection and Segmentation of Transmission Towers and Power Line - Paper](https://arxiv.org/abs/2010.10032)
-* [TTPLA Dataset](https://github.com/r3ab/ttpla_dataset)
-
-### PGRID
-* [PGRID: Power Grid Reconstruction in Informal Developments Using High-Resolution Aerial Imagery - Paper](https://arxiv.org/html/2412.07944v1)
-* [turkana-grid-mapping - Repository](https://github.com/USAFORUNHCRhive/turkana-grid-mapping)
-   
-### A Dataset for Multi-Size Power Line Assets Detection in High-Resolution UAV Images
-* [STN PLAD](https://github.com/andreluizbvs/PLAD)
-
-### GridTracer
-* [GridTracer - Automatic Mapping of Power Grids using Deep Learning and Overhead Imagery](https://arxiv.org/abs/2101.06390)
-* [GridTracer - Trainings Data](https://figshare.com/articles/dataset/Electric_Transmission_and_Distribution_Infrastructure_Imagery_Dataset/6931088)
-* [GridTracer - Repository](https://github.com/wangzhecheng/GridMapping)
-* [Power Grid Mapper - Code](https://github.com/bohaohuang/transmission_grid)
-* [Inferring Energy Infrastructure - Code](https://github.com/pypsa-meets-earth/detect-energy)
-
-### Substation detection
-* [Improving satellite imagery segmentation using multiple Sentinel-2 revisits - Paper](https://arxiv.org/abs/2409.17363)
-* [Improving satellite imagery segmentation using multiple Sentinel-2 revisits - Code](https://github.com/Lindsay-Lab/substation-seg)
-* [Remote Sensing Dataset: Substation Dataset](https://huggingface.co/datasets/neurograce/SubstationDataset)
-* [Substation detection on NSO imagery - Code](https://github.com/joel-deplaen-ivm/detectron2-nso-test)
-* [Substation detection on NSO imagery - Data](https://zenodo.org/records/10214231)
-* [Substation detection on NSO imagery - Paper](https://iopscience.iop.org/article/10.1088/2634-4505/ad63c9/meta)
-
-### Embeddings and GIS Foundation Models
-* [Aerial Image Search Demo](https://blog.rtwilson.com/searching-an-aerial-photo-with-text-queries-a-demo-and-how-it-works/)
-* [Clay Foundation Model](https://github.com/Clay-foundation/model)
-
+<!-- TAB:Crowdsourced Mapping -->
 ## Crowdsourced Mapping
-### Communities and Initiatives 
+#### Communities and Initiatives 
 * [Humanitarian OpenStreetMap Team](https://www.hotosm.org/)
 * [Youthmappers - Mapping for a sustainable future: YouthMappers tackle global climate challenges](https://www.preventionweb.net/news/mapping-sustainable-future-youthmappers-tackle-global-climate-challenges)
 * [Youthmappers - Power Mapping brings Rapid Reliable Energy to Rural Communities](https://blog.mapillary.com/update/2020/10/20/sierra-leone-mapping.html)
 * [Youthmappers - Power Grid Mapping in West Africa](https://www.researchgate.net/publication/365837549_Power_Grid_Mapping_in_West_Africa)
 
-### Challenges
+#### Challenges
 * [TeachOSM](https://tasks.teachosm.org/explore)
 * [Missing Maps](https://www.missingmaps.org/)
 * [MapComplete](https://mapcomplete.org/)
 * [StreetComplete](https://streetcomplete.app/)
 * [MapRoulette](https://maproulette.org/)
 
-### Tutorials and Training 
+#### Tutorials and Training 
 * [learnOSM](https://learnosm.org/en/coordination/mapathon/)
 * [Building large-scale crowdsourcing communities with the Humanitarian OpenStreetMap Team](https://www.youtube.com/watch?v=N0DsatEt0J8&list=PLQNy8KsDknCpszC6g5VzspLMUkU-YkgSH)
 * [JOSM OpenStreetMap Editor for Beginners](https://www.youtube.com/watch?v=3Yk8b8SB81o)
 * [How to use the JOSM MapwithAI Feature Humanitarian Mappers](https://www.youtube.com/watch?v=Wy6oZ0RDl8M)
 
-### Mapping Coordinating
+#### Mapping Coordinating
 * [Field Mapping Tasking Manager](https://github.com/hotosm/fmtm)
 * [Tasking Manager](https://github.com/hotosm/tasking-manager)
 
-### News and Community Reach
+#### News and Community Reach
 * [weeklyOSM](https://weeklyosm.eu/)
 * [r/openstreetmap/](https://www.reddit.com/r/openstreetmap/)
 * [OpenStreetMap US](https://openstreetmap.us/news/)
 * [Offical OpenStreetMap Blog](https://blog.openstreetmap.org/)
 
-## Electrical Grid Mapping in OpenStreetMap
-
-### Forums and Community
+#### Electrical Grid Mapping : Forums and Community
 * [Power Networks](https://wiki.openstreetmap.org/wiki/Power_networks)
 * [Power Forum Posts](https://community.openstreetmap.org/tag/power)
 * [Infrastructure Matrix Channel](https://app.element.io/#/room/#osm-infrastructure:matrix.org)
 
-### Power Tags and Articles
+#### Power Tags and Articles
 * [Key:power](https://wiki.openstreetmap.org/wiki/Key:power)
 * [Power:proposals](https://wiki.openstreetmap.org/wiki/Key:power#Proposals)
 * [Power Tag Statistics](https://taginfo.openstreetmap.org/keys/power)
 * [Key:line_management](https://wiki.openstreetmap.org/wiki/Key:line_management)
 * [Key:proposed](https://wiki.openstreetmap.org/wiki/Key:proposed) 
 
-### Good Practices in Power Routing
+#### Good Practices in Power Routing
 * [Power Routing Proposal](https://wiki.openstreetmap.org/wiki/Proposal:Power_routing_proposal) [[Talk](https://wiki.openstreetmap.org/wiki/Proposal_talk:Power_routing_proposal)]
 
-### Statistics
+#### Statistics
 * [OSM History Analyser](https://dashboard.ohsome.org/) [Code](https://github.com/giscience/ohsome-dashboard)
 * [OSMstats](https://osmstats.neis-one.org/)
 * [How did you contribute to OpenStreetMap](https://hdyc.neis-one.org/)
 * [Create a HeatMap of your Contribution](https://yosmhm.neis-one.org/)
 * [Filtering OSM Changesets by a Specific Text of the last 30 Days](https://resultmaps.neis-one.org/)
 
-### Quality Assurance Tools
+#### Quality Assurance Tools
 * [osmose](https://osmose.openstreetmap.fr/en/map/#loc=7/45.06/-122.762&level=1%2C2%2C3&tags=power&item=7040%2C7190%2C8270%2C8280%2C8281%2C8282%2C8290%2C9100)
 * [Loop detection](https://waterwaymap.org/loops/#map=2/0/0)
 * [OSMCha](https://osmcha.org/)
@@ -532,7 +485,7 @@
 * [osm-revert - OpenStreetMap Changeset Reverter](https://revert.monicz.dev/)
 * [Clearance](https://github.com/teritorio/clearance)
 
-### Desktop Editors and Mapping Tools
+#### Desktop Editors and Mapping Tools
 * [id](https://github.com/openstreetmap/iD)
 * [RapiD](https://github.com/facebook/Rapid)
 * [JOSM](https://github.com/JOSM)
@@ -547,22 +500,85 @@
 * [Maptcha-dev](https://github.com/ciupava/maptcha_dev)
 * [geodatadownloader](https://geodatadownloader.com/maps/create)
 
-### Mobile and In-field Editors 
+#### Mobile and In-field Editors 
 * [Vespucci](https://wiki.openstreetmap.org/wiki/Vespucci)
 * [StreetComplete](https://wiki.openstreetmap.org/wiki/StreetComplete)
 * [OsmAnd](https://osmand.net/)
 
-### Diaries and Blogs
+#### Diaries and Blogs
 * [InfosReseaux's Diary](https://www.openstreetmap.org/user/InfosReseaux/diary)
 
-### Data Import
+#### Data Import
 * [Verifiability](https://wiki.openstreetmap.org/wiki/Verifiability)
 * [Importing is the process of uploading external data to OSM.](https://wiki.openstreetmap.org/wiki/Import)
 * [Import/Catalogue](https://wiki.openstreetmap.org/wiki/Import/Catalogue)
 * [Import/Guidelines](https://wiki.openstreetmap.org/wiki/Import/Guidelines)
 
-## Grid Design Basics 
-### Theory
+<!-- TAB:Even more resources -->
+## Even more resources
+#### Presentation and Videos 
+* [Pinpointing the power grid](https://www.youtube.com/watch?v=KlZ1ijWxKkw)
+* [10 years of power infrastructure mapping: what's next?](https://www.youtube.com/watch?v=OSZ0zsrTWnQ)  [Slides](https://nextcloud.openstreetmap.fr/index.php/s/kYkqPmtbBKbX6Cy)
+* [Analysis of renewable energy infrastructure representations in OpenStreetMap](https://www.youtube.com/watch?v=8hYxJE_6bGw)
+* [AI for Transmission Grid Mapping: Methodology & Use Cases](https://www.youtube.com/watch?v=h6Ct5AtC1Bo)
+* [The Power of YouthMappers: Shining a Light on the Movement](https://www.youtube.com/watch?v=xWOqYtv6skI)
+* [OpenGridMap pecha kucha style presentation](https://www.youtube.com/watch?v=55X_-eVRUR8)
+* [Open-source Geo-spatial Assessment of Electricity Transmission Infrastructure](https://www.youtube.com/watch?v=8-OZzWHgH2g)
+
+#### Grid Extraction, Transformation and Integration Tools 
+* [PyPSA Grid Analysis](https://github.com/open-energy-transition/pypsa-grid-analysis) - Compares the PyPSA-Eur transmission grid database as well as the PyPSA-Earth transmission grid database for a selected region of 50 Hertz in Germany.
+* [earth-osm](https://github.com/pypsa-meets-earth/earth-osm) - Provides a Python API and a CLI interface to extract data for various infrastructure types, such as power lines, substations, and more.
+* [powerplantmatching](https://github.com/PyPSA/powerplantmatching/) - Set of tools to combine multiple power plant databases.
+
+#### Remote Mapping 
+* [Poles-on-Earth](https://github.com/TA-Geoforce/Poles-on-Earth) - Poles on Earth is an AI web service that provides the positions of utility poles everywhere on Earth using satellite imagery
+* [Detection of electric utility features and vegetation encroachments from satellite images using deep learning](https://developers.arcgis.com/python/latest/samples/detection-of-electric-utility-features-and-vegetation-encroachments-from-satellite-images-using-deep-learning/)
+* [Prompt Learning for Oriented Power Transmission Tower Detection in High-Resolution SAR Images](https://arxiv.org/abs/2404.01074)
+
+#### ml-hv-grid
+* [Machine Learning for High Volatage Grid Mapping - Report](https://datacatalogfiles.worldbank.org/ddh-published/0041093/DR0051269/report_machine-learning-for-hv-grid-mapping_wbg-esmap_june2018_0.pdf?versionId=2023-01-19T06:15:12.4521771Z)
+* [ml-hv-grid - Documentation](https://developmentseed.org/ml-grid-docs/)
+* [ml-hv-grid - Repository](https://github.com/developmentseed/ml-hv-grid-pub)
+* [Mapping electrical towers in satellite imagery with smart-tracing - Slides](https://ncgeo.nl/wp-content/uploads/2024/05/04NCG-Studiedag-GeoAIET-2023-Presentatie-NEO.pdf)
+
+#### GridFinder
+* [A new predictive model for more accurate electrical grid mapping - Blog](https://engineering.fb.com/2019/01/25/connectivity/electrical-grid-mapping/)
+* [Predictive mapping of the global power system using open data - Paper](https://www.nature.com/articles/s41597-019-0347-4)
+* [Methods for: Predictive mapping of the global power system using open data](https://github.com/carderne/predictive-mapping-global-power)
+* [gridfinder - Repository](https://github.com/carderne/gridfinder.git)
+* [gridfinder - Dataset](https://zenodo.org/records/3628142)
+
+#### TTPLA 
+* [An Aerial-Image Dataset for Detection and Segmentation of Transmission Towers and Power Line - Paper](https://arxiv.org/abs/2010.10032)
+* [TTPLA Dataset](https://github.com/r3ab/ttpla_dataset)
+
+#### PGRID
+* [PGRID: Power Grid Reconstruction in Informal Developments Using High-Resolution Aerial Imagery - Paper](https://arxiv.org/html/2412.07944v1)
+* [turkana-grid-mapping - Repository](https://github.com/USAFORUNHCRhive/turkana-grid-mapping)
+   
+#### A Dataset for Multi-Size Power Line Assets Detection in High-Resolution UAV Images
+* [STN PLAD](https://github.com/andreluizbvs/PLAD)
+
+#### GridTracer
+* [GridTracer - Automatic Mapping of Power Grids using Deep Learning and Overhead Imagery](https://arxiv.org/abs/2101.06390)
+* [GridTracer - Trainings Data](https://figshare.com/articles/dataset/Electric_Transmission_and_Distribution_Infrastructure_Imagery_Dataset/6931088)
+* [GridTracer - Repository](https://github.com/wangzhecheng/GridMapping)
+* [Power Grid Mapper - Code](https://github.com/bohaohuang/transmission_grid)
+* [Inferring Energy Infrastructure - Code](https://github.com/pypsa-meets-earth/detect-energy)
+
+#### Substation detection
+* [Improving satellite imagery segmentation using multiple Sentinel-2 revisits - Paper](https://arxiv.org/abs/2409.17363)
+* [Improving satellite imagery segmentation using multiple Sentinel-2 revisits - Code](https://github.com/Lindsay-Lab/substation-seg)
+* [Remote Sensing Dataset: Substation Dataset](https://huggingface.co/datasets/neurograce/SubstationDataset)
+* [Substation detection on NSO imagery - Code](https://github.com/joel-deplaen-ivm/detectron2-nso-test)
+* [Substation detection on NSO imagery - Data](https://zenodo.org/records/10214231)
+* [Substation detection on NSO imagery - Paper](https://iopscience.iop.org/article/10.1088/2634-4505/ad63c9/meta)
+
+#### Embeddings and GIS Foundation Models
+* [Aerial Image Search Demo](https://blog.rtwilson.com/searching-an-aerial-photo-with-text-queries-a-demo-and-how-it-works/)
+* [Clay Foundation Model](https://github.com/Clay-foundation/model)
+
+#### Grid Design Basics - Theory
 * [The Learning Curve](https://www.youtube.com/@TheLearningCurveBenila)
 * [Components of Overhead Transmission Lines](https://www.youtube.com/watch?v=A6fwq3yHRXQ)
 * [Transmission Line Theory](https://innovationspace.ansys.com/product/transmission-line-theory/)
@@ -571,7 +587,7 @@
 * [Purdue University - Introduction to Transmission Lines](https://www.youtube.com/watch?v=vair5b23j7M)
 * [Comparison between HVAC and HVDC transmission system](https://www.youtube.com/watch?v=l9nHs8e0WUg)
 
-### Grid Design
+#### Grid Design
 * [A Field Guide To Transmission Lines](https://hackaday.com/2019/06/11/a-field-guide-to-transmission-lines/)
 * [How Does the Power Grid Work?](https://www.youtube.com/watch?v=v1BMWczn7JM&t=214s)
 * [Line Design Principles - Powerlink Queensland](https://www.nrel.gov/docs/fy24osti/85880.pd)
@@ -580,6 +596,7 @@
 * [Identify equipment in a substation](https://www.youtube.com/watch?v=t-FE-8Sj6cI)
 * [Let's trace the power lines all the way to the power plant](https://www.youtube.com/watch?v=UBt1uJuz0-4&list=PLXb3r5ny8_1Xkd9Ht6wiQEAiF1mtAfmGS&index=32)
 
-### Voltage Estimation
+#### Voltage Estimation
 * [Identifying the voltage level by number of insulator disks](https://www.reddit.com/r/Damnthatsinteresting/comments/ukc24p/identifying_the_voltage_level_by_number_of/)
 * [Guessing power line voltage from the number of disc insulator](https://electronics.stackexchange.com/questions/71614/guessing-power-line-voltage-from-the-number-of-disc-insulator)
+<!-- TABS:end -->
