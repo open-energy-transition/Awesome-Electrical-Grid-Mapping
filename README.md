@@ -188,6 +188,7 @@
 * (Uzbekistan) [Electricity Sector Transformation and Resilient Transmission](https://documents1.worldbank.org/curated/en/184411624932251299/pdf/Uzbekistan-Electricity-Sector-Transformation-and-Resilient-Transmission-Project.pdf)
 * (Uzbekistan) [Energydata Uzbekistan 2016](https://energydata.info/dataset/uzbekistan-electricity-transmission-network)
 * (Vietnam) [Vietnam Electricity](https://en.evn.com.vn/userfile/files/EVNAnnualReport2022-2023-20241115110735330.pdf)
+* (Bhutan) [Transmission network](https://sarepenergy.net/wp-content/uploads/2023/06/Presentation-on-Overview-of-Electricity-Transmission-Planning-in-Bhutan-by-Mr.-Kinley-Jamtsho-Transmission-Executive-Engineer-DoEMoENR-Bhutan_-SAGE-RIS-USAID-SAREP_18th-June-2023.pdf)
 * (Yemen) [Energydata Yemen Electricity Transmission Network 2017](https://energydata.info/dataset/yemen-electricity-transmission-network-2017)
 
 
