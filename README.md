@@ -372,10 +372,10 @@ If a resource link is broken, or you find a map with a broken link that you'd li
 * (Uruguay) [Red de Trasmisión - Unifilar Geográfico](https://portal.ute.com.uy/sites/default/files/generico/Red%20TRA%20existente%20A0.pdf)
 <!-- END COLLAPSE -->
 
+<!-- Please keep the following numeration as is : #### instead of ### -->
 <!-- TAB:News and Publications -->
 ## News and Publications
 #### Scientific Publications
-<!-- Please keep the following numeration as is : #### instead of ### -->
 * [Predictive mapping of the global power system using open data](https://www.nature.com/articles/s41597-019-0347-4)
 * [Modelling the High-Voltage Grid Using Open Data for Europe and Beyond](https://arxiv.org/abs/2408.17178)
 * [GridTracer: Automatic Mapping of Power Grids using Deep Learning and Overhead Imagery](https://arxiv.org/abs/2101.06390)
