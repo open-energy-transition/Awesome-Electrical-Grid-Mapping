@@ -23,6 +23,9 @@ Get started with transmission grid mapping in OpenStreetMap by checking out our 
 If a resource link is broken, or you find a map with a broken link that you'd like to add to this list, try it on the [Internet Archive](https://web.archive.org/). This even works for PDFs and other files.
 <!-- END COLLAPSE -->
 
+<!-- ⚠️⚠️⚠️ If you'd like to contribute to this list, please follow this format : 
+* (Country or Region) [Title](link) (year of publication or last update : YYYY) (license type) (tags in separate parentheses : capacitydata | dataset | map | report) ⚠️⚠️⚠️ -->
+
 ![](scripts/countries_map_with_logo.png)
 
 <!-- TABS:start -->
@@ -37,7 +40,7 @@ If a resource link is broken, or you find a map with a broken link that you'd li
 * [Global Energy Monitor](https://globalenergymonitor.org/)
 * [The Global Transmission Database](https://github.com/Electricity-Transmission-Database/electricity-transmission-database) [Code](https://github.com/Electricity-Transmission-Database/electricity-transmission-database) (**Includes capacity data**)
 * [HVDC World Global Map](https://www.hvdcworld.com/hvdc-map)
-* [ENERGYDATA.INFO](https://energydata.info/) - Open Data and Analytics for a sustainable energy future
+* [ENERGYDATA.INFO -  Open Data and Analytics for a sustainable energy future](https://energydata.info/)
 * [Transmission network datasets wiki of openmod](https://wiki.openmod-initiative.org/wiki/Transmission_network_datasets) 
 * [Open Energy Platform Grid Data](https://openenergyplatform.org/dataedit/view/grid)
 * [Electricitymaps Data Sources](https://github.com/electricitymaps/electricitymaps-contrib/blob/master/DATA_SOURCES.md)
@@ -51,39 +54,39 @@ If a resource link is broken, or you find a map with a broken link that you'd li
 <!-- COLLAPSE:info title="Africa" -->
 ### Africa
 #### Cross-border projets and resources
-* [Africa Electricity Grids Explorer](https://africagrid.energydata.info/)
+* [Africa Electricity Grids Explorer](https://africagrid.energydata.info/) (map)
 * [Central Africa Power Pool](https://www.peac-sig.org/en/systeme-d-information-3.html)
 * [Africa Knowledge Platform-European Comission](https://africa-knowledge-platform.ec.europa.eu/explore_maps)
-* [ECOWAS Region - Existing and Planned Transmission Grid](https://energydata.info/dataset/transmission-grid-ecowas-region)
+* [ECOWAS Region - Existing and Planned Transmission Grid](https://energydata.info/dataset/transmission-grid-ecowas-region) (2021) (CC-BY-SA 4.0) (dataset)
 * [GRID3 NGA - Other POI: Energy and Electricity Substations](https://data.grid3.org/datasets/GRID3::grid3-nga-other-poi-energy-and-electricity-substations/explore)
-* [Gulf Cooperation Council Interconnection Authority](https://gccia.com.sa/gccia-grid/our-existing-network/)
-* [Med-TSO - Mediterranean](https://med-tso.org/en/map-of-the-interconnected-electricity-transmission-networks-2024/)
-* [Plan d’Affaires Stratégique 2025-2028 du PEAC](https://peac-ac.org/wp-content/uploads/2025/02/plan-daffaires_PEAC_VF.pdf)
-* [Regional Electricity Interconnection of Africa - 2023](https://africa-eu-energy-partnership.org/regional-electricity-interconnection-and-market-integration-in-africa-is-taking-huge-strides-forward/)
-* [Southern-Eastern Africa RE Zones](https://mapre.es.ucsb.edu/project/searez/)
-* [West African Power Pool (WAPP) - 2017](https://www.ecowapp.org/sites/default/files/wapp_map_general_optimized.gif)
-* [West African Power Pool (WAPP) - 2019](https://www.ecowapp.org/sites/default/files/wapp_final_map_0.pdf)
+* [Gulf Cooperation Council Interconnection Authority](https://gccia.com.sa/gccia-grid/our-existing-network/) (report) 
+* [Med-TSO - Mediterranean](https://med-tso.org/en/map-of-the-interconnected-electricity-transmission-networks-2024/) (2024) (map)
+* [Plan d’Affaires Stratégique 2025-2028 du PEAC](https://peac-ac.org/wp-content/uploads/2025/02/plan-daffaires_PEAC_VF.pdf) (2024) (report)
+* [Regional Electricity Interconnection of Africa](https://africa-eu-energy-partnership.org/regional-electricity-interconnection-and-market-integration-in-africa-is-taking-huge-strides-forward/) (2023) (map) (report)
+* [Southern-Eastern Africa RE Zones](https://mapre.es.ucsb.edu/project/searez/) (2015) (proprietary) (map) (report)
+* [West African Power Pool (WAPP)](https://www.ecowapp.org/sites/default/files/wapp_map_general_optimized.gif) (2017) (map)
+* [West African Power Pool (WAPP)](https://www.ecowapp.org/sites/default/files/wapp_final_map_0.pdf) (2019) (map)
 * [OMVG - Gambia, Guinea, Guinea-Bissau, Senegal - Interconnector line 225 kV, 2020](https://www.pe-omvg.org/sites/default/files/2020-12/201103_FR_BULLETIN%20PE%20OMVG_210x297mm_12%20pages_PRINT_FR.pdf)
-* [OMVG - Gambia, Guinea, Guinea-Bissau, Senegal - Interconnector line 225 kV - Action plan 2019](https://www.omvg.org/sites/default/files/document/2023-01/par-lignes-senegal-version-finale-sans-annexes-11_03_2019.pdf)
+* [OMVG - Gambia, Guinea, Guinea-Bissau, Senegal - Interconnector line 225 kV - Action plan](https://www.omvg.org/sites/default/files/document/2023-01/par-lignes-senegal-version-finale-sans-annexes-11_03_2019.pdf) (2019) (report)
 
 #### National-level projets and resources
-* (Angola) [Rapid Assessment and Gap Analysis](https://www.seforall.org/sites/default/files/l/2015/05/Angola_RAGA.pdf) (2015)(report)
-* (Benin;Burkina Faso;Côte d'Ivoire;Ghana;Guinea;Guinea-Bissau;Liberia;Mali;Niger;Nigeria;Senegal;Sierra Leone;Togo;Gambia) [West African Power Pool (WAPP)](https://www.ecowapp.org/sites/default/files/wapp_map_general_optimized.gif) (2017)(map)
-* (Botswana) [Botswana Power Corporation - Generation Facilities, Transmission, Distribution grids](https://www.bpc.bw/our-customer-base/)(proprietary)(map)
-* (Botswana) [Transmission Grid Projects](https://www.bpc.bw/portfolio-items/gaborone-power-project/)(report)(proprietary)
+* (Angola) [Rapid Assessment and Gap Analysis](https://www.seforall.org/sites/default/files/l/2015/05/Angola_RAGA.pdf) (2015) (report)
+* (Benin;Burkina Faso;Côte d'Ivoire;Ghana;Guinea;Guinea-Bissau;Liberia;Mali;Niger;Nigeria;Senegal;Sierra Leone;Togo;Gambia) [West African Power Pool (WAPP)](https://www.ecowapp.org/sites/default/files/wapp_map_general_optimized.gif) (2017) (map)
+* (Botswana) [Botswana Power Corporation - Generation Facilities, Transmission, Distribution grids](https://www.bpc.bw/our-customer-base/) (proprietary) (map)
+* (Botswana) [Transmission Grid Projects](https://www.bpc.bw/portfolio-items/gaborone-power-project/) (report) (proprietary)
 * (Cameroon) [Plan Directeur d’Electrification Rurale](https://rise.esmap.org/data/files/library/cameroon/Electricity%20Access/Cameroon_PDER.pdf)
-* (Côte d'Ivoire) [Projects and planning for the Electrical System](https://www.cinergies.ci/realisations-et-projets-planifies/)(2020)(proprietary)(map)
-* (Democratic Repulic of the Congo) [Regulator Report 2024](https://are.gouv.cd/rapport-annuel-2024/) (2024)(proprietary)(report)(capacitydata)
-* (Eswatini) [Energydata Eswatini Substations 2021](https://energydata.info/dataset/eswatini-substations)
-* (Eswatini) [Energydata Eswatini Grid Network 2022](https://energydata.info/dataset/eswatini-grid-network)
-* (Eswatini) [Energydata Eswatini Electricity Transmission Network 2009](https://energydata.info/dataset/swaziland-electricity-transmission-network)
-* (Eswatini) [Energydata Eswatini Power Plants](https://energydata.info/dataset/swaziland-power-plants)
-* (Ethiopia) [Electric Power](https://www.eep.com.et/?page_id=781)
-* (Ethiopia;Somalia) [Energydata Somalia Ethiopia interconnection](https://energydata.info/dataset/somalia-ethiopia-interconnection)
-* (Gabon) [Energydata Gabon Power Plants](https://energydata.info/dataset/gabon-power-plants)
-* (Gabon) [Energydata Gabon Electricity Transmission Network 2009](https://energydata.info/dataset/gabon-electricity-transmission-network)
-* (Ghana) [THE ENERGY YEAR - Ghana’s Transmission System 2022](https://d3jmgibn6sgz2k.cloudfront.net/wp-content/uploads/2022/02/03083842/The-Energy-Year-Ghana-2022-GRIDCo-Map.pdf)
-* (Ghana) [Electricity Supply Plan for the Ghana Power System, 2022](https://gridcogh.com/wp-content/uploads/2022/07/2022-Electricity_Supply_Plan-1.pdf))
+* (Côte d'Ivoire) [Projects and planning for the Electrical System](https://www.cinergies.ci/realisations-et-projets-planifies/) (2020) (proprietary) (map)
+* (Democratic Repulic of the Congo) [Regulator Report 2024](https://are.gouv.cd/rapport-annuel-2024/) (2024) (proprietary) (report) (capacitydata)
+* (Eswatini) [Energydata Eswatini Substations 2021](https://energydata.info/dataset/eswatini-substations) (2022) (dataset)
+* (Eswatini) [Energydata Eswatini Grid Network 2022](https://energydata.info/dataset/eswatini-grid-network) (2023) (dataset)
+* (Eswatini) [Energydata Eswatini Electricity Transmission Network 2009](https://energydata.info/dataset/swaziland-electricity-transmission-network) (2023) (CC-BY-SA 4.0) (dataset)
+* (Eswatini) [Energydata Eswatini Power Plants](https://energydata.info/dataset/swaziland-power-plants) (2023) (CC-BY-SA 4.0) (dataset)
+* (Ethiopia) [Electric Power](https://www.eep.com.et/?page_id=781) (dataset)
+* (Ethiopia;Somalia) [Energydata Somalia Ethiopia interconnection](https://energydata.info/dataset/somalia-ethiopia-interconnection) (2023) (CC-BY-SA 4.0) (dataset)
+* (Gabon) [Energydata Gabon Power Plants](https://energydata.info/dataset/gabon-power-plants) (2023) (CC-BY-SA 4.0) (dataset)
+* (Gabon) [Energydata Gabon Electricity Transmission Network 2009](https://energydata.info/dataset/gabon-electricity-transmission-network)  (2024) (CC-BY-SA 4.0) (dataset)
+* (Ghana) [THE ENERGY YEAR - Ghana’s Transmission System](https://d3jmgibn6sgz2k.cloudfront.net/wp-content/uploads/2022/02/03083842/The-Energy-Year-Ghana-2022-GRIDCo-Map.pdf) (2022) (proprietary) (map)
+* (Ghana) [Electricity Supply Plan for the Ghana Power System](https://gridcogh.com/wp-content/uploads/2022/07/2022-Electricity_Supply_Plan-1.pdf) (2022) (report)
 * (Guinea) [Energydata Guinea Electricity Transmission Network 2014](https://energydata.info/dataset/guinea-electricity-transmission-network-2014)
 * (Kenya) [Energydata Kenya Electricity Network](https://energydata.info/dataset/kenya-kenya-electricity-network)
 * (Kenya) [Energydata Kenya Transmission Stations](https://energydata.info/dataset/kenya-transmission-stations)
