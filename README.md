@@ -33,7 +33,7 @@ If a resource link is broken, or you find a map with a broken link that you'd li
 ## Grid Explorer
 <!-- COLLAPSE:info title="Global Data Catalogs" -->
 ### Global Data Catalogs 
-* [Open Infrastructure Map](https://openinframap.org/) [[Code](https://github.com/openinframap/openinframap)] (map=)
+* [Open Infrastructure Map](https://openinframap.org/) [[Code](https://github.com/openinframap/openinframap)] (map)
 * [GridFinder](https://gridfinder.rdrn.me/) [[Code](https://github.com/carderne/gridfinder)] (map)
 * [FLOSM Power Grid](https://www.flosm.org/en/powergrid.html) (odbl) (map)
 * [Electricity Maps - Electricity Grid Carbon Emissions](https://app.electricitymaps.com/) [[Code](https://github.com/electricitymaps/electricitymaps-contrib)] (map) 
@@ -135,11 +135,11 @@ If a resource link is broken, or you find a map with a broken link that you'd li
 <!-- COLLAPSE:info title="Asia" -->
 ### Asia
 #### Cross-border projets and resources
-* (Central Asia) [United Nations - Energy Connectivity in Central Asia - An inventory of existing national energy systems](https://unece.org/sites/default/files/2024-02/EN_Energy%20Connectivity%20in%20Central%20Asia_V2.pdf)
-* (Kazakhstan;Kyrgyzstan;Tajikistan;Turkmenistan) [Cooperation of energy systems in Central Asia](https://www.newscentralasia.net/2024/06/13/sotrudnichestvo-energeticheskikh-sistem-v-tsentralnoy-azii)
-* (Mekong Region) [OpenDevelopment Mekong Map Explorer](https://data.opendevelopmentmekong.net/map-explorer)
-* (South-East Asia) [ASEAN Energy Database](https://www.arcgis.com/apps/View/index.html?appid=a840b350e8744ef6a523abd361f10738)
-* (South-East Asia) [ASEAN Power Grid Interconnections Project Profiles](https://aseanenergy.org/wp-content/uploads/2024/11/ASEAN-Power-Grid-Interconnections-Project-Profiles.pdf)
+* (Central Asia) [United Nations - Energy Connectivity in Central Asia - An inventory of existing national energy systems](https://unece.org/sites/default/files/2024-02/EN_Energy%20Connectivity%20in%20Central%20Asia_V2.pdf) (2023) (report)
+* (Kazakhstan;Kyrgyzstan;Tajikistan;Turkmenistan) [Cooperation of energy systems in Central Asia](https://www.newscentralasia.net/2024/06/13/sotrudnichestvo-energeticheskikh-sistem-v-tsentralnoy-azii) (2024) (report)
+* (Mekong Region) [OpenDevelopment Mekong Map Explorer](https://data.opendevelopmentmekong.net/map-explorer) (cc-by-sa-4.0) (dataset) (map) (report)
+* (South-East Asia) [ASEAN Energy Database](https://www.arcgis.com/apps/View/index.html?appid=a840b350e8744ef6a523abd361f10738) (map)
+* (South-East Asia) [ASEAN Power Grid Interconnections Project Profiles](https://aseanenergy.org/wp-content/uploads/2024/11/ASEAN-Power-Grid-Interconnections-Project-Profiles.pdf) (2024) (capacitydata) (report) 
 
 #### National-level projets and resources
 * (Afghanistan) [Current and planned transmission grid](https://www.researchgate.net/figure/The-current-and-planned-transmission-grid-of-Afghanistan-19_fig6_382678716)
