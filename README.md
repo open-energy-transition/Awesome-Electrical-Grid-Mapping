@@ -206,15 +206,15 @@ If a resource link is broken, or you find a map with a broken link that you'd li
 
 <!-- COLLAPSE:info title="Australia and New Zealand" -->
 ### Australia and New Zealand
-* (Australia) [Electricity Transmission Lines - Digital Atlas](https://digital.atlas.gov.au/datasets/digitalatlas::electricity-transmission-lines/explore)
-* (Australia) [Geoscience Australia - National Electricity Transmission Substations](https://data.gov.au/dataset/ds-aurin-666888c5-546d-42c9-8e64-845a099acdbb/)
-* (Australia) [Transgrid - Eastern Australia](https://tapr.transgrid.com.au/)
-* (Australia) [Queensland - NetworkLoad Capacity](https://www.ergon.com.au/network/about-us/company-reports%2C-plans-and-charters/network-load-capacity-map)
-* (Australia) [Western Australia Network Capacity Mapping Tool](https://westernpower.maps.arcgis.com/apps/webappviewer/index.html?id=21af5edc59034456b59c35be31365cdf)
-* (Australia) [Network Map Rosetta](https://renewables.networkmap.energy/)
-* (New Zealand) [Transpower New Zealand Ltd Transmission Lines](https://data-transpower.opendata.arcgis.com/datasets/0c8db240553f47b5844bdc2eb1146b9b_0/explore)
-* (New Zealand) [Transpower Substations NZ](https://github.com/alltheplaces/alltheplaces/blob/master/locations/spiders/infrastructure/transpower_substations_nz.py)
-* (New Zealand) [Powerco Zone Substations NZ](https://github.com/alltheplaces/alltheplaces/blob/master/locations/spiders/infrastructure/powerco_zone_substations_nz.py)
+* (Australia) [Electricity Transmission Lines - Digital Atlas](https://digital.atlas.gov.au/datasets/digitalatlas::electricity-transmission-lines/explore) (2025) (cc-by-4.0) (dataset) (map)
+* (Australia) [Geoscience Australia - National Electricity Transmission Substations](https://data.gov.au/data/dataset/au-govt-ga-national-electricity-transmission-substations-2017-na) (2017) (dataset) 
+* (Australia) [Transgrid - Eastern Australia](https://tapr.transgrid.com.au/) (map)
+* (Australia) [Queensland - NetworkLoad Capacity](https://www.ergon.com.au/network/about-us/company-reports%2C-plans-and-charters/network-load-capacity-map) (map)
+* (Australia) [Western Australia Network Capacity Mapping Tool](https://westernpower.maps.arcgis.com/apps/webappviewer/index.html?id=21af5edc59034456b59c35be31365cdf) (2025) (map)
+* (Australia) [Network Map Rosetta](https://renewables.networkmap.energy/) (map)
+* (New Zealand) [Transpower New Zealand Ltd Transmission Lines](https://data-transpower.opendata.arcgis.com/datasets/0c8db240553f47b5844bdc2eb1146b9b_0/explore) (2025) (cc-by-4.0) (dataset) (map)
+* (New Zealand) [Transpower Substations NZ](https://github.com/alltheplaces/alltheplaces/blob/master/locations/spiders/infrastructure/transpower_substations_nz.py) (mit) (dataset)
+* (New Zealand) [Powerco Zone Substations NZ](https://github.com/alltheplaces/alltheplaces/blob/master/locations/spiders/infrastructure/powerco_zone_substations_nz.py) (mit) (dataset)
 <!-- END COLLAPSE -->
 
 <!-- COLLAPSE:info title="Europe"-->
