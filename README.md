@@ -201,6 +201,7 @@ If a resource link is broken, or you find a map with a broken link that you'd li
 * (Uzbekistan) [Energydata Uzbekistan 2016](https://energydata.info/dataset/uzbekistan-electricity-transmission-network)
 * (Vietnam) [Vietnam Electricity](https://en.evn.com.vn/userfile/files/EVNAnnualReport2022-2023-20241115110735330.pdf)
 * (Bhutan) [Transmission network](https://sarepenergy.net/wp-content/uploads/2023/06/Presentation-on-Overview-of-Electricity-Transmission-Planning-in-Bhutan-by-Mr.-Kinley-Jamtsho-Transmission-Executive-Engineer-DoEMoENR-Bhutan_-SAGE-RIS-USAID-SAREP_18th-June-2023.pdf)
+* (Bhutan)[Report](https://openjicareport.jica.go.jp/pdf/12326856_01.pdf)
 * (Yemen) [Energydata Yemen Electricity Transmission Network 2017](https://energydata.info/dataset/yemen-electricity-transmission-network-2017)
 <!-- END COLLAPSE -->
 
