@@ -159,6 +159,7 @@ If a resource link is broken, or you find a map with a broken link that you'd li
 * (India) [POWER MAP OF EASTERN REGION](https://cea.nic.in/wp-content/uploads/2020/03/)
 * (India) [Power Transmission Corporation Limited, Government of Uttar Prades](https://upptcl.org/upptcl/en/page/transmission-maps) (2025) (map)
 * (India) [Central Electricity Authority](https://cea.nic.in/transmission-reports/?lang=en) (2025) (report) (capacitydata)
+* (India) [POWER MAP OF GOA](https://goaelectricity.gov.in/Regulations/POWER%20MAP%20OF%20GOA%20UPDATED%20%2001%20Nov%202022.pdf)
 * (Indonesia) [Electrical substation in Indonesia](https://www.arcgis.com/home/item.html?id=c5507bca5a2a4da68db0c699e8b70e19)
 * (Indonesia) [Electricity Supply Business Plan 2021 - 2030](https://gatrik.esdm.go.id/assets/uploads/download_index/files/38622-ruptl-pln-2021-2030.pdf)
 * (Iran) [Map of the High Voltage Grid](https://www.cigre.org/userfiles/files/Community/NC/2018_National-power-system_Iran.pdf)
