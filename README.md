@@ -292,6 +292,7 @@ If a resource link is broken, or you find a map with a broken link that you'd li
 ### North America
 #### Cross-border projets and resources
 * (Canada;US) [Electricity Transmission in Canada + US](https://www.arcgis.com/apps/mapviewer/index.html?webmap=fec6a654d2d44a0688b8c6d8c9c95367)
+* (Canada,US) [The CER and International Power Lines](https://www.cer-rec.gc.ca/en/data-analysis/energy-markets/market-snapshots/2025/market-snapshot-electricity-trade-who-regulates-what-in-canada.html)
 
 #### National-level projets and resources
 * (Canada) (Alberta) [AESO Interconnected Electric System Map](https://www.aeso.ca/assets/2025_AIES_Map.pdf) (2025) (proprietary) (map)
@@ -310,6 +311,7 @@ If a resource link is broken, or you find a map with a broken link that you'd li
 * (Canada) (Yukon) [YEC Power lines - 2023](https://open.canada.ca/data/en/dataset/f032bb5e-e024-a294-d789-f497555bebf6)
 * (Canada) (Yukon) [YEC Power lines - 2021](https://open.yukon.ca/data/yec-power-lines)
 * (Canada) (Yukon) [Yukon Energy Corporation Power Substations](https://open.canada.ca/data/en/dataset/40397f7a-4f89-44a5-de41-923342bb6fea/resource/3c45137c-32c2-43cc-8d84-bb9c08f8e7c8)
+* (Canada) [Canadian Open-source Database for Energy Research and Systems-Modelling](https://coders.cme-emh.ca/) (2025) (dataset) (capacitydata)
 * (Costa Rica) [Transmission system, substations, and future projects](https://datos-ice-se.opendata.arcgis.com/search?tags=transmisi%25C3%25B3n%2Csubestaciones%2Ctransmision)
 * (Cuba) [Electric power system and trajectory of Hurricane Irma, 2017](http://www.thehavanaconsultinggroup.com/en/Articles/Article/49?AspxAutoDetectCookieSupport=1)
 * (Guatemala) [Sistema Nacional Interconectado](https://www.cnee.gob.gt/wordpress/?page_id=5485)
