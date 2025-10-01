@@ -341,21 +341,18 @@ If a resource link is broken, or you find a map with a broken link that you'd li
 <!-- COLLAPSE:info title="South America" -->
 ### South America
 #### Cross-border projets and resources
-* [Portal Energetico America Latina --- generators, oil/gas pipelines, coal terminals, LNG import/export terminals](https://portalenergetico.org/es/map/)
-* [Latin America Energy Outlook Interactive Map](https://www.iea.org/data-and-statistics/data-tools/latin-america-energy-outlook-interactive-map) (Based on OpenStreetMap Data)
+* [Portal Energetico America Latina --- generators, oil/gas pipelines, coal terminals, LNG import/export terminals](https://portalenergetico.org/es/map/) 
+* [Latin America Energy Outlook Interactive Map](https://www.iea.org/data-and-statistics/data-tools/latin-america-energy-outlook-interactive-map) (Based on OpenStreetMap Data) (2023) (map)
 
 #### National-level projets and resources
 * (Argentina) [Electric Generation and Transportation Maps](http://datos.energia.gob.ar/dataset/generacion-transporte-electrico)
-* (Argentina) [Generación, Transporte y Distribución de Energía Eléctrica](http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/sig/2024mapas/generacion_electrica.pdf)
-* (Argentina) [Información Energética](https://sig.energia.gob.ar/visor/visorsig.php)
-* (Argentina) [Información Geográfica](https://www.argentina.gob.ar/economia/energia/planeamiento-energetico/informacion-energetica/sistema-unificado-de-informacion-3)
-* (Bolivia) [Instructivos de restitución del SIN (Sistema Interconectado Nacional)](https://www.cndc.bo/media/archivos/normas/Instructivos_de_Restitucion_del_SIN.pdf)
-* (Bolivia) [Subestaciones en Bolivia](https://www.scribd.com/document/425875074/Subestaciones-en-Bolivia) (capacitydata)
-* (Bolivia) [Transmission and Distribution map](https://geoportal.mhe.gob.bo/maps/720) (capacitydata)
-* (Bolivia) [Transmission grid map of Bolivia 2024](https://geoportal.mhe.gob.bo/layers/geonode:transmision_sin_20220810/layer_export#/)
-* (Bolivia) [https://www.cndc.bo/media/archivos/normas/Instructivos_de_Restitucion_del_SIN.pdf](https://www.cndc.bo/media/archivos/normas/Instructivos_de_Restitucion_del_SIN.pdf)
-* (Bolivia) [Subestaciones en Bolivia](https://fr.scribd.com/document/425875074/Subestaciones-en-Bolivia)
-* (Bolivia) [Transmission grid map](https://geoportal.mhe.gob.bo/layers/geonode:transmision_sin_20220810/layer_export#/)
+* (Argentina) [Generación, Transporte y Distribución de Energía Eléctrica](http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/sig/2024mapas/generacion_electrica.pdf) (2024) (proprietary) (map)
+* (Argentina) [Información Energética](https://sig.energia.gob.ar/visor/visorsig.php) (2024) (cc-by-4.0) (map) (dataset)
+* (Argentina) [Información Geográfica](https://www.argentina.gob.ar/economia/energia/planeamiento-energetico/informacion-energetica/sistema-unificado-de-informacion-3) (cc-by-4.0) (dataset) (map) 
+* (Bolivia) [Instructivos de restitución del SIN (Sistema Interconectado Nacional)](https://www.cndc.bo/media/archivos/normas/Instructivos_de_Restitucion_del_SIN.pdf) (report) (map) (capacitydata)
+* (Bolivia) [Subestaciones en Bolivia](https://www.scribd.com/document/425875074/Subestaciones-en-Bolivia) (capacitydata) (proprietary) (dataset)
+* (Bolivia) [Transmission and Distribution map](https://geoportal.mhe.gob.bo/maps/720) (2023) (capacitydata) (map) 
+* (Bolivia) [Transmission grid map of Bolivia 2024](https://geoportal.mhe.gob.bo/layers/geonode:transmision_sin_20220810/layer_export#/) (2023) (map)
 * (Brazil) [Mapas do Sistema Elétrico Brasileiro](https://eletrobras.com/pt/Paginas/Sistema-Eletrico-Brasileiro.aspx)
 * (Brazil) [Sistema Eletrico Brasileiro](https://eletrobras.com/pt/Paginas/Sistema-Eletrico-Brasileiro.aspx)
 * (Brazil) [Sistema Interligado Nacional](https://www.epe.gov.br/sites-pt/publicacoes-dados-abertos/publicacoes/PublicacoesArquivos/publicacao-168/Mapa%20do%20Sistema%20Integrado%20Nacional.pdf)
