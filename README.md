@@ -144,6 +144,8 @@ If a resource link is broken, or you find a map with a broken link that you'd li
 #### National-level projets and resources
 * (Afghanistan) [Current and planned transmission grid](https://www.researchgate.net/figure/The-current-and-planned-transmission-grid-of-Afghanistan-19_fig6_382678716) (2024) (cc-by-4.0) (map)
 * (Bangladesh) [Power Grid Company of Bangladesh](https://pgcb.portal.gov.bd/sites/default/files/files/pgcb.portal.gov.bd/download/4f660a85_ef1d_4be7_8944_16562129c3f1/2020-07-27-09-44-6c67edf0a0e3c9debd68cd95dece815b.pdf) (proprietary) (map)
+* (Bhutan) [Transmission network](https://sarepenergy.net/wp-content/uploads/2023/06/Presentation-on-Overview-of-Electricity-Transmission-Planning-in-Bhutan-by-Mr.-Kinley-Jamtsho-Transmission-Executive-Engineer-DoEMoENR-Bhutan_-SAGE-RIS-USAID-SAREP_18th-June-2023.pdf) (2023) (report)
+* (Bhutan)[Report](https://openjicareport.jica.go.jp/pdf/12326856_01.pdf) (2019) (report)
 * (Cambodia) [Cambodia’s PDP Transmission Plan](https://www.adb.org/sites/default/files/project-documents/52096/52096-001-tacr-en_0.pdf) (2024) (report)
 * (Cambodia) [Energy Sector Assessment, Strategy, and Road Map](https://www.adb.org/sites/default/files/institutional-document/479941/cambodia-energy-assessment-road-map.pdf) (2018) (report)
 * (Cambodia) [OpenDevelopment Map Explorer](https://data.opendevelopmentcambodia.net/map-explorer) (cc-by-sa-4.0) (capacitydata) (dataset) (map)
@@ -201,8 +203,6 @@ If a resource link is broken, or you find a map with a broken link that you'd li
 * (Uzbekistan) [Electricity Sector Transformation and Resilient Transmission](https://documents1.worldbank.org/curated/en/184411624932251299/pdf/Uzbekistan-Electricity-Sector-Transformation-and-Resilient-Transmission-Project.pdf) (2021) (report)
 * (Uzbekistan) [Energydata Uzbekistan](https://energydata.info/dataset/uzbekistan-electricity-transmission-network) (2016) (dataset)
 * (Vietnam) [Vietnam Electricity](https://en.evn.com.vn/userfile/files/EVNAnnualReport2022-2023-20241115110735330.pdf) (2023) (report)
-* (Bhutan) [Transmission network](https://sarepenergy.net/wp-content/uploads/2023/06/Presentation-on-Overview-of-Electricity-Transmission-Planning-in-Bhutan-by-Mr.-Kinley-Jamtsho-Transmission-Executive-Engineer-DoEMoENR-Bhutan_-SAGE-RIS-USAID-SAREP_18th-June-2023.pdf) (2023) (report)
-* (Bhutan)[Report](https://openjicareport.jica.go.jp/pdf/12326856_01.pdf) (2019) (report)
 * (Yemen) [Energydata Yemen Electricity Transmission Network](https://energydata.info/dataset/yemen-electricity-transmission-network-2017) (2016) (dataset
 <!-- END COLLAPSE -->
 
