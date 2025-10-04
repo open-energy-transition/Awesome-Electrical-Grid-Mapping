@@ -143,6 +143,8 @@ If a resource link is broken, or you find a map with a broken link that you'd li
 
 #### National-level projets and resources
 * (Afghanistan) [Current and planned transmission grid](https://www.researchgate.net/figure/The-current-and-planned-transmission-grid-of-Afghanistan-19_fig6_382678716) (2024) (cc-by-4.0) (map)
+* (Armenia) [Armenian Energy Agency Maps](https://energyagency.am/en/page_pdf/qartez) (maps)
+* (Armenia) [Energy Sector Development Strategic Program to 2040](https://policy.asiapacificenergy.org/sites/default/files/Energy%20Sector%20Development%20Strategic%20Program%20to%202040%20.pdf?utm_source=chatgpt.com) (2021) (report)
 * (Bangladesh) [Power Grid Company of Bangladesh](https://pgcb.portal.gov.bd/sites/default/files/files/pgcb.portal.gov.bd/download/4f660a85_ef1d_4be7_8944_16562129c3f1/2020-07-27-09-44-6c67edf0a0e3c9debd68cd95dece815b.pdf) (proprietary) (map)
 * (Bhutan) [Transmission network](https://sarepenergy.net/wp-content/uploads/2023/06/Presentation-on-Overview-of-Electricity-Transmission-Planning-in-Bhutan-by-Mr.-Kinley-Jamtsho-Transmission-Executive-Engineer-DoEMoENR-Bhutan_-SAGE-RIS-USAID-SAREP_18th-June-2023.pdf) (2023) (report)
 * (Bhutan)[Report](https://openjicareport.jica.go.jp/pdf/12326856_01.pdf) (2019) (report)
@@ -245,6 +247,7 @@ If a resource link is broken, or you find a map with a broken link that you'd li
 * (Bosnia-Herzegovina) [NOS-BiH Long-Term Development Plan of the Transmission Network 2021–2030 - book 2](https://www.nosbih.ba/files/2021/03/20210311-lat-Dugorocni-plan-razvoja-prenosne-mreze-2021-2030-Knjiga-2.pdf) (2021) (capacitydata) (report)
 * (Bulgaria) [Electricity Production & Transmission Network](https://bgenh.com/en/page/47/Electricity.html) (proprietary) (map)
 * (Bulgaria) [Electricity trasnsmission system](https://www.eso.bg/doc?13) (proprietary) (map)
+* (Croatia) [Power transmission scheme](https://www.hops.hr/en/system-scheme) (2020) (map)
 * (Czechia) [Transmission and Distribution Grid Data](https://www.ote-cr.cz/cs/statistika/elektrizacni-soustava-cr.png) (2020) (map)
 * (Denmark) [Connection Points in the Electricity Grid and Voltage Levels](https://www.energidataservice.dk/tso-electricity/ConnectionPointsInGrid) (2024) (cc-by-4.0) (dataset)
 * (Denmark) [Grid Capacity](https://storymaps.arcgis.com/stories/eb5b387e376f49b8996d5e7c47fbdd37) (dataset) (report)
