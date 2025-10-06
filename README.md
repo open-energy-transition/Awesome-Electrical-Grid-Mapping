@@ -230,7 +230,8 @@ If a resource link is broken, or you find a map with a broken link that you'd li
 * [JAO Static Grid Model](https://www.jao.eu/sites/default/files/static-grid/) (capacitydata) (map)
 * [50Herz - Static Grid Model](https://web.archive.org/web/20250317194153/https://www.50hertz.com/de/Transparenz/Kennzahlen/Netzdaten/StatischesNetzmodell) (2023) (map)
 * (Albania;Bosnia & Herzegovina;Kosovo;North Macedonia;Montenegro;Serbia) [Transmission grid in the Western Balkans](https://wb6energyprospect.com/maps.php?mapa=6) (2025) (proprietary) (map)
-* (Finland;Norway:Sweden) [Svenska kraftnät - Sweden, Norway, Finland](https://www.svk.se/en/national-grid/map-of-the-national-grid/) (map)
+* (Finland;Norway:Sweden) [Svenska kraftnät](https://www.svk.se/en/national-grid/map-of-the-national-grid/) (2025) (map)
+* (Finland;Norway:Sweden) [Nordic Grid Development Perspective](https://www.svk.se/siteassets/om-oss/rapporter/2023/svk_ngpd2023.pdf) (2023) (report)
 
 
 
@@ -255,6 +256,7 @@ If a resource link is broken, or you find a map with a broken link that you'd li
 * (Denmark) [Connection Points in the Electricity Grid and Voltage Levels](https://www.energidataservice.dk/tso-electricity/ConnectionPointsInGrid) (2024) (cc-by-4.0) (dataset)
 * (Denmark) [Grid Capacity](https://storymaps.arcgis.com/stories/eb5b387e376f49b8996d5e7c47fbdd37) (dataset) (report)
 * (Estonia) [Capacity Map](https://elering.ee/) (map)
+* (Estonia) [Electricity Grid Development Plan 2025-2034](https://elering.ee/sites/default/files/public/elekter/elektris%C3%BCsteem/Eesti%20elektriu%CC%88lekandevo%CC%83rgu%20arengukava%202025-2034.pdf) (2025) (report)
 * (Finland) [Grid Capacity](https://experience.arcgis.com/experience/4c3f68b70a574a0e9ec0f9837a187542/page/Kulutuskapasiteetti) (map) 
 * (France) [Structural french grid data with detailed topology time series](https://huggingface.co/datasets/OpenSynth/D-GITT-RTE7000-2021) (2021) (cc-by-sa-4.0)
 * (Germany) [Uebertragungsnetz.de - Germany Grid Live Data](https://www.uebertragungsnetz.de/) (map)
@@ -270,6 +272,9 @@ If a resource link is broken, or you find a map with a broken link that you'd li
 * (Netherlands) [Grid Capacity](https://data.partnersinenergie.nl/capaciteitskaart/totaal/afname) (map)
 * (North Macedonia) [Map of Transmission lines](https://www.mepso.com.mk/images/2024/12/25/image_2024-12-25_114449525__1844x1289.png) (map)
 * (North Macedonia) [Map of Transmission system](https://www.mepso.com.mk/index.php/en/enewspaper) (2025) (report)
+* (Norway) [The electricity grid](https://energifaktanorge.no/en/norsk-energiforsyning/kraftnett/#the-electricity-grid-is-key-infrastructure) (2025) (report)
+* (Norway) [Electricity production](https://energifaktanorge.no/en/norsk-energiforsyning/kraftproduksjon/) (2025) (report)
+* (Norway) [Public statistics on electricity generation and consumption](https://www.ssb.no/en/energi-og-industri/energi/statistikk/elektrisitet) (2025) (dataset)
 * (Poland) [Grid Capacity](https://www.pse.pl/obszary-dzialalnosci/krajowy-system-elektroenergetyczny/informacja-o-dostepnosci-mocy-przylaczeniowej) (2025) (map) (report) 
 * (Portugal) [Available Hosting Capacity in the National Distribution Grid](https://e-redes.opendatasoft.com/pages/capacidade_rececao_rnd/) (map)
 * (Romania) [Transelectrica](https://web.transelectrica.ro/harti_crd_tel/) (2025) (map)
