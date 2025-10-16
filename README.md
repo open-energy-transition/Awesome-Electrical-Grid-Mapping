@@ -96,6 +96,7 @@ If a resource link is broken, or you find a map with a broken link that you'd li
 * (Liberia) [Energydata Liberia Electricity Transmission Network](https://energydata.info/dataset/liberia-electricity-transmission-network-2023) (2023) (cc-by-nc-4.0) (dataset)
 * (Madagascar) [Energydata Madagascar planned transmission network 2017](https://energydata.info/dataset/madagascar-planned-transmission-network-2017) (2017) (cc0) (dataset)
 * (Mauritania) [Energydata Mauritania Existing Grid](https://energydata.info/dataset/mauritania-existing-grid) (2023) (cc0) (dataset)
+* (Mauritania)[Annual Report with Map TSO](https://somelec.mr/sites/default/files/TDR%20Audit_annuel_de_performance_ES_2025_2026_2027.pdf)(2025) (report)
 * (Morocco) [Electricity Transmission Network](https://energydata.info/dataset/morocco-electricity-transmission-network) (2025) (CC-BY-4.0) (dataset)
 * (Mozambique) [Eletricidade de Moçambique - Priorities 2021-2030](https://www.edm.co.mz/projectos) (2022) (report)
 * (Namibia) [NamPower’s 2024 Integrated Annual Report](https://www.nampower.com.na/public/docs/annual-reports/NamPower_Integrated_Annual_Report_2024.pdf) (2024) (report)
