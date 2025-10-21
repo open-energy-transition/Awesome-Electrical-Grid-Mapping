@@ -327,6 +327,7 @@ If a resource link is broken, or you find a map with a broken link that you'd li
 * (Honduras) [Mapa del Sistema Interconectado Nacional](https://www.cree.gob.hn/mapa-del-sistema-interconectado-nacional/) (map)
 * (Jamaica) [JPS - Transmission Grid](https://www.trackingstandard.org/wp-content/uploads/Public_I-RECE-Country-Assessment_Jamaica-26Mar2024.pdf) (2024) (report)
 * (Jamaica) [JPS-Distribution-Network](https://www.jpsco.com/wp-content/uploads/2024/01/REOI-973893-Map-of-JPS-Distribution-Network-by-Regions-1.pdf) (2024) (map)
+* (Jamaica) [Integrated resource plan 2022](https://www.mset.gov.jm/wp-content/uploads/2024/11/2022-Jamaica-Integrated-Resource-Plan.pdf) (report)(map)
 * (Mexico) [Mapa del Sistema Eléctrico Nacional](https://energia.conacyt.mx/planeas/electricidad/sistema-electrico-nacional) (2022) (map) 
 * (Nicaragua) [Interactive Transmission Map](https://energiayminas.mem.gob.ni/Transmision) (2024) (map) 
 * (Panama) [Electrical diagram](https://www.cnd.com.pa/index.php/acerca/documentos/librerias/42-diagrama-unifilar) (2025) (map)
