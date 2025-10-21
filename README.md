@@ -380,6 +380,7 @@ If a resource link is broken, or you find a map with a broken link that you'd li
 * (Peru) [COES Lineas existentes](https://www.coes.org.pe/Portal/Operacion/CaractSEIN/MapaSEIN#) (2025) (capacitydata) (dataset) (map) 
 * (Suriname) [Electricity Sector Plan](https://eas.sr/wp-content/uploads/2025/05/1.-Vol-I-Stategic-Plan-Suriname-ESP-250510.pdf) (2025) (proprietary) (report)
 * (Uruguay) [Red de Trasmisión - Unifilar Geográfico](https://portal.ute.com.uy/sites/default/files/generico/Red%20TRA%20existente%20A0.pdf) (2022) (map)
+* (Suriname)[Energy Infrastructure Projects](https://nvebs.com/uploads/files/page/is-360-final-esia-for-energy-infrastructure-projects-final.pdf) (2019) (report) (map)
 <!-- END COLLAPSE -->
 
 <!-- Please keep the following numeration as is : #### instead of ### -->
