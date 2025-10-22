@@ -345,6 +345,7 @@ If a resource link is broken, or you find a map with a broken link that you'd li
 * (United States) (Florida) [Electric Substation Florida](https://fgdl.org/fgdlmap/) (map)
 * (United States) (Texas) [ERCOT Transmission Grid Map - Can only be visited from the US](https://www.ercot.com/gridinfo/transmission)
 * (United States) (Virginia) [Electric Substation Virginia](https://www.arcgis.com/apps/mapviewer/index.html?layers=b06eda911f7b4f859c5e02bb5f7cc308) (2014) (map)
+* (Dominican Republic)[Transmission planning 2021-2025](https://eted.gob.do/planificacion-de-mediano-y-largo-plazo/#30-64-2023-plan-de-expansion)(2023)(report)(unifilar diagram)
 <!-- END COLLAPSE -->
 
 <!-- COLLAPSE:info title="South America" -->
