@@ -124,7 +124,7 @@ If a resource link is broken, or you find a map with a broken link that you'd li
 * (Uganda) [GIS for the Energy Sector](https://energy-gis.ug/gis-maps) (maps)
 * (Uganda) [Transmission Lines 2017 GeoJSON](https://energydata.info/dataset/uganda-electricity-transmission-network-2017/resource/e2643a0e-bad9-4644-b925-f6bc3e3f1db9) (2017) (odbl) (dataset)
 * (Uganda) [Energydata Transmission Substations 2016](https://energydata.info/dataset/transmission-substations-2016-operational) (2019) (cc-by-4.0) (dataset) 
-* (Zambia) [Integrated Resource Plan](https://www.moe.gov.zm/wp-content/uploads/2023/11/3.-IRP-Highlights.pdf) (2023) (report)
+* (Zambia) [Integrated Resource Plan](https://www.moe.gov.zm/wp-content/uploads/2023/12/IRP-Summary-Report_2023.12.05_Final.pdf) (2023) (report)
 * (Zambia) [Energydata Zambia Overhead MV Distribution Lines](https://energydata.info/dataset/zambia-overhead-mv-distribution-lines) (2022) (cc0) (dataset)
 * (Zambia) [Energydata Zambia Base case grid extensions](https://energydata.info/dataset/zambia-base-case-grid-extensions) (2022) (cc0) (dataset)
 * (Zambia) [Energydata Zambia Power plants](https://energydata.info/dataset/zambia---power-plants--2015-) (2018) (cc0) (dataset)
