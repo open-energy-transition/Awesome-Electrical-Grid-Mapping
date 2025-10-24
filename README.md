@@ -259,6 +259,7 @@ If a resource link is broken, or you find a map with a broken link that you'd li
 * (Denmark) [Grid Capacity](https://storymaps.arcgis.com/stories/eb5b387e376f49b8996d5e7c47fbdd37) (dataset) (report)
 * (Estonia) [Capacity Map](https://elering.ee/) (map)
 * (Estonia) [Electricity Grid Development Plan 2025-2034](https://elering.ee/sites/default/files/public/elekter/elektris%C3%BCsteem/Eesti%20elektriu%CC%88lekandevo%CC%83rgu%20arengukava%202025-2034.pdf) (2025) (report)
+* (Estonia) [Land and Spatial Development](https://xgis.maaamet.ee/xgis2/page/link/15XS10wa)
 * (Finland) [Grid Capacity](https://experience.arcgis.com/experience/4c3f68b70a574a0e9ec0f9837a187542/page/Kulutuskapasiteetti) (map) 
 * (France) [Structural french grid data with detailed topology time series](https://huggingface.co/datasets/OpenSynth/D-GITT-RTE7000-2021) (2021) (cc-by-sa-4.0)
 * (Germany) [Uebertragungsnetz.de - Germany Grid Live Data](https://www.uebertragungsnetz.de/) (map)
