@@ -410,7 +410,6 @@ If a resource link is broken, or you find a map with a broken link that you'd li
 * [Risk of Tropical Cyclones and Floods to Power Grids in Southeast and East Asia](https://www.esmap.org/sites/default/files/esmap-files/Mini%20Grids%20for%20Half%20a%20Billion%20People%20-%20OKR%20Download%20Version_compressed_MKA.pdf)
 * [Development of A Spatiotemporal Database for Evolution Analysis of the Moscow Backbone Power Grid](https://www.mdpi.com/2306-5729/6/12/127)
 * [Mapping a Sustainable Renewable Energy Transition - Handbook for Practitioners](https://www.nature.org/content/dam/tnc/nature/en/documents/Europe_Energy_Practitioners_Guide.pdf)
-* [U.S. Department of Energy - Transmission Interconnection Roadmap](https://www.osti.gov/servlets/purl/2569119)
 
 #### Policy
 * [Grids, the missing link - An EU Action Plan for Grids](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:52023DC0757)
@@ -439,6 +438,8 @@ If a resource link is broken, or you find a map with a broken link that you'd li
 * [Ember - Africa Electricity Data Transparency](https://ember-energy.org/latest-insights/africa-electricity-data-transparency/)
 * [Ember - Asian Electricity Data Transparency](https://ember-energy.org/latest-insights/asian-electricity-data-transparency/)
 * [Mini Grids for Half a Billion People](https://www.esmap.org/sites/default/files/esmap-files/Mini%20Grids%20for%20Half%20a%20Billion%20People%20-%20OKR%20Download%20Version_compressed_MKA.pdf)
+* [U.S. Department of Energy - Transmission Interconnection Roadmap](https://www.osti.gov/servlets/purl/2569119)
+* [IEA - Building the Future Transmission Grid](https://www.iea.org/reports/building-the-future-transmission-grid)
 
 <!-- TAB:Crowdsourced Mapping -->
 ## Crowdsourced Mapping
