@@ -339,6 +339,8 @@ If a resource link is broken, or you find a map with a broken link that you'd li
 * (United States) [US Electric Substations](https://catalog.data.gov/dataset/electric-substations) (2023) (cc-by-4.0) (dataset)
 * (United States) [US Infrastructure Foundation-Level Data - Transmission Lines](https://resilience.climate.gov/datasets/d4090758322c4d32a4cd002ffaa0aa12_0/explore)  (2025) (dataset) (map)
 * (United States) [US Infrastructure Foundation-Level Data - Substations 2021 Zenodo Backup](https://zenodo.org/records/5514010) (2021) (cc-by-4.0) (dataset)
+* (United States) [U.S. Interconnection Queue Data Through 2024: Complete Interconnection Request Dataset and Summarized Data Workbook](https://emp.lbl.gov/publications/us-interconnection-queue-data) (2024) (dataset)
+* (United States) [Our Grid Future Planned Transmission Projects National Database](https://ourgridfuture.org/) (2025) (dataset) (map)
 * (United States) (California) [California Electric Substations](https://databasin.org/datasets/cb9ff78949db409f83d4d6ca38f707bf/) (2022) (dataset) (map)
 * (United States) (California) [Electric Substations Washington](https://databasin.org/datasets/36e74994140143e09bf72d2b586ce681/) (cc-by-4.0) (dataset) (map)
 * (United States) (California) [California Electric Transmission Lines](https://data.ca.gov/dataset/california-electric-transmission-lines) (2025) (cc-by-4.0) (dataset)
