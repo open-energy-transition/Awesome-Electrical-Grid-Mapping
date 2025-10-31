@@ -616,4 +616,8 @@ If a resource link is broken, or you find a map with a broken link that you'd li
 #### Voltage Estimation
 * [Identifying the voltage level by number of insulator disks](https://www.reddit.com/r/Damnthatsinteresting/comments/ukc24p/identifying_the_voltage_level_by_number_of/)
 * [Guessing power line voltage from the number of disc insulator](https://electronics.stackexchange.com/questions/71614/guessing-power-line-voltage-from-the-number-of-disc-insulator)
+
+<!-- TAB:Global Grid Length -->
+## Global Grid Length Database
+#### [Database](https://docs.google.com/spreadsheets/d/1qmVIQ2_ynVVfbTWcMXJQWb4Sq0Dq-1fu8zgZ9J_0cZI/edit?usp=sharing)
 <!-- TABS:end -->
