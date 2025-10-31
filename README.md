@@ -144,7 +144,7 @@ If a resource link is broken, or you find a map with a broken link that you'd li
 * (South-East Asia) [ASEAN Power Grid Interconnections Project Profiles](https://aseanenergy.org/wp-content/uploads/2024/11/ASEAN-Power-Grid-Interconnections-Project-Profiles.pdf) (2024) (capacitydata) (report) 
 
 #### National-level projets and resources
-* (Afghanistan) [Current and planned transmission grid - High Res] (https://web.archive.org/web/20250219203422im_/http://aeic.af/storage/Map/01HYFMF9FHM7J51TRM6D2JJ8N5.jpg) (2024) (cc-by-4.0) (map)
+* (Afghanistan) [Current and planned transmission grid - High Res](https://web.archive.org/web/20250219203422im_/http://aeic.af/storage/Map/01HYFMF9FHM7J51TRM6D2JJ8N5.jpg) (2024) (cc-by-4.0) (map)
 * (Afghanistan) [Current and planned transmission grid](https://www.researchgate.net/figure/The-current-and-planned-transmission-grid-of-Afghanistan-19_fig6_382678716) (2024) (cc-by-4.0) (map)
 * (Armenia) [Armenian Energy Agency Maps](https://energyagency.am/en/page_pdf/qartez) (maps)
 * (Armenia) [Energy Sector Development Strategic Program to 2040](https://policy.asiapacificenergy.org/sites/default/files/Energy%20Sector%20Development%20Strategic%20Program%20to%202040%20.pdf?utm_source=chatgpt.com) (2021) (report)
