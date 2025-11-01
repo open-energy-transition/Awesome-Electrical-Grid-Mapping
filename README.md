@@ -3,7 +3,7 @@
 <table>
 <tr>
 <td>
-<b>A curated list of resources in the field of electrical grid mapping to improve global open data coverage, harmonization and quality for a sustainable energy transition.</b>
+<b>A curated list of global electrical grid maps, datasets and resources.</b>
 </td>
 <td>
 
