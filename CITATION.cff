@@ -1,0 +1,39 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Awesome Electrical Grid Mapping
+message: >-
+  If you use this dataset, please cite it using the metadata
+  from this file.
+type: dataset
+authors:
+  - given-names: 'Tobias '
+    family-names: Augspurger
+    orcid: 'https://orcid.org/0000-0003-1744-1112'
+  - given-names: Marina
+    family-names: Petkova
+  - given-names: 'Andreas  '
+    family-names: Hernandez Denyer
+  - given-names: 'David '
+    family-names: Diaz
+  - given-names: Virio
+    family-names: Andreyana
+  - given-names: 'Benoit '
+    family-names: Ribon
+  - given-names: Johannes
+    family-names: Hampp
+identifiers:
+  - type: url
+    value: >-
+      https://github.com/open-energy-transition/Awesome-Electrical-Grid-Mapping
+repository-code: >-
+  https://github.com/open-energy-transition/Awesome-Electrical-Grid-Mapping
+abstract: >-
+  A curated list of global electrical grid maps, datasets
+  and resources.
+keywords:
+  - electrical grid
+  - transmission grid
+  - OpenStreetMap
+license: CC0-1.0
