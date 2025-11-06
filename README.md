@@ -169,6 +169,7 @@ If a resource link is broken, or you find a map with a broken link that you'd li
 * (India) [Central Electricity Authority](https://cea.nic.in/transmission-reports/?lang=en) (2025) (report) (capacitydata)
 * (India) [POWER MAP OF GOA](https://goaelectricity.gov.in/Regulations/POWER%20MAP%20OF%20GOA%20UPDATED%20%2001%20Nov%202022.pdf) (2022) (map)
 * (India) [GRID MAP OF KARNATAKA](https://web.archive.org/web/20220802124435/https://kptcl.karnataka.gov.in/storage/pdf-files/epra/1%20GRIDMAP_2018.pdf) (2018) (map)
+* (India) [GRID MAP OF KERALA](http://pse.kseb.in/PSEHome/resources/gridnew/index.html) (2024) (map)
 * (Indonesia) [Electrical substation in Indonesia](https://www.arcgis.com/home/item.html?id=c5507bca5a2a4da68db0c699e8b70e19) (2024) (cc-by-4.0) (map)
 * (Indonesia) [Electricity Supply Business Plan 2021 - 2030](https://gatrik.esdm.go.id/assets/uploads/download_index/files/38622-ruptl-pln-2021-2030.pdf) (2021) (report)
 * (Iran) [Map of the High Voltage Grid](https://www.cigre.org/userfiles/files/Community/NC/2018_National-power-system_Iran.pdf) (2018) (report)
