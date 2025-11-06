@@ -171,6 +171,7 @@ If a resource link is broken, or you find a map with a broken link that you'd li
 * (India) (Karnataka) [GRID MAP OF KARNATAKA](https://web.archive.org/web/20220802124435/https://kptcl.karnataka.gov.in/storage/pdf-files/epra/1%20GRIDMAP_2018.pdf) (2018) (map)
 * (India) (Kerala) [GRID MAP OF KERALA](http://pse.kseb.in/PSEHome/resources/gridnew/index.html) (2024) (map)
 * (India) (Odisha) [Odisha Transmission Grid Map](https://www.sldcorissa.org.in/Writereaddata/Downloads/Trans_Map-OPTCL.pdf) (2020) (map)
+* (India) (Telangana) [Telangana Transmission grid map](https://pbs.twimg.com/media/GiMB8nqbUAA1fGP?format=jpg&name=4096x4096)
 * (Indonesia) [Electrical substation in Indonesia](https://www.arcgis.com/home/item.html?id=c5507bca5a2a4da68db0c699e8b70e19) (2024) (cc-by-4.0) (map)
 * (Indonesia) [Electricity Supply Business Plan 2021 - 2030](https://gatrik.esdm.go.id/assets/uploads/download_index/files/38622-ruptl-pln-2021-2030.pdf) (2021) (report)
 * (Iran) [Map of the High Voltage Grid](https://www.cigre.org/userfiles/files/Community/NC/2018_National-power-system_Iran.pdf) (2018) (report)
