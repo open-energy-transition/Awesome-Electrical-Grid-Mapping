@@ -176,6 +176,8 @@ If a resource link is broken, or you find a map with a broken link that you'd li
 * (India) (Maharashtra) [MAHARASHTRA STATE ELECTRICITY TRANSMISSION CO. LTD](https://www.mahatransco.in/information/details/power_map) (2024) (map)
 * (India) (MADHYA PRADESH) [POWER MAP OF MADHYA PRADESH](https://www.wrpc.gov.in/allfile/261120240653302359Power%20Map%20(01.10.2024)%20MP.pdf) (2024) (map)
 * (India) (Assam) [Transmission Network of Assam](https://www.aegcl.co.in/wp-content/uploads/2020/12/08082018-AEGCL-POWER-MAP-FINAL.pdf) (2020) (map)
+* (India) (Tripura) [Tripura Power Map](https://tsecl.in/power_map#:~:text=Tripura%20State%20Electricity%20Corporation%20Limited) (2024) (map)
+* (India) (Tripura) [POWER SYSTEM NETWORK Diagram](https://tsecl.in/sites/default/files/2024-09/Diagram.pdf)
 * (Indonesia) [Electrical substation in Indonesia](https://www.arcgis.com/home/item.html?id=c5507bca5a2a4da68db0c699e8b70e19) (2024) (cc-by-4.0) (map)
 * (Indonesia) [Electricity Supply Business Plan 2021 - 2030](https://gatrik.esdm.go.id/assets/uploads/download_index/files/38622-ruptl-pln-2021-2030.pdf) (2021) (report)
 * (Iran) [Map of the High Voltage Grid](https://www.cigre.org/userfiles/files/Community/NC/2018_National-power-system_Iran.pdf) (2018) (report)
