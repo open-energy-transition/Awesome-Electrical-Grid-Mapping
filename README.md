@@ -178,6 +178,8 @@ If a resource link is broken, or you find a map with a broken link that you'd li
 * (India) (Assam) [Transmission Network of Assam](https://www.aegcl.co.in/wp-content/uploads/2020/12/08082018-AEGCL-POWER-MAP-FINAL.pdf) (2020) (map)
 * (India) (Tripura) [Tripura Power Map](https://tsecl.in/power_map#:~:text=Tripura%20State%20Electricity%20Corporation%20Limited) (2024) (map)
 * (India) (Tripura) [POWER SYSTEM NETWORK Diagram](https://tsecl.in/sites/default/files/2024-09/Diagram.pdf)
+* (India) (Delphi) [Delhi Transco Ltd](https://dtl.gov.in/Network.aspx) (2023) (map)
+* (India) (Uttarakhand) [Transmission Map of PTCUL](https://ptcul.org/document/power-map-ptcul-26-sep-2024.pdf)
 * (Indonesia) [Electrical substation in Indonesia](https://www.arcgis.com/home/item.html?id=c5507bca5a2a4da68db0c699e8b70e19) (2024) (cc-by-4.0) (map)
 * (Indonesia) [Electricity Supply Business Plan 2021 - 2030](https://gatrik.esdm.go.id/assets/uploads/download_index/files/38622-ruptl-pln-2021-2030.pdf) (2021) (report)
 * (Iran) [Map of the High Voltage Grid](https://www.cigre.org/userfiles/files/Community/NC/2018_National-power-system_Iran.pdf) (2018) (report)
