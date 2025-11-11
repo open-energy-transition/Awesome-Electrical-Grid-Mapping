@@ -303,6 +303,7 @@ If a resource link is broken, or you find a map with a broken link that you'd li
 * (Spain) [Edistribucion -  Capacity access at network nodes](https://www.edistribucion.com/en/red-electrica/Nodos_capacidad_acceso.html) (2025) (dataset)
 * (Spain) [REE Map of Substations](https://www.ree.es/es/transporte-electricidad/proyectos-transporte/mapa-proyectos) (map) 
 * (Switzerland) [Swiss Transmission Grid](https://www.swissgrid.ch/en/home/operation/power-grid/swiss-power-grid.html) (map)
+* (Switzerland) [Electrical installations with a nominal voltage exceeding 36kV](https://opendata.swiss/en/dataset/elektrische-anlagen-mit-einer-nennspannung-von-uber-36-kv) (cc-by-4.0) (map) (dataset)
 * (United Kingdom) [National Grid UK](https://www.nationalgrid.com/electricity-transmission/network-and-infrastructure/network-route-maps) (2025) (dataset)
 * (United Kingdom) [Substations UK](https://zenodo.org/records/10866260) (2024) (cc-by-nc-4.0) (dataset) 
 * (United Kingdom) [SSEN Transmission](https://ssentransmission.opendatasoft.com) (2025) (cc-by-4.0) (dataset)
