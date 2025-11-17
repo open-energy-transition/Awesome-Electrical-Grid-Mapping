@@ -49,6 +49,8 @@ If a resource link is broken, or you find a map with a broken link that you'd li
 * [The Utility Performance and Behavior Today (UPBEAT) platform - WorldBank](https://utilityperformance.energydata.info/utilities/) (cc-by-4.0) (dataset)
 * [Latin America UPME electricity infraestructure map](https://sig.upme.gov.co/portal/apps/experiencebuilder/experience/?id=1cb0108edbcb48aca70a838db3db6d89&page=Infraestructura-el%C3%A9ctrica&views=LATAM) (map)
 * [Energy Access Explorer](https://www.energyaccessexplorer.org/) (mit) (dataset) (map)
+* [DOE Global Energy Storage Database](https://gesdb.sandia.gov/projects.html) (dataset)
+
 <!-- END COLLAPSE -->
 
 <!-- COLLAPSE:info title="Africa" -->
