@@ -283,6 +283,7 @@ If a resource link is broken, or you find a map with a broken link that you'd li
 * (Hungary) [Electricity infrastructure](https://www.iea.org/articles/hungary-electricity-security-policy) (2022) (cc-by-4.0) (map) (report) 
 * (Iceland) [Landsnet - Transmission and Distribution Grid](https://www.map.is/landsnet/) (map)
 * (Ireland) [Grid Capacity](https://www.esbnetworks.ie/services/get-connected/renewable-connection/network-capacity-heatmap#) (2025) (dataset)
+* (Ireland) [EirGrid Transmission System Map](https://www.eirgrid.ie/grid/how-grid-works/irelands-grid) (2025) (map)
 * (Italy) [Substations Italy - Gestore dei servizi energetici](https://mappe.gse.it/portal/apps/experiencebuilder/experience/?id=7cdfc4cfb0bb4beead292e9290fdeebd) (2023) (map)
 * (Kosovo) [Transmission system](https://www.ero-ks.org/zrre/en/pjesemarresit-ne-treg/energjia-elektrike/transmetimi) (map)
 * (Latvia) [Transmission network and substations](https://www.ast.lv/en/transmission-network-info/transmission-network-and-substations) (map)
