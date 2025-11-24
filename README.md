@@ -207,7 +207,7 @@ If a resource link is broken, or you find a map with a broken link that you'd li
 * (Nepal) [NEPAL POWER TRANSMISSION NETWORK MAP](https://www.rpgcl.com/storage/listies/November2021/nepal-tranmission-network-map-revised1.pdf) (2021) (map)
 * (Oman) [Oman - Report GIS Data Governance Is Key to OETC's Success](https://www.esri.com/en-us/lg/industry/electric-and-gas/stories/oetc-case-study) (2023) (map)
 * (Pakistan) [Generation and Transmission System Expansion](https://eco.int/wp-content/uploads/2024/12/Annex-IX-Presentation-of-Pakistan.pdf) (2024) (report)
-* (Pakistan) [Performance Evaluation Report of Transmission Companies 2023-24](https://www.nepra.org.pk/Admission%20Notices/2023/10%20Oct/NTDC%20Revised%20Investment%20Plan.pdf) (2024) (report)
+* (Pakistan) [Performance Evaluation Report of Transmission Companies 2023-24](https://nepra.org.pk/M&E/PER/Transmission/2024/Performance%20Evaluation%20Report%20of%20Transmission%20Companies%202023-24.pdf) (2024) (report)
 * (Pakistan) [NTDC Revised Transmission Investment Plan FY 2023-2025](https://www.nepra.org.pk/Admission%20Notices/2023/10%20Oct/NTDC%20Revised%20Investment%20Plan.pdf) (2023) (report)
 * (Pakistan) [NTDC TRANSMISSION SYSTEM EXPANSION PLAN](https://nepra.org.pk/Admission%20Notices/2024/05%20May/TSEP%202024-34%20Report.pdf) (2024) (report) 
 * (Palestine) [Geomolg - Transmission Lines and Substations](https://geomolg.ps/L5/index.html?viewer=A3.V1) (map)
