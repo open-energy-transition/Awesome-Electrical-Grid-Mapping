@@ -19,14 +19,14 @@ provided_countries = {
     "Ghana", "Angola", "Namibia", "Uganda", "Kenya", "Tanzania", "South Africa",
     "Zambia", "Rwanda", "Ethiopia","Benin","Burkina Faso","Côte d'Ivoire", "Ghana","Guinea",
     "Guinea-Bissau","Liberia","Mali","Niger","Senegal","Sierra Leone","Togo","Gambia","Cameroon",
-    "Zimbabwe","Tunisia","Russia",
+    "Zimbabwe","Tunisia","Russia","Madagascar","Libya",
 
     # Asia
     "India", "Pakistan", "Sri Lanka", "Japan", "Cambodia", "Indonesia", "Malaysia",
     "Myanmar", "Philippines", "Vietnam", "Nepal", "Turkey", "Georgia", "Jordan",
     "Kazakhstan", "Uzbekistan", "Iran", "Bangladesh", "Mongolia", "South Korea",
     "Tajikistan", "Kyrgyzstan", "Turkmenistan", "Afghanistan", "Papua New Guinea",
-    "Laos", "Thailand","Oman","Saudi Arabia","Iraq","Syria","Taiwan","China","Bhutan",
+    "Laos", "Thailand","Oman","Saudi Arabia","Iraq","Syria","Taiwan","China","Bhutan","Yemen",
 
     # Oceania
     "Australia", "New Zealand",
@@ -36,7 +36,7 @@ provided_countries = {
     "France", "Bulgaria", "Hungary", "Serbia", "Kosovo", "Lithuania", "Latvia",
     "Estonia", "Belgium", "Bosnia and Herzegovina", "Portugal", "Poland", "Denmark",
     "Austria", "Netherlands", "Ireland", "Greece", "Sweden", "Norway", "Finland",
-    "Switzerland", "Romania", "Slovakia", "Czechia", "Iceland","Congo",
+    "Switzerland", "Romania", "Slovakia", "Czechia", "Iceland","Congo","Montenegro","Croatia",
 
     # North America
     "United States", "Canada", "Puerto Rico", "Mexico",
@@ -46,7 +46,7 @@ provided_countries = {
 
     # South America
     "Brazil", "Argentina", "Chile", "Bolivia", "Peru", "Uruguay", "Colombia",
-    "Ecuador", "Paraguay", "Suriname"
+    "Ecuador", "Paraguay","Guyana", "Suriname"
 }
 
 # --- Fix mismatched country names ---
@@ -66,8 +66,8 @@ name_corrections = {
 provided_countries_corrected = {name_corrections.get(c, c) for c in provided_countries}
 
 # --- Load world map ---
-world = gpd.read_file(gpd.datasets.get_path("naturalearth_lowres"))
-world["Status"] = world["name"].apply(lambda x: "Present" if x in provided_countries_corrected else "Missing")
+world = gpd.read_file("https://naciscdn.org/naturalearth/110m/cultural/ne_110m_admin_0_countries.zip")
+world["Status"] = world["NAME"].apply(lambda x: "Present" if x in provided_countries_corrected else "Missing")
 
 # --- Plot map ---
 fig, ax = plt.subplots(figsize=(19, 11))
