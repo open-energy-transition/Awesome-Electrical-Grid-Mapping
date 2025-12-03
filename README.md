@@ -428,6 +428,7 @@ If a resource link is broken, or you find a map with a broken link that you'd li
 * (Colombia) [Transmisión de energía eléctrica-UPME](https://www.upme.gov.co/simec/energia-electrica/transmision-de-energia-electrica/) (report)
 * (Colombia) [Transmission grid](https://paratec.xm.com.co/mapa) (capacitydata) (dataset) (map)
 * (Equador) [Mapa del Sistema Nacional de Transmisión por zonas operativas](https://www.celec.gob.ec/transelectric/mapa-del-sistema-nacional-de-transmision-por-zonas-operativas/) (2021) (proprietary) (map)
+* (Ecuador) [Geoportal del Sector Eléctrico Ecuatoriano](https://geoportal.arconel.gob.ec/)(GIS map)
 * (Guyana) [Development programme (includes SLD, and substations)](https://gplinc.com/pl/plc/media/DE-Programme_2024-2028-26.02.2024-per-PUC-Clarifications.pdf)(2024)(report)
 * (Paraguay) [Mapa eléctrico del para el Año 2025](https://biblioteca.olade.org/opac-tmpl/Documentos/hm000691.pdf) (2025) (cc-by-4.0) (report) (map)
 * (Peru) [COES Lineas existentes](https://www.coes.org.pe/Portal/Operacion/CaractSEIN/MapaSEIN#) (2025) (capacitydata) (dataset) (map) 
