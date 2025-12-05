@@ -55,7 +55,7 @@ If a resource link is broken, or you find a map with a broken link that you'd li
 
 <!-- COLLAPSE:info title="Africa" -->
 ### Africa
-#### Cross-border projets and resources
+#### Cross-Border Projects and Resources
 * [Africa Electricity Grids Explorer](https://africagrid.energydata.info/) (map)
 * [Central Africa Power Pool](https://www.peac-sig.org/en/systeme-d-information-3.html)
 * [Africa Knowledge Platform-European Comission](https://africa-knowledge-platform.ec.europa.eu/explore_maps)
@@ -71,7 +71,7 @@ If a resource link is broken, or you find a map with a broken link that you'd li
 * [OMVG - Gambia, Guinea, Guinea-Bissau, Senegal - Interconnector line 225 kV, 2020](https://www.pe-omvg.org/sites/default/files/2020-12/201103_FR_BULLETIN%20PE%20OMVG_210x297mm_12%20pages_PRINT_FR.pdf)
 * [OMVG - Gambia, Guinea, Guinea-Bissau, Senegal - Interconnector line 225 kV - Action plan](https://www.omvg.org/sites/default/files/document/2023-01/par-lignes-senegal-version-finale-sans-annexes-11_03_2019.pdf) (2019) (report)
 
-#### National-level projets and resources
+#### National-level Projects and Resources
 * (Angola) [Rapid Assessment and Gap Analysis](https://www.seforall.org/sites/default/files/l/2015/05/Angola_RAGA.pdf) (2015) (report)
 * (Angola) [Mapa de Rede](http://www.rnt.co.ao/mapa-da-rede/) (2024) (map)
 * (Benin;Burkina Faso;Côte d'Ivoire;Ghana;Guinea;Guinea-Bissau;Liberia;Mali;Niger;Nigeria;Senegal;Sierra Leone;Togo;Gambia) [West African Power Pool (WAPP)](https://www.ecowapp.org/sites/default/files/wapp_map_general_optimized.gif) (2017) (map)
@@ -145,14 +145,14 @@ If a resource link is broken, or you find a map with a broken link that you'd li
 
 <!-- COLLAPSE:info title="Asia" -->
 ### Asia
-#### Cross-border projets and resources
+#### Cross-border Projects and Resources
 * (Central Asia) [United Nations - Energy Connectivity in Central Asia - An inventory of existing national energy systems](https://unece.org/sites/default/files/2024-02/EN_Energy%20Connectivity%20in%20Central%20Asia_V2.pdf) (2023) (report)
 * (Kazakhstan;Kyrgyzstan;Tajikistan;Turkmenistan) [Cooperation of energy systems in Central Asia](https://www.newscentralasia.net/2024/06/13/sotrudnichestvo-energeticheskikh-sistem-v-tsentralnoy-azii) (2024) (report)
 * (Mekong Region) [OpenDevelopment Mekong Map Explorer](https://data.opendevelopmentmekong.net/map-explorer) (cc-by-sa-4.0) (dataset) (map) (report)
 * (South-East Asia) [ASEAN Energy Database](https://www.arcgis.com/apps/View/index.html?appid=a840b350e8744ef6a523abd361f10738) (map)
 * (South-East Asia) [ASEAN Power Grid Interconnections Project Profiles](https://aseanenergy.org/wp-content/uploads/2024/11/ASEAN-Power-Grid-Interconnections-Project-Profiles.pdf) (2024) (capacitydata) (report) 
 
-#### National-level projets and resources
+#### National-level Projects and Resources
 * (Afghanistan) [Current and planned transmission grid - High Res](https://web.archive.org/web/20250219203422im_/http://aeic.af/storage/Map/01HYFMF9FHM7J51TRM6D2JJ8N5.jpg) (2024) (cc-by-4.0) (map)
 * (Afghanistan) [Current and planned transmission grid](https://www.researchgate.net/figure/The-current-and-planned-transmission-grid-of-Afghanistan-19_fig6_382678716) (2024) (cc-by-4.0) (map)
 * (Armenia) [Armenian Energy Agency Maps](https://energyagency.am/en/page_pdf/qartez) (maps)
@@ -256,7 +256,7 @@ If a resource link is broken, or you find a map with a broken link that you'd li
 
 <!-- COLLAPSE:info title="Europe"-->
 ### Europe
-#### Cross-border projets and resources
+#### Cross-border Projects and Resources
 * [ENTSO-E_Grid_Map_Continental_Europe](https://eepublicdownloads.entsoe.eu/clean-documents/Publications/maps/2024/ENTSOE_Grid_Map_Continental_Europe.pdf) (map)
 * [ENTSO-E Transmission System Map](https://www.entsoe.eu/data/map/) (map)
 * [European Grid Capacity Maps](https://www.gridcapacitymaps.eu/) (map)
@@ -267,7 +267,7 @@ If a resource link is broken, or you find a map with a broken link that you'd li
 * (Finland;Norway:Sweden) [Svenska kraftnät](https://www.svk.se/en/national-grid/map-of-the-national-grid/) (2025) (map)
 * (Finland;Norway:Sweden) [Nordic Grid Development Perspective](https://www.svk.se/siteassets/om-oss/rapporter/2023/svk_ngpd2023.pdf) (2023) (report)
 
-#### National-level projets and resources
+#### National-level Projects and Resources
 * (Albania) [Albania Transmission system](https://ost.al/en/transmission-system/description-of-the-transmission-system/) (proprietary) (capacitydata) (map) (report)
 * (Austria) [Grid Capacity](https://www.ebutilities.at/verfuegbare-netzanschlusskapazitaeten)  (proprietary) (capacitydata) (map)
 * (Belgium) [High-voltage transmission lines](https://www.elia.be/en/infrastructure-and-projects/our-infrastructure) (2023) (proprietary) (map)
@@ -351,7 +351,7 @@ If a resource link is broken, or you find a map with a broken link that you'd li
 
 <!-- COLLAPSE:info title="North America" -->
 ### North America
-#### Cross-border projets and resources
+#### Cross-border Projects and Resources
 * (Canada;US) [Electricity Transmission in Canada + US](https://www.arcgis.com/apps/mapviewer/index.html?webmap=fec6a654d2d44a0688b8c6d8c9c95367) (2019) (map)
 * (Canada,US) [The CER and International Power Lines](https://www.cer-rec.gc.ca/en/data-analysis/energy-markets/market-snapshots/2025/market-snapshot-electricity-trade-who-regulates-what-in-canada.html) (2025) (map)
 
@@ -403,7 +403,7 @@ If a resource link is broken, or you find a map with a broken link that you'd li
 
 <!-- COLLAPSE:info title="South America" -->
 ### South America
-#### Cross-border projets and resources
+#### Cross-border Projects and Resources
 * [Portal Energetico America Latina --- generators, oil/gas pipelines, coal terminals, LNG import/export terminals](https://portalenergetico.org/es/map/) (map)
 * [Latin America Energy Outlook Interactive Map](https://www.iea.org/data-and-statistics/data-tools/latin-america-energy-outlook-interactive-map) (Based on OpenStreetMap Data) (2023) (map)
 
@@ -655,6 +655,7 @@ If a resource link is broken, or you find a map with a broken link that you'd li
 * [Purdue University - Transmission Lines](https://engineering.purdue.edu/wcchew/ece604f20/Lecture%20Notes/Lect11.pdf)
 * [Purdue University - Introduction to Transmission Lines](https://www.youtube.com/watch?v=vair5b23j7M)
 * [Comparison between HVAC and HVDC transmission system](https://www.youtube.com/watch?v=l9nHs8e0WUg)
+* [Transmission Line Parameters](http://web.ecs.baylor.edu/faculty/lee/ELC4340/Lecture%20note/Chapter4_GSO5.pdf)
 
 #### Grid Design
 * [A Field Guide To Transmission Lines](https://hackaday.com/2019/06/11/a-field-guide-to-transmission-lines/)
