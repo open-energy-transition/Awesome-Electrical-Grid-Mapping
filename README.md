@@ -341,10 +341,12 @@ If a resource link is broken, or you find a map with a broken link that you'd li
 * (United Kingdom) [Electricity North West](https://electricitynorthwest.opendatasoft.com) (cc-by-4.0) (dataset)
 * (United Kingdom) [Northern Powergrid](https://northernpowergrid.opendatasoft.com) (2025) ([Northern Powergrid Open Data Licence v1.0](https://northernpowergrid.opendatasoft.com/p/opendatalicence/)) (dataset)
 * (United Kingdom) [Scottish & Southern Electricity Networks](https://data.ssen.co.uk) (2025) (cc-by-4.0) (dataset)
-* (United Kingdom) [SP Energy Networks](https://spenergynetworks.opendatasoft.com) (2025) (dataset)
+* (United Kingdom) [SP Energy Networks](https://spenergynetworks.opendatasoft.com) (2024) (dataset)
 * (United Kingdom) [SONI NI Grid](https://cms.soni.ltd.uk/sites/default/files/media/documents/SONI-Transmission-Map.pdf)(map)
 * (United Kingdom) [NESO ETYS documents (includes technical data)](https://www.neso.energy/publications/electricity-ten-year-statement-etys/etys-documents-and-appendices) (2024) (dataset)
 * (United Kingdom) [NESO Maps and SLD](https://www.neso.energy/document/351911/download)(map)
+* (United Kinddom) [NESO Capacity][https://www.neso.energy/document/351916/download]
+
 <!-- END COLLAPSE -->
 
 <!-- COLLAPSE:info title="North America" -->
