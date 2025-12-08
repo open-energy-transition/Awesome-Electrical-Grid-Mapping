@@ -298,6 +298,7 @@ If a resource link is broken, or you find a map with a broken link that you'd li
 * (Finland) [Grid Capacity](https://experience.arcgis.com/experience/4c3f68b70a574a0e9ec0f9837a187542/page/Kulutuskapasiteetti) (map) 
 * (France) [Structural french grid data with detailed topology time series](https://huggingface.co/datasets/OpenSynth/D-GITT-RTE7000-2021) (2021) (cc-by-sa-4.0)
 * (Germany) [Uebertragungsnetz.de - Germany Grid Live Data](https://www.uebertragungsnetz.de/) (map)
+* (Germany) [Karte "Deutsches Höchstspannungsnetz"](https://www.vde.com/de/fnn/dokumente/karte-deutsches-hoechstspannungsnetz) (map) (2024)
 * (Greece) [Independent Power Transmission Operator - Grid Map](https://www.admie.gr/en/grid/description/lines-map) (map) 
 * (Hungary) [Electricity infrastructure](https://www.iea.org/articles/hungary-electricity-security-policy) (2022) (cc-by-4.0) (map) (report)
 * (Hungary) [Mavir TSO map]](https://www.mavir.hu/web/mavir-en)(map)
