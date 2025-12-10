@@ -176,6 +176,7 @@ If a resource link is broken, or you find a map with a broken link that you'd li
 * (India) [Power Transmission Corporation Limited, Government of Uttar Prades](https://upptcl.org/upptcl/en/page/transmission-maps) (2025) (map)
 * (India) [Central Electricity Authority](https://cea.nic.in/transmission-reports/?lang=en) (2025) (report) (capacitydata)
 * (India) [POWER MAP OF GOA](https://goaelectricity.gov.in/Regulations/POWER%20MAP%20OF%20GOA%20UPDATED%20%2001%20Nov%202022.pdf) (2022) (map)
+* (India) (Jharkand) [Power Map of Jharkand](https://jserc.org/powermap_jusnl.pdf) (2014) (map)
 * (India) (Karnataka) [GRID MAP OF KARNATAKA](https://web.archive.org/web/20220802124435/https://kptcl.karnataka.gov.in/storage/pdf-files/epra/1%20GRIDMAP_2018.pdf) (2018) (map)
 * (India) (Kerala) [GRID MAP OF KERALA](http://pse.kseb.in/PSEHome/resources/gridnew/index.html) (2024) (map)
 * (India) (Odisha) [Odisha Transmission Grid Map](https://www.sldcorissa.org.in/Writereaddata/Downloads/Trans_Map-OPTCL.pdf) (2020) (map)
