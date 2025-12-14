@@ -410,6 +410,7 @@ If a resource link is broken, or you find a map with a broken link that you'd li
 #### Cross-border Projects and Resources
 * [Portal Energetico America Latina --- generators, oil/gas pipelines, coal terminals, LNG import/export terminals](https://portalenergetico.org/es/map/) (map)
 * [Latin America Energy Outlook Interactive Map](https://www.iea.org/data-and-statistics/data-tools/latin-america-energy-outlook-interactive-map) (Based on OpenStreetMap Data) (2023) (map)
+* [INFRAESTRUCTURA ENERGÉTICA LATAM](https://sig.upme.gov.co/portal/apps/experiencebuilder/experience/?id=1cb0108edbcb48aca70a838db3db6d89&page=Infraestructura-el%C3%A9ctrica&views=LATAM)
 
 #### National-level projets and resources
 * (Argentina) [Electric Generation and Transportation Maps](http://datos.energia.gob.ar/dataset/generacion-transporte-electrico)
