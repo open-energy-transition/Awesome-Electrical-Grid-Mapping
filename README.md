@@ -316,6 +316,7 @@ If a resource link is broken, or you find a map with a broken link that you'd li
 * (Lithuania) [Litgrid Transmission Network](https://www.iea.org/articles/lithuania-electricity-security-policy) (2022) (cc-by-4.0) (report)
 * (Netherlands) [Grid Capacity](https://data.partnersinenergie.nl/capaciteitskaart/totaal/afname) (map)
 * (Netherlands) [Grid Maps and ArcGIS of Tennet](https://www.tennet.eu/grids-and-markets/grid-maps)
+* (Netherlands) [Hoogspanningsnet Nederland - Asset gegevens TenneT TSO B.V.](https://www.arcgis.com/home/item.html?id=6cc2c64f88004bf0bfd2e211f3c0bf6d)
 * (North Macedonia) [Map of Transmission lines](https://www.mepso.com.mk/images/2024/12/25/image_2024-12-25_114449525__1844x1289.png) (map)
 * (North Macedonia) [Map of Transmission system](https://www.mepso.com.mk/index.php/en/enewspaper) (2025) (report)
 * (North Macedonia) [Substations names](https://www.mepso.com.mk/docs/opm/%D0%B3%D0%BE%D0%B4%D0%B8%D1%88%D0%B5%D0%BD%20%D0%BF%D0%BB%D0%B0%D0%BD%20-%20%D1%80%D0%B5%D0%B3%D1%83%D0%BB%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%202025.pdf)(report)
