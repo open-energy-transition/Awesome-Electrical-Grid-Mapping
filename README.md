@@ -393,6 +393,7 @@ If a resource link is broken, or you find a map with a broken link that you'd li
 * (United States) [US Atlas of Electric Distribution System Hosting](https://www.energy.gov/eere/us-atlas-electric-distribution-system-hosting-capacity-maps) (capacitydata)
 * (United States) [US Electric Power Transmission Substations](https://www.kaggle.com/datasets/behroozsohrabi/us-electric-power-transmission-substations?resource=download) (2020) (cc0) (dataset)
 * (United States) [US Electric Substations](https://catalog.data.gov/dataset/electric-substations) (2023) (cc-by-4.0) (dataset)
+* (United States) [US Electric Substations](https://services5.arcgis.com/HDRa0B57OVrv2E1q/ArcGIS/rest/services/Electric_Substations/FeatureServer?utm_source=chatgpt.com) 
 * (United States) [US Infrastructure Foundation-Level Data - Transmission Lines](https://resilience.climate.gov/datasets/d4090758322c4d32a4cd002ffaa0aa12_0/explore)  (2025) (dataset) (map)
 * (United States) [US Infrastructure Foundation-Level Data - Substations 2021 Zenodo Backup](https://zenodo.org/records/5514010) (2021) (cc-by-4.0) (dataset)
 * (United States) [U.S. Interconnection Queue Data Through 2024: Complete Interconnection Request Dataset and Summarized Data Workbook](https://emp.lbl.gov/publications/us-interconnection-queue-data) (2024) (dataset)
