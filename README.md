@@ -123,6 +123,7 @@ If a resource link is broken, or you find a map with a broken link that you'd li
 * (Somalia) [Energydata Somalia Minigrids](https://energydata.info/dataset/somalia-minigrids) (2023) (cc-by-4.0) (dataset)
 * (South Africa) [National Transmission Company - Generation Connection Capacity Assessment](https://app.powerbi.com/view?r=eyJrIjoiMGY3ODI4NWQtMWZkMS00YjJjLTk1YTUtOWEyYTk0NDdhMWQ3IiwidCI6IjkzYWVkYmRjLWNjNjctNDY1Mi1hYTEyLWQyNTBhODc2YWU3OSIsImMiOjh9) (2025) (dataset) (capacitydata)
 * (South Africa) [National Transmission Company - Transmission Development Plan 2025](https://www.ntcsa.co.za/wp-content/uploads/2024/11/TDP2024_Public_Forum_Presentation_30Oct2024_Final_Pack_Rev1.pdf) (2024) (report)
+* (South Africa) [Main Transmission System Lines in South Africa](https://psfsogdc.maps.arcgis.com/home/item.html?id=02edf95a544641eaa79b3761848bd3a8#:~:text=URL%3A%20https%3A%2F%2Fpsfsogdc) (2024) (map) (dataset)
 * (Tanzania) [Power System master Plan 2020](https://www.tanesco.co.tz/attachments/investments/investment_reports/WiYQwYs5IKHKkgiIEGW8WS0wqf_nsG3K_POWER%20SYSTEM%20MASTER%20PLAN%202020%20UPDATE_2023_09_12_07_39_38.pdf) (2023) (report) (capacitydata)
 * (Tanzania) [Energydata Tanzania](https://energydata.info/dataset/?q=Tanzania) (dataset)
 * (Tanzania) [Tracking SDG 7 - United Republic of Tanzania](https://trackingsdg7.esmap.org/country/united-republic-tanzania) (report)
