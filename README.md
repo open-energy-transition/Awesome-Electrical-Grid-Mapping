@@ -128,7 +128,7 @@ If a resource link is broken, or you find a map with a broken link that you'd li
 * (Tanzania) [Energydata Tanzania](https://energydata.info/dataset/?q=Tanzania) (dataset)
 * (Tanzania) [Tracking SDG 7 - United Republic of Tanzania](https://trackingsdg7.esmap.org/country/united-republic-tanzania) (report)
 * (Tanzania) [RISE Esmap](https://rise.esmap.org/country/tanzania) (report)
-* (Tanzania) [Improving Sustainability of the Power Sector and Accelerating Electricity Access: A Proposed WBG Roadmap](https://documents1.worldbank.org/curated/en/099061424235032922/pdf/P17965415d283b02819dcb198dabea9914a.pdf
+* (Tanzania) [Improving Sustainability of the Power Sector and Accelerating Electricity Access: A Proposed WBG Roadmap](https://documents1.worldbank.org/curated/en/099061424235032922/pdf/P17965415d283b02819dcb198dabea9914a.pdf)
 * (Tanzania) [Power plants](https://energydata.info/dataset/tanzania---power-plants--2015-) (2018) (cc0) (dataset)
 * (Tunisia) [Data Collection Survey On Power Sector - 2022](https://openjicareport.jica.go.jp/pdf/12342283.pdf) (2022) (report)
 * (Uganda) [GIS for the Energy Sector](https://energy-gis.ug/gis-maps) (maps)
