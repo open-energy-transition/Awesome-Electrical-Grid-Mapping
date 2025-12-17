@@ -113,6 +113,7 @@ If a resource link is broken, or you find a map with a broken link that you'd li
 * (Nigeria) [Nigeriase4all - Power sector data explorer](https://apps.nigeriase4all.gov.ng/power-sector?grid_buffer=4.5&state=oyo) (map)
 * (Nigeria) [THE ENERGY YEAR - Nigeria Grid Map](https://d3jmgibn6sgz2k.cloudfront.net/wp-content/uploads/2021/11/09164603/TCN_Nigeria21.pdf) (2021) (map) 
 * (Nigeria) [Transmission Company - Offical Grid Map](https://nsong.org/App_Themes/Blue/images/NationalGrid.png) (map)
+* (Nigeria) [Nigeria_Transmission_Lines](https://services6.arcgis.com/OO2s4OoyCZkYJ6oE/ArcGIS/rest/services/Nigeria_Transmission_Lines/FeatureServer)
 * (Republic of the Congo) [Schéma Directeur Transport](https://rise.esmap.org/data/files/library/congo%2C-dem.-rep./Electricity%20Access/Congo_Schemas%20directeur%20de%20transport_2016.pdf)
 * (Rwanda) [Transmission Development Plan 2023-2030](https://www.reg.rw/fileadmin/user_upload/Updated_Rwanda_Electricity_Transmission_Development_Plan_-_June_2023.pdf) (2023) (report)
 * (Rwanda) [Energydata Rwanda Power plants](https://energydata.info/dataset/rwanda-power-plants) (2018) (cc0) (dataset)
