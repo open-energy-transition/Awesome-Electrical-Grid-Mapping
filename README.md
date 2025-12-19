@@ -353,7 +353,7 @@ If a resource link is broken, or you find a map with a broken link that you'd li
 * (United Kingdom) [SONI NI Grid](https://cms.soni.ltd.uk/sites/default/files/media/documents/SONI-Transmission-Map.pdf)(map)
 * (United Kingdom) [NESO ETYS documents (includes technical data)](https://www.neso.energy/publications/electricity-ten-year-statement-etys/etys-documents-and-appendices) (2024) (dataset)
 * (United Kingdom) [NESO Maps and SLD](https://www.neso.energy/document/351911/download)(map)
-* (United Kinddom) [NESO Capacity][https://www.neso.energy/document/351916/download]
+* (United Kingdom) [NESO Capacity][https://www.neso.energy/document/351916/download]
 
 <!-- END COLLAPSE -->
 
