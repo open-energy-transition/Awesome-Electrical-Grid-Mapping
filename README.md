@@ -323,6 +323,7 @@ If a resource link is broken, or you find a map with a broken link that you'd li
 * (Netherlands) [Tennet OpenGIS](https://services-eu1.arcgis.com/WjozPuR5ROn6NZE8/ArcGIS/rest/services/)
 * (Netherlands) [TenneT Assets Hoogspanning](https://www.arcgis.com/apps/mapviewer/index.html?url=https://services-eu1.arcgis.com/WjozPuR5ROn6NZE8/ArcGIS/rest/services/TenneT_Assets_Hoogspanning/FeatureServer&source=sd) (map)
 * (Netherlands) [Liander Open Data Elektranet](https://www.arcgis.com/apps/mapviewer/index.html?webmap=0097c633fb7f421aad7053f55060fa9c)
+* (Netherlands) [HoogspanningsNet Netschema](https://www.hoogspanningsnet.com/netschema/koppelnet-nederland/)
 * (North Macedonia) [Map of Transmission lines](https://www.mepso.com.mk/images/2024/12/25/image_2024-12-25_114449525__1844x1289.png) (map)
 * (North Macedonia) [Map of Transmission system](https://www.mepso.com.mk/index.php/en/enewspaper) (2025) (report)
 * (North Macedonia) [Substations names](https://www.mepso.com.mk/docs/opm/%D0%B3%D0%BE%D0%B4%D0%B8%D1%88%D0%B5%D0%BD%20%D0%BF%D0%BB%D0%B0%D0%BD%20-%20%D1%80%D0%B5%D0%B3%D1%83%D0%BB%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%202025.pdf)(report)
