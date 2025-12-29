@@ -242,22 +242,6 @@ If a resource link is broken, or you find a map with a broken link that you'd li
 * (Yemen) [Maps](https://moee-ye.com/site-ar/%d8%a7%d9%84%d9%85%d8%ae%d8%b7%d8%b7%d8%a7%d8%aa/)(map)
 <!-- END COLLAPSE -->
 
-<!-- COLLAPSE:info title="Oceania" -->
-### Oceania
-* (Australia) [Electricity Transmission Lines - Digital Atlas](https://digital.atlas.gov.au/datasets/digitalatlas::electricity-transmission-lines/explore) (2025) (cc-by-4.0) (dataset) (map)
-* (Australia) [Geoscience Australia - National Electricity Transmission Substations](https://data.gov.au/data/dataset/au-govt-ga-national-electricity-transmission-substations-2017-na) (2017) (dataset) 
-* (Australia) [Transgrid - Eastern Australia](https://tapr.transgrid.com.au/) (map)
-* (Australia) [Queensland - NetworkLoad Capacity](https://www.ergon.com.au/network/about-us/company-reports%2C-plans-and-charters/network-load-capacity-map) (map)
-* (Australia) [Western Australia Network Capacity Mapping Tool](https://westernpower.maps.arcgis.com/apps/webappviewer/index.html?id=21af5edc59034456b59c35be31365cdf) (2025) (map)
-* (Australia) [Network Map Rosetta](https://renewables.networkmap.energy/) (map)
-* (Fiji) [EFL Annual Report] (https://efl.com.fj/wp-content/uploads/2025/05/EFL-2024-Annual-Report.pdf) (2024) (map)
-* (Papua New Guinea) [Energy Policy and Practice for Climate and People](https://www.jubileeaustralia.org/storage/app/uploads/public/63c/daa/f1f/63cdaaf1f37ff165892315.pdf) (2022) (cc-by-4.0) (report)
-* (Papua New Guinea) [National Energy Policy report (includes a map)](https://nea.gov.pg/wp-content/uploads/2022/12/National-Energy-Policy-2017-2027.pdf)(2017)
-* (New Zealand) [Transpower New Zealand Ltd Transmission Lines](https://data-transpower.opendata.arcgis.com/datasets/0c8db240553f47b5844bdc2eb1146b9b_0/explore) (2025) (cc-by-4.0) (dataset) (map)
-* (New Zealand) [Transpower Substations NZ](https://github.com/alltheplaces/alltheplaces/blob/master/locations/spiders/infrastructure/transpower_substations_nz.py) (mit) (dataset)
-* (New Zealand) [Powerco Zone Substations NZ](https://github.com/alltheplaces/alltheplaces/blob/master/locations/spiders/infrastructure/powerco_zone_substations_nz.py) (mit) (dataset)
-* (Vanatu) [Utilities Regulatory Authority Fact Sheet] (https://ura.gov.vu/media/attachments/Electricity_Fact_Sheet_2017_-_2022.pdf) (2024) (proprietary) (capacitydata)
-<!-- END COLLAPSE -->
 
 <!-- COLLAPSE:info title="Europe"-->
 ### Europe
@@ -412,6 +396,23 @@ If a resource link is broken, or you find a map with a broken link that you'd li
 * (United States) (Virginia) [Electric Substation Virginia](https://www.arcgis.com/apps/mapviewer/index.html?layers=b06eda911f7b4f859c5e02bb5f7cc308) (2014) (map)
 * (Dominican Republic)[Transmission planning 2021-2025](https://eted.gob.do/planificacion-de-mediano-y-largo-plazo/#30-64-2023-plan-de-expansion)(2023)(report)(unifilar diagram)
 * (Dominica)[Transmission Network Map](https://www.geodominica.dm/transmission-network/)(map)
+<!-- END COLLAPSE -->
+
+<!-- COLLAPSE:info title="Oceania" -->
+### Oceania
+* (Australia) [Electricity Transmission Lines - Digital Atlas](https://digital.atlas.gov.au/datasets/digitalatlas::electricity-transmission-lines/explore) (2025) (cc-by-4.0) (dataset) (map)
+* (Australia) [Geoscience Australia - National Electricity Transmission Substations](https://data.gov.au/data/dataset/au-govt-ga-national-electricity-transmission-substations-2017-na) (2017) (dataset) 
+* (Australia) [Transgrid - Eastern Australia](https://tapr.transgrid.com.au/) (map)
+* (Australia) [Queensland - NetworkLoad Capacity](https://www.ergon.com.au/network/about-us/company-reports%2C-plans-and-charters/network-load-capacity-map) (map)
+* (Australia) [Western Australia Network Capacity Mapping Tool](https://westernpower.maps.arcgis.com/apps/webappviewer/index.html?id=21af5edc59034456b59c35be31365cdf) (2025) (map)
+* (Australia) [Network Map Rosetta](https://renewables.networkmap.energy/) (map)
+* (Fiji) [EFL Annual Report] (https://efl.com.fj/wp-content/uploads/2025/05/EFL-2024-Annual-Report.pdf) (2024) (map)
+* (Papua New Guinea) [Energy Policy and Practice for Climate and People](https://www.jubileeaustralia.org/storage/app/uploads/public/63c/daa/f1f/63cdaaf1f37ff165892315.pdf) (2022) (cc-by-4.0) (report)
+* (Papua New Guinea) [National Energy Policy report (includes a map)](https://nea.gov.pg/wp-content/uploads/2022/12/National-Energy-Policy-2017-2027.pdf)(2017)
+* (New Zealand) [Transpower New Zealand Ltd Transmission Lines](https://data-transpower.opendata.arcgis.com/datasets/0c8db240553f47b5844bdc2eb1146b9b_0/explore) (2025) (cc-by-4.0) (dataset) (map)
+* (New Zealand) [Transpower Substations NZ](https://github.com/alltheplaces/alltheplaces/blob/master/locations/spiders/infrastructure/transpower_substations_nz.py) (mit) (dataset)
+* (New Zealand) [Powerco Zone Substations NZ](https://github.com/alltheplaces/alltheplaces/blob/master/locations/spiders/infrastructure/powerco_zone_substations_nz.py) (mit) (dataset)
+* (Vanatu) [Utilities Regulatory Authority Fact Sheet] (https://ura.gov.vu/media/attachments/Electricity_Fact_Sheet_2017_-_2022.pdf) (2024) (proprietary) (capacitydata)
 <!-- END COLLAPSE -->
 
 <!-- COLLAPSE:info title="South America" -->
