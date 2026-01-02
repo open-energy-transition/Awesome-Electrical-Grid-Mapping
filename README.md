@@ -50,6 +50,7 @@ If a resource link is broken, or you find a map with a broken link that you'd li
 * [Latin America UPME electricity infraestructure map](https://sig.upme.gov.co/portal/apps/experiencebuilder/experience/?id=1cb0108edbcb48aca70a838db3db6d89&page=Infraestructura-el%C3%A9ctrica&views=LATAM) (map)
 * [Energy Access Explorer](https://www.energyaccessexplorer.org/) (mit) (dataset) (map)
 * [DOE Global Energy Storage Database](https://gesdb.sandia.gov/projects.html) (dataset)
+* [GloHydroRes](https://zenodo.org/records/14526360) - A global dataset combining open-source hydropower plant and reservoir data.
 
 <!-- END COLLAPSE -->
 
