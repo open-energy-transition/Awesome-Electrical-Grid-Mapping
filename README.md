@@ -78,6 +78,7 @@ If a resource link is broken, or you find a map with a broken link that you'd li
 * (Benin;Burkina Faso;Côte d'Ivoire;Ghana;Guinea;Guinea-Bissau;Liberia;Mali;Niger;Nigeria;Senegal;Sierra Leone;Togo;Gambia) [West African Power Pool (WAPP)](https://www.ecowapp.org/sites/default/files/wapp_map_general_optimized.gif) (2017) (map)
 * (Botswana) [Botswana Power Corporation - Generation Facilities, Transmission, Distribution grids](https://www.bpc.bw/our-customer-base/) (proprietary) (map)
 * (Botswana) [Transmission Grid Projects](https://www.bpc.bw/portfolio-items/gaborone-power-project/) (report) (proprietary)
+* (Burundi) [Burundi Line Length] (https://www.mdpi.com/2504-3900/58/1/26) (2018)  
 * (Cameroon) [Plan Directeur d’Electrification Rurale](https://rise.esmap.org/data/files/library/cameroon/Electricity%20Access/Cameroon_PDER.pdf)
 * (Cameroon) [Eneo Electrical Map](https://eneocameroon.cm/index.php/en/l-entreprise-a-propos-d-eneo-l-entreprise-en/l-entreprise-a-propos-d-eneo-notre-carte-electrique-en)(2024)(map)
 * (Côte d'Ivoire) [Projects and planning for the Electrical System](https://www.cinergies.ci/realisations-et-projets-planifies/) (2020) (proprietary) (map)
