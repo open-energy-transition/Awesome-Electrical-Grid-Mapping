@@ -207,6 +207,7 @@ If a resource link is broken, or you find a map with a broken link that you'd li
 * (Kyrgyzstan, Turkmenistan, Tajikistan, Uzbekistan) [Transmission Grid](https://kaktus.media/doc/444230_tyrkmenistan_bydet_davat_elektroenergiu_kyrgyzstany_gde_logika_mneniia_ekspertov.html) (2020) (map)
 * (Laos) [Assessment of Electric Vehicle Penetration in the Lao People’s Democratic](https://www.eria.org/uploads/media/Research-Project-Report/RPR-2021-26/14_Chapter-5-Analysis-on-Impacts-to-the-Power-Sector.pdf) (2022) (report) 
 * (Laos) [Energy Data Laos](https://energydata.info/dataset/laos-electricity-transmission-network-2005) (2005) (dataset)
+* (Laos) [Laos Hydropower Projects Info by Hobo Maps](http://hobomaps2.com/LaosHydropowerProjects.html)
 * (Lebanon)[DATA COLLECTION SURVEY ON ELECTRICITY SECTOR IN LEBANON](https://openjicareport.jica.go.jp/pdf/1000051515_01.pdf) (2023) (report) (map) (capacities) (SLD)
 * (Malaysia) [Sabah Energy Roadmap and Master Plan 2040](https://ecos.gov.my/sites/default/files/uploads/downloads/2023-09/SABAH%20ENERGY%20ROADMAP%20AND%20MASTER%20PLAN%202040%20%28SE-RAMP%202040%29.pdf) (2023) (proprietary) (report)
 * (Malaysia) [Sarawak Power Generation and Network](https://www.sarawakenergy.com/assets/images/power-generation/map.png) (map)
