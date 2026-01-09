@@ -318,6 +318,7 @@ If a resource link is broken, or you find a map with a broken link that you'd li
 * (Norway) [The electricity grid](https://energifaktanorge.no/en/norsk-energiforsyning/kraftnett/#the-electricity-grid-is-key-infrastructure) (2025) (report)
 * (Norway) [Electricity production](https://energifaktanorge.no/en/norsk-energiforsyning/kraftproduksjon/) (2025) (report)
 * (Norway) [Public statistics on electricity generation and consumption](https://www.ssb.no/en/energi-og-industri/energi/statistikk/elektrisitet) (2025) (dataset)
+* (Norway) [Hydroelectric power system - facilities and network](https://kartkatalog.geonorge.no/metadata/hydroelectric-power-system-facilities-and-network/9f71a24b-9997-409f-8e42-ce6f0c62e073) (2025) (dataset)
 * (Poland) [Grid Capacity](https://www.pse.pl/obszary-dzialalnosci/krajowy-system-elektroenergetyczny/informacja-o-dostepnosci-mocy-przylaczeniowej) (2025) (map) (report) 
 * (Portugal) [Available Hosting Capacity in the National Distribution Grid](https://e-redes.opendatasoft.com/pages/capacidade_rececao_rnd/) (map)
 * (Romania) [Transelectrica](https://web.transelectrica.ro/harti_crd_tel/) (2025) (map)
