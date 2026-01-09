@@ -108,6 +108,7 @@ If a resource link is broken, or you find a map with a broken link that you'd li
 * (Mozambique) [Eletricidade de Moçambique - Priorities 2021-2030](https://www.edm.co.mz/projectos) (2022) (report)
 * (Mozambique) [ANNUAL STATISTICAL REPORT](https://www.edm.flexibihost.com/en/document/reports/relat%C3%B3rio-anual-de-estat%C3%ADsticaannual-estatistical-report) (2024) (report) (map)
 * (Namibia) [NamPower’s 2024 Integrated Annual Report](https://www.nampower.com.na/public/docs/annual-reports/NamPower_Integrated_Annual_Report_2024.pdf) (2024) (report)
+* (Namibia) [NamPower Open GIS Data](https://www.nampower.com.na/Page.aspx?p=192#:~:text=Shapefiles%20) (2025) (dataset)
 * (Nigeria) [Dataset for the Nigerian 50-Bus 330 kV Power Grid](https://zenodo.org/records/12091189) (2017) (CC-BY-4.0) (dataset) (capacitydata)
 * (Nigeria) [Details of Power Plants Existing and Planned - 2020 to 2030](https://web.archive.org/web/20220826200109/https://data.nigeriase4all.gov.ng/documents/357/download) (dataset)
 * (Nigeria) [Substations dataset](https://data.grid3.org/datasets/4eed11fbbdd34779be446296208c6cbe_0/explore?location=7.753760%2C7.255227%2C6.99) (2025) (CC-BY-4.0) (map) (dataset) 
