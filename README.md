@@ -192,6 +192,7 @@ If a resource link is broken, or you find a map with a broken link that you'd li
 * (India) (Assam) [EXISTING TRANSMISSION LINE AS 27.07.2018](https://www.aegcl.co.in/wp-content/uploads/2020/12/Details_of_lines._As_on_27.07.18.pdf)
 * (India) (Assam) [SUBSTATION DATA](https://www.aegcl.co.in/substation-data/#:~:text=SL,GSS%20%20MORNING%208%20AM)
 * (India) (Assam) [RANSFORMER CAPACITY IN MVA](https://www.aegcl.co.in/wp-content/uploads/2024/06/070620241713_AEGCL_SUBSTATIONS-1.pdf)
+* (India) (Assam) [LIST OF GRID SUBSTATIONS OF AEGCL](https://www.aegcl.co.in/132-33kv-chapakhowa-substation/)
 * (India) (Tripura) [Tripura Power Map](https://tsecl.in/power_map#:~:text=Tripura%20State%20Electricity%20Corporation%20Limited) (2024) (map)
 * (India) (Tripura) [POWER SYSTEM NETWORK Diagram](https://tsecl.in/sites/default/files/2024-09/Diagram.pdf)
 * (India) (Delphi) [Delhi Transco Ltd](https://dtl.gov.in/Network.aspx) (2023) (map)
