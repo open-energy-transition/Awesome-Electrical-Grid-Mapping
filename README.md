@@ -315,6 +315,7 @@ If a resource link is broken, or you find a map with a broken link that you'd li
 * (Lithuania) [Lithuania Power System Information - Transmission Grid](https://www.litgrid.eu/index.php/power-system/power-system-information/transmission-grid-/544) (map)
 * (Malta) [National Grid Diagram](https://www.enemalta.com.mt/wp-content/uploads/2017/12/National-Grid-diagram.jpg)(2017)(map)
 * (Montenegro) [TSO Map](https://cges.me/en/about/electrical-transmission-system/overhead-line-network)(map)
+* (Moldova) [Green Map Moldova](https://renergy.md/greenmap/) (map) (2025)
 * (Lithuania) [Litgrid Transmission Network](https://www.iea.org/articles/lithuania-electricity-security-policy) (2022) (cc-by-4.0) (report)
 * (Netherlands) [Grid Capacity](https://data.partnersinenergie.nl/capaciteitskaart/totaal/afname) (map)
 * (Netherlands) [Grid Maps and ArcGIS of Tennet](https://www.tennet.eu/grids-and-markets/grid-maps)

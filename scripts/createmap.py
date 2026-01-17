@@ -36,7 +36,7 @@ provided_countries = {
     "France", "Bulgaria", "Hungary", "Serbia", "Kosovo", "Lithuania", "Latvia",
     "Estonia", "Belgium", "Bosnia and Herzegovina", "Portugal", "Poland", "Denmark",
     "Austria", "Netherlands", "Ireland", "Greece", "Sweden", "Norway", "Finland",
-    "Switzerland", "Romania", "Slovakia", "Czechia", "Iceland","Congo","Montenegro","Croatia",
+    "Switzerland", "Romania", "Slovakia", "Czechia", "Iceland","Congo","Montenegro","Croatia","Moldova",
 
     # North America
     "United States", "Canada", "Puerto Rico", "Mexico",
