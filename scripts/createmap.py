@@ -19,12 +19,12 @@ provided_countries = {
     "Ghana", "Angola", "Namibia", "Uganda", "Kenya", "Tanzania", "South Africa",
     "Zambia", "Rwanda", "Ethiopia","Benin","Burkina Faso","Côte d'Ivoire", "Ghana","Guinea",
     "Guinea-Bissau","Liberia","Mali","Niger","Senegal","Sierra Leone","Togo","Gambia","Cameroon",
-    "Zimbabwe","Tunisia","Russia","Madagascar","Libya",
+    "Zimbabwe","Tunisia","Russia","Madagascar","Libya","Malawi","Algeria",
 
     # Asia
     "India", "Pakistan", "Sri Lanka", "Japan", "Cambodia", "Indonesia", "Malaysia",
     "Myanmar", "Philippines", "Vietnam", "Nepal", "Turkey", "Georgia", "Jordan",
-    "Kazakhstan", "Uzbekistan", "Iran", "Bangladesh", "Mongolia", "South Korea",
+    "Kazakhstan", "Uzbekistan", "Iran", "Bangladesh", "Mongolia", "North Korea", "South Korea",
     "Tajikistan", "Kyrgyzstan", "Turkmenistan", "Afghanistan", "Papua New Guinea",
     "Laos", "Thailand","Oman","Saudi Arabia","Iraq","Syria","Taiwan","China","Bhutan","Yemen",
 
@@ -42,7 +42,7 @@ provided_countries = {
     "United States", "Canada", "Puerto Rico", "Mexico",
 
     # Central America & Caribbean
-    "Costa Rica", "Nicaragua", "Honduras", "Guatemala", "Cuba","Jamaica",
+    "Costa Rica", "Nicaragua", "Honduras", "Guatemala", "Cuba","Jamaica", "Panama", "Dominican Rep.",
 
     # South America
     "Brazil", "Argentina", "Chile", "Bolivia", "Peru", "Uruguay", "Colombia",
