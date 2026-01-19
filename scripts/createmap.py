@@ -78,7 +78,7 @@ world.plot(
     linewidth=0.4
 )
 
-ax.set_title("Availability of Printed Electrical Grid Maps", fontsize=22, weight="bold", pad=20, color="#1abc9c" )
+ax.set_title("Availability of Public Electrical Grid Data", fontsize=22, weight="bold", pad=20, color="#1abc9c" )
 
 # Remove axes
 ax.axis("off")
