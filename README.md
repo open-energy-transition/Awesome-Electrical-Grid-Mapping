@@ -176,6 +176,7 @@ If a resource link is broken, or you find a map with a broken link that you'd li
 * (Georgia) [GSE Ten Year development plan](https://gse.com.ge/communication/Publications/Ten-Year-Network-Development-Plan-of-Georgia) (2024) (capacitydata) (map) (report)
 * (Georgia) [GSE Power flow and interconnectors](https://www.gse.com.ge/for-customers/data-from-the-power-system/power-flow) (map)
 * (Georgia) [Power transmission lines of JSC UES SAKRUSENERGO](https://sakrusenergo.ge/en/%e1%83%94%e1%83%9a%e1%83%94%e1%83%a5%e1%83%a2%e1%83%a0%e1%83%9d%e1%83%92%e1%83%90%e1%83%93%e1%83%90%e1%83%9b%e1%83%aa%e1%83%94%e1%83%9b%e1%83%94%e1%83%91%e1%83%98/) (proprietary) (map)
+* (India) [Energy dashboard including power plants and generation capacities, transmission lines and circuits, substations](https://iced.niti.gov.in/) (2026) (capacitydata) (map) (dataset) (report)
 * (India) [Energy Map of India - Based on OpenStreetMap Data](https://vedas.sac.gov.in/energymap/view/powergis.jsp) (map)
 * (India) [National Electricity Plan](https://cea.nic.in/wp-content/uploads/psp___a_i/2024/01/Draft_NEP_Vol_II.pdf) (2023) (capacitydata) (report)
 * (India) [POWER MAP OF INDIA](https://www.powergrid.in/sites/default/files/inline-files/POWERGRID_All%20India%20Power%20Map_Aug%202021.pdf) (2021) (map)
