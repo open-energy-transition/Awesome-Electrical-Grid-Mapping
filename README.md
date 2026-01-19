@@ -3,7 +3,7 @@
 <table>
 <tr>
 <td>
-<b> A curated list of global electrical grid maps, datasets, and resources for (almost) every country in the world.</b>
+<b> A curated list of electrical grid maps, datasets, and resources for (almost) every country in the world.</b>
 </td>
 <td>
 
