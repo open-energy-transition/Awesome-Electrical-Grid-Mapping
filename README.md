@@ -3,7 +3,7 @@
 <table>
 <tr>
 <td>
-<b>A curated list of global electrical grid maps, datasets and resources.</b>
+<b> A curated list of global electrical grid maps, datasets, and resources for (almost) every country in the world.</b>
 </td>
 <td>
 
@@ -14,10 +14,10 @@
 </table>
 
 <!-- COLLAPSE:question title="Why we've copiled these resources" open="true" -->
-⚠️ The datasets, maps and all resources compiled here are used to estimate the grid coverage in OpenStreetMap and to find missing lines. Do not copy/paste data from these maps directly into your OpenStreetMap layer. Each data point of the transmission network must be set manually and [verified](https://wiki.openstreetmap.org/wiki/Verifiability) with official satellite data provided by the OpenStreetMap community.
-<!-- END COLLAPSE -->
-<!-- COLLAPSE:tip title="Join the #MapYourGrid initiative" open="true"-->
-Get started with transmission grid mapping in OpenStreetMap by checking out our [Starter Kit Tutorial](https://mapyourgrid.org/starter-kit/) and [our community discord channel](https://discord.gg/a5znpdFWfD).
+**This dataset is been curated and maintained by the [MapYourGrid Initiative](https://mapyourgrid.org/).** Get started with transmission grid mapping in OpenStreetMap by checking out our [Starter Kit Tutorial](https://mapyourgrid.org/starter-kit/) and [our community discord channel](https://discord.gg/a5znpdFWfD).
+
+⚠️ These datasets, maps and resources can help you to estimate grid coverage in OpenStreetMap and identify missing lines. Do not copy/paste data directly from these maps into your OpenStreetMap layer, and always keep your data separate from OpenStreetMap data in your editor. Each data point of the transmission network must be set manually and [verified](https://wiki.openstreetmap.org/wiki/Verifiability) with official satellite data provided by the OpenStreetMap community. ⚠️ 
+
 <!-- END COLLAPSE -->
 <!-- COLLAPSE:note title="A link is not working ?" open="true" -->
 If a resource link is broken, or you find a map with a broken link that you'd like to add to this list, try it on the [Internet Archive](https://web.archive.org/). This even works for PDFs and other files.
@@ -177,6 +177,7 @@ If a resource link is broken, or you find a map with a broken link that you'd li
 * (Georgia) [GSE Power flow and interconnectors](https://www.gse.com.ge/for-customers/data-from-the-power-system/power-flow) (map)
 * (Georgia) [Power transmission lines of JSC UES SAKRUSENERGO](https://sakrusenergo.ge/en/%e1%83%94%e1%83%9a%e1%83%94%e1%83%a5%e1%83%a2%e1%83%a0%e1%83%9d%e1%83%92%e1%83%90%e1%83%93%e1%83%90%e1%83%9b%e1%83%aa%e1%83%94%e1%83%9b%e1%83%94%e1%83%91%e1%83%98/) (proprietary) (map)
 * (India) [Energy dashboard including power plants and generation capacities, transmission lines and circuits, substations](https://iced.niti.gov.in/) (2026) (capacitydata) (map) (dataset) (report)
+* (India) [Transmission App for Real Time Monitoring and Growth](http://tarang.website/home) (2026) (dataset)
 * (India) [Energy Map of India - Based on OpenStreetMap Data](https://vedas.sac.gov.in/energymap/view/powergis.jsp) (map)
 * (India) [National Electricity Plan](https://cea.nic.in/wp-content/uploads/psp___a_i/2024/01/Draft_NEP_Vol_II.pdf) (2023) (capacitydata) (report)
 * (India) [POWER MAP OF INDIA](https://www.powergrid.in/sites/default/files/inline-files/POWERGRID_All%20India%20Power%20Map_Aug%202021.pdf) (2021) (map)
