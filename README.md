@@ -217,6 +217,7 @@ If a resource link is broken, or you find a map with a broken link that you'd li
 * (Kazakhstan) [Electrical networks](https://www.kegoc.kz/electric-power/natsionalnaya-energosistema/%D0%9A%D0%B0%D1%80%D1%82%D0%B0%20%D1%81%D1%85%D0%B5%D0%BC%D0%B0%20%D0%95%D0%AD%D0%A1%20%D0%9A%D0%B0%D0%B7%D0%B0%D1%85%D1%81%D1%82%D0%B0%D0%BD%D0%B0-2025%20%D0%B4%D0%BB%D1%8F%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0%20en.%20cdr.pdf) (2025) (map)
 * (Kazakhstan) [MES branches (includes capacity data for lines in each regions docx)](https://www.kegoc.kz/en/about/struktura-kompanii/filialy-mes/?region0)(capacity)
 * (Kyrgyzstan, Turkmenistan, Tajikistan, Uzbekistan) [Transmission Grid](https://kaktus.media/doc/444230_tyrkmenistan_bydet_davat_elektroenergiu_kyrgyzstany_gde_logika_mneniia_ekspertov.html) (2020) (map)
+* (Kyrgyzstan, Turkmenistan, Tajikistan, Uzbekistan) [HP:CA - A geodatabase on hydropower plants in Central Asia](https://zenodo.org/records/13320645) (2025) (map) (cc-by-4.0)
 * (Laos) [Assessment of Electric Vehicle Penetration in the Lao People’s Democratic](https://www.eria.org/uploads/media/Research-Project-Report/RPR-2021-26/14_Chapter-5-Analysis-on-Impacts-to-the-Power-Sector.pdf) (2022) (report) 
 * (Laos) [Energy Data Laos](https://energydata.info/dataset/laos-electricity-transmission-network-2005) (2005) (dataset)
 * (Laos) [Laos Hydropower Projects Info by Hobo Maps](http://hobomaps2.com/LaosHydropowerProjects.html)
