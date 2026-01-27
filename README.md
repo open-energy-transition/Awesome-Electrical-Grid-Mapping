@@ -213,6 +213,7 @@ If a resource link is broken, or you find a map with a broken link that you'd li
 * (Japan) [J-Power Group Integrated Report](https://www.jpower.co.jp/ir/pdf/rep2023/jpower_integrated2023_all.pdf) (2023) (report)
 * (Japan) [OSW Project Areas & Transmission Lines in Japan](https://www.renewable-ei.org/statistics/offshoremap/?page=en) (capacitydata) (map)
 * (Japan) [OCCTO - Organization for Cross-regional Coordination of Transmission Operators](https://www.occto.or.jp/access/link/mapping.html)  (capacitydata) (dataset) (report)
+* (Japan) [Power generation facilities](https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P03.html) (2013) (dataset)
 * (Jordan) [Electric System - National Electric Power Company](https://nepco.com.jo/en/JordanElecticSystem.aspx) (map)
 * (Jordan) [MENA - Electricity Transmission Network 2018](https://energydata.info/dataset/jordan-electricity-transmission-network) (2018) (cc-by-4.0) (dataset)
 * (Kazakhstan) [Electrical networks](https://www.kegoc.kz/electric-power/natsionalnaya-energosistema/%D0%9A%D0%B0%D1%80%D1%82%D0%B0%20%D1%81%D1%85%D0%B5%D0%BC%D0%B0%20%D0%95%D0%AD%D0%A1%20%D0%9A%D0%B0%D0%B7%D0%B0%D1%85%D1%81%D1%82%D0%B0%D0%BD%D0%B0-2025%20%D0%B4%D0%BB%D1%8F%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0%20en.%20cdr.pdf) (2025) (map)
