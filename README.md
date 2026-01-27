@@ -231,6 +231,7 @@ If a resource link is broken, or you find a map with a broken link that you'd li
 * (Nepal) [Nepal electricity authority annual report](https://www.nea.org.np/annual_report) (2024) (report)
 * (Nepal) [Transmission System Development Plan](https://nepalindata.com/media/resources/items/15/bTransmission-System-Development-Plan-of-Nepal.pdf) (2018) (capacitydata) (report) 
 * (Nepal) [NEPAL POWER TRANSMISSION NETWORK MAP](https://www.rpgcl.com/storage/listies/November2021/nepal-tranmission-network-map-revised1.pdf) (2021) (map)
+* (Nepal) [Hydropower Projects - Nepal](https://hydro.naxa.com.np/core/datasets/) (Dataset)
 * (Oman) [Oman - Report GIS Data Governance Is Key to OETC's Success](https://www.esri.com/en-us/lg/industry/electric-and-gas/stories/oetc-case-study) (2023) (map)
 * (Pakistan) [Generation and Transmission System Expansion](https://eco.int/wp-content/uploads/2024/12/Annex-IX-Presentation-of-Pakistan.pdf) (2024) (report)
 * (Pakistan) [Performance Evaluation Report of Transmission Companies 2023-24](https://nepra.org.pk/M&E/PER/Transmission/2024/Performance%20Evaluation%20Report%20of%20Transmission%20Companies%202023-24.pdf) (2024) (report)
