@@ -72,6 +72,7 @@ If a resource link is broken, or you find a map with a broken link that you'd li
 * [Southern African Power Pool](https://www.sapp.co.zw/sapp-sadc-grid-map) (map)
 * [OMVG - Gambia, Guinea, Guinea-Bissau, Senegal - Interconnector line 225 kV, 2020](https://www.pe-omvg.org/sites/default/files/2020-12/201103_FR_BULLETIN%20PE%20OMVG_210x297mm_12%20pages_PRINT_FR.pdf)
 * [OMVG - Gambia, Guinea, Guinea-Bissau, Senegal - Interconnector line 225 kV - Action plan](https://www.omvg.org/sites/default/files/document/2023-01/par-lignes-senegal-version-finale-sans-annexes-11_03_2019.pdf) (2019) (report)
+* [Renewable Power Plants in Africa](https://www.repp.geo.uni-tuebingen.de/) (2023) (map) (dataset) (CC-BY-4.0)
 
 #### National-level Projects and Resources
 * (Algeria; Libya; Tunisia) [Algeria-Tunisia Electricity Grid Map](https://www.scribd.com/doc/246498343/North-Africa-Electricity-Grid-Map)
