@@ -51,6 +51,7 @@ If a resource link is broken, or you find a map with a broken link that you'd li
 * [Energy Access Explorer](https://www.energyaccessexplorer.org/) (mit) (dataset) (map)
 * [DOE Global Energy Storage Database](https://gesdb.sandia.gov/projects.html) (dataset)
 * [GloHydroRes](https://zenodo.org/records/14526360) - A global dataset combining open-source hydropower plant and reservoir data.
+* [Global Dam Watch](https://www.globaldamwatch.org/)
 
 <!-- END COLLAPSE -->
 
