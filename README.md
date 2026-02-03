@@ -370,6 +370,7 @@ If a resource link is broken, or you find a map with a broken link that you'd li
 * (United Kingdom) [NESO ETYS documents (includes technical data)](https://www.neso.energy/publications/electricity-ten-year-statement-etys/etys-documents-and-appendices) (2024) (dataset)
 * (United Kingdom) [NESO Maps and SLD](https://www.neso.energy/document/351911/download)(map)
 * (United Kingdom) [NESO Capacity](https://www.neso.energy/document/351916/download) (dataset) (capacitydata)
+* (United Kingdom) [LTDS Common Information Model](https://connecteddata.nationalgrid.co.uk/dataset/ltds-common-information-model) (dataset)
 
 <!-- END COLLAPSE -->
 
