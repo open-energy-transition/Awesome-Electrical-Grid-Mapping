@@ -278,6 +278,7 @@ If a resource link is broken, or you find a map with a broken link that you'd li
 * [JAO Static Grid Model](https://www.jao.eu/sites/default/files/static-grid/) (capacitydata) (map)
 * [DanuP-2-Gas Interreg Danube Transnational Programme](https://danup2gas.eu/menu) (2022) (map) (dataset)
 * [50Herz - Static Grid Model](https://web.archive.org/web/20250317194153/https://www.50hertz.com/de/Transparenz/Kennzahlen/Netzdaten/StatischesNetzmodell) (2023) (map)
+* [RESTOR Hydro Map](https://restor.eref-europe.org/)
 * (Albania;Bosnia & Herzegovina;Kosovo;North Macedonia;Montenegro;Serbia) [Transmission grid in the Western Balkans](https://wb6energyprospect.com/maps.php?mapa=6) (2025) (proprietary) (map)
 * (Finland;Norway:Sweden) [Svenska kraftnät](https://www.svk.se/en/national-grid/map-of-the-national-grid/) (2025) (map)
 * (Finland;Norway:Sweden) [Nordic Grid Development Perspective](https://www.svk.se/siteassets/om-oss/rapporter/2023/svk_ngpd2023.pdf) (2023) (report)
