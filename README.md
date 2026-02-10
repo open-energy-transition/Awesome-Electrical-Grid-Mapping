@@ -165,6 +165,7 @@ If a resource link is broken, or you find a map with a broken link that you'd li
 #### National-level Projects and Resources
 * (Afghanistan) [Current and planned transmission grid - High Res](https://web.archive.org/web/20250219203422im_/http://aeic.af/storage/Map/01HYFMF9FHM7J51TRM6D2JJ8N5.jpg) (2024) (cc-by-4.0) (map)
 * (Afghanistan) [Current and planned transmission grid](https://www.researchgate.net/figure/The-current-and-planned-transmission-grid-of-Afghanistan-19_fig6_382678716) (2024) (cc-by-4.0) (map)
+* (Afghanistan) [AFGHANISTAN'S ENERGY GRID: PLANNED AND EXISTING INFRASTRUCTURE, AS OF SEPTEMBER 2018](https://apps.dtic.mil/sti/trecms/pdf/AD1137717.pdf) (2018) (map)
 * (Armenia) [Armenian Energy Agency Maps](https://energyagency.am/en/page_pdf/qartez) (maps)
 * (Armenia) [Energy Sector Development Strategic Program to 2040](https://policy.asiapacificenergy.org/sites/default/files/Energy%20Sector%20Development%20Strategic%20Program%20to%202040%20.pdf?utm_source=chatgpt.com) (2021) (report)
 * (Bangladesh) [Power Grid Company of Bangladesh](https://pgcb.portal.gov.bd/sites/default/files/files/pgcb.portal.gov.bd/download/4f660a85_ef1d_4be7_8944_16562129c3f1/2020-07-27-09-44-6c67edf0a0e3c9debd68cd95dece815b.pdf) (proprietary) (map)
