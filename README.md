@@ -351,6 +351,7 @@ If a resource link is broken, or you find a map with a broken link that you'd li
 * (Poland) [Grid Capacity](https://www.pse.pl/obszary-dzialalnosci/krajowy-system-elektroenergetyczny/informacja-o-dostepnosci-mocy-przylaczeniowej) (2025) (map) (report) 
 * (Portugal) [Available Hosting Capacity in the National Distribution Grid](https://e-redes.opendatasoft.com/pages/capacidade_rececao_rnd/) (map)
 * (Portugal) [Lisbon Medium and Low Voltage Grid](https://dados.gov.pt/pt/datasets/r/ad7a116a-1105-453f-ba3b-823d68669f27) (2020) (dataset)
+* (Portugal) [Electricity Transmission Network](https://datahub.ren.pt/en/networks/electrical-grid/) (2024) (map)
 * (Romania) [Transelectrica](https://web.transelectrica.ro/harti_crd_tel/) (2025) (map)
 * (Serbia) [The Electric Power System of Serbia - pdf](https://www.cigre.org/userfiles/files/Community/National%20Power%20System/PowerPoint%20Presentation%20-%202020%20National%20Power%20System%20Report%20of%20CIGRE%20Serbia.pdf) (2020) (capacitydata) (report)
 * (Slovakia) [Grid maps and technical data](https://www.sepsas.sk/en/for-partners/technical-data/grid-maps/) (2024) (map)
