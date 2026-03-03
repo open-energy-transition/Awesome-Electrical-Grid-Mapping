@@ -363,6 +363,7 @@ If a resource link is broken, or you find a map with a broken link that you'd li
 * (Spain) [Transmission Grid](https://centrodedescargas.cnig.es/CentroDescargas/btn100) (dataset)
 * (Switzerland) [Swiss Transmission Grid](https://www.swissgrid.ch/en/home/operation/power-grid/swiss-power-grid.html) (map)
 * (Switzerland) [Electrical installations with a nominal voltage exceeding 36kV](https://opendata.swiss/en/dataset/elektrische-anlagen-mit-einer-nennspannung-von-uber-36-kv) (cc-by-4.0) (map) (dataset)
+* (Sweden) [Electricity transmission network](https://ext-geodatakatalog-forv.lansstyrelsen.se/PlaneringsKatalogen/GetMetaDataById?id=08ec56a0-6b5c-4f83-b29e-375e6f1a34b9_C) (map)
 * (Ukraine) [Green deal Ukraina report(includes map)](https://greendealukraina.org/assets/images/reports/gdu-technologies-for-ua-grid.pdf)(map)
 * (United Kingdom) [National Grid UK](https://www.nationalgrid.com/electricity-transmission/network-and-infrastructure/network-route-maps) (2025) (dataset)
 * (United Kingdom) [Substations UK](https://zenodo.org/records/10866260) (2024) (cc-by-nc-4.0) (dataset) 
