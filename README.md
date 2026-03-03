@@ -334,6 +334,7 @@ If a resource link is broken, or you find a map with a broken link that you'd li
 * (Montenegro) [Electricity Transmission Network](https://energydata.info/dataset/montenegro-electricity-transmission-network-2014)(map)
 * (Moldova) [Green Map Moldova](https://renergy.md/greenmap/) (map) (2025)
 * (Lithuania) [Litgrid Transmission Network](https://www.iea.org/articles/lithuania-electricity-security-policy) (2022) (cc-by-4.0) (report)
+* (Luxembourg) [Electricity Network](https://data.public.lu/en/datasets/inspire-annex-iii-utility-and-governmental-services-electricitynetwork-utilitylink-bd-l-tc-electricity-transmission-lines-from-the-official-carto-topographic-database-3/) (dataset)
 * (Netherlands) [Grid Capacity](https://data.partnersinenergie.nl/capaciteitskaart/totaal/afname) (map)
 * (Netherlands) [Grid Maps and ArcGIS of Tennet](https://www.tennet.eu/grids-and-markets/grid-maps)
 * (Netherlands) [Hoogspanningsnet Nederland - Asset gegevens TenneT TSO B.V.](https://www.arcgis.com/home/item.html?id=6cc2c64f88004bf0bfd2e211f3c0bf6d)
