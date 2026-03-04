@@ -431,10 +431,11 @@ If a resource link is broken, or you find a map with a broken link that you'd li
 * (United States) (California) [Electric Substations Washington](https://databasin.org/datasets/36e74994140143e09bf72d2b586ce681/) (cc-by-4.0) (dataset) (map)
 * (United States) (California) [California Electric Transmission Lines](https://data.ca.gov/dataset/california-electric-transmission-lines) (2025) (cc-by-4.0) (dataset)
 * (United States) (California) [California Energy Commision - Electric Transmission Lines](https://cecgis-caenergy.opendata.arcgis.com/datasets/260b4513acdb4a3a8e4d64e69fc84fee_2/explore) (2024) (dataset) (map)
-* (United States) (California) [California Power Grid Map](https://eshansingh.xyz/transmission/index.html) (map) 
+* (United States) (California) [California Power Grid Map](https://eshansingh.xyz/transmission/index.html) (2026) (map) (dataset)
 * (United States) (Florida) [Electric Substation Florida](https://fgdl.org/fgdlmap/) (map)
 * (United States) (Texas) [ERCOT Transmission Grid Map - Can only be visited from the US](https://www.ercot.com/gridinfo/transmission)
 * (United States) (Virginia) [Electric Substation Virginia](https://www.arcgis.com/apps/mapviewer/index.html?layers=b06eda911f7b4f859c5e02bb5f7cc308) (2014) (map)
+* (Grid Resource Integration Portal) () [Grid Resource Integration Portal](
 * (Dominican Republic) [Transmission planning 2021-2025](https://eted.gob.do/planificacion-de-mediano-y-largo-plazo/#30-64-2023-plan-de-expansion) (2023)(report)(unifilar diagram)
 * (Dominican Republic) [National Energy Map - Interactive Map ](https://www.mapas.cne.gob.do/) (map)
 * (Dominican Republic) [National Energy Map - Circuit diagram ](https://mapas.cne.gob.do/uploads/archivos/Unifilar-SENI.pdf) (map)
