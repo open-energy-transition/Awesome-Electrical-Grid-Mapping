@@ -149,6 +149,9 @@ If a resource link is broken, or you find a map with a broken link that you'd li
 * (Zambia) [Energydata Zambia Power plants](https://energydata.info/dataset/zambia---power-plants--2015-) (2018) (cc0) (dataset)
 * (Zambia) [Energydata Zambia Electrical Transformers And Substations](https://energydata.info/dataset/zambia-electrical-transformers-and-substations-point) (2023) (cc-by-4.0) (dataset)
 * (Zambia) [Energydata Zambia Electricity Transmission Network](https://energydata.info/dataset/zambia-electricity-transmission-network-2014) (2014) (cc-by-4.0) (dataset)
+* (Zambia) [Renewable Energy Assets](https://www.zesco.co.zm/assets/renewable_energy_assets/data/) (2026) (dataset) (capacitydata)
+* (Zambia) [Renewable Energy](https://www.zesco.co.zm/hosting_capacity.php) (dataset) (map)
+* (Zambia) [Energy Regulation Board - 2024 Annual Statistical Bulletin](https://www.erb.org.zm/wp-content/uploads/files/statBullet2024.pdf) (2025) (report)
 * (Zimbabwe) [Energy Profile](https://www.zvei.org/fileadmin/user_upload/Themen/Maerkte_Recht/Aussenwirtschaft/Afrika/Simbabwe/Simbabwe-EZ-Elektro-Energie-Rohstoffe/Energy_Profile_Zimbabwe.pdf) (report)
 * (Zimbabwe)[GIS Power Plants](https://www.arcgis.com/apps/dashboards/9aed668320794218814af40b946d8184)
 <!-- END COLLAPSE -->
