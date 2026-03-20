@@ -287,6 +287,7 @@ If a resource link is broken, or you find a map with a broken link that you'd li
 #### National-level Projects and Resources
 * (Albania) [Albania Transmission system](https://ost.al/en/transmission-system/description-of-the-transmission-system/) (proprietary) (capacitydata) (map) (report)
 * (Austria) [Grid Capacity](https://www.ebutilities.at/verfuegbare-netzanschlusskapazitaeten)  (proprietary) (capacitydata) (map)
+* (Belarus) [High-voltage transmission lines](https://www.minenergo.gov.by/press/novosti/o-nekotorykh-merakh-po-povysheniyu-nadezhnosti-belorusskoy-energosistemy/) (2018) (map)
 * (Belgium) [High-voltage transmission lines](https://www.elia.be/en/infrastructure-and-projects/our-infrastructure) (2023) (proprietary) (map)
 * (Bosnia-Herzegovina) [Map of EES 2024](https://www.derk.ba/en/ees-bih/ees-map) (2024) (proprietary) (map)
 * (Bosnia-Herzegovina) [NOS-BiH Transmission grid development plan 2021-2030](https://www.nosbih.ba/files/2021/03/20210311-lat-Dugorocni-plan-razvoja-prenosne-mreze-2021-2030-Knjiga-1.pdf) (2021) (report)
