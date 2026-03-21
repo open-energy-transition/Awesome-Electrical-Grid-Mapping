@@ -263,6 +263,7 @@ If a resource link is broken, or you find a map with a broken link that you'd li
 * (Turkmenistan) [ADB Project](https://www.adb.org/sites/default/files/project-documents/49370/49370-002-sddr-en.pdf) (map)
 * (Uzbekistan) [Electricity Sector Transformation and Resilient Transmission](https://documents1.worldbank.org/curated/en/184411624932251299/pdf/Uzbekistan-Electricity-Sector-Transformation-and-Resilient-Transmission-Project.pdf) (2021) (report)
 * (Uzbekistan) [Energydata Uzbekistan](https://energydata.info/dataset/uzbekistan-electricity-transmission-network) (2016) (dataset)
+* (Uzbekistan)  [Development Plan of Regional Electrical Networks](https://het.uz/uploads/78acab58-5fe4-0be7-f6e9-0c990c40f4e4_media_.pdf) (2022) (report)
 * (Vietnam) [Vietnam Electricity](https://en.evn.com.vn/userfile/files/EVNAnnualReport2022-2023-20241115110735330.pdf) (2023) (report)
 * (Yemen) [Energydata Yemen Electricity Transmission Network](https://energydata.info/dataset/yemen-electricity-transmission-network-2017) (2016) (dataset)
 * (Yemen) [Maps](https://moee-ye.com/site-ar/%d8%a7%d9%84%d9%85%d8%ae%d8%b7%d8%b7%d8%a7%d8%aa/)(map)
