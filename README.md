@@ -462,6 +462,7 @@ If a resource link is broken, or you find a map with a broken link that you'd li
 * (New Zealand) [Transpower New Zealand Ltd Transmission Lines](https://data-transpower.opendata.arcgis.com/datasets/0c8db240553f47b5844bdc2eb1146b9b_0/explore) (2025) (cc-by-4.0) (dataset) (map)
 * (New Zealand) [Transpower Substations NZ](https://github.com/alltheplaces/alltheplaces/blob/master/locations/spiders/infrastructure/transpower_substations_nz.py) (mit) (dataset)
 * (New Zealand) [Powerco Zone Substations NZ](https://github.com/alltheplaces/alltheplaces/blob/master/locations/spiders/infrastructure/powerco_zone_substations_nz.py) (mit) (dataset)
+* (New Zealand) [Transpower - Grid capability and configuration](https://www.transpower.co.nz/our-work/industry/our-grid/grid-capability-and-configuration) (dataset) (capacitydata) 
 * (Vanatu) [Utilities Regulatory Authority Fact Sheet] (https://ura.gov.vu/media/attachments/Electricity_Fact_Sheet_2017_-_2022.pdf) (2024) (proprietary) (capacitydata)
 <!-- END COLLAPSE -->
 
