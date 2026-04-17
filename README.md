@@ -270,7 +270,9 @@ If a resource link is broken, or you find a map with a broken link that you'd li
 * (Uzbekistan)  [Development Plan of Regional Electrical Networks](https://het.uz/uploads/78acab58-5fe4-0be7-f6e9-0c990c40f4e4_media_.pdf) (2022) (report)
 * (Vietnam) [Vietnam Electricity](https://en.evn.com.vn/userfile/files/EVNAnnualReport2022-2023-20241115110735330.pdf) (2023) (report)
 * (Yemen) [Energydata Yemen Electricity Transmission Network](https://energydata.info/dataset/yemen-electricity-transmission-network-2017) (2016) (dataset)
-* (Yemen) [Maps](https://moee-ye.com/site-ar/%d8%a7%d9%84%d9%85%d8%ae%d8%b7%d8%b7%d8%a7%d8%aa/)(map)
+* (Yemen) [Maps](https://moee-ye.com/site-ar/%d8%a7%d9%84%d9%85%d8%ae%d8%b7%d8%b7%d8%a7%d8%aa/) (map)
+* (Thailand) [Thailand Power Map - Electricity Generating Authority of Thailand - Transmission system](https://gisportal.egat.co.th/portal/apps/experiencebuilder/experience/?draft=true&id=710edfd7ac3f4f0fae4ffe791781686c) (map) (capacity) (2026)
+* (Thailand) [Thailand Power Map - PEA Power Map](https://gisportal.pea.co.th/portal/apps/experiencebuilder/experience/?id=0732ae48e420445e91bccec9306abaa5) (map) (capacity) (2026)
 <!-- END COLLAPSE -->
 
 
