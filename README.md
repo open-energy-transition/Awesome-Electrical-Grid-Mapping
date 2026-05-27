@@ -408,6 +408,7 @@ If a resource link is broken, or you find a map with a broken link that you'd li
 #### Cross-border Projects and Resources
 * (Canada;US) [Electricity Transmission in Canada + US](https://www.arcgis.com/apps/mapviewer/index.html?webmap=fec6a654d2d44a0688b8c6d8c9c95367) (2019) (map)
 * (Canada,US) [The CER and International Power Lines](https://www.cer-rec.gc.ca/en/data-analysis/energy-markets/market-snapshots/2025/market-snapshot-electricity-trade-who-regulates-what-in-canada.html) (2025) (map)
+* (Canada, US) [WECC System Performance Data Portal](https://wecc-spdp-weccgeo.hub.arcgis.com/pages/transmission-availability) (2026) (map)
 
 #### National-level projects and resources
 * (Canada) (Alberta) [AESO Interconnected Electric System Map](https://www.aeso.ca/assets/2025_AIES_Map.pdf) (2025) (proprietary) (map)
