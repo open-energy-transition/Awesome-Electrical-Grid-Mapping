@@ -16,8 +16,6 @@
 <!-- COLLAPSE:question title="Why we've copiled these resources" open="true" -->
 **This dataset is been curated and maintained by the [MapYourGrid Initiative](https://mapyourgrid.org/).** Get started with transmission grid mapping in OpenStreetMap by checking out our [Starter Kit Tutorial](https://mapyourgrid.org/starter-kit/) and [our community discord channel](https://discord.gg/a5znpdFWfD).
 
-⚠️ These datasets, maps and resources can help you to estimate grid coverage in OpenStreetMap and identify missing lines. Do not copy/paste data directly from these maps into your OpenStreetMap layer, and always keep your data separate from OpenStreetMap data in your editor. Each data point of the transmission network must be set manually and [verified](https://wiki.openstreetmap.org/wiki/Verifiability) with official satellite data provided by the OpenStreetMap community. ⚠️ 
-
 <!-- END COLLAPSE -->
 <!-- COLLAPSE:note title="A link is not working ?" open="true" -->
 If a resource link is broken, or you find a map with a broken link that you'd like to add to this list, try it on the [Internet Archive](https://web.archive.org/). This even works for PDFs and other files.
@@ -492,7 +490,8 @@ If a resource link is broken, or you find a map with a broken link that you'd li
 * (Argentina) [Generación, Transporte y Distribución de Energía Eléctrica](http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/sig/2024mapas/generacion_electrica.pdf) (2024) (proprietary) (map)
 * (Argentina) [Información Energética](https://sig.energia.gob.ar/visor/visorsig.php) (2024) (cc-by-4.0) (map) (dataset)
 * (Argentina) [Información Geográfica](https://www.argentina.gob.ar/economia/energia/planeamiento-energetico/informacion-energetica/sistema-unificado-de-informacion-3) (cc-by-4.0) (dataset) (map)
-* (Argentina) [Transporte Eléctrico AT Líneas](http://datos.energia.gob.ar/dataset/transporte-electrico-at-lineas-) (cc-by-4.0) (dataset) (capacitydata) 
+* (Argentina) [Transporte Eléctrico AT Líneas](http://datos.energia.gob.ar/dataset/transporte-electrico-at-lineas-) (cc-by-4.0) (dataset) (capacitydata)
+* (Argentina) [Distribution networks provided by the Federal Electric Energy Council, provincial electrical distribution companies and regulatory entities](https://datos.gob.ar/dataset/energia-redes-distribucion-electrica) 
 * (Bolivia) [Instructivos de restitución del SIN (Sistema Interconectado Nacional)](https://www.cndc.bo/media/archivos/normas/Instructivos_de_Restitucion_del_SIN.pdf) (report) (map) (capacitydata)
 * (Bolivia) [Subestaciones en Bolivia](https://www.scribd.com/document/425875074/Subestaciones-en-Bolivia) (capacitydata) (proprietary) (dataset)
 * (Bolivia) [Transmission and Distribution map](https://geoportal.mhe.gob.bo/maps/720) (2023) (capacitydata) (map) 
