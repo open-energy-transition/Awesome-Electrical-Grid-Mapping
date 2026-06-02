@@ -176,6 +176,7 @@ If a resource link is broken, or you find a map with a broken link that you'd li
 * (Cambodia) [Energy Sector Assessment, Strategy, and Road Map](https://www.adb.org/sites/default/files/institutional-document/479941/cambodia-energy-assessment-road-map.pdf) (2018) (report)
 * (Cambodia) [OpenDevelopment Map Explorer](https://data.opendevelopmentcambodia.net/map-explorer) (cc-by-sa-4.0) (capacitydata) (dataset) (map)
 * (Cambodia) [Transmission Map, page 71](https://admin.edc.com.kh/images/annuallyreport/def65040b39aa223f54ff3d577b336e3.pdf) (report) (map)
+* (Cambodia) [Annual Report on Power Sector of the Kingdom of Cambodia](https://eac.gov.kh/site/annualreport?lang=en) (report) (2025)
 * (China) [Baker Institute Energy Map](https://www.bakerinstitute.org/chinas-energy-infrastructure) (2024) (capacitydata) (map)
 * (China) [Electrical Grid by Regions](https://greenwich.envisioncn.com/docs/greenwich-dg/en/_static/frozen_area.pdf) (2013) (map)
 * (China)  [CPVPD-2024 - A photovoltaic plant vector dataset derived from Chinese remote sensing imagery via a topography-enhanced deep learning framework with dynamic spatial-frequency attention](https://zenodo.org/records/15618227)
