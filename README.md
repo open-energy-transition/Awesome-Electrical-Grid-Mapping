@@ -213,7 +213,7 @@ If a resource link is broken, or you find a map with a broken link that you'd li
 * (India) (Uttarakhand) [Transmission Map of PTCUL](https://ptcul.org/document/power-map-ptcul-26-sep-2024.pdf) (2024) (map)
 * (India) (Uttarakhand) [POWER TRANSMISSION CORPORATION OF UTTARAKHAND LTD](https://ptcul.org/document/sld-ptcul-network-sep-2024.pdf) (2024) (capacity)
 * (Indonesia) [Electrical substation in Indonesia](https://www.arcgis.com/home/item.html?id=c5507bca5a2a4da68db0c699e8b70e19) (2024) (cc-by-4.0) (map)
-* (Indonesia) [Electricity Supply Business Plan 2021 - 2030](https://gatrik.esdm.go.id/assets/uploads/download_index/files/38622-ruptl-pln-2021-2030.pdf) (2021) (report)
+* (Indonesia) [Electricity Supply Business Plan 2021 - 2030](https://gatrik.esdm.go.id/assets/uploads/download_index/files/b967d-ruptl-pln-2025-2034-pub-.pdf) (2025) (report)
 * (Iran) [Map of the High Voltage Grid](https://www.cigre.org/userfiles/files/Community/NC/2018_National-power-system_Iran.pdf) (2018) (report)
 * (Iran) [JICA - Data Collection Survey on Electric Power Sector in the Islamic Republic of Ira](https://openjicareport.jica.go.jp/pdf/12283909.pdf)
 * (Iran) [53 Years of Iran's Power Industry in Statistics - 1946 to 2019](https://iranopendata.org/res/get/datasets/Sources/iod456.pdf) (2019) (report)
