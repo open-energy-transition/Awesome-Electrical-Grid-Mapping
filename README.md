@@ -262,6 +262,7 @@ If a resource link is broken, or you find a map with a broken link that you'd li
 * (Syria) [Infrastructure Maps - Based on OpenStreetMap](https://data.humdata.org/dataset/syria-infrastructure-maps-power-line-water-way-dam-highway)  (2020) (dataset)
 * (Taiwan) [Taipower's Power Plants and Power Grid Map](https://www.taipower.com.tw/2764/2809/2814/25012/normalPost) (2025) (map)
 * (Thailand) [Renewable Grid Integration Assessment](https://www.oecd.org/content/dam/oecd/en/publications/reports/2018/11/thailand-renewable-grid-integration-assessment_g1g993de/9789264308213-en.pdf) (2017) (report)
+* (Timor-Leste) [Relatório Anual da EDTL, E.P. 2024](https://edtl-ep.tl/report-download/2979994931093398343138/) (2024) (report) (map)
 * (Turkey) [Turkey's Power Grid](https://www.climatescorecard.org/2023/01/turkeys-power-grid/) (2023) (map)
 * (Turkmenistan) [ADB Project](https://www.adb.org/sites/default/files/project-documents/49370/49370-002-sddr-en.pdf) (map)
 * (Uzbekistan) [Electricity Sector Transformation and Resilient Transmission](https://documents1.worldbank.org/curated/en/184411624932251299/pdf/Uzbekistan-Electricity-Sector-Transformation-and-Resilient-Transmission-Project.pdf) (2021) (report)
