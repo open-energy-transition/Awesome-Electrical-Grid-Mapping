@@ -281,7 +281,7 @@ If a resource link is broken, or you find a map with a broken link that you'd li
 #### Cross-border Projects and Resources
 * [ENTSO-E_Grid_Map_Continental_Europe](https://eepublicdownloads.entsoe.eu/clean-documents/Publications/maps/2024/ENTSOE_Grid_Map_Continental_Europe.pdf) (map)
 * [ENTSO-E Transmission System Map](https://www.entsoe.eu/data/map/) (map)
-* [Pan-EU Overview on Grid Hosting Capacity Information](https://www.tsodsoplatform.eu/capacitypedia) (2026)
+* [Capacitypedia - Pan-EU Overview on Grid Hosting Capacity Information](https://www.tsodsoplatform.eu/capacitypedia) (2026)
 * [European Grid Capacity Maps](https://www.gridcapacitymaps.eu/) (map)
 * [European Energy Storage Inventory](https://ses.jrc.ec.europa.eu/storage-inventory-maps) (2025) (map) (dataset)
 * [JAO Static Grid Model](https://www.jao.eu/sites/default/files/static-grid/) (capacitydata) (map)
