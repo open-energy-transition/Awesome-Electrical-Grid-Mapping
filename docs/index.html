@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <title>Awesome Electrical Grid Mapping — Explorer</title>
+  <meta name="description" content="Browse open electrical-grid maps, datasets and capacity data for (almost) every country, state and province." />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div id="map" tabindex="-1"></div>
+
+  <header class="topbar">
+    <div class="brand">
+      <span class="t">Grid Data Explorer</span>
+      <span class="s">Awesome Electrical Grid Mapping · MapYourGrid</span>
+    </div>
+    <div class="stats">
+      <div class="stat"><span class="n" id="s-countries">–</span><span class="l">Countries</span></div>
+      <div class="stat"><span class="n" id="s-datasets">–</span><span class="l">Resources</span></div>
+      <div class="stat"><span class="n" id="s-capacity">–</span><span class="l">Capacity</span></div>
+    </div>
+    <div class="spacer"></div>
+    <div class="search">
+      <span class="ico">⌕</span>
+      <input id="search" type="text" placeholder="Search country, state or province…  ( / )"
+             autocomplete="off" spellcheck="false" />
+      <div class="results" id="results"></div>
+    </div>
+    <button class="btn" id="download" title="Download the parsed GeoJSON">↓ GeoJSON</button>
+  </header>
+
+  <aside class="legend">
+    <h4>Dataset types</h4>
+    <div class="types" id="legend-types"></div>
+    <h4>Coverage (resources / country)</h4>
+    <div class="cov" id="legend-cov"></div>
+    <div class="covlabels"><span>1</span><span>21+</span></div>
+    <div class="hint">● capacity data · dashed = state / province · click any region for links</div>
+  </aside>
+
+  <section class="panel" id="panel" aria-label="Region datasets">
+    <div class="head">
+      <button class="close" aria-label="Close">✕</button>
+      <h2 class="title">—</h2>
+      <div class="sub"></div>
+      <div class="typebar"></div>
+    </div>
+    <div class="body"></div>
+  </section>
+
+  <div class="loading" id="loading">
+    <div class="ring"></div>
+    <div>Parsing README → GeoJSON…</div>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+          integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script src="https://cdn.jsdelivr.net/npm/topojson-client@3/dist/topojson-client.min.js"></script>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
