@@ -9,12 +9,17 @@ see links to every available resource; each is colour-coded by dataset type.
 
 ## How it works
 
+Parsing the README happens **once, at deploy time** — not in every visitor's
+browser. A Node script runs the same parser ahead of time and writes its output as
+a static file that the page just fetches.
+
 ```
-README.md  ──▶  js/parser.js  ──▶  records  ──▶  resolveGeoJSON()  ──▶  GeoJSON
-                (the "small parser")                                    │
- data/countries-110m.json (world polygons) ───────────────────────────┘
-                                                                        ▼
-                                                          js/app.js (Leaflet map)
+                    ── build time (CI, or by hand) ──          ── every page load ──
+README.md ──▶ scripts/build_data.mjs ──▶ data/grid-datasets.geojson ──▶ js/app.js
+              (imports js/parser.js,       (properties only;                │
+               the "small parser")          geometry stripped)              ▼
+                                                                    js/app.js merges
+ data/countries-110m.json (world polygons, fetched either way) ──▶ in geometry, renders
 ```
 
 - **`js/parser.js`** — the parser. It reads the awesome-list markdown, pulls each
@@ -23,12 +28,22 @@ README.md  ──▶  js/parser.js  ──▶  records  ──▶  resolveGeoJSO
   **source category from the domain** (government, operator/TSO, open-data,
   academic, archived), and resolves each region to a Natural Earth country polygon.
   `resolveGeoJSON()` emits one GeoJSON feature per country with all its datasets
-  attached — the exact object the **↓ GeoJSON** button downloads.
+  attached. It has no browser dependencies, so it runs unmodified in Node.
 - **`js/regions.js`** — lookup tables (type colours, country-name aliases, domain
   rules). Keeps the parser logic small.
-- **`js/app.js`** — renders the choropleth (shaded by resources per country),
+- **`js/geo.js`** — the antimeridian-unwrap helper, shared between the build script
+  and the browser (also pure, no browser dependencies).
+- **`scripts/build_data.mjs`** — the build step. Runs `parser.js` against the root
+  `README.md` and writes `docs/data/grid-datasets.geojson`, with each feature's
+  `geometry` stripped (the browser already fetches the full polygons in compact
+  topojson form for the base map layer, so shipping them twice would ~3x the
+  payload for no reason).
+- **`js/app.js`** — fetches `data/grid-datasets.geojson` + `data/countries-110m.json`,
+  re-attaches each feature's geometry by country name once at boot (a cheap merge,
+  not a re-parse), then renders the choropleth (shaded by resources per country),
   drops a violet dot on countries that publish **capacity data**, and builds the
-  click-through detail panel and search.
+  click-through detail panel and search. That same merged object (properties +
+  geometry) is what the **↓ GeoJSON** button downloads.
 
 ### Colours
 
@@ -55,23 +70,21 @@ python3 -m http.server 8000
 
 ### Where the data comes from
 
-The app loads, in order:
+The page fetches `data/grid-datasets.geojson` directly — it does **not** parse
+`README.md` in the browser. That file is a build artifact, committed to the repo
+like `data/admin1.geojson`, so a plain `python3 -m http.server` works with no build
+step.
 
-1. **`docs/data/readme-snapshot.md`** — a copy of the repo `README.md` bundled with
-   the site. The Pages workflow refreshes it on every deploy, so the map reflects
-   **whatever branch is published** (including new data on a feature branch before
-   it is merged to `main`).
-2. `../README.md` (when served from the repo root)
-3. the canonical `main` copy on GitHub (last-resort fallback)
-
-After editing the root `README.md`, refresh the snapshot so a branch/`/docs` deploy
-picks it up:
+After editing the root `README.md`, regenerate it before your changes show up:
 
 ```bash
-cp README.md docs/data/readme-snapshot.md
+npm install   # once, installs topojson-client
+node scripts/build_data.mjs
 ```
 
-(The GitHub Actions deploy does this automatically.) No build step otherwise.
+The GitHub Actions deploy (`.github/workflows/pages.yml`) runs this same command on
+every push to `main`, so the published site is always parsed fresh from whatever
+`README.md` was just pushed — visitors never trigger a parse themselves.
 
 ## Enable GitHub Pages
 
