@@ -16,11 +16,6 @@
 <!-- COLLAPSE:question title="Why we've copiled these resources" open="true" -->
 **This dataset is been curated and maintained by the [MapYourGrid Initiative](https://mapyourgrid.org/).** Get started with transmission grid mapping in OpenStreetMap by checking out our [Starter Kit Tutorial](https://mapyourgrid.org/starter-kit/) and [our community discord channel](https://discord.gg/a5znpdFWfD).
 
-<!-- END COLLAPSE -->
-<!-- COLLAPSE:note title="A link is not working ?" open="true" -->
-If a resource link is broken, or you find a map with a broken link that you'd like to add to this list, try it on the [Internet Archive](https://web.archive.org/). This even works for PDFs and other files.
-<!-- END COLLAPSE -->
-
 <!-- ⚠️⚠️⚠️ If you'd like to contribute to this list, please follow this format : 
 * (Country or Region) [Title](link) (year of publication or last update : YYYY) (license type) (tags in separate parentheses : capacitydata | dataset | map | report) ⚠️⚠️⚠️ -->
 
