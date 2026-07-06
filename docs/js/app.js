@@ -35,6 +35,7 @@ function capDot(latlng) {
 }
 
 let MAP, LAYER, CAP_LAYER, SUB_LAYER;
+let HOVERED = null, HOVERED_SUB = null;
 let FEATURE_BY_NAME = new Map();
 let LAYER_BY_NAME = new Map();
 let SUB_LAYER_BY_KEY = new Map();   // "country||sub" -> leaflet layer
@@ -84,6 +85,14 @@ function buildMap(worldFeatures, geojson) {
   });
   L.control.zoom({ position: "bottomright" }).addTo(MAP);
 
+  // Safety net: if the cursor leaves the map faster than a per-layer mouseout
+  // fires (or a browser drops it after the bringToFront DOM reorder above),
+  // this guarantees any stuck hover highlight still gets cleared.
+  MAP.getContainer().addEventListener("mouseleave", () => {
+    if (HOVERED) { LAYER.resetStyle(HOVERED); HOVERED.closeTooltip(); HOVERED = null; }
+    if (HOVERED_SUB && SUB_LAYER) { SUB_LAYER.resetStyle(HOVERED_SUB); HOVERED_SUB.closeTooltip(); HOVERED_SUB = null; }
+  });
+
   const dataByName = new Map(geojson.features.map((f) => [f.properties.name, f.properties]));
 
   LAYER = L.geoJSON({ type: "FeatureCollection", features: worldFeatures }, {
@@ -93,8 +102,17 @@ function buildMap(worldFeatures, geojson) {
       LAYER_BY_NAME.set(name, layer);
       const props = dataByName.get(name);
       layer.on({
-        mouseover: () => layer.setStyle({ weight: 1.2, color: "rgba(255,255,255,0.55)" }).bringToFront(),
-        mouseout:  () => LAYER.resetStyle(layer),
+        // bringToFront() reorders the SVG path node mid-event, which in some
+        // browsers desyncs mouse tracking so the matching mouseout never fires,
+        // leaving the highlight stuck — defer it a tick and rely on HOVERED as
+        // a safety net (see MAP mouseleave below) instead of trusting mouseout alone.
+        mouseover: () => {
+          if (HOVERED && HOVERED !== layer) { LAYER.resetStyle(HOVERED); HOVERED.closeTooltip(); }
+          HOVERED = layer;
+          layer.setStyle({ weight: 1.2, color: "rgba(255,255,255,0.55)" });
+          requestAnimationFrame(() => layer.bringToFront());
+        },
+        mouseout:  () => { LAYER.resetStyle(layer); layer.closeTooltip(); if (HOVERED === layer) HOVERED = null; },
         click:     () => props ? selectCountry(name) : null,
       });
       if (props) layer.bindTooltip(`${name} · ${props.count}`, { sticky: true, className: "lf-tip", opacity: 0.9 });
@@ -168,8 +186,13 @@ function buildAdmin1(admin1) {
       SUB_LAYER_BY_KEY.set(key, layer);
       const data = SUBREGION_DATA.get(key);
       layer.on({
-        mouseover: () => layer.setStyle({ weight: 1.4, color: "rgba(255,255,255,0.8)", dashArray: null }).bringToFront(),
-        mouseout:  () => SUB_LAYER.resetStyle(layer),
+        mouseover: () => {
+          if (HOVERED_SUB && HOVERED_SUB !== layer) { SUB_LAYER.resetStyle(HOVERED_SUB); HOVERED_SUB.closeTooltip(); }
+          HOVERED_SUB = layer;
+          layer.setStyle({ weight: 1.4, color: "rgba(255,255,255,0.8)", dashArray: null });
+          requestAnimationFrame(() => layer.bringToFront());
+        },
+        mouseout:  () => { SUB_LAYER.resetStyle(layer); layer.closeTooltip(); if (HOVERED_SUB === layer) HOVERED_SUB = null; },
         click:     (e) => { L.DomEvent.stop(e); selectSubregion(country, name); },
       });
       layer.bindTooltip(`${name} · ${data ? data.count : 0}`, { sticky: true, className: "lf-tip", opacity: 0.9 });
