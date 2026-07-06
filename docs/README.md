@@ -41,8 +41,10 @@ README.md ──▶ scripts/build_data.mjs ──▶ data/grid-datasets.geojson 
 - **`js/app.js`** — fetches `data/grid-datasets.geojson` + `data/countries-110m.json`,
   re-attaches each feature's geometry by country name once at boot (a cheap merge,
   not a re-parse), then renders the choropleth (shaded by resources per country),
-  drops a violet dot on countries that publish **capacity data**, and builds the
-  click-through detail panel and search. That same merged object (properties +
+  drops a violet dot on countries — and, individually, on states/provinces — that
+  publish **capacity data**, and builds the click-through detail panel and search.
+  The dots live in their own map pane above the country and admin1 panes so they're
+  never buried by a hover highlight. That same merged object (properties +
   geometry) is what the **↓ GeoJSON** button downloads.
 
 ### Colours

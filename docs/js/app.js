@@ -25,6 +25,14 @@ function coverageColor(n) {
   return NO_DATA;
 }
 
+function capDot(latlng) {
+  return L.circleMarker(latlng, {
+    pane: "capdots",
+    radius: 3.4, color: "#9085e9", weight: 0, fillColor: "#9085e9",
+    fillOpacity: 0.95, interactive: false,
+  });
+}
+
 let MAP, LAYER, CAP_LAYER, SUB_LAYER;
 let FEATURE_BY_NAME = new Map();
 let LAYER_BY_NAME = new Map();
@@ -92,16 +100,19 @@ function buildMap(worldFeatures, geojson) {
     },
   }).addTo(MAP);
 
-  // Violet dots on countries that carry capacity data — surfaces the repo's focus.
+  // Violet dots mark capacity data — surface the repo's focus. They live in their
+  // own pane above both the country fill and the admin1 pane so a hover's
+  // bringToFront() (which reorders paths within *its* pane only) never buries a
+  // dot under the very polygon it's centered on.
+  MAP.createPane("capdots");
+  MAP.getPane("capdots").style.zIndex = 460; // country overlayPane 400, admin1 450
+  MAP.getPane("capdots").style.pointerEvents = "none";
+
   const capFeatures = geojson.features.filter((f) => f.properties.capacity > 0);
   CAP_LAYER = L.layerGroup(
     capFeatures.map((f) => {
       const c = LAYER_BY_NAME.get(f.properties.name)?.getBounds().getCenter();
-      if (!c) return null;
-      return L.circleMarker(c, {
-        radius: 3.4, color: "#9085e9", weight: 0, fillColor: "#9085e9",
-        fillOpacity: 0.95, interactive: false,
-      });
+      return c ? capDot(c) : null;
     }).filter(Boolean)
   ).addTo(MAP);
 
@@ -163,6 +174,16 @@ function buildAdmin1(admin1) {
       layer.bindTooltip(`${name} · ${data ? data.count : 0}`, { sticky: true, className: "lf-tip", opacity: 0.9 });
     },
   }).addTo(MAP);
+
+  // Same violet capacity-data dots as countries get, one per state/province that
+  // has its own capacitydata resource. Lives in the "capdots" pane created in
+  // buildMap(), above admin1, so it's immune to the same hover/bringToFront issue.
+  const subCapDots = feats
+    .filter((f) => SUBREGION_DATA.get(f.properties.country + "||" + f.properties.name)?.capacity > 0)
+    .map((f) => SUB_LAYER_BY_KEY.get(f.properties.country + "||" + f.properties.name)?.getBounds().getCenter())
+    .filter(Boolean)
+    .map(capDot);
+  L.layerGroup(subCapDots).addTo(MAP);
 }
 
 function styleFor(f, dataByName) {
