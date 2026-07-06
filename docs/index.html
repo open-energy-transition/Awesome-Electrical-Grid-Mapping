@@ -14,8 +14,16 @@
 
   <header class="topbar">
     <div class="brand">
-      <span class="t">Grid Data Explorer</span>
-      <span class="s">Awesome Electrical Grid Mapping · MapYourGrid</span>
+      <a class="logo" href="https://mapyourgrid.org/" target="_blank" rel="noopener" title="MapYourGrid Initiative">
+        <img src="img/mapyourgrid-logo.png" alt="MapYourGrid logo" />
+      </a>
+      <a class="logo oet" href="https://openenergytransition.org/" target="_blank" rel="noopener" title="Open Energy Transition">
+        <img src="img/oet-logo.svg" alt="Open Energy Transition logo" />
+      </a>
+      <div class="brand-text">
+        <span class="t">Grid Data Explorer</span>
+        <span class="s">Awesome Electrical Grid Mapping · MapYourGrid</span>
+      </div>
     </div>
     <div class="stats">
       <div class="stat"><span class="n" id="s-countries">–</span><span class="l">Countries</span></div>
@@ -29,7 +37,10 @@
              autocomplete="off" spellcheck="false" />
       <div class="results" id="results"></div>
     </div>
-    <button class="btn" id="download" title="Download the parsed GeoJSON">↓ GeoJSON</button>
+    <div class="downloads">
+      <button class="btn" id="download" title="Download the parsed GeoJSON">↓ GeoJSON</button>
+      <button class="btn" id="download-csv" title="Download all datasets as CSV">↓ CSV</button>
+    </div>
   </header>
 
   <aside class="legend">

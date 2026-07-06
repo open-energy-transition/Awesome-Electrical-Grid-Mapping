@@ -449,6 +449,15 @@ function wireUI() {
     URL.revokeObjectURL(a.href);
   });
 
+  document.getElementById("download-csv").addEventListener("click", () => {
+    const blob = new Blob([toCSV(GEOJSON)], { type: "text/csv" });
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(blob);
+    a.download = `grid-datasets-${dateStamp()}.csv`;
+    a.click();
+    URL.revokeObjectURL(a.href);
+  });
+
   document.addEventListener("keydown", (e) => {
     if (e.key === "/" && document.activeElement !== input) { input.focus(); e.preventDefault(); }
     if (e.key === "Escape") document.getElementById("panel").classList.remove("open");
@@ -461,6 +470,40 @@ function escapeHtml(s) {
     ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 }
 function cssEscape(s) { return String(s).replace(/["\\]/g, "\\$&"); }
+
+// One row per resource: country, subregions and dataset metadata flattened out.
+function toCSV(geojson) {
+  const header = ["Country", "Subregions", "Title", "URL", "Types", "Year", "Licence", "Source", "Host"];
+  const rows = [header];
+  for (const f of geojson.features) {
+    const country = f.properties.name;
+    for (const d of f.properties.datasets) {
+      rows.push([
+        country,
+        (d.subregions || []).join("; "),
+        d.title,
+        d.url,
+        d.types.join("; "),
+        d.year || "",
+        d.licence || "",
+        d.source ? d.source.label : "",
+        d.host || "",
+      ]);
+    }
+  }
+  return rows.map((r) => r.map(csvField).join(",")).join("\r\n");
+}
+function csvField(v) {
+  const s = String(v ?? "");
+  return /[",\r\n]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s;
+}
+
+// Local YYYY-MM-DD for the moment the export is generated.
+function dateStamp() {
+  const d = new Date();
+  const pad = (n) => String(n).padStart(2, "0");
+  return `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`;
+}
 
 boot().catch((err) => {
   console.error(err);
