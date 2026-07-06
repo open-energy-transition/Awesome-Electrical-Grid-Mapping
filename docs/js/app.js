@@ -26,9 +26,10 @@ function coverageColor(n) {
 }
 
 function capDot(latlng) {
+  const c = TYPES.capacitydata.color;
   return L.circleMarker(latlng, {
     pane: "capdots",
-    radius: 3.4, color: "#9085e9", weight: 0, fillColor: "#9085e9",
+    radius: 3.4, color: c, weight: 0, fillColor: c,
     fillOpacity: 0.95, interactive: false,
   });
 }
@@ -223,7 +224,7 @@ function selectSubregion(country, name, opts = {}) {
   clearSubSelection();
   SELECTED_SUB = layer || null;
   if (layer) {
-    layer.setStyle({ color: "#9085e9", weight: 2.2, dashArray: null }).bringToFront();
+    layer.setStyle({ color: TYPES.capacitydata.color, weight: 2.2, dashArray: null }).bringToFront();
     if (opts.fly) MAP.flyToBounds(layer.getBounds().pad(0.6), { maxZoom: 5, duration: 0.6 });
   }
   renderPanel(country, name);
@@ -418,15 +419,6 @@ function wireUI() {
     document.getElementById("panel").classList.remove("open");
     if (SELECTED && LAYER) { LAYER.resetStyle(SELECTED); SELECTED = null; }
     clearSubSelection();
-  });
-
-  document.getElementById("download").addEventListener("click", () => {
-    const blob = new Blob([JSON.stringify(GEOJSON, null, 2)], { type: "application/geo+json" });
-    const a = document.createElement("a");
-    a.href = URL.createObjectURL(blob);
-    a.download = "grid-datasets.geojson";
-    a.click();
-    URL.revokeObjectURL(a.href);
   });
 
   document.getElementById("download-csv").addEventListener("click", () => {

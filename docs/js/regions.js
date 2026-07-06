@@ -2,13 +2,17 @@
 // Keeps the parser small: it only holds *logic*, these hold *data*.
 
 // Categorical colours for dataset TYPES (validated dark-mode palette, dataviz skill).
-// worst adjacent CVD ΔE 15.7 (tritan) — clears the ≥12 target.
+// Deliberately clear of the COVERAGE choropleth ramp (regions.js's coverageColor
+// buckets run violet -> plum -> red -> orange -> gold) — the two palettes appear
+// side by side on the map, so sharing a hue there read as "the type color means
+// the same thing as the fill color". Worst all-pairs CVD ΔE 13.7 (protan),
+// checked against COVERAGE too, not just internally.
 export const TYPES = {
-  capacitydata: { label: "Capacity data", color: "#9085e9" }, // violet — the repo's focus
+  capacitydata: { label: "Capacity data", color: "#0891b2" }, // cyan — the repo's focus
   map:          { label: "Map",           color: "#3987e5" }, // blue
-  dataset:      { label: "Dataset",       color: "#199e70" }, // aqua
-  report:       { label: "Report",        color: "#d95926" }, // orange
-  other:        { label: "Other",         color: "#d55181" }, // magenta
+  dataset:      { label: "Dataset",       color: "#199e70" }, // teal
+  report:       { label: "Report",        color: "#16a34a" }, // green
+  other:        { label: "Other",         color: "#b25689" }, // rose
 };
 export const TYPE_ORDER = ["capacitydata", "map", "dataset", "report", "other"];
 

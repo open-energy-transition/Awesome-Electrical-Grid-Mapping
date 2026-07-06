@@ -140,7 +140,14 @@ a { color: inherit; }
 }
 .btn:hover { border-color: var(--accent); color: var(--ink); }
 
-.downloads { display: flex; gap: 8px; }
+.btn-primary {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #ffffff;
+  font-weight: 650;
+  padding: 9px 16px;
+}
+.btn-primary:hover { background: #2a78d6; border-color: #2a78d6; color: #ffffff; }
 
 /* ---- Legends ---- */
 .legend {
