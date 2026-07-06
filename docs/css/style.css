@@ -149,6 +149,17 @@ a { color: inherit; }
 }
 .btn-primary:hover { background: #2a78d6; border-color: #2a78d6; color: #ffffff; }
 
+.icon-btn {
+  display: flex; align-items: center; justify-content: center;
+  width: 34px; height: 34px; flex: none;
+  background: rgba(26,26,25,0.82);
+  backdrop-filter: blur(10px);
+  border: 1px solid var(--hair);
+  border-radius: 10px;
+  color: var(--ink-2);
+}
+.icon-btn:hover { border-color: var(--accent); color: var(--ink); }
+
 /* ---- Legends ---- */
 .legend {
   position: absolute; left: 20px; bottom: 20px; z-index: 500;
