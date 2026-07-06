@@ -29,8 +29,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Refresh README snapshot bundled with the site
-        run: cp README.md docs/data/readme-snapshot.md
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - name: Install build deps
+        run: npm ci
+      - name: Parse README.md into the map's GeoJSON
+        run: node scripts/build_geojson.mjs
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

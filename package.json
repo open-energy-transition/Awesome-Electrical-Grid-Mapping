@@ -1,0 +1,12 @@
+{
+  "name": "awesome-electrical-grid-mapping",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:geojson": "node scripts/build_geojson.mjs",
+    "build:admin1": "node scripts/build_admin1.mjs"
+  },
+  "devDependencies": {
+    "topojson-client": "^3.1.0"
+  }
+}

@@ -1,16 +1,10 @@
-// app.js — wires the parser to a Leaflet map + detail panel.
-import { parseReadme, resolveGeoJSON } from "./parser.js";
+// app.js — wires the precomputed GeoJSON to a Leaflet map + detail panel.
 import { TYPES, TYPE_ORDER, sourceCategory } from "./regions.js";
+import { fixAntimeridian } from "./geo.js";
 
-// Prefer the snapshot bundled with THIS deploy (refreshed from the repo root by the
-// Pages workflow), so the map reflects whatever branch is published — including new
-// data on a feature branch before it is merged. Fall back to the repo root, then to
-// the canonical main copy on GitHub.
-const README_SOURCES = [
-  "./data/readme-snapshot.md",
-  "../README.md",
-  "https://raw.githubusercontent.com/open-energy-transition/Awesome-Electrical-Grid-Mapping/main/README.md",
-];
+// Parsing README.md into GeoJSON happens once at deploy time (scripts/build_geojson.mjs),
+// not on every page load — the browser just fetches the resulting static file.
+const GRID_DATA_URL = "./data/grid-data.geojson";
 const TOPO_URL = "./data/countries-110m.json";
 const ADMIN1_URL = "./data/admin1.geojson";
 
@@ -31,33 +25,6 @@ function coverageColor(n) {
   return NO_DATA;
 }
 
-// Antimeridian fix. Countries whose rings cross ±180° (Fiji, Russia) otherwise draw
-// a full-width horizontal streak. "Unwrap" each ring so consecutive vertices never
-// jump >180°; the wrapping tail then renders just past the map edge and is clipped.
-function fixAntimeridian(feature) {
-  const unwrapRing = (ring) => {
-    if (!ring.length) return ring;
-    const out = [ring[0].slice()];
-    let lon = ring[0][0];
-    for (let i = 1; i < ring.length; i++) {
-      let d = ring[i][0] - ring[i - 1][0];
-      d -= 360 * Math.round(d / 360);
-      lon += d;
-      out.push([lon, ring[i][1]]);
-    }
-    return out;
-  };
-  const g = feature.geometry;
-  if (!g) return feature;
-  const rings = (polys) => polys.map(unwrapRing);
-  const geometry = g.type === "Polygon"
-    ? { ...g, coordinates: rings(g.coordinates) }
-    : g.type === "MultiPolygon"
-      ? { ...g, coordinates: g.coordinates.map(rings) }
-      : g;
-  return { ...feature, geometry };
-}
-
 let MAP, LAYER, CAP_LAYER, SUB_LAYER;
 let FEATURE_BY_NAME = new Map();
 let LAYER_BY_NAME = new Map();
@@ -66,19 +33,9 @@ let SUBREGION_DATA = new Map();     // "country||sub" -> { count, capacity }
 let REGION_INDEX = []; // {name, country, count, kind, feature}
 let GEOJSON = null;
 
-async function loadText(urls) {
-  for (const u of urls) {
-    try {
-      const r = await fetch(u, { cache: "no-store" });
-      if (r.ok) return await r.text();
-    } catch { /* try next */ }
-  }
-  throw new Error("Could not load README.md from any source");
-}
-
 async function boot() {
-  const [md, topoRes, admin1] = await Promise.all([
-    loadText(README_SOURCES),
+  const [geojson, topoRes, admin1] = await Promise.all([
+    fetch(GRID_DATA_URL, { cache: "no-store" }).then((r) => r.json()),
     fetch(TOPO_URL).then((r) => r.json()),
     fetch(ADMIN1_URL).then((r) => r.ok ? r.json() : null).catch(() => null),
   ]);
@@ -88,8 +45,6 @@ async function boot() {
     .filter((f) => f.properties.name !== "Antarctica")
     .map(fixAntimeridian);
 
-  const records = parseReadme(md);
-  const { geojson } = resolveGeoJSON(records, worldFeatures);
   GEOJSON = geojson;
 
   for (const f of geojson.features) FEATURE_BY_NAME.set(f.properties.name, f);
