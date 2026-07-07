@@ -56,7 +56,6 @@
 * [Africa Knowledge Platform-European Comission](https://africa-knowledge-platform.ec.europa.eu/explore_maps)
 * [ECOWAS Region - Existing and Planned Transmission Grid](https://energydata.info/dataset/transmission-grid-ecowas-region) (2021) (CC-BY-SA 4.0) (dataset)
 * [GRID3 NGA - Other POI: Energy and Electricity Substations](https://data.grid3.org/datasets/GRID3::grid3-nga-other-poi-energy-and-electricity-substations/explore)
-* [Gulf Cooperation Council Interconnection Authority](https://gccia.com.sa/gccia-grid/our-existing-network/) (report) 
 * [Med-TSO - Mediterranean](https://med-tso.org/en/map-of-the-interconnected-electricity-transmission-networks-2024/) (2024) (map)
 * [Plan d’Affaires Stratégique 2025-2028 du PEAC](https://peac-ac.org/wp-content/uploads/2025/02/plan-daffaires_PEAC_VF.pdf) (2024) (report)
 * [Regional Electricity Interconnection of Africa](https://africa-eu-energy-partnership.org/regional-electricity-interconnection-and-market-integration-in-africa-is-taking-huge-strides-forward/) (2023) (map) (report)
@@ -159,6 +158,7 @@
 <!-- COLLAPSE:info title="Asia" -->
 ### Asia
 #### Cross-border Projects and Resources
+* (Bahrain;Kuwait;Oman;Qatar;Saudi Arabia;United Arab Emirates) [Gulf Cooperation Council Interconnection Authority](https://gccia.com.sa/gccia-grid/our-existing-network/) (report)
 * (Central Asia) [United Nations - Energy Connectivity in Central Asia - An inventory of existing national energy systems](https://unece.org/sites/default/files/2024-02/EN_Energy%20Connectivity%20in%20Central%20Asia_V2.pdf) (2023) (report)
 * (Kazakhstan;Kyrgyzstan;Tajikistan;Turkmenistan) [Cooperation of energy systems in Central Asia](https://www.newscentralasia.net/2024/06/13/sotrudnichestvo-energeticheskikh-sistem-v-tsentralnoy-azii) (2024) (report)
 * (Mekong Region) [OpenDevelopment Mekong Map Explorer](https://data.opendevelopmentmekong.net/map-explorer) (cc-by-sa-4.0) (dataset) (map) (report)
@@ -566,6 +566,7 @@
 * (United States) [Microsoft GridSFM - Open Derived US Power Grid Models](https://github.com/microsoft/GridSFM) (dataset)
 * (United States) (Mid-Atlantic) [Pepco Holdings / Exelon - Distribution Feeder Hosting Capacity Dashboard](https://exelonutilities.maps.arcgis.com/apps/dashboards/f043e521183b4bd08ab17fc44fa5f723) (capacitydata) (map)
 * (United States) (Alabama;Georgia) [Southern Company - SIGHT Interactive Generation Hosting Tool](https://sight.southernco.com/) (capacitydata) (map)
+* (United States) (Alaska) [Alaska Electric Transmission Lines](https://gis.data.alaska.gov/datasets/b122b04ec1e64ed08ada789f840c4379_15/about) (dataset)
 * (United States) (California) [California Electric Substations](https://databasin.org/datasets/cb9ff78949db409f83d4d6ca38f707bf/) (2022) (dataset) (map)
 * (United States) (California) [Electric Substations Washington](https://databasin.org/datasets/36e74994140143e09bf72d2b586ce681/) (cc-by-4.0) (dataset) (map)
 * (United States) (California) [California Electric Transmission Lines](https://data.ca.gov/dataset/california-electric-transmission-lines) (2025) (cc-by-4.0) (dataset)
@@ -609,6 +610,7 @@
 * (United States) (Massachusetts) [National Grid - MA System Portal (nationalgridus.com)](https://www.nationalgridus.com/Business-Partners/MA-System-Portal) (capacitydata)
 * (United States) (Michigan) [DTE Electric - Hosting Capacity Map](https://dte.maps.arcgis.com/apps/webappviewer/index.html?id=64e9f4e0f82c42e7b7ed847273ec2764) (capacitydata) (map) (dataset)
 * (United States) (Michigan) [Consumers Energy - Hosting Capacity Map](https://www.arcgis.com/apps/instant/lookup/index.html?appid=b90ff63b338043b7bcae43dd685a419d) (capacitydata) (map)
+* (United States) (Minnesota) [Minnesota Electric Transmission Lines](https://gisdata.mn.gov/dataset/util-elec-trans) (dataset)
 * (United States) (Nevada) [NV Energy - Distributed Resources Plan Web Portal](https://drp.nvenergy.com/drp-external//1000) (registration required) (capacitydata) (map)
 * (United States) (New Jersey) [Jersey Central Power & Light / FirstEnergy - Solar Accommodation Map](https://www.firstenergycorp.com/feconnect/newjersey/solar-accommodation-map.html) (capacitydata) (map)
 * (United States) (New Jersey) [PSE&G - EV Hosting Capacity Map](https://nj.myaccount.pseg.com/myservicepublic/ev_hosting_capacity_map) (capacitydata) (map)
@@ -624,6 +626,7 @@
 * (United States) (Pennsylvania) [PECO - DER Interconnection Viability and Available Distribution Capacity Maps](https://www.peco.com/SmartEnergy/MyGreenPowerConnection/Pages/DERInterconnectionViability.aspx) (capacitydata) (map)
 * (United States) (Rhode Island) [Rhode Island Energy - DG System Portal / Hosting Capacity](https://experience.arcgis.com/experience/b7f446f95c6b4d548d694737c9e66846/page/Hosting-Capacity) (capacitydata) (map)
 * (United States) (Texas) [ERCOT Transmission Grid Map - Can only be visited from the US](https://www.ercot.com/gridinfo/transmission)
+* (United States) (Utah) [Utah Transmission Lines](https://opendata.gis.utah.gov/datasets/utah::utah-transmission-lines/explore?location=40.907715%2C-111.467617%2C-1) (dataset) (map)
 * (United States) (Vermont) [Burlington Electric - Distributed Generation](https://www.burlingtonelectric.com/distributed-generation) (capacitydata)
 * (United States) (Vermont) [Green Mountain Power - Maps](https://greenmountainpower.com/maps/) (capacitydata) (map)
 * (United States) (Virginia) [Electric Substation Virginia](https://www.arcgis.com/apps/mapviewer/index.html?layers=b06eda911f7b4f859c5e02bb5f7cc308) (2014) (map)
