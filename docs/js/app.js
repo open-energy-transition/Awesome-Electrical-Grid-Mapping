@@ -2,7 +2,7 @@
 // The README is parsed once at deploy time (scripts/build_data.mjs), not on every
 // visit — this just fetches the resulting GeoJSON and renders it.
 import { TYPES, TYPE_ORDER, sourceCategory } from "./regions.js";
-import { fixAntimeridian } from "./geo.js";
+import { fixAntimeridian, representativePoint, mainlandBounds } from "./geo.js";
 
 const GEOJSON_URL = "./data/grid-datasets.geojson";
 const TOPO_URL = "./data/countries-110m.json";
@@ -74,6 +74,10 @@ async function boot() {
   document.getElementById("loading").classList.add("hidden");
 }
 
+// Initial world extent — a fixed frame, not LAYER.getBounds(), whose Russia tail
+// reaches ~190°E after the antimeridian unwrap and would skew the view.
+const WORLD_VIEW = [[-58, -175], [78, 179]];
+
 function buildMap(worldFeatures, geojson) {
   MAP = L.map("map", {
     crs: L.CRS.EPSG4326,
@@ -84,6 +88,25 @@ function buildMap(worldFeatures, geojson) {
     zoomSnap: 0.25,
   });
   L.control.zoom({ position: "bottomright" }).addTo(MAP);
+
+  // Reset-view button, stacked with the zoom control
+  const home = L.control({ position: "bottomright" });
+  home.onAdd = () => {
+    const div = L.DomUtil.create("div", "leaflet-bar leaflet-control");
+    const a = L.DomUtil.create("a", "home-btn", div);
+    a.href = "#";
+    a.title = "Reset view";
+    a.setAttribute("role", "button");
+    a.setAttribute("aria-label", "Reset view to the whole world");
+    a.innerHTML = `<svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor" aria-hidden="true">
+      <path d="M12 3.2 3 11h2.5v9.8h5.3v-6h2.4v6h5.3V11H21z"/></svg>`;
+    L.DomEvent.on(a, "click", (e) => {
+      L.DomEvent.stop(e);
+      MAP.flyToBounds(WORLD_VIEW, { padding: [8, 8], duration: 0.6 });
+    });
+    return div;
+  };
+  home.addTo(MAP);
 
   // Safety net: if the cursor leaves the map faster than a per-layer mouseout
   // fires (or a browser drops it after the bringToFront DOM reorder above),
@@ -113,7 +136,16 @@ function buildMap(worldFeatures, geojson) {
           requestAnimationFrame(() => layer.bringToFront());
         },
         mouseout:  () => { LAYER.resetStyle(layer); layer.closeTooltip(); if (HOVERED === layer) HOVERED = null; },
-        click:     () => props ? selectCountry(name) : null,
+        // on phones the bottom sheet would cover the tapped country — fly it
+        // into the strip that stays visible; desktop keeps the map still.
+        // If this country's panel is already open the click is a no-op: most of
+        // a country's area belongs to states without their own polygon, so a
+        // tap aimed at one would otherwise re-select the country — yanking the
+        // panel scroll away from the state sections and re-flying the map.
+        click:     () => {
+          if (!props || panelShowing(name)) return;
+          selectCountry(name, { fly: MOBILE_MQ.matches });
+        },
       });
       if (props) layer.bindTooltip(`${name} · ${props.count}`, { sticky: true, className: "lf-tip", opacity: 0.9 });
     },
@@ -127,17 +159,17 @@ function buildMap(worldFeatures, geojson) {
   MAP.getPane("capdots").style.zIndex = 460; // country overlayPane 400, admin1 450
   MAP.getPane("capdots").style.pointerEvents = "none";
 
+  // representativePoint(), not bounds-center: France's bounds (mainland + French
+  // Guiana) center in the Atlantic; the mainland's interior point stays on it.
   const capFeatures = geojson.features.filter((f) => f.properties.capacity > 0);
   CAP_LAYER = L.layerGroup(
     capFeatures.map((f) => {
-      const c = LAYER_BY_NAME.get(f.properties.name)?.getBounds().getCenter();
-      return c ? capDot(c) : null;
+      const pt = representativePoint(f);
+      return pt ? capDot([pt[1], pt[0]]) : null;
     }).filter(Boolean)
   ).addTo(MAP);
 
-  // Fit to a fixed world extent (not LAYER.getBounds(), whose Russia tail now
-  // reaches ~190°E after the antimeridian unwrap and would skew the view).
-  MAP.fitBounds([[-58, -175], [78, 179]], { padding: [8, 8] });
+  MAP.fitBounds(WORLD_VIEW, { padding: [8, 8] });
   MAP.setMaxBounds([[-95, -220], [95, 220]]);
 }
 
@@ -193,7 +225,12 @@ function buildAdmin1(admin1) {
           requestAnimationFrame(() => layer.bringToFront());
         },
         mouseout:  () => { SUB_LAYER.resetStyle(layer); layer.closeTooltip(); if (HOVERED_SUB === layer) HOVERED_SUB = null; },
-        click:     (e) => { L.DomEvent.stop(e); selectSubregion(country, name); },
+        click:     (e) => {
+          L.DomEvent.stop(e);
+          // re-clicking the state already shown: keep the view and panel as-is
+          if (SELECTED_SUB === layer && panelShowing(country)) return;
+          selectSubregion(country, name, { fly: MOBILE_MQ.matches });
+        },
       });
       layer.bindTooltip(`${name} · ${data ? data.count : 0}`, { sticky: true, className: "lf-tip", opacity: 0.9 });
     },
@@ -204,9 +241,9 @@ function buildAdmin1(admin1) {
   // buildMap(), above admin1, so it's immune to the same hover/bringToFront issue.
   const subCapDots = feats
     .filter((f) => SUBREGION_DATA.get(f.properties.country + "||" + f.properties.name)?.capacity > 0)
-    .map((f) => SUB_LAYER_BY_KEY.get(f.properties.country + "||" + f.properties.name)?.getBounds().getCenter())
+    .map((f) => representativePoint(f))
     .filter(Boolean)
-    .map(capDot);
+    .map(([lon, lat]) => capDot([lat, lon]));
   L.layerGroup(subCapDots).addTo(MAP);
 }
 
@@ -222,6 +259,50 @@ function styleFor(f, dataByName) {
 }
 
 let SELECTED = null, SELECTED_SUB = null;
+let PANEL_COUNTRY = null; // country whose datasets the open panel shows
+
+function panelShowing(country) {
+  return PANEL_COUNTRY === country &&
+         document.getElementById("panel").classList.contains("open");
+}
+
+const MOBILE_MQ = window.matchMedia("(max-width: 640px)");
+
+// The open panel hides part of the map — bottom sheet on phones, right drawer on
+// desktop — so a plain flyToBounds centers the region underneath it. Fly so the
+// region centers in the part of the map that stays visible (measured from the
+// panel element, so it tracks the CSS).
+function flyToRegion(bounds, maxZoom) {
+  const panel = document.getElementById("panel");
+  if (!MOBILE_MQ.matches) {
+    MAP.flyToBounds(bounds, { maxZoom, duration: 0.6, paddingBottomRight: [panel.offsetWidth, 0] });
+    return;
+  }
+  // The sheet + topbar cover ~85% of a phone screen, and Leaflet's padded
+  // fitBounds breaks down there (the fitted zoom drops below minZoom and the
+  // padding offset overshoots). Compute the view by hand instead: a zoom that
+  // fits the bounds into the visible strip — but never below 2, where pixel
+  // offsets stop being meaningful — then center the bounds in that strip.
+  const size = MAP.getSize();
+  const topbar = document.querySelector(".topbar").offsetHeight;
+  const strip = Math.max(size.y - topbar - panel.offsetHeight, 60);
+  const dy = size.y / 2 - (topbar + strip / 2);
+  const target = (z) => MAP.unproject(MAP.project(bounds.getCenter(), z).add([0, dy]), z);
+  const reachable = (z) => {
+    const mb = MAP.options.maxBounds;
+    if (!mb) return true;
+    const y = MAP.project(target(z), z).y;
+    return y - size.y / 2 >= MAP.project(mb.getNorthWest(), z).y &&
+           y + size.y / 2 <= MAP.project(mb.getSouthEast(), z).y;
+  };
+  const fitZoom = MAP.getBoundsZoom(bounds, false, L.point(24, size.y - strip));
+  let zoom = Math.min(Math.max(fitZoom, 2), maxZoom);
+  // shifting a large country into the strip can push the map center past
+  // maxBounds at low zoom, and Leaflet would clamp the fly-to back under the
+  // sheet — zoom in until the shifted center is legal
+  while (zoom < maxZoom && !reachable(zoom)) zoom += 0.5;
+  MAP.flyTo(target(zoom), zoom, { duration: 0.6 });
+}
 
 function clearSubSelection() {
   if (SELECTED_SUB && SUB_LAYER) { SUB_LAYER.resetStyle(SELECTED_SUB); SELECTED_SUB = null; }
@@ -234,7 +315,13 @@ function selectCountry(name, opts = {}) {
   clearSubSelection();
   if (layer) {
     layer.setStyle({ color: "#3987e5", weight: 2 }).bringToFront();
-    if (opts.fly) MAP.flyToBounds(layer.getBounds().pad(0.4), { maxZoom: 4, duration: 0.6 });
+    if (opts.fly) {
+      // frame the mainland, not the full bounds — France's full bounds (mainland
+      // + French Guiana) would center the fly-to on open Atlantic
+      const mb = mainlandBounds(FEATURE_BY_NAME.get(name) || {});
+      const bounds = mb ? L.latLngBounds([mb[1], mb[0]], [mb[3], mb[2]]) : layer.getBounds();
+      flyToRegion(bounds.pad(0.4), 4);
+    }
   }
   renderPanel(name, opts.scrollTo);
 }
@@ -248,7 +335,7 @@ function selectSubregion(country, name, opts = {}) {
   SELECTED_SUB = layer || null;
   if (layer) {
     layer.setStyle({ color: TYPES.capacitydata.color, weight: 2.2, dashArray: null }).bringToFront();
-    if (opts.fly) MAP.flyToBounds(layer.getBounds().pad(0.6), { maxZoom: 5, duration: 0.6 });
+    if (opts.fly) flyToRegion(layer.getBounds().pad(0.6), 5);
   }
   renderPanel(country, name);
 }
@@ -259,6 +346,7 @@ function renderPanel(name, scrollToSub) {
   const panel = document.getElementById("panel");
   const body = panel.querySelector(".body");
   if (!f) return;
+  PANEL_COUNTRY = name;
   const p = f.properties;
 
   panel.querySelector(".title").textContent = name;

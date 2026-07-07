@@ -52,6 +52,7 @@ a { color: inherit; }
   backdrop-filter: blur(8px);
 }
 .leaflet-bar a:hover { background: rgba(40,40,38,0.9); color: var(--ink); }
+.leaflet-bar a.home-btn { display: flex; align-items: center; justify-content: center; }
 .leaflet-bar { border: 1px solid var(--hair); box-shadow: none; }
 .leaflet-tooltip.lf-tip {
   background: var(--surface-1); color: var(--ink);
@@ -130,13 +131,14 @@ a { color: inherit; }
 .results .r .cnt { color: var(--muted); font-size: 11px; font-variant-numeric: tabular-nums; }
 
 .btn {
+  display: inline-flex; align-items: center;
   background: rgba(26,26,25,0.82);
   backdrop-filter: blur(10px);
   border: 1px solid var(--hair);
   color: var(--ink-2);
   border-radius: 10px;
   padding: 9px 12px; font-size: 12.5px; font-family: var(--font);
-  cursor: pointer; white-space: nowrap;
+  cursor: pointer; white-space: nowrap; text-decoration: none;
 }
 .btn:hover { border-color: var(--accent); color: var(--ink); }
 
@@ -271,8 +273,54 @@ a { color: inherit; }
 @keyframes spin { to { transform: rotate(360deg); } }
 .loading.hidden { display: none; }
 
-@media (max-width: 640px) {
+/* ---- Responsive ---- */
+.hide-sm { display: inline; }
+
+@media (max-width: 900px) {
   .stats { display: none; }
-  .brand .s { display: none; }
+  .hide-sm { display: none; }
+  .brand .t { white-space: nowrap; }
+  .search { width: min(280px, 34vw); }
+}
+
+@media (max-width: 640px) {
   .legend { display: none; }
+
+  .topbar {
+    flex-wrap: wrap;
+    gap: 8px 10px;
+    padding: 10px 12px;
+  }
+  .brand .logo img { height: 26px; }
+  .brand .logo.oet img { height: 19px; }
+
+  /* search drops to a second row, sharing it with the GitHub button */
+  .search { order: 10; width: calc(100% - 44px); }
+  .icon-btn { order: 11; }
+  /* 16px prevents iOS zoom-on-focus */
+  .search input { font-size: 16px; padding-top: 10px; padding-bottom: 10px; }
+  .results { max-height: 38vh; }
+
+  /* detail panel becomes a bottom sheet */
+  .panel {
+    top: auto; left: 0; right: 0; bottom: 0;
+    width: 100%;
+    height: min(72vh, 560px);
+    border-left: none;
+    border-top: 1px solid var(--hair);
+    border-radius: 16px 16px 0 0;
+    transform: translateY(102%);
+  }
+  .panel .head { padding: 14px 16px 12px; }
+  .panel .head::before {
+    content: "";
+    display: block;
+    width: 36px; height: 4px;
+    border-radius: 2px;
+    background: var(--hair);
+    margin: 0 auto 10px;
+  }
+  .panel .title { font-size: 18px; }
+  .panel .close { top: 12px; right: 12px; width: 34px; height: 34px; }
+  .panel .body { padding-bottom: calc(20px + env(safe-area-inset-bottom)); }
 }
