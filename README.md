@@ -576,6 +576,7 @@
 * (United States) (California) [San Diego Gas & Electric - Interconnection Map](https://interconnectionmapsdge.extweb.sempra.com/) (capacitydata) (map)
 * (United States) (California) [Southern California Edison - DRPEP / DERiM Distribution Planning Portal](https://drpep.sce.com/drpep/?page=Page) (capacitydata) (map)
 * (United States) (California) [LADWP - Power Capacity Map](https://ladwp-power.maps.arcgis.com/apps/webappviewer/index.html?id=290be9aa52694ef39bf3088940079f62) (capacitydata) (map)
+* (United States) (California; Idaho; Oregon; Utah; Washington; Wyoming) [PacifiCorp - Distribution System Plan Display](https://experience.arcgis.com/experience/9de589f4f0604262a0867692e58a13a2) (capacitydata) (map)
 * (United States) (Colorado) [Xcel Energy - Hosting Capacity Map](https://www.xcelenergy.com/hosting_capacity_map) (capacitydata) (map)
 * (United States) (Connecticut) [United Illuminating - Hosting Capacity Maps](https://uil.maps.arcgis.com/apps/instant/portfolio/index.html?appid=5f27da869c6d43a5811b20bf80ac4f77) (capacitydata) (map)
 * (United States) (Connecticut) [Avangrid / United Illuminating - EV Hosting Capacity Dataset](https://openenergyhub.ornl.gov/explore/dataset/ui_ev_hc_phase3_prod/) (capacitydata) (dataset)
