@@ -444,14 +444,6 @@ function buildStats(geojson) {
 function setStat(id, n) { document.getElementById(id).textContent = n.toLocaleString(); }
 
 function buildLegend() {
-  const types = document.getElementById("legend-types");
-  TYPE_ORDER.forEach((t) => {
-    const row = document.createElement("div");
-    row.className = "type";
-    const round = t === "capacitydata" ? " cap" : "";
-    row.innerHTML = `<span class="dot${round}" style="background:${TYPES[t].color}"></span>${TYPES[t].label}`;
-    types.appendChild(row);
-  });
   const cov = document.getElementById("legend-cov");
   [...COVERAGE].reverse().forEach((b) => {
     const sw = document.createElement("span");

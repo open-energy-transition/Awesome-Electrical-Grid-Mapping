@@ -151,6 +151,14 @@ a { color: inherit; }
 }
 .btn-primary:hover { background: #2a78d6; border-color: #2a78d6; color: #ffffff; }
 
+.downloadwrap { position: relative; display: flex; }
+.cc-badge {
+  position: absolute; top: 100%; left: 50%; transform: translateX(-50%);
+  margin-top: 4px;
+  display: flex; color: var(--ink); opacity: 0.85; transition: opacity .15s;
+}
+.cc-badge:hover { opacity: 1; }
+
 .icon-btn {
   display: flex; align-items: center; justify-content: center;
   width: 34px; height: 34px; flex: none;
@@ -176,10 +184,6 @@ a { color: inherit; }
   margin: 0 0 8px; font-size: 10.5px; text-transform: uppercase;
   letter-spacing: .7px; color: var(--muted); font-weight: 600;
 }
-.legend .types { display: flex; flex-direction: column; gap: 6px; margin-bottom: 12px; }
-.legend .type { display: flex; align-items: center; gap: 8px; font-size: 12px; color: var(--ink-2); }
-.legend .dot { width: 10px; height: 10px; border-radius: 3px; flex: none; }
-.legend .dot.cap { border-radius: 50%; }
 .legend .cov { display: flex; align-items: center; gap: 0; }
 .legend .cov .sw { height: 10px; flex: 1; }
 .legend .cov .sw:first-child { border-radius: 3px 0 0 3px; }

@@ -41,7 +41,18 @@
     <a class="btn" id="contribute"
        href="https://github.com/open-energy-transition/Awesome-Electrical-Grid-Mapping/issues/new?title=Add+dataset%3A+&body=%2A%2ACountry+or+region%3A%2A%2A+%0A%2A%2ALink+to+dataset%3A%2A%2A+%0A%2A%2AYear+of+publication+or+last+update%3A%2A%2A+%0A%2A%2ALicense+type%3A%2A%2A+%0A%2A%2ATags%3A%2A%2A+%28capacitydata+%7C+dataset+%7C+map+%7C+report%29"
        target="_blank" rel="noopener" title="Suggest a new dataset to add to the list">＋ Contribute<span class="hide-sm">&nbsp;a dataset</span></a>
-    <button class="btn btn-primary" id="download-csv" title="Download all datasets as CSV">↓&nbsp;<span class="hide-sm">Download as&nbsp;</span>CSV</button>
+    <div class="downloadwrap">
+      <button class="btn btn-primary" id="download-csv" title="Download all datasets as CSV">↓&nbsp;<span class="hide-sm">Download as&nbsp;</span>CSV</button>
+      <a class="cc-badge" href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank" rel="noopener"
+         title="Data released under CC0 1.0 – Public Domain Dedication">
+        <svg viewBox="0 0 48 24" width="34" height="17" aria-hidden="true">
+          <circle cx="12" cy="12" r="11" fill="none" stroke="currentColor" stroke-width="1.4" />
+          <text x="12" y="16" text-anchor="middle" font-size="10" font-family="Arial, sans-serif" fill="currentColor">CC</text>
+          <circle cx="34" cy="12" r="11" fill="none" stroke="currentColor" stroke-width="1.4" />
+          <text x="34" y="16" text-anchor="middle" font-size="11" font-family="Arial, sans-serif" fill="currentColor">0</text>
+        </svg>
+      </a>
+    </div>
     <a class="icon-btn" href="https://github.com/open-energy-transition/Awesome-Electrical-Grid-Mapping"
        target="_blank" rel="noopener" title="View source on GitHub" aria-label="View source on GitHub">
       <svg viewBox="0 0 16 16" width="18" height="18" fill="currentColor" aria-hidden="true">
@@ -51,8 +62,6 @@
   </header>
 
   <aside class="legend">
-    <h4>Dataset types</h4>
-    <div class="types" id="legend-types"></div>
     <h4>Coverage (resources / country)</h4>
     <div class="cov" id="legend-cov"></div>
     <div class="covlabels"><span>1</span><span>21+</span></div>
