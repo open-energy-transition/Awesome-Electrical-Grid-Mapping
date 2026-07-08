@@ -131,7 +131,7 @@ a { color: inherit; }
 .results .r .cnt { color: var(--muted); font-size: 11px; font-variant-numeric: tabular-nums; }
 
 .btn {
-  display: inline-flex; align-items: center;
+  display: inline-block; vertical-align: middle;
   background: rgba(26,26,25,0.82);
   backdrop-filter: blur(10px);
   border: 1px solid var(--hair);
