@@ -1,17 +1,22 @@
+<div align="center">
+
+<img src="ohmygrid-logo.png" alt="Awesome Electrical Grid Mapping logo" width="120">
+
 # Awesome Electrical Grid Mapping
 
-<table>
-<tr>
-<td>
-<b> A curated list of electrical grid maps, datasets, and resources for (almost) every country in the world.</b>
-</td>
-<td>
+**A curated list of electrical grid maps, datasets, and resources for (almost) every country in the world.**
 
-<img src="https://raw.githubusercontent.com/open-energy-transition/Awesome-Electric-Grid-Mapping/refs/heads/main/ohmygrid-logo.png" alt="Global Grid Mapping" width="350">
+</div>
 
-</td>
-</tr>
-</table>
+## 🌐 Grid Data Explorer
+
+All the datasets below, on one interactive map - searchable by country, state or province, filterable by type, with a one-click CSV export.
+
+<a href="https://open-energy-transition.github.io/Awesome-Electrical-Grid-Mapping/">
+<img src="docs/img/grid-data-explorer-screenshot.png" alt="Screenshot of the Grid Data Explorer showing a world map shaded by number of grid resources per country">
+</a>
+
+**▶ [Open the Grid Data Explorer](https://open-energy-transition.github.io/Awesome-Electrical-Grid-Mapping/)**
 
 <!-- COLLAPSE:question title="Why we've copiled these resources" open="true" -->
 **This dataset is been curated and maintained by the [MapYourGrid Initiative](https://mapyourgrid.org/).** Get started with transmission grid mapping in OpenStreetMap by checking out our [Starter Kit Tutorial](https://mapyourgrid.org/starter-kit/) and [our community discord channel](https://discord.gg/a5znpdFWfD).
