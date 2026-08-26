@@ -10,13 +10,28 @@
 
 ## 🌐 Grid Data Explorer
 
-All the datasets below, on one interactive map - searchable by country, state or province, filterable by type, with a one-click CSV export.
+Two views over one interactive map - searchable by country, state or province, with one-click CSV exports.
 
+- **Data coverage** - every dataset listed below, plotted by country, state and province and coloured by type.
+- **Global Transmission Length Index** - how many kilometres of high-voltage line each country actually has.
+
+<!-- NOTE: this capture predates the Data coverage / Transmission length switch and the renamed
+     export buttons - retake it at 1600x1000 and overwrite docs/img/grid-data-explorer-screenshot.png -->
 <a href="https://open-energy-transition.github.io/Awesome-Electrical-Grid-Mapping/">
 <img src="docs/img/grid-data-explorer-screenshot.png" alt="Screenshot of the Grid Data Explorer showing a world map shaded by number of grid resources per country">
 </a>
 
 **▶ [Open the Grid Data Explorer](https://open-energy-transition.github.io/Awesome-Electrical-Grid-Mapping/)**
+
+## 📏 Global Transmission Length Index
+
+Our own country-by-country research into the size of the world's transmission grid: **7.65 million km** of line at 50 kV and above across **131 countries**, with per-voltage breakdowns, sources and reporting years. Rank countries by total length, by 220 kV+ backbone, or by line-km per 1,000 km² of area.
+
+<a href="https://open-energy-transition.github.io/Awesome-Electrical-Grid-Mapping/?view=length">
+<img src="docs/img/transmission-length-index-screenshot.png" alt="Screenshot of the Global Transmission Length Index: a world map shaded by transmission line length per country, beside a ranked table of the 131 countries with data">
+</a>
+
+**▶ [Explore the Global Transmission Length Index](https://open-energy-transition.github.io/Awesome-Electrical-Grid-Mapping/?view=length)** · [full database](https://docs.google.com/spreadsheets/d/1qmVIQ2_ynVVfbTWcMXJQWb4Sq0Dq-1fu8zgZ9J_0cZI/edit?usp=sharing) · [top 25 table](#transmission-length-index) · CC BY 4.0
 
 <!-- COLLAPSE:question title="Why we've copiled these resources" open="true" -->
 **This dataset is been curated and maintained by the [MapYourGrid Initiative](https://mapyourgrid.org/).** Get started with transmission grid mapping in OpenStreetMap by checking out our [Starter Kit Tutorial](https://mapyourgrid.org/starter-kit/) and [our community discord channel](https://discord.gg/a5znpdFWfD).
@@ -968,8 +983,10 @@ All the datasets below, on one interactive map - searchable by country, state or
 * [Identifying the voltage level by number of insulator disks](https://www.reddit.com/r/Damnthatsinteresting/comments/ukc24p/identifying_the_voltage_level_by_number_of/)
 * [Guessing power line voltage from the number of disc insulator](https://electronics.stackexchange.com/questions/71614/guessing-power-line-voltage-from-the-number-of-disc-insulator)
 
-<!-- TAB:Global Grid Length -->
-## Global Grid Length Database
+<!-- TAB:Global Transmission Length Index -->
+<a id="transmission-length-index"></a>
+
+## Global Transmission Length Index
 
 How many kilometres of high-voltage line does each country actually have? This is MapYourGrid's own country-by-country research: transmission lines at 50 kV and above, with per-voltage breakdowns, sources and reporting years.
 
@@ -1009,6 +1026,6 @@ Top 25 of 131 countries with data. Sheet last updated 2025-11-25.
 | 25 | Poland | 39,896 | 17,298 | 2024 | [source](https://www.pse.pl/web/pse-eng/areas-of-activity/polish-power-system/system-in-general) |
 | | **All 131 countries with data** | **7,653,655** | **2,694,508** | | |
 
-Route- and circuit-length figures are mixed; the basis is unrecorded for most countries. Data: MapYourGrid Global Grid Length Database, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+Route- and circuit-length figures are mixed; the basis is unrecorded for most countries. Data: MapYourGrid Global Transmission Length Index, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 <!-- GRID-LENGTH-TABLE:end -->
 <!-- TABS:end -->

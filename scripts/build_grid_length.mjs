@@ -11,7 +11,7 @@
 // come from the same Natural Earth topojson the map already ships, so grid density
 // needs no extra data file.
 //
-// Source: MapYourGrid "Global Grid Length Database", CC BY 4.0.
+// Source: MapYourGrid "Global Transmission Length Index", CC BY 4.0.
 
 import fs from "fs";
 import path from "path";
@@ -305,7 +305,7 @@ function main() {
 
   const out = {
     meta: {
-      title: "Global Grid Length Database",
+      title: "Global Transmission Length Index",
       publisher: "MapYourGrid",
       license: "CC BY 4.0",
       licenseUrl: "https://creativecommons.org/licenses/by/4.0/",
@@ -372,7 +372,7 @@ function renderReadme(md, withTotal, totals, dataUpdated) {
     ...rows,
     `| | **All ${totals.withTotal} countries with data** | **${fmt(totals.km)}** | **${fmt(totals.km220plus)}** | | |`,
     ``,
-    `Route- and circuit-length figures are mixed; the basis is unrecorded for most countries. Data: MapYourGrid Global Grid Length Database, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).`,
+    `Route- and circuit-length figures are mixed; the basis is unrecorded for most countries. Data: MapYourGrid Global Transmission Length Index, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).`,
     README_END,
   ].join("\n");
   return md.slice(0, a) + table + md.slice(b + README_END.length);
@@ -388,7 +388,7 @@ function report(countries, totals, dataUpdated, bytes, wroteReadme) {
     `${totals.withTotal} with a total, ${fmt(totals.km)} km`
   );
   console.log(`  -> ${path.relative(ROOT, DEST)} (${(bytes / 1024).toFixed(0)} KB), sheet updated ${dataUpdated}`);
-  if (wroteReadme) console.log(`  -> README.md grid-length table (top ${README_TOP_N})`);
+  if (wroteReadme) console.log(`  -> README.md transmission-length table (top ${README_TOP_N})`);
 
   // Two very different problems, so two lists: an unmatched row *with* data is a
   // missing alias to fix now; an unmatched empty micro-state is expected forever.

@@ -1,4 +1,4 @@
-// fetch_grid_length.mjs — download the MapYourGrid "Global Grid Length Database"
+// fetch_grid_length.mjs — download the MapYourGrid "Global Transmission Length Index"
 // Google Sheet as CSV and store it as a committed snapshot.
 //
 //   node scripts/fetch_grid_length.mjs        (npm run fetch:length)

@@ -459,7 +459,7 @@ function renderPanel(name, scrollToSub) {
   }
 
   body.innerHTML = "";
-  // Grid length renders in both modes: how much grid a country has is a fact about the
+  // Transmission length renders in both modes: how much grid a country has is a fact about the
   // country, not about the view.
   if (rec) body.appendChild(renderLengthSection(rec, LENGTH.meta));
   if (!p) body.appendChild(emptyState(name));

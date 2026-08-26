@@ -5,8 +5,8 @@ An interactive map with two views over the same world:
 - **Data coverage** — the datasets in the root [`README.md`](../README.md) by
   **country, state and province**. Click a region to see links to every available
   resource; each is colour-coded by dataset type.
-- **Grid length** — the MapYourGrid [Global Grid Length
-  Database](https://docs.google.com/spreadsheets/d/1qmVIQ2_ynVVfbTWcMXJQWb4Sq0Dq-1fu8zgZ9J_0cZI/edit):
+- **Transmission length** — the MapYourGrid [Global Transmission Length
+  Index](https://docs.google.com/spreadsheets/d/1qmVIQ2_ynVVfbTWcMXJQWb4Sq0Dq-1fu8zgZ9J_0cZI/edit):
   how many kilometres of 50 kV+ line each country actually has, with a ranked table,
   a metric selector and per-country voltage breakdowns.
 
@@ -58,7 +58,7 @@ touches the network, and every data change arrives as a reviewable diff.
   the panel's stacked voltage bar and the CSV export. Pure functions and DOM out; no
   Leaflet, no state. `js/app.js` owns the state and calls in here.
 - **`scripts/fetch_grid_length.mjs`** / **`scripts/build_grid_length.mjs`** — the
-  grid-length pipeline. See *Grid length* below.
+  transmission-length pipeline. See *Transmission length* below.
 - **`scripts/build_data.mjs`** — the build step. Runs `parser.js` against the root
   `README.md` and writes `docs/data/grid-datasets.geojson`, with each feature's
   `geometry` stripped (the browser already fetches the full polygons in compact
@@ -98,7 +98,7 @@ inline from JS. The `--t-*` custom properties in `css/style.css` mirror it.
 
 Country shading uses **two** ramps, one per view, deliberately in different hue
 families. Coverage (resources per country) runs violet → plum → red → orange → gold;
-grid length is a single-hue aqua ramp (`LENGTH_RAMP` in `js/length.js`,
+transmission length is a single-hue aqua ramp (`LENGTH_RAMP` in `js/length.js`,
 `--len-1…6` in the CSS). Same colours for both would make a screenshot of one view
 indistinguishable from the other, since the legend is the only other cue. The aqua
 ramp has strictly monotone OKLCH lightness (0.334 → 0.858, every adjacent gap
@@ -131,10 +131,10 @@ The GitHub Actions deploy (`.github/workflows/pages.yml`) runs this same command
 every push to `main`, so the published site is always parsed fresh from whatever
 `README.md` was just pushed — visitors never trigger a parse themselves.
 
-## Grid length
+## Transmission length
 
-The **Grid length** view renders the MapYourGrid *Global Grid Length Database* — a
-public Google Sheet, CC BY 4.0 — covering transmission lines at **50 kV and above**,
+The **Transmission length** view renders the MapYourGrid *Global Transmission Length
+Index* — a public Google Sheet, CC BY 4.0 — covering transmission lines at **50 kV and above**,
 overhead lines and cables, for 195 countries. 131 of them currently have a total.
 
 ### Refreshing it
@@ -222,9 +222,9 @@ admin-1 polygons, and reports anything it couldn't match.
   fixes in `SUBREGION_FIX`. Add an entry there if a new region doesn't light up —
   the same alias table serves both the README and the grid-length sheet, and both
   build scripts log every name they couldn't resolve.
-- The **Grid length** view hides the dashed state/province polygons and the capacity
+- The **Transmission length** view hides the dashed state/province polygons and the capacity
   dots: there is no sub-national length data, so leaving them up would put two
   different datasets in one frame.
-- 22 countries in the grid-length sheet have no 110m polygon *and* no data — the
+- 22 countries in the transmission-length sheet have no 110m polygon *and* no data — the
   Caribbean and Pacific micro-states, Singapore, Monaco, San Marino, Liechtenstein,
   the Vatican. Expected, and reported separately from real alias failures.

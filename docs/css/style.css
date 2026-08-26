@@ -355,7 +355,7 @@ a { color: inherit; }
   .panel .body { padding-bottom: calc(20px + env(safe-area-inset-bottom)); }
 }
 
-/* ---- Mode switch (topbar): Data coverage | Grid length ---- */
+/* ---- Mode switch (topbar): Data coverage | Transmission length ---- */
 .modeswitch {
   display: flex; gap: 2px; padding: 2px;
   background: rgba(26,26,25,0.85); border: 1px solid var(--hair);
@@ -372,13 +372,13 @@ a { color: inherit; }
 /* no grid-length data on the wire -> the feature hides itself entirely (see app.js boot) */
 .modeswitch[hidden], .rank[hidden], .rank-toggle[hidden], .downloadwrap[hidden] { display: none; }
 
-/* ---- Ranking rail (grid-length mode) ---- */
+/* ---- Ranking rail (transmission-length mode) ---- */
 /* Absorbs the coverage legend rather than sitting next to it: .legend is bottom-left,
    and a full-height rail there would collide. One left-hand column, not two. */
 body[data-mode="length"] .legend { display: none; }
 
 .rank {
-  position: absolute; left: 20px; top: 88px; bottom: 20px; width: 400px;
+  position: absolute; left: 20px; top: 88px; bottom: 20px; width: 460px;
   z-index: 500; display: flex; flex-direction: column;
   background: rgba(26,26,25,0.80); border: 1px solid var(--hair);
   border-radius: 12px; box-shadow: var(--shadow); backdrop-filter: blur(10px);
@@ -469,7 +469,7 @@ body[data-mode="length"] .legend { display: none; }
 }
 .rank-toggle:hover { border-color: var(--accent); color: var(--ink); }
 
-/* ---- Grid-length block inside the country panel ---- */
+/* ---- Transmission-length block inside the country panel ---- */
 .lenblock { padding-bottom: 4px; border-bottom: 1px solid var(--hair-soft); margin-bottom: 4px; }
 .ltiles { display: flex; gap: 10px; margin: 0 0 11px; }
 .ltile { flex: 1; padding: 9px 10px; background: rgba(255,255,255,0.035);
@@ -529,10 +529,10 @@ a.lchip:hover { border-color: var(--accent); color: var(--ink); }
 
 /* ---- Responsive: rail vs panel ---- */
 
-/* Not enough width for a 400px rail and a 420px drawer at once — app.js collapses the
+/* Not enough width for a 460px rail and a 420px drawer at once — app.js collapses the
    rail when a country panel opens and offers it back via .rank-toggle. */
 @media (max-width: 1023px) {
-  .rank { width: min(360px, calc(100vw - 40px)); }
+  .rank { width: min(400px, calc(100vw - 40px)); }
 }
 
 /* Phones: the rail becomes a second bottom sheet with exactly .panel's geometry.

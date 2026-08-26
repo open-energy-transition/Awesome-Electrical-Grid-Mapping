@@ -5,13 +5,13 @@
 // and regions.js, and the reason this feature didn't push app.js past 900 lines.
 //
 // Data: docs/data/grid-length.json, built from data/grid-length.csv by
-// scripts/build_grid_length.mjs. MapYourGrid Global Grid Length Database, CC BY 4.0.
+// scripts/build_grid_length.mjs. MapYourGrid Global Transmission Length Index, CC BY 4.0.
 
 import { sourceCategory } from "./regions.js";
 
 // Sequential aqua ramp for the length choropleth — deliberately NOT the COVERAGE ramp
 // in app.js. The two views share one map, and a legend swap is a weak cue: with the
-// same colours, a screenshot of "Grid length" would be indistinguishable from one of
+// same colours, a screenshot of "Transmission length" would be indistinguishable from one of
 // "Data coverage". A hue-family change makes the mode legible at a glance, and costs
 // nothing because the two ramps never appear together.
 //
@@ -282,7 +282,7 @@ export function renderLengthSection(rec, meta) {
     : "";
 
   el.innerHTML = `
-    <div class="group-h">Grid length</div>
+    <div class="group-h">Transmission length</div>
     ${tiles}${bar}${density}${meta1}${sources}${totalSrc}${notes}
     <p class="lattr">${esc(meta.publisher)} <a href="${esc(meta.sourceUrl)}" target="_blank"
       rel="noopener">${esc(meta.title)}</a> ·
