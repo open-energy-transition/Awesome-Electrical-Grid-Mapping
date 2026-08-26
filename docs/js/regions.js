@@ -29,8 +29,11 @@ export const TYPE_TOKENS = {
 // Tokens that look like a licence (kept as metadata, never a type).
 export const LICENCE_RE = /(cc[\s-]?(by|0|zero)|cc0|odbl|odc|mit|gpl|agpl|apache|open\s?data|open\s?government|open\s?access|proprietary|dl-de|public\s?domain|licence|license|ogl|nged)/i;
 
-// README country string (loose-normalised) -> Natural Earth name used in the topojson.
-// Only entries that differ from an exact match are listed.
+// Loose-normalised country name -> Natural Earth name used in the topojson. Serves
+// both inputs: the README awesome-list (docs/js/parser.js) and the grid-length sheet
+// (scripts/build_grid_length.mjs). Only entries that differ from an exact match are
+// listed. If a country fails to light up on the map, this table is the first place to
+// look — both build scripts log every name they could not resolve.
 export const COUNTRY_ALIASES = {
   "us": "United States of America",
   "united states": "United States of America",
@@ -49,6 +52,25 @@ export const COUNTRY_ALIASES = {
   "vanatu": "Vanuatu",
   "czech republic": "Czechia",
   "ivory coast": "Côte d'Ivoire",
+
+  // Names the grid-length sheet spells differently from Natural Earth.
+  "czechia czech republic": "Czechia",
+  "central african republic": "Central African Rep.",
+  "the bahamas": "Bahamas",
+  "the gambia": "Gambia",
+  "equatorial guinea": "Eq. Guinea",
+  "solomon islands": "Solomon Is.",
+  "south sudan": "S. Sudan",
+
+  // Speculative: not needed by either source today, but these are the Natural Earth
+  // abbreviations most likely to bite when an upstream name is edited.
+  "western sahara": "W. Sahara",
+  "northern cyprus": "N. Cyprus",
+  "timor leste": "Timor-Leste",
+  "east timor": "Timor-Leste",
+  "myanmar burma": "Myanmar",
+  "turkiye": "Turkey",
+  "cape verde": "Cabo Verde",
 };
 
 // First-group tokens that are cross-border regions, not a single country.

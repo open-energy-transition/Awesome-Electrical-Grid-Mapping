@@ -112,3 +112,43 @@ export function representativePoint(feature) {
   }
   return [lon, lat];
 }
+
+// Spherical area of a Polygon/MultiPolygon in km² — outer rings minus holes, summed
+// over every polygon. Used to derive grid density (line-km per 1000 km² of country
+// area) at build time; the browser never recomputes it.
+//
+// IMPORTANT: call this on an *unwrapped* feature (fixAntimeridian first). On raw
+// Natural Earth 110m, Russia's ±180° rings cancel out and measure 10,346,151 km²
+// (-37%); after the unwrap it comes out at 16,926,526 km² (-1.0%).
+//
+// Planar shoelace is wrong at country scale, so this is the spherical-excess
+// (Chamberlain–Duquette) formula. Accuracy vs reference areas on NE 110m: median
+// absolute error 1.8%, everything over ~250,000 km² within 4% — but small and island
+// states are bad (Trinidad and Tobago +51%, Cyprus -33%, Ireland -17%), which is why
+// callers suppress the density metric below 25,000 km². Note this is *total* area,
+// inland water included — that is what the polygons enclose.
+const R_KM = 6371.0088;
+
+function ringAreaKm2(ring) {
+  let t = 0;
+  for (let i = 0; i + 1 < ring.length; i++) {
+    const [lo1, la1] = ring[i], [lo2, la2] = ring[i + 1];
+    t += ((lo2 - lo1) * Math.PI / 180) *
+         (2 + Math.sin(la1 * Math.PI / 180) + Math.sin(la2 * Math.PI / 180));
+  }
+  return Math.abs((t * R_KM * R_KM) / 2);
+}
+
+export function polygonAreaKm2(feature) {
+  const g = feature && feature.geometry;
+  if (!g) return null;
+  const polys = g.type === "Polygon" ? [g.coordinates]
+    : g.type === "MultiPolygon" ? g.coordinates
+    : [];
+  if (!polys.length) return null;
+  let a = 0;
+  for (const poly of polys) {
+    poly.forEach((ring, i) => { a += (i === 0 ? 1 : -1) * ringAreaKm2(ring); });
+  }
+  return a;
+}

@@ -9,7 +9,9 @@ on:
     paths:
       - "docs/**"
       - "README.md"
+      - "data/grid-length.csv"
       - "scripts/build_data.mjs"
+      - "scripts/build_grid_length.mjs"
       - "package.json"
       - "package-lock.json"
       - ".github/workflows/pages.yml"
@@ -39,6 +41,8 @@ jobs:
         run: npm ci
       - name: Parse README into the GeoJSON the site fetches at runtime
         run: node scripts/build_data.mjs
+      - name: Build the grid-length JSON the site fetches at runtime
+        run: node scripts/build_grid_length.mjs
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

@@ -3,10 +3,16 @@
 // visit — this just fetches the resulting GeoJSON and renders it.
 import { TYPES, TYPE_ORDER, sourceCategory } from "./regions.js";
 import { fixAntimeridian, representativePoint, mainlandBounds } from "./geo.js";
+import {
+  buildLengthIndex, lengthStats, lengthColor, formatKm, METRICS, METRIC_ORDER,
+  renderLengthLegend, renderRankHead, renderRankBody, sortRows, renderLengthSection,
+  lengthCsv,
+} from "./length.js";
 
 const GEOJSON_URL = "./data/grid-datasets.geojson";
 const TOPO_URL = "./data/countries-110m.json";
 const ADMIN1_URL = "./data/admin1.geojson";
+const LENGTH_URL = "./data/grid-length.json";
 
 // Coverage buckets — "Ember" sequential heat ramp: dim/cool = few resources,
 // hot/bright = many. Monotonic lightness (contrast vs the dark map climbs 1.5→12),
@@ -34,20 +40,35 @@ function capDot(latlng) {
   });
 }
 
-let MAP, LAYER, CAP_LAYER, SUB_LAYER;
+let MAP, LAYER, CAP_LAYER, SUB_LAYER, SUB_CAP_LAYER;
 let HOVERED = null, HOVERED_SUB = null;
 let FEATURE_BY_NAME = new Map();
 let LAYER_BY_NAME = new Map();
 let SUB_LAYER_BY_KEY = new Map();   // "country||sub" -> leaflet layer
 let SUBREGION_DATA = new Map();     // "country||sub" -> { count, capacity }
-let REGION_INDEX = []; // {name, country, count, kind, feature}
+let REGION_INDEX = []; // {name, country, count, km, kind}
 let GEOJSON = null;
+let WORLD_BY_NAME = new Map();      // NE name -> world feature (geometry source)
+let DATA_BY_NAME = new Map();       // NE name -> grid-datasets properties
+
+// Which dataset the choropleth encodes. "coverage" = resources per country (the
+// original view), "length" = the MapYourGrid grid-length database. LENGTH is null when
+// data/grid-length.json is absent, and then the whole feature hides itself.
+let MODE = "coverage";
+let METRIC = "total";               // total | kv220 | density (see METRICS in length.js)
+let LENGTH = null;                  // { byName, rows, meta }
+let RANK_SORT = { key: "total", dir: -1 };
+let COVERAGE_STATS = [];
+let RERENDER_SEARCH = () => {};     // set by wireUI — the .cnt column is mode-dependent
 
 async function boot() {
-  const [geojson, topoRes, admin1] = await Promise.all([
+  // grid-length.json is optional on purpose: if it 404s the site is byte-for-byte the
+  // coverage explorer it was before, rather than a broken map.
+  const [geojson, topoRes, admin1, lengthJson] = await Promise.all([
     fetch(GEOJSON_URL, { cache: "no-store" }).then((r) => r.json()),
     fetch(TOPO_URL).then((r) => r.json()),
     fetch(ADMIN1_URL).then((r) => r.ok ? r.json() : null).catch(() => null),
+    fetch(LENGTH_URL).then((r) => r.ok ? r.json() : null).catch(() => null),
   ]);
 
   const world = topojson.feature(topoRes, topoRes.objects.countries);
@@ -57,19 +78,22 @@ async function boot() {
 
   // geojson ships with geometry stripped (see build_data.mjs) — re-attach it from
   // the topojson we already fetched instead of shipping every polygon twice.
-  const worldByName = new Map(worldFeatures.map((f) => [f.properties.name, f]));
-  for (const f of geojson.features) f.geometry = worldByName.get(f.properties.name)?.geometry ?? null;
+  WORLD_BY_NAME = new Map(worldFeatures.map((f) => [f.properties.name, f]));
+  for (const f of geojson.features) f.geometry = WORLD_BY_NAME.get(f.properties.name)?.geometry ?? null;
   GEOJSON = geojson;
+  LENGTH = lengthJson ? buildLengthIndex(lengthJson) : null;
 
   for (const f of geojson.features) FEATURE_BY_NAME.set(f.properties.name, f);
+  DATA_BY_NAME = new Map(geojson.features.map((f) => [f.properties.name, f.properties]));
   SUBREGION_DATA = buildSubregionIndex(geojson);
 
-  buildMap(worldFeatures, geojson);
+  buildMap(worldFeatures);
   if (admin1) buildAdmin1(admin1);
   buildStats(geojson);
   buildLegend();
   buildSearchIndex(geojson);
   wireUI();
+  wireLengthUI();
 
   document.getElementById("loading").classList.add("hidden");
 }
@@ -78,7 +102,7 @@ async function boot() {
 // reaches ~190°E after the antimeridian unwrap and would skew the view.
 const WORLD_VIEW = [[-58, -175], [78, 179]];
 
-function buildMap(worldFeatures, geojson) {
+function buildMap(worldFeatures) {
   MAP = L.map("map", {
     crs: L.CRS.EPSG4326,
     minZoom: 1, maxZoom: 6,
@@ -116,14 +140,16 @@ function buildMap(worldFeatures, geojson) {
     if (HOVERED_SUB && SUB_LAYER) { SUB_LAYER.resetStyle(HOVERED_SUB); HOVERED_SUB.closeTooltip(); HOVERED_SUB = null; }
   });
 
-  const dataByName = new Map(geojson.features.map((f) => [f.properties.name, f.properties]));
-
   LAYER = L.geoJSON({ type: "FeatureCollection", features: worldFeatures }, {
-    style: (f) => styleFor(f, dataByName),
+    // A named module-scope function, not a closure over the data: resetStyle() re-invokes
+    // this option on every mouseout, so a baked-in mode would snap hovered countries
+    // back to coverage colours the moment the cursor left them in length mode.
+    style: countryStyle,
     onEachFeature: (f, layer) => {
       const name = f.properties.name;
       LAYER_BY_NAME.set(name, layer);
-      const props = dataByName.get(name);
+      const props = DATA_BY_NAME.get(name);
+      const hasLength = !!(LENGTH && LENGTH.byName.has(name));
       layer.on({
         // bringToFront() reorders the SVG path node mid-event, which in some
         // browsers desyncs mouse tracking so the matching mouseout never fires,
@@ -143,11 +169,16 @@ function buildMap(worldFeatures, geojson) {
         // tap aimed at one would otherwise re-select the country — yanking the
         // panel scroll away from the state sections and re-flying the map.
         click:     () => {
-          if (!props || panelShowing(name)) return;
+          if ((!props && !hasLength) || panelShowing(name)) return;
           selectCountry(name, { fly: MOBILE_MQ.matches });
         },
       });
-      if (props) layer.bindTooltip(`${name} · ${props.count}`, { sticky: true, className: "lf-tip", opacity: 0.9 });
+      // Bound for the union of both datasets — a country with length data but no
+      // catalogued resource would otherwise hover silently in length mode. Countries
+      // in neither source stay untooltipped, as before.
+      if (props || hasLength) {
+        layer.bindTooltip(tooltipText(name), { sticky: true, className: "lf-tip", opacity: 0.9 });
+      }
     },
   }).addTo(MAP);
 
@@ -161,7 +192,7 @@ function buildMap(worldFeatures, geojson) {
 
   // representativePoint(), not bounds-center: France's bounds (mainland + French
   // Guiana) center in the Atlantic; the mainland's interior point stays on it.
-  const capFeatures = geojson.features.filter((f) => f.properties.capacity > 0);
+  const capFeatures = GEOJSON.features.filter((f) => f.properties.capacity > 0);
   CAP_LAYER = L.layerGroup(
     capFeatures.map((f) => {
       const pt = representativePoint(f);
@@ -239,23 +270,53 @@ function buildAdmin1(admin1) {
   // Same violet capacity-data dots as countries get, one per state/province that
   // has its own capacitydata resource. Lives in the "capdots" pane created in
   // buildMap(), above admin1, so it's immune to the same hover/bringToFront issue.
-  const subCapDots = feats
+  SUB_CAP_LAYER = L.layerGroup(feats
     .filter((f) => SUBREGION_DATA.get(f.properties.country + "||" + f.properties.name)?.capacity > 0)
     .map((f) => representativePoint(f))
     .filter(Boolean)
-    .map(([lon, lat]) => capDot([lat, lon]));
-  L.layerGroup(subCapDots).addTo(MAP);
+    .map(([lon, lat]) => capDot([lat, lon]))).addTo(MAP);
 }
 
-function styleFor(f, dataByName) {
-  const p = dataByName.get(f.properties.name);
-  const n = p ? p.count : 0;
+function countryStyle(f) {
+  const name = f.properties.name;
+  if (MODE === "length" && LENGTH) {
+    const rec = LENGTH.byName.get(name);
+    // A sourced zero (Dominica, Somalia) is data and gets the ramp's darkest step;
+    // an unresearched country is not, and gets the no-data fill.
+    const has = rec && METRICS[METRIC].get(rec) !== null;
+    return {
+      fillColor: lengthColor(rec, METRIC),
+      fillOpacity: has ? 0.92 : 0.5,
+      color: "rgba(255,255,255,0.10)",
+      weight: 0.6,
+    };
+  }
+  const p = DATA_BY_NAME.get(name);
   return {
-    fillColor: coverageColor(n),
+    fillColor: coverageColor(p ? p.count : 0),
     fillOpacity: p ? 0.92 : 0.5,
     color: "rgba(255,255,255,0.10)",
     weight: 0.6,
   };
+}
+
+function tooltipText(name) {
+  if (MODE === "length" && LENGTH) {
+    const rec = LENGTH.byName.get(name);
+    const v = rec ? METRICS[METRIC].get(rec) : null;
+    return v === null || v === undefined ? `${name} · no data` : `${name} · ${METRICS[METRIC].fmt(v)}`;
+  }
+  const p = DATA_BY_NAME.get(name);
+  return `${name} · ${p ? p.count : 0}`;
+}
+
+// setStyle() wipes the selected country's outline, so it has to be reapplied here.
+function restyleCountries() {
+  LAYER.setStyle(countryStyle);
+  LAYER_BY_NAME.forEach((layer, name) => {
+    if (layer.getTooltip()) layer.setTooltipContent(tooltipText(name));
+  });
+  if (SELECTED) SELECTED.setStyle({ color: "#3987e5", weight: 2 }).bringToFront();
 }
 
 let SELECTED = null, SELECTED_SUB = null;
@@ -267,6 +328,9 @@ function panelShowing(country) {
 }
 
 const MOBILE_MQ = window.matchMedia("(max-width: 640px)");
+// Below this a 340px ranking rail and a 420px detail drawer can't share the viewport,
+// so opening a country collapses the rail behind its toggle pill.
+const NARROW_MQ = window.matchMedia("(max-width: 1023px)");
 
 // The open panel hides part of the map — bottom sheet on phones, right drawer on
 // desktop — so a plain flyToBounds centers the region underneath it. Fly so the
@@ -274,10 +338,19 @@ const MOBILE_MQ = window.matchMedia("(max-width: 640px)");
 // panel element, so it tracks the CSS).
 function flyToRegion(bounds, maxZoom) {
   const panel = document.getElementById("panel");
+  const rank = document.getElementById("rank");
   if (!MOBILE_MQ.matches) {
-    MAP.flyToBounds(bounds, { maxZoom, duration: 0.6, paddingBottomRight: [panel.offsetWidth, 0] });
+    // the ranking rail hides the left edge the same way the panel hides the right
+    const leftPad = rank.classList.contains("open") ? rank.offsetWidth + 40 : 0;
+    MAP.flyToBounds(bounds, {
+      maxZoom, duration: 0.6,
+      paddingTopLeft: [leftPad, 0],
+      paddingBottomRight: [panel.offsetWidth, 0],
+    });
     return;
   }
+  // On phones the rail and the panel are mutually exclusive sheets, so the strip
+  // arithmetic below only ever has to account for the panel.
   // The sheet + topbar cover ~85% of a phone screen, and Leaflet's padded
   // fitBounds breaks down there (the fitted zoom drops below minZoom and the
   // padding offset overshoots). Compute the view by hand instead: a zoom that
@@ -318,7 +391,8 @@ function selectCountry(name, opts = {}) {
     if (opts.fly) {
       // frame the mainland, not the full bounds — France's full bounds (mainland
       // + French Guiana) would center the fly-to on open Atlantic
-      const mb = mainlandBounds(FEATURE_BY_NAME.get(name) || {});
+      // length-only countries have no grid-datasets feature — fall back to the basemap
+      const mb = mainlandBounds(FEATURE_BY_NAME.get(name) || WORLD_BY_NAME.get(name) || {});
       const bounds = mb ? L.latLngBounds([mb[1], mb[0]], [mb[3], mb[2]]) : layer.getBounds();
       flyToRegion(bounds.pad(0.4), 4);
     }
@@ -343,20 +417,27 @@ function selectSubregion(country, name, opts = {}) {
 /* ---------------- panel ---------------- */
 function renderPanel(name, scrollToSub) {
   const f = FEATURE_BY_NAME.get(name);
+  const rec = LENGTH ? LENGTH.byName.get(name) : null;
   const panel = document.getElementById("panel");
   const body = panel.querySelector(".body");
-  if (!f) return;
+  // 30-odd countries are in the length database with no catalogued resource yet — their
+  // panel still has something to say, so the guard is "neither source", not "no feature".
+  if (!f && !rec) return;
   PANEL_COUNTRY = name;
-  const p = f.properties;
+  const p = f ? f.properties : null;
 
   panel.querySelector(".title").textContent = name;
-  const capTxt = p.capacity ? ` · ${p.capacity} with capacity data` : "";
-  panel.querySelector(".sub").textContent = `${p.count} resource${p.count === 1 ? "" : "s"}${capTxt}`;
+  if (p) {
+    const capTxt = p.capacity ? ` · ${p.capacity} with capacity data` : "";
+    panel.querySelector(".sub").textContent = `${p.count} resource${p.count === 1 ? "" : "s"}${capTxt}`;
+  } else {
+    panel.querySelector(".sub").textContent = "No datasets listed yet";
+  }
 
   // type chips (only types present), ordered
   const typebar = panel.querySelector(".typebar");
   typebar.innerHTML = "";
-  TYPE_ORDER.filter((t) => p.types.includes(t)).forEach((t) => {
+  TYPE_ORDER.filter((t) => p && p.types.includes(t)).forEach((t) => {
     const c = document.createElement("span");
     c.className = "chip";
     c.innerHTML = `<span class="dot" style="background:${TYPES[t].color}"></span>${TYPES[t].label}`;
@@ -366,7 +447,7 @@ function renderPanel(name, scrollToSub) {
   // group datasets: national first, then by subregion
   const national = [];
   const bySub = new Map();
-  for (const d of p.datasets) {
+  for (const d of (p ? p.datasets : [])) {
     if (d.subregions && d.subregions.length) {
       for (const s of d.subregions) {
         if (!bySub.has(s)) bySub.set(s, []);
@@ -378,6 +459,10 @@ function renderPanel(name, scrollToSub) {
   }
 
   body.innerHTML = "";
+  // Grid length renders in both modes: how much grid a country has is a fact about the
+  // country, not about the view.
+  if (rec) body.appendChild(renderLengthSection(rec, LENGTH.meta));
+  if (!p) body.appendChild(emptyState(name));
   if (national.length) {
     body.appendChild(groupHeader(bySub.size ? "National" : `${national.length} resources`));
     national.forEach((d) => body.appendChild(card(d)));
@@ -390,12 +475,24 @@ function renderPanel(name, scrollToSub) {
   });
 
   panel.classList.add("open");
+  // the rail and the drawer can't share a narrow viewport
+  if (NARROW_MQ.matches) closeRank();
   if (scrollToSub) {
     const el = body.querySelector(`[data-sub="${cssEscape(scrollToSub)}"]`);
     if (el) el.scrollIntoView({ block: "start", behavior: "smooth" });
   } else {
     body.scrollTop = 0;
   }
+}
+
+// A country that has length data but no catalogued resources — turn the gap into an ask.
+function emptyState(name) {
+  const d = document.createElement("div");
+  d.className = "empty";
+  const url = document.getElementById("contribute").href;
+  d.innerHTML = `No maps, datasets or reports for ${escapeHtml(name)} in the list yet. ` +
+    `<a href="${url}" target="_blank" rel="noopener">Know one? Add it →</a>`;
+  return d;
 }
 
 function groupHeader(text) {
@@ -433,15 +530,27 @@ function card(d) {
 }
 
 /* ---------------- header, legend, search ---------------- */
+const STAT_IDS = ["s-countries", "s-datasets", "s-capacity"];
+
 function buildStats(geojson) {
-  const countries = geojson.features.length;
-  const datasets = geojson.features.reduce((s, f) => s + f.properties.count, 0);
-  const capacity = geojson.features.reduce((s, f) => s + f.properties.capacity, 0);
-  setStat("s-countries", countries);
-  setStat("s-datasets", datasets);
-  setStat("s-capacity", capacity);
+  COVERAGE_STATS = [
+    { n: geojson.features.length.toLocaleString(), label: "Countries" },
+    { n: geojson.features.reduce((s, f) => s + f.properties.count, 0).toLocaleString(), label: "Resources" },
+    { n: geojson.features.reduce((s, f) => s + f.properties.capacity, 0).toLocaleString(), label: "Capacity" },
+  ];
+  applyStats();
 }
-function setStat(id, n) { document.getElementById(id).textContent = n.toLocaleString(); }
+
+// Both the number and its label change with the mode, so a screenshot identifies which
+// view it came from even without the legend.
+function applyStats() {
+  const stats = MODE === "length" && LENGTH ? lengthStats(LENGTH.meta) : COVERAGE_STATS;
+  STAT_IDS.forEach((id, i) => {
+    const el = document.getElementById(id);
+    el.textContent = stats[i].n;
+    el.nextElementSibling.textContent = stats[i].label;
+  });
+}
 
 function buildLegend() {
   const cov = document.getElementById("legend-cov");
@@ -454,12 +563,25 @@ function buildLegend() {
 
 function buildSearchIndex(geojson) {
   REGION_INDEX = [];
+  const seen = new Set();
   for (const f of geojson.features) {
     const p = f.properties;
-    REGION_INDEX.push({ name: p.name, country: p.name, count: p.count, kind: "country" });
+    seen.add(p.name);
+    REGION_INDEX.push({
+      name: p.name, country: p.name, count: p.count, kind: "country",
+      km: LENGTH ? LENGTH.byName.get(p.name)?.totalKm ?? null : null,
+    });
     const subs = new Map();
     for (const d of p.datasets) for (const s of (d.subregions || [])) subs.set(s, (subs.get(s) || 0) + 1);
-    for (const [s, c] of subs) REGION_INDEX.push({ name: s, country: p.name, count: c, kind: "sub" });
+    for (const [s, c] of subs) REGION_INDEX.push({ name: s, country: p.name, count: c, km: null, kind: "sub" });
+  }
+  // Countries that only appear in the length database are searchable too — otherwise
+  // they'd be visible on the length choropleth but unreachable from the search box.
+  if (LENGTH) {
+    for (const r of LENGTH.rows) {
+      if (!r.name || seen.has(r.name)) continue;
+      REGION_INDEX.push({ name: r.name, country: r.name, count: 0, km: r.totalKm, kind: "country" });
+    }
   }
   REGION_INDEX.sort((a, b) => b.count - a.count);
 }
@@ -471,19 +593,26 @@ function wireUI() {
 
   const render = (q) => {
     const norm = q.trim().toLowerCase();
+    let pool = REGION_INDEX;
+    // in length mode rank by line-km, so the empty-query list is the biggest grids
+    if (MODE === "length" && LENGTH) {
+      pool = [...REGION_INDEX].sort((a, b) => (b.km ?? -1) - (a.km ?? -1));
+    }
     shown = norm
-      ? REGION_INDEX.filter((r) =>
+      ? pool.filter((r) =>
           r.name.toLowerCase().includes(norm) ||
           (r.kind === "sub" && r.country.toLowerCase().includes(norm))).slice(0, 40)
-      : REGION_INDEX.slice(0, 12);
+      : pool.slice(0, 12);
     active = -1;
+    const cnt = (r) => (MODE === "length" && LENGTH ? formatKm(r.km) : String(r.count));
     results.innerHTML = shown.map((r, i) =>
       `<div class="r" data-i="${i}">
         <span>${escapeHtml(r.name)}${r.kind === "sub" ? ` <span class="sub">${escapeHtml(r.country)}</span>` : ""}</span>
-        <span class="cnt">${r.count}</span>
+        <span class="cnt">${escapeHtml(cnt(r))}</span>
       </div>`).join("");
     results.classList.toggle("open", shown.length > 0);
   };
+  RERENDER_SEARCH = () => { if (results.classList.contains("open")) render(input.value); };
 
   const choose = (r) => {
     input.value = "";
@@ -522,6 +651,8 @@ function wireUI() {
     document.getElementById("panel").classList.remove("open");
     if (SELECTED && LAYER) { LAYER.resetStyle(SELECTED); SELECTED = null; }
     clearSubSelection();
+    // deliberately no auto-reopen of the ranking rail — surprise motion, and the
+    // toggle pill is right there.
   });
 
   document.getElementById("download-csv").addEventListener("click", () => {
@@ -537,6 +668,174 @@ function wireUI() {
     if (e.key === "/" && document.activeElement !== input) { input.focus(); e.preventDefault(); }
     if (e.key === "Escape") document.getElementById("panel").classList.remove("open");
   });
+}
+
+
+/* ---------------- grid-length mode ---------------- */
+
+function wireLengthUI() {
+  if (!LENGTH) {
+    // no data on the wire — hide the feature rather than offer an empty view
+    for (const id of ["modeswitch", "rank", "rank-toggle", "length-download"]) {
+      document.getElementById(id).hidden = true;
+    }
+    return;
+  }
+
+  document.getElementById("mode-coverage").addEventListener("click", () => setMode("coverage"));
+  document.getElementById("mode-length").addEventListener("click", () => setMode("length"));
+
+  document.querySelector(".metricswitch").addEventListener("click", (e) => {
+    const b = e.target.closest(".mt");
+    if (b) setMetric(b.dataset.metric);
+  });
+
+  const table = document.getElementById("rank-table");
+  const onSort = (th) => {
+    const key = th.dataset.key;
+    if (!key) return;
+    RANK_SORT = RANK_SORT.key === key
+      ? { key, dir: -RANK_SORT.dir }
+      : { key, dir: key === "name" ? 1 : -1 };
+    renderRank();
+  };
+  table.tHead.addEventListener("click", (e) => {
+    const th = e.target.closest("th.srt");
+    if (th) onSort(th);
+  });
+  table.tHead.addEventListener("keydown", (e) => {
+    if (e.key !== "Enter" && e.key !== " ") return;
+    const th = e.target.closest("th.srt");
+    if (th) { e.preventDefault(); onSort(th); }
+  });
+
+  const pick = (tr) => {
+    const ne = tr.dataset.ne;
+    if (!ne || !LAYER_BY_NAME.has(ne)) return;   // .norow: real data, no polygon
+    selectCountry(ne, { fly: true });
+  };
+  table.tBodies[0].addEventListener("click", (e) => {
+    const tr = e.target.closest("tr");
+    if (tr && !e.target.closest("a")) pick(tr);
+  });
+  table.tBodies[0].addEventListener("keydown", (e) => {
+    if (e.key !== "Enter" && e.key !== " ") return;
+    const tr = e.target.closest("tr");
+    if (tr) { e.preventDefault(); pick(tr); }
+  });
+
+  document.querySelector(".rank-close").addEventListener("click", closeRank);
+  document.getElementById("rank-toggle").addEventListener("click", openRank);
+
+  // A second button rather than a mode-switch on the existing one: the awesome-list is
+  // CC0, this database is CC BY 4.0, and each button sits next to its own badge.
+  document.getElementById("download-length-csv").addEventListener("click", () => {
+    const blob = new Blob([lengthCsv(LENGTH.rows, LENGTH.meta, csvField)], { type: "text/csv" });
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(blob);
+    a.download = `grid-length-${dateStamp()}.csv`;
+    a.click();
+    URL.revokeObjectURL(a.href);
+  });
+
+  const attr = document.getElementById("len-attr");
+  if (LENGTH.meta.dataUpdated) {
+    attr.textContent = `${LENGTH.meta.license} · ${LENGTH.meta.publisher} · sheet updated ${LENGTH.meta.dataUpdated}`;
+    attr.href = LENGTH.meta.sourceUrl;
+  }
+
+  const url = readUrlState();
+  setMetric(url.metric, { silent: true });
+  setMode(url.mode, { silent: true });
+}
+
+function setMode(mode, opts = {}) {
+  if (mode === "length" && !LENGTH) return;
+  MODE = mode;
+  document.body.dataset.mode = mode;
+  for (const [id, m] of [["mode-coverage", "coverage"], ["mode-length", "length"]]) {
+    const b = document.getElementById(id);
+    b.classList.toggle("is-on", m === mode);
+    b.setAttribute("aria-selected", String(m === mode));
+  }
+
+  // There is no sub-national length data, so in length mode the dashed states and the
+  // capacity dots would encode a different dataset than the fill beneath them.
+  const overlays = [SUB_LAYER, CAP_LAYER, SUB_CAP_LAYER].filter(Boolean);
+  if (mode === "length") {
+    clearSubSelection();
+    for (const l of overlays) if (MAP.hasLayer(l)) MAP.removeLayer(l);
+    openRank();
+  } else {
+    for (const l of overlays) if (!MAP.hasLayer(l)) l.addTo(MAP);
+    closeRank();
+    document.getElementById("rank-toggle").hidden = true;
+  }
+
+  restyleCountries();
+  applyStats();
+  RERENDER_SEARCH();
+  if (!opts.silent) writeUrlState();
+}
+
+function setMetric(metric, opts = {}) {
+  METRIC = METRIC_ORDER.includes(metric) ? metric : "total";
+  document.body.dataset.metric = METRIC;
+  document.querySelectorAll(".metricswitch .mt").forEach((b) => {
+    const on = b.dataset.metric === METRIC;
+    b.classList.toggle("is-on", on);
+    b.setAttribute("aria-selected", String(on));
+  });
+  renderLengthLegend(
+    document.getElementById("legend-len"),
+    document.getElementById("legend-len-labels"),
+    document.getElementById("len-caveat"),
+    METRIC, LENGTH.meta
+  );
+  RANK_SORT = { key: METRIC, dir: -1 };
+  renderRank();
+  if (LAYER) restyleCountries();
+  RERENDER_SEARCH();
+  if (!opts.silent) writeUrlState();
+}
+
+function renderRank() {
+  const table = document.getElementById("rank-table");
+  renderRankHead(table.tHead, RANK_SORT);
+  renderRankBody(table.tBodies[0], sortRows(LENGTH.rows, RANK_SORT.key, RANK_SORT.dir), METRIC);
+}
+
+function openRank() {
+  if (!LENGTH || MODE !== "length") return;
+  const panelOpen = document.getElementById("panel").classList.contains("open");
+  if (MOBILE_MQ.matches && panelOpen) document.getElementById("panel").classList.remove("open");
+  document.getElementById("rank").classList.add("open");
+  document.getElementById("rank-toggle").hidden = true;
+  document.querySelector(".rank-scroll").scrollTop = 0;
+}
+
+function closeRank() {
+  document.getElementById("rank").classList.remove("open");
+  document.getElementById("rank-toggle").hidden = !(LENGTH && MODE === "length");
+}
+
+// Shareable state, without piling up history entries on every toggle.
+function writeUrlState() {
+  const q = new URLSearchParams();
+  if (MODE === "length") {
+    q.set("view", "length");
+    if (METRIC !== "total") q.set("metric", METRIC);
+  }
+  history.replaceState(null, "", q.toString() ? `?${q}` : location.pathname);
+}
+
+function readUrlState() {
+  const q = new URLSearchParams(location.search);
+  const metric = q.get("metric");
+  return {
+    mode: q.get("view") === "length" ? "length" : "coverage",
+    metric: METRIC_ORDER.includes(metric) ? metric : "total",
+  };
 }
 
 /* ---------------- utils ---------------- */

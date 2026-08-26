@@ -14,11 +14,23 @@
   --accent:     #3987e5;
   --violet:     #9085e9;   /* capacity data */
 
-  --t-capacitydata: #9085e9;
+  /* Dataset type colours — kept in sync with TYPES in js/regions.js, which is the
+     source of truth (chips and dots get their colour inline from JS). */
+  --t-capacitydata: #0891b2;
   --t-map:          #3987e5;
   --t-dataset:      #199e70;
-  --t-report:       #d95926;
-  --t-other:        #d55181;
+  --t-report:       #16a34a;
+  --t-other:        #b25689;
+
+  /* Sequential ramp for the grid-length choropleth — mirrors LENGTH_RAMP in
+     js/length.js, which is the source of truth. Used here for the panel's stacked
+     voltage bar and its hatched band segments. */
+  --len-1: #123f35;
+  --len-2: #186052;
+  --len-3: #1e8368;
+  --len-4: #2aa87f;
+  --len-5: #5cc998;
+  --len-6: #9ce3bd;
 
   --font: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   --shadow: 0 12px 40px rgba(0,0,0,0.55);
@@ -64,7 +76,9 @@ a { color: inherit; }
 /* ---- Top bar ---- */
 .topbar {
   position: absolute; top: 0; left: 0; right: 0; z-index: 500;
-  display: flex; align-items: center; gap: 18px;
+  /* wraps rather than squeezing the search box — two dataset download buttons make
+     this row long, and flyToRegion measures offsetHeight so a second row is fine */
+  display: flex; align-items: center; flex-wrap: wrap; gap: 12px 16px;
   padding: 14px 20px;
   pointer-events: none;
 }
@@ -151,7 +165,9 @@ a { color: inherit; }
 }
 .btn-primary:hover { background: #2a78d6; border-color: #2a78d6; color: #ffffff; }
 
-.downloadwrap { position: relative; display: flex; }
+.downloadwrap { position: relative; display: flex; flex: none; }
+/* the two dataset exports read as a pair, so they stay on the same row */
+.downloadwrap + .downloadwrap { margin-left: -6px; }
 .cc-badge {
   position: absolute; top: 100%; left: 50%; transform: translateX(-50%);
   margin-top: 4px;
@@ -184,11 +200,15 @@ a { color: inherit; }
   margin: 0 0 8px; font-size: 10.5px; text-transform: uppercase;
   letter-spacing: .7px; color: var(--muted); font-weight: 600;
 }
-.legend .cov { display: flex; align-items: center; gap: 0; }
-.legend .cov .sw { height: 10px; flex: 1; }
-.legend .cov .sw:first-child { border-radius: 3px 0 0 3px; }
-.legend .cov .sw:last-child { border-radius: 0 3px 3px 0; }
-.legend .covlabels { display: flex; justify-content: space-between; font-size: 10px; color: var(--muted); margin-top: 4px; }
+.cov { display: flex; align-items: center; gap: 0; }
+.cov .sw { height: 10px; flex: 1; }
+.cov .sw:first-child { border-radius: 3px 0 0 3px; }
+.cov .sw:last-child { border-radius: 0 3px 3px 0; }
+.covlabels { display: flex; font-size: 10px; color: var(--muted); margin-top: 4px; }
+/* Each label is the lower bound of the bucket above it, so it sits flush with that
+   swatch's left edge rather than being spread across the row. */
+.covlabels span { flex: 1; text-align: left; font-variant-numeric: tabular-nums; }
+.legend .covlabels span:last-child { flex: none; text-align: right; }
 .legend .hint { font-size: 10.5px; color: var(--muted); margin-top: 10px; line-height: 1.4; }
 
 /* ---- Detail panel ---- */
@@ -280,6 +300,12 @@ a { color: inherit; }
 /* ---- Responsive ---- */
 .hide-sm { display: inline; }
 
+/* "Download Grid Data Sources" -> "Grid Data Sources", and
+   "Download Global Transmission Length Index" -> "Transmission Length Index" */
+@media (max-width: 1440px) {
+  .hide-sm { display: none; }
+}
+
 @media (max-width: 900px) {
   .stats { display: none; }
   .hide-sm { display: none; }
@@ -327,4 +353,220 @@ a { color: inherit; }
   .panel .title { font-size: 18px; }
   .panel .close { top: 12px; right: 12px; width: 34px; height: 34px; }
   .panel .body { padding-bottom: calc(20px + env(safe-area-inset-bottom)); }
+}
+
+/* ---- Mode switch (topbar): Data coverage | Grid length ---- */
+.modeswitch {
+  display: flex; gap: 2px; padding: 2px;
+  background: rgba(26,26,25,0.85); border: 1px solid var(--hair);
+  border-radius: 9px; backdrop-filter: blur(8px);
+}
+.modeswitch .ms {
+  font: inherit; font-size: 12px; font-weight: 550;
+  color: var(--muted); background: transparent; border: 0;
+  padding: 6px 11px; border-radius: 7px; cursor: pointer; white-space: nowrap;
+}
+.modeswitch .ms:hover { color: var(--ink); }
+.modeswitch .ms.is-on { background: rgba(255,255,255,0.09); color: var(--ink); }
+.modeswitch .ms:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+/* no grid-length data on the wire -> the feature hides itself entirely (see app.js boot) */
+.modeswitch[hidden], .rank[hidden], .rank-toggle[hidden], .downloadwrap[hidden] { display: none; }
+
+/* ---- Ranking rail (grid-length mode) ---- */
+/* Absorbs the coverage legend rather than sitting next to it: .legend is bottom-left,
+   and a full-height rail there would collide. One left-hand column, not two. */
+body[data-mode="length"] .legend { display: none; }
+
+.rank {
+  position: absolute; left: 20px; top: 88px; bottom: 20px; width: 400px;
+  z-index: 500; display: flex; flex-direction: column;
+  background: rgba(26,26,25,0.80); border: 1px solid var(--hair);
+  border-radius: 12px; box-shadow: var(--shadow); backdrop-filter: blur(10px);
+  transform: translateX(-110%); pointer-events: none;
+  transition: transform .32s cubic-bezier(.22,.61,.36,1);
+}
+.rank.open { transform: translateX(0); pointer-events: auto; }
+
+.rank-head { position: relative; padding: 12px 14px 10px; border-bottom: 1px solid var(--hair-soft); }
+.rank-head h4 {
+  margin: 0 24px 9px 0; font-size: 11px; font-weight: 650;
+  text-transform: uppercase; letter-spacing: .7px; color: var(--ink-2);
+}
+.rank-close {
+  position: absolute; top: 9px; right: 9px; width: 24px; height: 24px;
+  background: transparent; border: 1px solid var(--hair); border-radius: 7px;
+  color: var(--muted); font-size: 12px; line-height: 1; cursor: pointer;
+}
+.rank-close:hover { border-color: var(--accent); color: var(--ink); }
+
+.metricswitch { display: flex; gap: 2px; padding: 2px; margin-bottom: 10px;
+  background: rgba(0,0,0,0.28); border-radius: 8px; }
+.metricswitch .mt {
+  flex: 1; font: inherit; font-size: 11px; font-weight: 550;
+  color: var(--muted); background: transparent; border: 0;
+  padding: 5px 4px; border-radius: 6px; cursor: pointer; white-space: nowrap;
+}
+.metricswitch .mt:hover { color: var(--ink); }
+.metricswitch .mt.is-on { background: rgba(255,255,255,0.09); color: var(--ink); }
+.metricswitch .mt:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+
+.rank .cov { margin-top: 2px; }
+.rank .cov .sw { height: 12px; cursor: help; }
+.rank .covlabels { margin-top: 5px; }
+.rank .caveat { margin: 9px 0 0; font-size: 10.5px; line-height: 1.45; color: var(--muted); }
+.rank .caveat .cav-2 { color: rgba(137,135,129,0.75); }
+
+.rank-scroll { flex: 1; overflow: auto; overscroll-behavior: contain; }
+#rank-table { width: 100%; border-collapse: collapse; font-size: 11.5px; }
+#rank-table thead th {
+  position: sticky; top: 0; z-index: 1;
+  background: #211f1e; color: var(--muted);
+  font-size: 10px; font-weight: 600; text-transform: uppercase; letter-spacing: .5px;
+  text-align: left; padding: 7px 6px; border-bottom: 1px solid var(--hair);
+  white-space: nowrap;
+}
+#rank-table thead th.c-num { text-align: right; }
+#rank-table thead th.srt { cursor: pointer; }
+#rank-table thead th.srt:hover { color: var(--ink); }
+#rank-table thead th.srt:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
+#rank-table thead th.on { color: var(--ink); }
+#rank-table thead th.on::after { content: " ▾"; font-size: 9px; }
+#rank-table thead th.on[aria-sort="ascending"]::after { content: " ▴"; }
+#rank-table tbody td {
+  padding: 5px 6px; border-bottom: 1px solid var(--hair-soft); color: var(--ink-2);
+}
+#rank-table tbody tr:hover td { background: rgba(255,255,255,0.045); color: var(--ink); }
+#rank-table tbody tr:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
+#rank-table tbody tr:not(.norow) { cursor: pointer; }
+#rank-table .c-rank { color: var(--muted); text-align: right; width: 26px; font-variant-numeric: tabular-nums; }
+#rank-table .c-num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+#rank-table .c-name { line-height: 1.25; }
+#rank-table .c-year i { color: var(--muted); font-style: normal; }
+#rank-table .c-src { width: 18px; text-align: center; }
+#rank-table .c-src a { color: var(--muted); text-decoration: none; }
+#rank-table .c-src a:hover { color: var(--accent); }
+/* No polygon in the 110m basemap (Bahrain, Malta, Singapore, the island states):
+   still listed, because the data is real — just not clickable on the map. */
+#rank-table tr.norow td { color: var(--muted); }
+#rank-table tr.norow .c-name { font-style: italic; }
+#rank-table tr.norow:hover td { background: none; color: var(--muted); }
+.rsw { display: inline-block; width: 8px; height: 8px; border-radius: 2px; margin-right: 6px;
+  vertical-align: baseline; }
+
+.rank-foot {
+  display: flex; align-items: center; gap: 8px;
+  padding: 9px 12px; border-top: 1px solid var(--hair-soft);
+  font-size: 10.5px; color: var(--muted);
+}
+.rank-foot a { color: var(--muted); text-decoration: none; }
+.rank-foot a:hover { color: var(--ink-2); }
+
+.rank-toggle {
+  position: absolute; left: 20px; bottom: 20px; z-index: 500;
+  font: inherit; font-size: 12px; font-weight: 550; color: var(--ink-2);
+  background: rgba(26,26,25,0.85); border: 1px solid var(--hair);
+  border-radius: 9px; padding: 8px 12px; cursor: pointer; backdrop-filter: blur(8px);
+}
+.rank-toggle:hover { border-color: var(--accent); color: var(--ink); }
+
+/* ---- Grid-length block inside the country panel ---- */
+.lenblock { padding-bottom: 4px; border-bottom: 1px solid var(--hair-soft); margin-bottom: 4px; }
+.ltiles { display: flex; gap: 10px; margin: 0 0 11px; }
+.ltile { flex: 1; padding: 9px 10px; background: rgba(255,255,255,0.035);
+  border: 1px solid var(--hair-soft); border-radius: 9px; }
+.ltile .n { display: block; font-size: 20px; font-weight: 650; font-variant-numeric: tabular-nums; }
+.ltile .n .u { font-size: 11px; font-weight: 550; color: var(--muted); margin-left: 3px; }
+.ltile .l { display: block; font-size: 10.5px; color: var(--muted); margin-top: 2px; }
+
+.lbar { display: flex; gap: 2px; height: 14px; margin: 0 0 9px; }
+.lbar .lseg { min-width: 2px; border-radius: 2px; }
+.lbar .lseg:first-child { border-radius: 4px 2px 2px 4px; }
+.lbar .lseg:last-child { border-radius: 2px 4px 4px 2px; }
+/* A range column ("30–132 kV") is not a voltage tier — hatch it so it never reads as one. */
+.lseg.band, .dot.band {
+  background-image: repeating-linear-gradient(45deg,
+    rgba(0,0,0,0.42) 0 2px, transparent 2px 4px);
+}
+/* The remainder the source never broke out. Explicit, and never normalised away:
+   16 countries publish a total with no breakdown at all. */
+.lseg.un, .dot.un { background: var(--surface-2); box-shadow: inset 0 0 0 1px var(--hair); }
+.lcap { margin: 0 0 9px; font-size: 11px; color: var(--muted); line-height: 1.45; }
+
+.ltiers { display: grid; grid-template-columns: 1fr auto; gap: 0 10px; margin: 0 0 10px;
+  font-size: 11.5px; }
+.ltiers dt { color: var(--ink-2); padding: 2px 0; }
+.ltiers dd { margin: 0; padding: 2px 0; color: var(--ink-2);
+  text-align: right; font-variant-numeric: tabular-nums; }
+.ltiers dd .pct { color: var(--muted); margin-left: 7px; display: inline-block; min-width: 26px; }
+.ltiers .dot { display: inline-block; width: 8px; height: 8px; border-radius: 2px; margin-right: 7px; }
+
+.lrow { display: flex; justify-content: space-between; gap: 12px; font-size: 11.5px;
+  padding: 3px 0; }
+.lrow .k { color: var(--muted); flex: none; }
+.lrow .v { color: var(--ink-2); text-align: right; }
+.lsrc { display: flex; flex-wrap: wrap; gap: 4px 8px; justify-content: flex-end; }
+.lsrc a { color: var(--accent); text-decoration: none; }
+.lsrc a:hover { text-decoration: underline; }
+
+.lmeta { display: flex; flex-wrap: wrap; gap: 5px; margin: 9px 0; }
+.lchip { font-size: 10.5px; color: var(--ink-2); background: rgba(255,255,255,0.05);
+  border: 1px solid var(--hair-soft); border-radius: 6px; padding: 2px 7px;
+  text-decoration: none; }
+.lchip.dim { color: var(--muted); }
+.lchip i { font-style: normal; color: var(--muted); margin-left: 2px; cursor: help; }
+a.lchip:hover { border-color: var(--accent); color: var(--ink); }
+
+.lnotes, .lnotes-inline { font-size: 11px; color: var(--muted); line-height: 1.5; margin: 8px 0 0; }
+.lnotes summary { cursor: pointer; color: var(--ink-2); }
+.lnotes p { margin: 5px 0 0; }
+.lattr { font-size: 10px; color: var(--muted); line-height: 1.5; margin: 11px 0 0; }
+.lattr a { color: var(--muted); }
+.lattr a:hover { color: var(--ink-2); }
+
+/* Country in the length data with no README resources yet — turn the gap into an ask. */
+.panel .empty { font-size: 12px; color: var(--muted); line-height: 1.55; padding: 4px 0; }
+.panel .empty a { color: var(--accent); }
+
+/* ---- Responsive: rail vs panel ---- */
+
+/* Not enough width for a 400px rail and a 420px drawer at once — app.js collapses the
+   rail when a country panel opens and offers it back via .rank-toggle. */
+@media (max-width: 1023px) {
+  .rank { width: min(360px, calc(100vw - 40px)); }
+}
+
+/* Phones: the rail becomes a second bottom sheet with exactly .panel's geometry.
+   app.js keeps the two mutually exclusive, so they never stack. */
+@media (max-width: 640px) {
+  .rank {
+    top: auto; left: 0; right: 0; bottom: 0;
+    width: 100%; height: min(72vh, 560px);
+    border-radius: 16px 16px 0 0;
+    transform: translateY(102%);
+  }
+  .rank.open { transform: translateY(0); }
+  .rank-head { padding: 14px 16px 10px; }
+  .rank-head::before {
+    content: "";
+    display: block;
+    width: 36px; height: 4px;
+    border-radius: 2px;
+    background: var(--hair);
+    margin: 0 auto 10px;
+  }
+  .rank-close { top: 14px; right: 12px; width: 34px; height: 34px; }
+  .rank-foot { padding-bottom: calc(9px + env(safe-area-inset-bottom)); }
+  .rank-toggle { bottom: calc(20px + env(safe-area-inset-bottom)); }
+  /* drop to rank · country · metric · year */
+  #rank-table .c-dens, #rank-table .c-src { display: none; }
+  body[data-metric="density"] #rank-table .c-dens { display: table-cell; }
+  body[data-metric="density"] #rank-table td.c-num:nth-child(3),
+  body[data-metric="density"] #rank-table th.c-num:nth-child(3),
+  body[data-metric="density"] #rank-table td.c-num:nth-child(4),
+  body[data-metric="density"] #rank-table th.c-num:nth-child(4) { display: none; }
+  body[data-metric="kv220"] #rank-table td.c-num:nth-child(3),
+  body[data-metric="kv220"] #rank-table th.c-num:nth-child(3) { display: none; }
+  .modeswitch .ms { padding: 6px 9px; font-size: 11.5px; }
+  .ltiles { gap: 8px; }
+  .ltile .n { font-size: 18px; }
 }
