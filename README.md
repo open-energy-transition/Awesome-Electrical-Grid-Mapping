@@ -47,6 +47,7 @@ Our own country-by-country research into the size of the world's transmission gr
 <!-- COLLAPSE:info title="Global Data Catalogs" -->
 ### Global Data Catalogs 
 * [Open Infrastructure Map](https://openinframap.org/) [[Code](https://github.com/openinframap/openinframap)] (map)
+* [OverWatts](https://www.overwatts.com/) (map)
 * [GridFinder](https://gridfinder.rdrn.me/) [[Code](https://github.com/carderne/gridfinder)] (map)
 * [FLOSM Power Grid](https://www.flosm.org/en/powergrid.html) (odbl) (map)
 * [Electricity Maps - Electricity Grid Carbon Emissions](https://app.electricitymaps.com/) [[Code](https://github.com/electricitymaps/electricitymaps-contrib)] (map) 
@@ -62,6 +63,7 @@ Our own country-by-country research into the size of the world's transmission gr
 * [DOE Global Energy Storage Database](https://gesdb.sandia.gov/projects.html) (dataset)
 * [GloHydroRes](https://zenodo.org/records/14526360) - A global dataset combining open-source hydropower plant and reservoir data.
 * [Global Dam Watch](https://www.globaldamwatch.org/)
+
 
 <!-- END COLLAPSE -->
 
