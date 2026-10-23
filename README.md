@@ -360,6 +360,7 @@ Our own country-by-country research into the size of the world's transmission gr
 * (Philippines) [Standard Line Diagram](https://www.ngcp.ph/Attachment-Uploads/TDP%202025-2050%20REPORT-2025-09-25-09-29-14.pdf) (2025) (report)
 * (Philippines) [DOE / NGCP - Available Transmission or Substation Capacity and Location from 2024-2030, GEA-3 Annex E](https://legacy.doe.gov.ph/sites/default/files/pdf/geap/Annex%20E%20-%20Available%20Transmission%20or%20Substation%20Capacity.pdf) (report) (capacitydata)
 * (Philippines) [DOE - Distribution Development Plan, distribution utility franchise-area maps](https://www.doe.gov.ph/sites/default/files/pdf/electric_power/ddp_2017-2026.pdf) (2019) (map) (report)
+* (Philippines) [Department of Energy List of Existing Power Plants as of 30 June 2026](https://prod-cms.doe.gov.ph/documents/d/guest/01_doe-epimb_loepp-as-of-june-2026_lvm-grid-clean-luzon-pdf) (2026) (dataset)
 * (Qatar) [State of Qatar Open Data - Electricity Sub-Stations by Voltage Level](https://www.data.gov.qa/explore/dataset/electricity-sub-stations-by-voltage-level/map/) (dataset) (capacitydata)
 * (Qatar) [KAHRAMAA publications and electricity-sector pages](https://km.qa/MediaCenter/Pages/Publications.aspx) (report)
 * (Russia) [ЛЭП России 2020 год](https://powerlines.one/#2.5/50/90) (2020) (open access) (map)
