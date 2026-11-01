@@ -457,6 +457,7 @@ Our own country-by-country research into the size of the world's transmission gr
 * (Denmark) [Map](https://en.energinet.dk/media/f3lpr5du/jke-danmark-stadie-2020-uk.jpg) (2020) (map) 
 * (Denmark) [Energinet - INSPIRE electricity routes and station areas](https://agis.energinet.dk/server/rest/services/INSPIRE/XP_el_Inspir/MapServer) [[Towers, substations and lines](https://agis.energinet.dk/server/rest/services/INSPIRE/WMS_WFS_TowerSubstationLine_N/MapServer)] (dataset)
 * (Denmark) [Energinet - Overblik over nettilslutningsprojekter](https://www.energinet.dk/el/nyt-anlaeg-i-elnettet/overblik-over-nettilslutningsprojekter/) (2026) (capacitydata) (map)
+* (Denmark) [Danmarks Elnet - live 3D map of the Danish power system (gridkort.dk)](https://el.gridkort.dk/) (2026) (map)
 * (Estonia) [Capacity Map](https://elering.ee/) (map)
 * (Estonia) [Electricity Grid Development Plan 2025-2034](https://elering.ee/sites/default/files/public/elekter/elektris%C3%BCsteem/Eesti%20elektriu%CC%88lekandevo%CC%83rgu%20arengukava%202025-2034.pdf) (2025) (report)
 * (Estonia) [Land and Spatial Development](https://xgis.maaamet.ee/xgis2/page/link/15XS10wa)
