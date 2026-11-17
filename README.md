@@ -83,6 +83,9 @@ Our own country-by-country research into the size of the world's transmission gr
 * [Renewable Power Plants in Africa](https://www.repp.geo.uni-tuebingen.de/) (2023) (map) (dataset) (CC-BY-4.0)
 * [AUDA-NEPAD - Continental Power Systems Masterplan, synthesis and interconnector scenarios](https://au-pida.org/events/wp-content/uploads/2024/11/CPM-Summary66.pdf) (2024) (map) (report) (capacitydata)
 * [ECOWREX / WAPP - Transmission Grid GIS metadata](https://dataportal.pauwes.dz/geonetwork/srv/api/records/2e031279-18fd-4ac9-8ba9-fadf3d97651f) (2017) (cc-by-sa-4.0) (dataset)
+* [Aloe Energy - SAPP grid atlas: transmission lines, substations, power plants, project pipeline and draft master plan 2025-2045](https://aloeenergy.org/research/sapp-grid) (2026) (map) (capacitydata)
+* [Aloe Energy - EAPP grid atlas: Eastern Africa Power Pool core grid, power plants and transmission pipeline](https://aloeenergy.org/research/eapp-grid) (2026) (map) (capacitydata)
+* [Aloe Energy - Near the grid, not on it: people without night-time light by distance to the grid, 39 African countries](https://aloeenergy.org/research/grid-edge) (2026) (map)
 
 #### National-level Projects and Resources
 * (Algeria) [Sonelgaz - Plan de développement 2021-2030](https://www.sonelgaz.dz/fr/835/plan-de-developpement-2021-2030) (2021) (report) (capacitydata)
@@ -115,6 +118,7 @@ Our own country-by-country research into the size of the world's transmission gr
 * (Lesotho) [LEC - transmission and distribution, named substations and topology](https://lec.co.ls/transmission-distribution/) (dataset) (capacitydata)
 * (Liberia) [RREA - Rural Energy Strategy and Master Plan, county grid maps and asset inventories](https://liberiaruralenergy.gestoenergy.com/sites/default/files/B%20-%20Technical%20Report/8.%20ANNEX%20VIII%20List%20and%20maps%20per%20county%20of%20existing%20planned%20electrical%20infra-structures.pdf) (2016) (map) (report) (dataset)
 * (Madagascar) [PRIRTEM I - Antananarivo-Toamasina 220 kV route and substations](https://bdd.pseau.org/outils/ouvrages/jirama_meh_projet_de_renforcement_et_d_interconnexion_des_reseaux_de_transport_d_energie_electrique_a_madagascar_phase_1_2019.pdf) (2019) (map) (report)
+* (Madagascar) [Aloe Energy - Madagascar grid atlas: JIRAMA grids, power plants and transmission projects](https://aloeenergy.org/research/mdg-grid) (2026) (map) (capacitydata)
 * (Malawi) [Assessing the Resilience of Malawi’s Power Grid](https://www.researchgate.net/publication/392748044_Assessing_the_Resilience_of_Malawi's_Power_Grid_to_the_2022_Tropical_Cyclone_Ana_Using_a_Combination_of_the_AFLEPT_Metric_Framework_and_Resilience_Capacities) (2025) (map)
 * (Malawi) [ESCOM - transmission line asset register](https://www.escom.mw/transmission-appendix-1/) (dataset)
 * (Malawi) [ESCOM - transmission substations](https://www.escom.mw/transmission-substations/) (dataset)
