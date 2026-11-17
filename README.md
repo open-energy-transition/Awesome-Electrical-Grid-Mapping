@@ -798,6 +798,7 @@ Our own country-by-country research into the size of the world's transmission gr
 * (United States) [US Infrastructure Foundation-Level Data - Substations 2021 Zenodo Backup](https://zenodo.org/records/5514010) (2021) (cc-by-4.0) (dataset)
 * (United States) [U.S. Interconnection Queue Data Through 2024: Complete Interconnection Request Dataset and Summarized Data Workbook](https://emp.lbl.gov/publications/us-interconnection-queue-data) (2024) (dataset)
 * (United States) [Our Grid Future Planned Transmission Projects National Database](https://ourgridfuture.org/) (2025) (dataset) (map) (capacitydata)
+* (United States) [Queue Ledger - planned US power plants by state and technology, with a monthly change log](https://beingrealfrank.github.io/queue-ledger/) (2026) (cc0-1.0) (dataset) (capacitydata)
 * (United States) [Midcontinent ISO - Generator Interconnection Queue Points of Interconnection Map](https://cloud.cartovista.com/miso/ferc/poi-analysis-map) (capacitydata) (map)
 * (United States) [Microsoft GridSFM - Open Derived US Power Grid Models](https://github.com/microsoft/GridSFM) (dataset)
 * (United States) (Mid-Atlantic) [Pepco Holdings / Exelon - Distribution Feeder Hosting Capacity Dashboard](https://exelonutilities.maps.arcgis.com/apps/dashboards/f043e521183b4bd08ab17fc44fa5f723) (capacitydata) (map)
